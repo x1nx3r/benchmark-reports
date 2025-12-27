@@ -6,18 +6,18 @@
 
 ## Executive Summary
 
-| Metric | Value |
-|--------|-------|
-| **Total Tasks Analyzed** | 27 |
-| **Total Samples** | 6,510 |
-| **Overall Accuracy** | 60.1% (3,911/6,510) |
-| **Best Performing Task** | Boolean Expressions (85.6%) |
-| **Worst Performing Task** | Dyck Languages (16.1%) |
+| Metric                    | Value                       |
+| ------------------------- | --------------------------- |
+| **Total Tasks Analyzed**  | 27                          |
+| **Total Samples**         | 6,510                       |
+| **Overall Accuracy**      | 60.1% (3,911/6,510)         |
+| **Best Performing Task**  | Boolean Expressions (85.6%) |
+| **Worst Performing Task** | Dyck Languages (16.1%)      |
 
 ### Key Findings
 
 1. **`wrong_logic` is the dominant error type** at 38.8% of all samples
-2. **Strong correlation between accuracy and reasoning scores** - high accuracy tasks average ≥4.0 reasoning score
+2. **Strong correlation between accuracy and reasoning scores** - high accuracy tasks average >=4.0 reasoning score
 3. **Task difficulty varies significantly** - 16.1% to 85.6% accuracy range
 
 > [!IMPORTANT]
@@ -29,23 +29,23 @@
 
 ### Task Accuracy Chart
 
-![Task Accuracy Chart](figures/accuracy_by_task.png)
+![Task Accuracy Chart](/mnt/libraries/benchresults/analysis_output/figures/accuracy_by_task.png)
 
 ### Error Distribution
 
-![Error Distribution](figures/error_distribution.png)
+![Error Distribution](/mnt/libraries/benchresults/analysis_output/figures/error_distribution.png)
 
 ### Reasoning Score Distribution
 
-![Reasoning Score Distribution](figures/score_distribution.png)
+![Reasoning Score Distribution](/mnt/libraries/benchresults/analysis_output/figures/score_distribution.png)
 
 ### Accuracy vs Reasoning Score
 
-![Accuracy vs Reasoning Score](figures/accuracy_vs_score.png)
+![Accuracy vs Reasoning Score](/mnt/libraries/benchresults/analysis_output/figures/accuracy_vs_score.png)
 
 ### Error Type Heatmap
 
-![Error Type Heatmap](figures/error_heatmap.png)
+![Error Type Heatmap](/mnt/libraries/benchresults/analysis_output/figures/error_heatmap.png)
 
 ---
 
@@ -53,35 +53,35 @@
 
 ### All Tasks (Sorted by Accuracy)
 
-| Rank | Task | Total | Correct | Accuracy | Avg Score |
-|------|------|-------|---------|----------|-----------|
-| 1 | Boolean Expressions | 250 | 214 | 🟢 85.6% | 4.57 |
-| 2 | Movie Recommendation | 250 | 202 | 🟢 80.8% | 4.44 |
-| 3 | Penguin In A Table | 146 | 110 | 🟢 75.3% | 4.13 |
-| 4 | Object Counting | 250 | 188 | 🟢 75.2% | 4.28 |
-| 5 | Navigate | 250 | 185 | 🟢 74.0% | 4.18 |
-| 6 | Date Understanding | 250 | 180 | 🟢 72.0% | 4.00 |
-| 7 | Sports Understanding | 250 | 178 | 🟢 71.2% | 4.21 |
-| 8 | Reasoning About Colored Objects | 250 | 175 | 🟢 70.0% | 4.16 |
-| 9 | Logical Deduction Three Objact | 250 | 174 | 🟡 69.6% | 4.19 |
-| 10 | Logical Deduction Seven Objects | 250 | 163 | 🟡 65.2% | 3.96 |
-| 11 | Web Of Lies | 250 | 163 | 🟡 65.2% | 3.72 |
-| 12 | Word Sorting | 250 | 162 | 🟡 64.8% | 3.72 |
-| 13 | Snarks | 178 | 112 | 🟡 62.9% | 3.72 |
-| 14 | Formal Fallacies | 250 | 155 | 🟡 62.0% | 3.48 |
-| 15 | Multistep Arithmetic Two | 250 | 154 | 🟡 61.6% | 4.42 |
-| 16 | Hyperbaton | 250 | 144 | 🟡 57.6% | 3.31 |
-| 17 | Logical Deduction Five Objects | 250 | 143 | 🟡 57.2% | 3.71 |
-| 18 | Ruin Names | 250 | 143 | 🟡 57.2% | 3.32 |
-| 19 | Tracking Shuffled Objects Three Objects | 250 | 143 | 🟡 57.2% | 3.60 |
-| 20 | Causal Judgement | 187 | 104 | 🟡 55.6% | 3.62 |
-| 21 | Tracking Shuffled Objects Five Objects | 250 | 136 | 🟡 54.4% | 3.18 |
-| 22 | Tracking Shuffled Objects Seven Objects | 250 | 134 | 🟡 53.6% | 3.10 |
-| 23 | Temporal Sequence | 250 | 124 | 🔴 49.6% | 2.98 |
-| 24 | Geometric Shapes | 250 | 103 | 🔴 41.2% | 2.65 |
-| 25 | Disambiguation Qa | 250 | 99 | 🔴 39.6% | 3.22 |
-| 26 | Salient Translation Error Detection | 250 | 83 | 🔴 33.2% | 3.03 |
-| 27 | Dyck Languages | 249 | 40 | 🔴 16.1% | 2.41 |
+| Rank | Task                                    | Total | Correct | Accuracy | Avg Score |
+| ---- | --------------------------------------- | ----- | ------- | -------- | --------- |
+| 1    | Boolean Expressions                     | 250   | 214     | [HIGH] 85.6%  | 4.57      |
+| 2    | Movie Recommendation                    | 250   | 202     | [HIGH] 80.8%  | 4.44      |
+| 3    | Penguin In A Table                      | 146   | 110     | [HIGH] 75.3%  | 4.13      |
+| 4    | Object Counting                         | 250   | 188     | [HIGH] 75.2%  | 4.28      |
+| 5    | Navigate                                | 250   | 185     | [HIGH] 74.0%  | 4.18      |
+| 6    | Date Understanding                      | 250   | 180     | [HIGH] 72.0%  | 4.00      |
+| 7    | Sports Understanding                    | 250   | 178     | [HIGH] 71.2%  | 4.21      |
+| 8    | Reasoning About Colored Objects         | 250   | 175     | [HIGH] 70.0%  | 4.16      |
+| 9    | Logical Deduction Three Objact          | 250   | 174     | [MED] 69.6%  | 4.19      |
+| 10   | Logical Deduction Seven Objects         | 250   | 163     | [MED] 65.2%  | 3.96      |
+| 11   | Web Of Lies                             | 250   | 163     | [MED] 65.2%  | 3.72      |
+| 12   | Word Sorting                            | 250   | 162     | [MED] 64.8%  | 3.72      |
+| 13   | Snarks                                  | 178   | 112     | [MED] 62.9%  | 3.72      |
+| 14   | Formal Fallacies                        | 250   | 155     | [MED] 62.0%  | 3.48      |
+| 15   | Multistep Arithmetic Two                | 250   | 154     | [MED] 61.6%  | 4.42      |
+| 16   | Hyperbaton                              | 250   | 144     | [MED] 57.6%  | 3.31      |
+| 17   | Logical Deduction Five Objects          | 250   | 143     | [MED] 57.2%  | 3.71      |
+| 18   | Ruin Names                              | 250   | 143     | [MED] 57.2%  | 3.32      |
+| 19   | Tracking Shuffled Objects Three Objects | 250   | 143     | [MED] 57.2%  | 3.60      |
+| 20   | Causal Judgement                        | 187   | 104     | [MED] 55.6%  | 3.62      |
+| 21   | Tracking Shuffled Objects Five Objects  | 250   | 136     | [MED] 54.4%  | 3.18      |
+| 22   | Tracking Shuffled Objects Seven Objects | 250   | 134     | [MED] 53.6%  | 3.10      |
+| 23   | Temporal Sequence                       | 250   | 124     | [LOW] 49.6%  | 2.98      |
+| 24   | Geometric Shapes                        | 250   | 103     | [LOW] 41.2%  | 2.65      |
+| 25   | Disambiguation Qa                       | 250   | 99      | [LOW] 39.6%  | 3.22      |
+| 26   | Salient Translation Error Detection     | 250   | 83      | [LOW] 33.2%  | 3.03      |
+| 27   | Dyck Languages                          | 249   | 40      | [LOW] 16.1%  | 2.41      |
 
 ---
 
@@ -89,24 +89,24 @@
 
 ### Global Error Distribution
 
-| Error Type | Count | Percentage |
-|------------|-------|------------|
-| `none` | 3,869 | 59.4% |
-| `wrong_logic` | 2,529 | 38.8% |
-| `hallucination` | 71 | 1.1% |
-| `no_answer` | 27 | 0.4% |
-| `format_error` | 13 | 0.2% |
-| `calculation_error` | 1 | 0.0% |
+| Error Type          | Count | Percentage |
+| ------------------- | ----- | ---------- |
+| `none`              | 3,869 | 59.4%      |
+| `wrong_logic`       | 2,529 | 38.8%      |
+| `hallucination`     | 71    | 1.1%       |
+| `no_answer`         | 27    | 0.4%       |
+| `format_error`      | 13    | 0.2%       |
+| `calculation_error` | 1     | 0.0%       |
 
 ### Reasoning Score Distribution
 
-| Score | Count | Percentage | Interpretation |
-|-------|-------|------------|----------------|
-| 5 | 3,774 | 58.0% | Perfect logic |
-| 4 | 168 | 2.6% | Minor issues |
-| 3 | 224 | 3.4% | Moderate errors |
-| 2 | 1,339 | 20.6% | Significant errors |
-| 1 | 1,005 | 15.4% | Fundamental failure |
+| Score | Count | Percentage | Interpretation      |
+| ----- | ----- | ---------- | ------------------- |
+| 5     | 3,774 | 58.0%      | Perfect logic       |
+| 4     | 168   | 2.6%       | Minor issues        |
+| 3     | 224   | 3.4%       | Moderate errors     |
+| 2     | 1,339 | 20.6%      | Significant errors  |
+| 1     | 1,005 | 15.4%      | Fundamental failure |
 
 ---
 
@@ -333,30 +333,30 @@ The evaluation was performed using **Gemini Pro 3 Preview** as an LLM-as-Judge w
 1. **Semantic Matching**: Prioritizes the semantic meaning of the final conclusion over strict formatting
 2. **Answer Extraction**: Ignores `<think>` traces, focuses on final response text
 3. **Equivalence Rules**: Maps various answer formats to ground truth:
-   - Multiple Choice: `(A)` ≡ `A`, `Option A`, `[A]`, `\boxed{A}`
-   - Boolean: `True` ≡ `true`, `yes`, `valid`; `False` ≡ `false`, `no`, `invalid`
-   - Plausibility: `yes` ≡ `plausible`; `no` ≡ `implausible`
+   - Multiple Choice: `(A)` = `A`, `Option A`, `[A]`, `\boxed{A}`
+   - Boolean: `True` = `true`, `yes`, `valid`; `False` = `false`, `no`, `invalid`
+   - Plausibility: `yes` = `plausible`; `no` = `implausible`
 
 ### Scoring Rubric
 
-| Score | Meaning |
-|-------|---------|
-| 5 | Perfect logic and correct answer |
-| 4 | Minor issues in reasoning |
-| 3 | Moderate errors |
-| 2 | Significant logical errors |
-| 1 | Fundamental failure in reasoning |
+| Score | Meaning                          |
+| ----- | -------------------------------- |
+| 5     | Perfect logic and correct answer |
+| 4     | Minor issues in reasoning        |
+| 3     | Moderate errors                  |
+| 2     | Significant logical errors       |
+| 1     | Fundamental failure in reasoning |
 
 ### Error Types
 
-| Type | Description |
-|------|-------------|
-| `none` | No error (correct answer) |
-| `wrong_logic` | Correct reasoning structure but logical/computational error |
-| `hallucination` | Model fabricated information |
-| `format_error` | Answer format could not be parsed |
-| `no_answer` | Model did not provide a clear answer |
-| `calculation_error` | Arithmetic/computational mistake |
+| Type                | Description                                                 |
+| ------------------- | ----------------------------------------------------------- |
+| `none`              | No error (correct answer)                                   |
+| `wrong_logic`       | Correct reasoning structure but logical/computational error |
+| `hallucination`     | Model fabricated information                                |
+| `format_error`      | Answer format could not be parsed                           |
+| `no_answer`         | Model did not provide a clear answer                        |
+| `calculation_error` | Arithmetic/computational mistake                            |
 
 ---
 
