@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly identifies 'beat the buzzer' as common/plausible for hockey; GT is no."
+    },
+    {
+        "id": 2,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies sport and context."
+    },
+    {
+        "id": 3,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies sport and context."
+    },
+    {
+        "id": 4,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies mismatch between sport and term."
+    },
+    {
+        "id": 5,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies mismatch between sport and term."
+    },
+    {
+        "id": 6,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 7,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Verbose but arrives at correct conclusion."
+    },
+    {
+        "id": 8,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "Hallucinates that 'back shoulder fade' is a baseball pitch; it is a football pass."
+    },
+    {
+        "id": 9,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model argues it's implausible due to player role; GT accepts it as a plausible physical action."
+    },
+    {
+        "id": 10,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies mismatch."
+    },
+    {
+        "id": 11,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 12,
+        "is_correct": false,
+        "extracted_answer": "highly plausible",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Fails to recognize 'flagged on the play' as specific American football terminology inappropriate for soccer."
+    },
+    {
+        "id": 13,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 14,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 15,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Fails to recognize 'buzzer beater' as a basketball-specific term not standard in hockey."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 17,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 18,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Fails to recognize 'added time' as soccer terminology not used in American football."
+    },
+    {
+        "id": 19,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 20,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 21,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 22,
+        "is_correct": true,
+        "extracted_answer": "implausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 23,
+        "is_correct": true,
+        "extracted_answer": "implausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 24,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model argues terminology ('scored' vs 'took') makes it implausible; GT accepts it."
+    },
+    {
+        "id": 25,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 27,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model over-analyzes 'launched' vs 'took' and misses that basketball player doing basketball things is plausible."
+    },
+    {
+        "id": 28,
+        "is_correct": false,
+        "extracted_answer": "highly implausible",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model argues lack of historical evidence makes it implausible; GT considers the action within the sport plausible."
+    },
+    {
+        "id": 29,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 30,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 31,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 32,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 33,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 34,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 35,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 36,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 37,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 38,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 39,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model argues WR cannot throw touchdowns; trick plays make this plausible."
+    },
+    {
+        "id": 40,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 41,
+        "is_correct": false,
+        "extracted_answer": "highly implausible",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model argues skill level makes a fumble implausible; fumbles are common regardless of skill."
+    },
+    {
+        "id": 42,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 43,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 44,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 45,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 3,
+        "error_type": "hallucination",
+        "comment": "Model hallucinates 'screen' as visual aid or soccer tactic; 'calling for the screen' is a basketball idiom."
+    },
+    {
+        "id": 46,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 47,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 48,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 49,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model argues ball handlers don't call for screens; they do."
+    },
+    {
+        "id": 50,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 51,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 52,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 53,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 54,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model checks factual history rather than plausibility of the scenario within the sport."
+    },
+    {
+        "id": 55,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 56,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 57,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 58,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 59,
+        "is_correct": true,
+        "extracted_answer": "implausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 60,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 61,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 62,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model rejects based on AFC/NFC mismatch logic, but task likely accepts sport-internal plausibility."
+    },
+    {
+        "id": 63,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 64,
+        "is_correct": true,
+        "extracted_answer": "implausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 65,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 66,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 67,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 68,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly states goalies cannot score; they can."
+    },
+    {
+        "id": 69,
+        "is_correct": false,
+        "extracted_answer": "implausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly states 'restricted area' doesn't exist in basketball; it does."
+    },
+    {
+        "id": 70,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 71,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 72,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Arrives at correct conclusion despite some confused reasoning about the idiom."
+    },
+    {
+        "id": 73,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 74,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 75,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 76,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 77,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 78,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 79,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "Hallucinates hockey logic for 'out at home' which is baseball terminology."
+    },
+    {
+        "id": 80,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 81,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 83,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 84,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 85,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Logic fails to account for him being a baserunner."
+    },
+    {
+        "id": 86,
+        "is_correct": false,
+        "extracted_answer": "implausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model logic is too strict on player style; QBs launching Hail Marys is plausible."
+    },
+    {
+        "id": 87,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 88,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 89,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 90,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 91,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 92,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 93,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 94,
+        "is_correct": true,
+        "extracted_answer": "implausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 95,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model accepts 'nutmegged' in hockey as plausible colloquialism; GT says No."
+    },
+    {
+        "id": 96,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 97,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 98,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 99,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 100,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Model failed to identify Marvin Jones as a football player."
+    },
+    {
+        "id": 101,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 102,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Final reasoning indicates it's implausible for hockey, which matches GT 'no'."
+    },
+    {
+        "id": 103,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 104,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 105,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 106,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model argues implausibility based on specific player style rather than physical possibility."
+    },
+    {
+        "id": 107,
+        "is_correct": true,
+        "extracted_answer": "implausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 108,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model misunderstands 'took a charge' (drawing an offensive foul) as committing a foul."
+    },
+    {
+        "id": 109,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 110,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "Model misinterprets 'in the Stanley Cup' as 'inside the trophy' rather than the event."
+    },
+    {
+        "id": 111,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 112,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "Failed to identify Luzardo as baseball player; assumed fictional/hockey."
+    },
+    {
+        "id": 113,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model focuses on conference alignment (AFC player in NFC game) rather than sport plausibility."
+    },
+    {
+        "id": 114,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 115,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 116,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model argues QBs don't catch passes; trick plays exist."
+    },
+    {
+        "id": 117,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 118,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 119,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 120,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Misinterprets 'outside the eighteen' (soccer term) as basketball distance."
+    },
+    {
+        "id": 121,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 122,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 123,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Failed to identify Karinchak as baseball player."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 125,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Misidentifies 'slant pass' as hockey term."
+    },
+    {
+        "id": 126,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 127,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 128,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 129,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 130,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model argues pitchers don't run bases; they can/do."
+    },
+    {
+        "id": 131,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 132,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Identified Hockey player as Soccer player."
+    },
+    {
+        "id": 133,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 134,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Hallucinated 'safe at first' means a defensive football strategy."
+    },
+    {
+        "id": 135,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 136,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 137,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 138,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 139,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 140,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 141,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Failed to identify Konecny as hockey player."
+    },
+    {
+        "id": 142,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 143,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 144,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 145,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 146,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 147,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 148,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 149,
+        "is_correct": true,
+        "extracted_answer": "implausible",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correct result, logic a bit shaky on definition of icing (hockey term vs football tactic)."
+    },
+    {
+        "id": 150,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 151,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model argues QBs don't catch passes; trick plays exist."
+    },
+    {
+        "id": 152,
+        "is_correct": true,
+        "extracted_answer": "implausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 153,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Identified football player Keenan Allen as basketball player."
+    },
+    {
+        "id": 154,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 155,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 156,
+        "is_correct": false,
+        "extracted_answer": "not entirely plausible",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model argues semantics of 'beat the buzzer' incorrectly."
+    },
+    {
+        "id": 157,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "Hallucinates that 'out at home' means foul out in basketball."
+    },
+    {
+        "id": 158,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model argues semantics of 'earned' (vs opponent earning it); GT accepts the phrasing."
+    },
+    {
+        "id": 159,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 160,
+        "is_correct": false,
+        "extracted_answer": "implausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model claims hockey forwards don't skate backwards; they do."
+    },
+    {
+        "id": 161,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model logic too strict on QB roles."
+    },
+    {
+        "id": 162,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model doubts term 'maradona'd'; GT accepts the colloquialism."
+    },
+    {
+        "id": 163,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 164,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 165,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Identified baseball player Kyle Tucker as soccer player."
+    },
+    {
+        "id": 166,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 167,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 168,
+        "is_correct": false,
+        "extracted_answer": "implausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model focuses on pitching role; ignores batting possibility."
+    },
+    {
+        "id": 169,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 170,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 171,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 172,
+        "is_correct": true,
+        "extracted_answer": "implausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 173,
+        "is_correct": true,
+        "extracted_answer": "implausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 174,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 175,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Fails to note that football uses quarters, hockey uses periods."
+    },
+    {
+        "id": 176,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 177,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 178,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 179,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model argues implausibility based on player habits, not physical possibility."
+    },
+    {
+        "id": 180,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 181,
+        "is_correct": false,
+        "extracted_answer": "implausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model argues implausibility based on rarity; GT accepts possibility."
+    },
+    {
+        "id": 182,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 183,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 184,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 185,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Misinterprets 'hit the slant pass' as throwing it."
+    },
+    {
+        "id": 186,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 187,
+        "is_correct": true,
+        "extracted_answer": "implausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 188,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 189,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 190,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "Model accepts 'desperation heave' as hockey term; GT rejects (associated with basketball)."
+    },
+    {
+        "id": 191,
+        "is_correct": false,
+        "extracted_answer": "implausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model argues implausibility based on role (defender); physically possible."
+    },
+    {
+        "id": 192,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "Model accepts 'called for the screen' as hockey terminology; GT rejects."
+    },
+    {
+        "id": 193,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Hallucinates that 'back shoulder fade' is a hockey shot."
+    },
+    {
+        "id": 194,
+        "is_correct": false,
+        "extracted_answer": "implausible",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "Hallucinates that a hockey player taking a backhand shot is implausible."
+    },
+    {
+        "id": 195,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 196,
+        "is_correct": false,
+        "extracted_answer": "highly unlikely",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model argues implausibility based on dominant foot preference."
+    },
+    {
+        "id": 197,
+        "is_correct": true,
+        "extracted_answer": "implausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 198,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 199,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 200,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 201,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 202,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 203,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model equates 'hit a triple' with 'hat trick'; incorrect terminology."
+    },
+    {
+        "id": 204,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 205,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model focuses on John Brown not being a QB; phrase 'went for it' applies to the team/play."
+    },
+    {
+        "id": 206,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 207,
+        "is_correct": false,
+        "extracted_answer": "implausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model claims stepping on first base is bad/implausible; it's the standard way to run out a grounder."
+    },
+    {
+        "id": 208,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 209,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Model interprets 'side-step three' as a baseball fielding move."
+    },
+    {
+        "id": 210,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 211,
+        "is_correct": true,
+        "extracted_answer": "implausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 212,
+        "is_correct": false,
+        "extracted_answer": "highly implausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model argues implausibility based on player propensity, not physical possibility."
+    },
+    {
+        "id": 213,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 214,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 215,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "Model claims reverse dunks are implausible/unconventional."
+    },
+    {
+        "id": 216,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 217,
+        "is_correct": true,
+        "extracted_answer": "implausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 218,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 219,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Model hallucinates sport (Tennis) but correctly identifies implausibility."
+    },
+    {
+        "id": 220,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 221,
+        "is_correct": false,
+        "extracted_answer": "implausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model claims receivers cannot take snaps; wildcat formation exists."
+    },
+    {
+        "id": 222,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 223,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 224,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 225,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 226,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 227,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 228,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 229,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "Model identifies 'screen pass' as plausible soccer terminology."
+    },
+    {
+        "id": 230,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 231,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Assumes 'Mike Williams' refers to a soccer player, not the famous NFL player."
+    },
+    {
+        "id": 232,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "Hallucinates football meaning for 'safe at first' (baseball term)."
+    },
+    {
+        "id": 233,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 234,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model interprets 'triple' as 3 goals (hat trick); term is not standard."
+    },
+    {
+        "id": 235,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 236,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 237,
+        "is_correct": false,
+        "extracted_answer": "implausible",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "Model claims Curry lacks skill/propensity for reverse layups."
+    },
+    {
+        "id": 238,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model claims NBA player doing windmill dunk is implausible."
+    },
+    {
+        "id": 239,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model claims QBs rarely score touchdowns; Fitzpatrick has many rushing TDs."
+    },
+    {
+        "id": 240,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 241,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "Model invents meaning for 'screen pass' in baseball."
+    },
+    {
+        "id": 242,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 243,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 244,
+        "is_correct": false,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model argues pitchers cannot hit singles."
+    },
+    {
+        "id": 245,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 246,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 247,
+        "is_correct": false,
+        "extracted_answer": "plausible",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Failed to identify Pepe as soccer player (or assumed a different Pepe)."
+    },
+    {
+        "id": 248,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 249,
+        "is_correct": true,
+        "extracted_answer": "not plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 250,
+        "is_correct": true,
+        "extracted_answer": "plausible",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    }
+]

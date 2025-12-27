@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model correctly identifies the chain but miscalculates the final truth value."
+    },
+    {
+        "id": 2,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical deduction."
+    },
+    {
+        "id": 3,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model arrives at the wrong truth value for the final person."
+    },
+    {
+        "id": 4,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model concludes truth where a lie was correct."
+    },
+    {
+        "id": 5,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect evaluation of the implication chain."
+    },
+    {
+        "id": 6,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate step-by-step logic."
+    },
+    {
+        "id": 7,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model fails to track the flip in truth values correctly."
+    },
+    {
+        "id": 8,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct identification of the recursive truth chain."
+    },
+    {
+        "id": 9,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct deduction."
+    },
+    {
+        "id": 10,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical breakdown."
+    },
+    {
+        "id": 11,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 12,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct identification that Helene is lying."
+    },
+    {
+        "id": 13,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Answer found at the end of a long self-correction block."
+    },
+    {
+        "id": 14,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model misses the negation in the chain."
+    },
+    {
+        "id": 15,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 1,
+        "error_type": "no_answer",
+        "comment": "Model response is rambling and ends in an incomplete deduction."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Reasoning is convoluted but reaches the correct conclusion."
+    },
+    {
+        "id": 17,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Final answer matches despite logic appearing inconsistent in parts."
+    },
+    {
+        "id": 18,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model concludes that Millie does not tell the truth, which is wrong."
+    },
+    {
+        "id": 19,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic path."
+    },
+    {
+        "id": 20,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic path."
+    },
+    {
+        "id": 21,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the flip-flop of truth values."
+    },
+    {
+        "id": 22,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correct result reached."
+    },
+    {
+        "id": 23,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical simplification."
+    },
+    {
+        "id": 24,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model gets lost in the parity of negations."
+    },
+    {
+        "id": 25,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct mapping to a boolean chain."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct resolution of the paradox."
+    },
+    {
+        "id": 27,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 28,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical analysis."
+    },
+    {
+        "id": 29,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Reaches correct answer despite identifying inconsistencies."
+    },
+    {
+        "id": 30,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Perfect logical tracking."
+    },
+    {
+        "id": 31,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model miscalculates truth values."
+    },
+    {
+        "id": 32,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model misidentifies the truth state."
+    },
+    {
+        "id": 33,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical progression."
+    },
+    {
+        "id": 34,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correct, though the trace is extremely verbose."
+    },
+    {
+        "id": 35,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate deduction."
+    },
+    {
+        "id": 36,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 37,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Reaches incorrect conclusion."
+    },
+    {
+        "id": 38,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 39,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Correct final answer reached after contradictory thinking."
+    },
+    {
+        "id": 40,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correct answer reached."
+    },
+    {
+        "id": 41,
+        "is_correct": false,
+        "extracted_answer": "False",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect result."
+    },
+    {
+        "id": 42,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated final truth value."
+    },
+    {
+        "id": 43,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed to resolve truth chain correctly."
+    },
+    {
+        "id": 44,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correct answer extracted."
+    },
+    {
+        "id": 45,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Logic in think block is confused."
+    },
+    {
+        "id": 46,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 47,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Replaced the question with a Paris/France scenario."
+    },
+    {
+        "id": 48,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate deduction."
+    },
+    {
+        "id": 49,
+        "is_correct": false,
+        "extracted_answer": "true",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect logic."
+    },
+    {
+        "id": 50,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 51,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect analysis."
+    },
+    {
+        "id": 52,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 53,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 54,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 55,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model logic is extremely confused and contradictory but stumbles into the correct answer."
+    },
+    {
+        "id": 56,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct deduction."
+    },
+    {
+        "id": 57,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The logic blocks are mostly contradictory self-corrections, but the final answer is provided."
+    },
+    {
+        "id": 58,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 59,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 60,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 61,
+        "is_correct": false,
+        "extracted_answer": "undetermined",
+        "reasoning_score": 2,
+        "error_type": "no_answer",
+        "comment": "Failed to solve for the boolean state."
+    },
+    {
+        "id": 62,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model miscalculates parity."
+    },
+    {
+        "id": 63,
+        "is_correct": true,
+        "extracted_answer": "Andree tells the truth",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Final answer is buried in think but correct."
+    },
+    {
+        "id": 64,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 65,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect reasoning."
+    },
+    {
+        "id": 66,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Logic error."
+    },
+    {
+        "id": 67,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate logical steps."
+    },
+    {
+        "id": 68,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated final state."
+    },
+    {
+        "id": 69,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Conclusion correct."
+    },
+    {
+        "id": 70,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct deduction."
+    },
+    {
+        "id": 71,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect conclusion."
+    },
+    {
+        "id": 72,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Logic in think block is broken/circular but stumbles on correct answer."
+    },
+    {
+        "id": 73,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correct conclusion."
+    },
+    {
+        "id": 74,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate logical tracking."
+    },
+    {
+        "id": 75,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "no_answer",
+        "comment": "Incomplete logic."
+    },
+    {
+        "id": 76,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking."
+    },
+    {
+        "id": 77,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect conclusion."
+    },
+    {
+        "id": 78,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate steps."
+    },
+    {
+        "id": 79,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of parity."
+    },
+    {
+        "id": 80,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect logic."
+    },
+    {
+        "id": 81,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate analysis."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Internal logic is messy/circular but correct result."
+    },
+    {
+        "id": 83,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correct deduction."
+    },
+    {
+        "id": 84,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate steps."
+    },
+    {
+        "id": 85,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculates the chain."
+    },
+    {
+        "id": 86,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 87,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking."
+    },
+    {
+        "id": 88,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking."
+    },
+    {
+        "id": 89,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect logic."
+    },
+    {
+        "id": 90,
+        "is_correct": true,
+        "extracted_answer": "0 (false)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 91,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect answer."
+    },
+    {
+        "id": 92,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 93,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate progression."
+    },
+    {
+        "id": 94,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 95,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate steps."
+    },
+    {
+        "id": 96,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 97,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 98,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect conclusion."
+    },
+    {
+        "id": 99,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "wrong_logic",
+        "comment": "Model logic is wrong."
+    },
+    {
+        "id": 100,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking."
+    },
+    {
+        "id": 101,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate steps."
+    },
+    {
+        "id": 102,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 103,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect answer."
+    },
+    {
+        "id": 104,
+        "is_correct": true,
+        "extracted_answer": "0 (false)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate logic."
+    },
+    {
+        "id": 105,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct deduction."
+    },
+    {
+        "id": 106,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Logic fails in the final comparison."
+    },
+    {
+        "id": 107,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Correct final answer reached through ambiguous logic."
+    },
+    {
+        "id": 108,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Reached correct answer via questionable logic."
+    },
+    {
+        "id": 109,
+        "is_correct": false,
+        "extracted_answer": "1",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect conclusion."
+    },
+    {
+        "id": 110,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 111,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Conclusion correct."
+    },
+    {
+        "id": 112,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model logic is flawed."
+    },
+    {
+        "id": 113,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 114,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Confused reasoning but correct outcome."
+    },
+    {
+        "id": 115,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Perfect logical tracking."
+    },
+    {
+        "id": 116,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model identifies paradox but stumbles on wrong answer."
+    },
+    {
+        "id": 117,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correct deduction."
+    },
+    {
+        "id": 118,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct mapping to logical variables."
+    },
+    {
+        "id": 119,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect individual value assignments but correct result."
+    },
+    {
+        "id": 120,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 121,
+        "is_correct": false,
+        "extracted_answer": "true",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect result."
+    },
+    {
+        "id": 122,
+        "is_correct": true,
+        "extracted_answer": "Jerry tells the truth",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 123,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect reasoning."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate tracking."
+    },
+    {
+        "id": 125,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Reasoning is a bit messy but reaches correct conclusion."
+    },
+    {
+        "id": 126,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed logic."
+    },
+    {
+        "id": 127,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed reasoning."
+    },
+    {
+        "id": 128,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking."
+    },
+    {
+        "id": 129,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate deduction."
+    },
+    {
+        "id": 130,
+        "is_correct": false,
+        "extracted_answer": "Sal tells the truth",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect answer."
+    },
+    {
+        "id": 131,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect result."
+    },
+    {
+        "id": 132,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect result."
+    },
+    {
+        "id": 133,
+        "is_correct": true,
+        "extracted_answer": "YES",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 134,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Failed deduction."
+    },
+    {
+        "id": 135,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 136,
+        "is_correct": true,
+        "extracted_answer": "Sal tells the truth",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate tracking."
+    },
+    {
+        "id": 137,
+        "is_correct": true,
+        "extracted_answer": "Conception tells the truth",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 138,
+        "is_correct": true,
+        "extracted_answer": "F",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Model hallucinates a different problem but correctly labels 'F'."
+    },
+    {
+        "id": 139,
+        "is_correct": false,
+        "extracted_answer": "Amberly tells the truth",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect logic."
+    },
+    {
+        "id": 140,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking."
+    },
+    {
+        "id": 141,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Manual check confirms No. Model reached correct answer."
+    },
+    {
+        "id": 142,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect result."
+    },
+    {
+        "id": 143,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed reasoning."
+    },
+    {
+        "id": 144,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Messy reasoning but correct result."
+    },
+    {
+        "id": 145,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Stumbles into correct answer."
+    },
+    {
+        "id": 146,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 147,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect conclusion."
+    },
+    {
+        "id": 148,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Perfect tracking."
+    },
+    {
+        "id": 149,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate steps."
+    },
+    {
+        "id": 150,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 151,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correct answer."
+    },
+    {
+        "id": 152,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 153,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Broken logic but correct final answer."
+    },
+    {
+        "id": 154,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Failed reasoning."
+    },
+    {
+        "id": 155,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 156,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correct outcome."
+    },
+    {
+        "id": 157,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect analysis."
+    },
+    {
+        "id": 158,
+        "is_correct": false,
+        "extracted_answer": "Ka tells the truth",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect result."
+    },
+    {
+        "id": 159,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model logic is broken."
+    },
+    {
+        "id": 160,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 161,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Broken reasoning but correct final label."
+    },
+    {
+        "id": 162,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate analysis."
+    },
+    {
+        "id": 163,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical steps."
+    },
+    {
+        "id": 164,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate tracking."
+    },
+    {
+        "id": 165,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 166,
+        "is_correct": false,
+        "extracted_answer": "True",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect result."
+    },
+    {
+        "id": 167,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Reaches incorrect conclusion."
+    },
+    {
+        "id": 168,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect conclusion."
+    },
+    {
+        "id": 169,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct deduction."
+    },
+    {
+        "id": 170,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 171,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Confused reasoning but correct outcome."
+    },
+    {
+        "id": 172,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 173,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate steps."
+    },
+    {
+        "id": 174,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "No answer in response but found correct answer in trace."
+    },
+    {
+        "id": 175,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect answer."
+    },
+    {
+        "id": 176,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 1,
+        "error_type": "no_answer",
+        "comment": "Infinite loop reasoning but correct final answer found."
+    },
+    {
+        "id": 177,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 178,
+        "is_correct": true,
+        "extracted_answer": "true",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correct answer reached."
+    },
+    {
+        "id": 179,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking."
+    },
+    {
+        "id": 180,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate steps."
+    },
+    {
+        "id": 181,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking."
+    },
+    {
+        "id": 182,
+        "is_correct": false,
+        "extracted_answer": "Tamika tells the truth",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect result."
+    },
+    {
+        "id": 183,
+        "is_correct": true,
+        "extracted_answer": "undetermined",
+        "reasoning_score": 2,
+        "error_type": "no_answer",
+        "comment": "Failure to solve."
+    },
+    {
+        "id": 184,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect answer."
+    },
+    {
+        "id": 185,
+        "is_correct": false,
+        "extracted_answer": "Jim tells the truth",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect result."
+    },
+    {
+        "id": 186,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculates logic chain."
+    },
+    {
+        "id": 187,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 188,
+        "is_correct": true,
+        "extracted_answer": "Fletcher does tell the truth",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect logic but reaches correct result."
+    },
+    {
+        "id": 189,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Reaches incorrect conclusion."
+    },
+    {
+        "id": 190,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 191,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect conclusion."
+    },
+    {
+        "id": 192,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate steps."
+    },
+    {
+        "id": 193,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incomplete think block but reaches correct conclusion."
+    },
+    {
+        "id": 194,
+        "is_correct": true,
+        "extracted_answer": "Amberly tells the truth",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 195,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect conclusion."
+    },
+    {
+        "id": 196,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking."
+    },
+    {
+        "id": 197,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "wrong_logic",
+        "comment": "Logic parity error."
+    },
+    {
+        "id": 198,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect conclusion."
+    },
+    {
+        "id": 199,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect conclusion."
+    },
+    {
+        "id": 200,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate logical tracking."
+    },
+    {
+        "id": 201,
+        "is_correct": true,
+        "extracted_answer": "Ka tells the truth",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correct conclusion."
+    },
+    {
+        "id": 202,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed reasoning."
+    },
+    {
+        "id": 203,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 204,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate steps."
+    },
+    {
+        "id": 205,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 1,
+        "error_type": "no_answer",
+        "comment": "Truncated logic."
+    },
+    {
+        "id": 206,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Contradictory think block but correctly stumbles onto No."
+    },
+    {
+        "id": 207,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "no_answer",
+        "comment": "Incomplete logic."
+    },
+    {
+        "id": 208,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking."
+    },
+    {
+        "id": 209,
+        "is_correct": true,
+        "extracted_answer": "Alejandro tells the truth",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 210,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect result."
+    },
+    {
+        "id": 211,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect result."
+    },
+    {
+        "id": 212,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 213,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 214,
+        "is_correct": false,
+        "extracted_answer": "Gwenn tells the truth",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect result."
+    },
+    {
+        "id": 215,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect result."
+    },
+    {
+        "id": 216,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 217,
+        "is_correct": false,
+        "extracted_answer": "no",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect logic."
+    },
+    {
+        "id": 218,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect reasoning."
+    },
+    {
+        "id": 219,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Failed logic."
+    },
+    {
+        "id": 220,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correct outcome."
+    },
+    {
+        "id": 221,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 222,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Reasoning is messy but final answer correct."
+    },
+    {
+        "id": 223,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 1,
+        "error_type": "no_answer",
+        "comment": "Truncated think block."
+    },
+    {
+        "id": 224,
+        "is_correct": true,
+        "extracted_answer": "F",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 225,
+        "is_correct": false,
+        "extracted_answer": "Alejandro tells the truth",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect reasoning."
+    },
+    {
+        "id": 226,
+        "is_correct": false,
+        "extracted_answer": "Shaunda must lie",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Logic error."
+    },
+    {
+        "id": 227,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 1,
+        "error_type": "no_answer",
+        "comment": "Incomplete logic."
+    },
+    {
+        "id": 228,
+        "is_correct": false,
+        "extracted_answer": "Tamika tells the truth",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect answer."
+    },
+    {
+        "id": 229,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Failed logic."
+    },
+    {
+        "id": 230,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct deduction."
+    },
+    {
+        "id": 231,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate analysis."
+    },
+    {
+        "id": 232,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking."
+    },
+    {
+        "id": 233,
+        "is_correct": true,
+        "extracted_answer": "Inga does not tell the truth",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect logic but reaches correct result."
+    },
+    {
+        "id": 234,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 235,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Conclusion correct."
+    },
+    {
+        "id": 236,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate logic."
+    },
+    {
+        "id": 237,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 1,
+        "error_type": "no_answer",
+        "comment": "Incomplete think block."
+    },
+    {
+        "id": 238,
+        "is_correct": false,
+        "extracted_answer": "Jerry tells the truth",
+        "reasoning_score": 1,
+        "error_type": "no_answer",
+        "comment": "Failed reasoning process."
+    },
+    {
+        "id": 239,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Conclusion correct."
+    },
+    {
+        "id": 240,
+        "is_correct": true,
+        "extracted_answer": "Vina does not tell the truth",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 241,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect answer."
+    },
+    {
+        "id": 242,
+        "is_correct": false,
+        "extracted_answer": "True",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect result."
+    },
+    {
+        "id": 243,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect conclusion."
+    },
+    {
+        "id": 244,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect conclusion."
+    },
+    {
+        "id": 245,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate steps."
+    },
+    {
+        "id": 246,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 247,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correct deduction."
+    },
+    {
+        "id": 248,
+        "is_correct": true,
+        "extracted_answer": "Andree tells the truth",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Reaches correct answer with messy logic."
+    },
+    {
+        "id": 249,
+        "is_correct": false,
+        "extracted_answer": "Jim tells the truth",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect result."
+    },
+    {
+        "id": 250,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect answer."
+    }
+]

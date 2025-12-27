@@ -1,0 +1,1426 @@
+[
+    {
+        "id": 1,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the sarcastic contrast between 'terrible person' and charitable actions."
+    },
+    {
+        "id": 2,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The model failed to recognize the dismissive 'thanks I'm cured' sarcasm in option (A) and over-analyzed option (B)."
+    },
+    {
+        "id": 3,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model failed to identify the irony in (A) claiming racism is 'okay' (opposite of truth), instead selecting the truthful statement (B) as sarcastic."
+    },
+    {
+        "id": 4,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correctly identified that agreeing with an absurd premise suggests sarcasm."
+    },
+    {
+        "id": 5,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Ground Truth is (A). Model chose (B). The model reasoned that 'pleaded' was a stronger contrast, missing the sarcasm in calling 'urged' vs 'threatened' totally different."
+    },
+    {
+        "id": 6,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A) based on absurdity, but Ground Truth is (B), where being surprised by the standard (plastic) implies sarcasm."
+    },
+    {
+        "id": 7,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the irony in suggesting poverty is a choice."
+    },
+    {
+        "id": 8,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the absurdity of proposing outdated carriages."
+    },
+    {
+        "id": 9,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the contradiction between drinking and 'great transformation'."
+    },
+    {
+        "id": 10,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the non-sequitur linking height to character."
+    },
+    {
+        "id": 11,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the irony of McDonald's making one an 'amazing chef'."
+    },
+    {
+        "id": 12,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model failed to recognize that claiming the game ends at halftime (B) is factually wrong and thus sarcastic."
+    },
+    {
+        "id": 13,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the contradiction in teaching anarchism as a governing system."
+    },
+    {
+        "id": 14,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified salt as the non-gourmet item."
+    },
+    {
+        "id": 15,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'enjoyable' as sarcastic in the context of mundane work."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the bad advice ('fighting on their terms') as sarcastic."
+    },
+    {
+        "id": 17,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), failing to see that calling someone 'great' when they are terrible (B) is the definition of sarcasm."
+    },
+    {
+        "id": 18,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the hyperbolic reaction 'dumpster it'."
+    },
+    {
+        "id": 19,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the contradiction of calling a false source 'rock-solid'."
+    },
+    {
+        "id": 20,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified violence as an ironic solution."
+    },
+    {
+        "id": 21,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the understatement of a printer being complex."
+    },
+    {
+        "id": 22,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A) (literal interpretation of 'no world needs'), whereas (B) claims the world DOES need them, which is sarcastic."
+    },
+    {
+        "id": 23,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model failed to identify that assuming obscure knowledge is 'normal' (B) is the sarcastic stance."
+    },
+    {
+        "id": 24,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the irony of expecting warmth at the start of winter."
+    },
+    {
+        "id": 25,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), missing that (B) claiming an illegal act isn't illegal is the sarcastic opposite of truth."
+    },
+    {
+        "id": 26,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B) based on short timeframe absurdity, but GT is (A) because prices rising over 8 years is the standard expectation being denied."
+    },
+    {
+        "id": 27,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A) thinking elephants aren't endangered, which is factually wrong. GT is (B) regarding trolls."
+    },
+    {
+        "id": 28,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'smart move' as sarcastic for a destructive action."
+    },
+    {
+        "id": 29,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), but calling someone with $50k 'poor' (A) is the sarcastic statement."
+    },
+    {
+        "id": 30,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model misunderstood the context of prices. $10/mile (B) is absurdly high, making 'reasonable' sarcastic."
+    },
+    {
+        "id": 31,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'brilliant' as sarcastic for a negative action."
+    },
+    {
+        "id": 32,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified enthusiasm for losing money as sarcastic."
+    },
+    {
+        "id": 33,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the hyperbolic exclusivity of (A)."
+    },
+    {
+        "id": 34,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified mocking behavior as 'classy' being sarcastic."
+    },
+    {
+        "id": 35,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified downplaying a massive wobble as sarcastic."
+    },
+    {
+        "id": 36,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the hyperbole of leaving over a 2 minute wait."
+    },
+    {
+        "id": 37,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified genocide as an ironic 'rational' choice."
+    },
+    {
+        "id": 38,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the contradiction of a demented person running a country."
+    },
+    {
+        "id": 39,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model failed to see that saying he is 'dedicated' (B) while being lazy is the sarcastic opposite."
+    },
+    {
+        "id": 40,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'gonna go great' as sarcastic given the bad record."
+    },
+    {
+        "id": 41,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model misinterpreted the comparison. Ground Truth is (B)."
+    },
+    {
+        "id": 42,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model analysis was convoluted. Belief that a felon 'would lie' (B) is literal logic; sarcasm usually claims they 'wouldn't lie' despite being a felon? Actually GT is (B), meaning the sarcastic statement is the one saying 'I personally don't believe [he] would lie', implying he definitely would."
+    },
+    {
+        "id": 43,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A) reasoning 'server threatening' is less serious. GT is (B) 'life threatening', which is the sarcastic hyperbole."
+    },
+    {
+        "id": 44,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "no_answer",
+        "comment": "The model failed to commit to an answer in the reasoning text provided, stating 'the answer is unclear', although it mentioned B in the text. Ground Truth is (B)."
+    },
+    {
+        "id": 45,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model failed to identify that saying people never conquer territory (B) is the lie/sarcasm."
+    },
+    {
+        "id": 46,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) because companies exist for profit, so criticizing them for it is sarcastic."
+    },
+    {
+        "id": 47,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'So happy' as sarcastic."
+    },
+    {
+        "id": 48,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the sarcasm in relying on guns rather than democracy."
+    },
+    {
+        "id": 49,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the flawed assertion presented sarcastically."
+    },
+    {
+        "id": 50,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'just... wouldn't cut it' as sarcastic phrasing."
+    },
+    {
+        "id": 51,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the lie 'no one on internet'."
+    },
+    {
+        "id": 52,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'not against the lawbooks', mocking the idea that if it happens it must be legal."
+    },
+    {
+        "id": 53,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), but suggesting kids pay (B) is the absurd sarcastic proposition."
+    },
+    {
+        "id": 54,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A) 'suffer', which matches the negative context. GT is (B) 'thrive', which is the sarcastic opposite."
+    },
+    {
+        "id": 55,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'diamonds are worthless' as sarcastic."
+    },
+    {
+        "id": 56,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the sarcastic stereotype."
+    },
+    {
+        "id": 57,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the absurdity of riot insurance as the primary motive."
+    },
+    {
+        "id": 58,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the absurdity of banning breathing."
+    },
+    {
+        "id": 59,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B), sarcastically asking 'You're NOT into bullies?' when they clearly are."
+    },
+    {
+        "id": 60,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'Appropriation', likely mocking the concept or the event."
+    },
+    {
+        "id": 61,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B), referencing the satirical equation of money and speech."
+    },
+    {
+        "id": 62,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A) (literal lazy). GT is (B) (calling them best when they are lazy)."
+    },
+    {
+        "id": 63,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correctly identified 'Isn't it the best' combined with lack of sleep as sarcasm."
+    },
+    {
+        "id": 64,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified calling undemocratic acts 'democratic' as sarcasm."
+    },
+    {
+        "id": 65,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the irony regarding security cameras."
+    },
+    {
+        "id": 66,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the cultural mismatch."
+    },
+    {
+        "id": 67,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'down vote for being rational' as sarcastic."
+    },
+    {
+        "id": 68,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified calling a disaster 'great' as sarcasm."
+    },
+    {
+        "id": 69,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified calling trash removal 'favorite' as sarcasm."
+    },
+    {
+        "id": 70,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B), sarcastically suggesting being rude gets you free stuff (mocking karens)."
+    },
+    {
+        "id": 71,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A) (Literal truth). GT is (B) (claiming insults are a 'great way' to win people over)."
+    },
+    {
+        "id": 72,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the hyperbole of '200 internships'."
+    },
+    {
+        "id": 73,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the lie about revolutionaries helping the middle class."
+    },
+    {
+        "id": 74,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified calling a stressful time 'fun' as sarcasm."
+    },
+    {
+        "id": 75,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B). GT is (A), sarcasm regarding the population of Antarctica."
+    },
+    {
+        "id": 76,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'zero' likelihood as sarcasm."
+    },
+    {
+        "id": 77,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'fun' as sarcastic for being arrested."
+    },
+    {
+        "id": 78,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'turned off' as sarcastic in context of hype."
+    },
+    {
+        "id": 79,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the irony in option (B)."
+    },
+    {
+        "id": 80,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'lock' as sarcastic."
+    },
+    {
+        "id": 81,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'sure you WOULD have remained calm', mocking bravado."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the sarcastic rhetorical question."
+    },
+    {
+        "id": 83,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the sarcasm about bikes being stationary."
+    },
+    {
+        "id": 84,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified praising pay-to-win as sarcastic."
+    },
+    {
+        "id": 85,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'didn't have houses', representing extreme hyperbole sarcasm."
+    },
+    {
+        "id": 86,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified sarcasm about govt and innovation."
+    },
+    {
+        "id": 87,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'be outrageous' as sarcastic advice."
+    },
+    {
+        "id": 88,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) praising individual skill when the team did the work."
+    },
+    {
+        "id": 89,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "none",
+        "comment": "Correct by chance due to missing text."
+    },
+    {
+        "id": 90,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified sarcasm about tax breaks."
+    },
+    {
+        "id": 91,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'happier' as sarcastic."
+    },
+    {
+        "id": 92,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'shoot', sarcastically suggesting the wrong play."
+    },
+    {
+        "id": 93,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'such profits' on a loss as sarcasm."
+    },
+    {
+        "id": 94,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified sarcasm about the red card."
+    },
+    {
+        "id": 95,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified calling concrete beautiful as sarcastic."
+    },
+    {
+        "id": 96,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified blaming the manufacturer for water damage as sarcasm."
+    },
+    {
+        "id": 97,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Wait, model selected (B). GT is (B). Verdict should be correct. Wait, the evaluation text says 'Option B... is the sarcastic statement.' but 'Therefore, the correct answer is (B).' Let me re-read the model response. 'Therefore, the sarcastic statement is Option (A)...' Wait. 'Option (B) states... This is sarcastic'. 'Option (A)... facetious'. 'Therefore, Option (A) is the sarcastic statement'. The model picked (A). GT is (B). Incorrect."
+    },
+    {
+        "id": 98,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified calling Hitler a warrior as sarcastic."
+    },
+    {
+        "id": 99,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B). GT is (A). Recommending Bitcoin to someone who *doesn't want high risk* (A) is the sarcastic part."
+    },
+    {
+        "id": 100,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'Evolution causes vaccines', which is absurd/sarcastic."
+    },
+    {
+        "id": 101,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified civil war as 'essential' being sarcastic."
+    },
+    {
+        "id": 102,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'pragmatic' as sarcastic."
+    },
+    {
+        "id": 103,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'Diamonds are worthless'."
+    },
+    {
+        "id": 104,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'women can't earn profit' as sarcastic."
+    },
+    {
+        "id": 105,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'excuses you' as sarcastic."
+    },
+    {
+        "id": 106,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified sarcasm about not seeing people as people."
+    },
+    {
+        "id": 107,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B). GT is (A), calling protests 'audacious'."
+    },
+    {
+        "id": 108,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'Only first-world' as sarcastic."
+    },
+    {
+        "id": 109,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'Lock them up' as sarcastic."
+    },
+    {
+        "id": 110,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'worth so much', which is the opposite of truth."
+    },
+    {
+        "id": 111,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified sarcasm regarding the assumption."
+    },
+    {
+        "id": 112,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'pay more', sarcastically suggesting the bad deal."
+    },
+    {
+        "id": 113,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified sarcasm about legality and addiction."
+    },
+    {
+        "id": 114,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B), calling a megacorp a 'tiny indie company'."
+    },
+    {
+        "id": 115,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'pacifying' as sarcastic for war."
+    },
+    {
+        "id": 116,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'super fun'."
+    },
+    {
+        "id": 117,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'sociopaths' as the sarcastic term."
+    },
+    {
+        "id": 118,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'microservices'."
+    },
+    {
+        "id": 119,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified sarcasm about supply/demand."
+    },
+    {
+        "id": 120,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B). GT is (A) 'get rich'."
+    },
+    {
+        "id": 121,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'ramps up taxes'."
+    },
+    {
+        "id": 122,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'reasonable' as sarcastic for discrimination."
+    },
+    {
+        "id": 123,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'Dream OF working at Walmart'."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified '2 teams' league as sarcastic target."
+    },
+    {
+        "id": 125,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'What could be wrong?'."
+    },
+    {
+        "id": 126,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'difficult'."
+    },
+    {
+        "id": 127,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'sounds legit'."
+    },
+    {
+        "id": 128,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'pleased' to be 'lumped with trash' as sarcastic."
+    },
+    {
+        "id": 129,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'absurd claim' as sarcastic."
+    },
+    {
+        "id": 130,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'never malfunctions' as sarcastic."
+    },
+    {
+        "id": 131,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'nothing to do with this'."
+    },
+    {
+        "id": 132,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'ever' hyperbole as sarcastic."
+    },
+    {
+        "id": 133,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified '2 minutes' as sarcastic hyperbole."
+    },
+    {
+        "id": 134,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the absurd rhetorical question."
+    },
+    {
+        "id": 135,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified calling selfishness 'generosity' as sarcasm."
+    },
+    {
+        "id": 136,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'never seen that before' as sarcastic."
+    },
+    {
+        "id": 137,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'usually black and white' as sarcastic."
+    },
+    {
+        "id": 138,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified expecting silence at hockey as sarcastic."
+    },
+    {
+        "id": 139,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'alone'."
+    },
+    {
+        "id": 140,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified trusting randoms over sources as sarcastic."
+    },
+    {
+        "id": 141,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'no girls on internet' as sarcastic."
+    },
+    {
+        "id": 142,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'fresh-faced 40 year old' as sarcastic."
+    },
+    {
+        "id": 143,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'Reddit'."
+    },
+    {
+        "id": 144,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'series of tubes' as sarcasm."
+    },
+    {
+        "id": 145,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'every problem'."
+    },
+    {
+        "id": 146,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'sounds delicious'."
+    },
+    {
+        "id": 147,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'Mustang'."
+    },
+    {
+        "id": 148,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'print a blank piece' as sarcasm."
+    },
+    {
+        "id": 149,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'only 10000' as sarcasm."
+    },
+    {
+        "id": 150,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified criticism of logic as sarcastic."
+    },
+    {
+        "id": 151,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'Keep putting'."
+    },
+    {
+        "id": 152,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'wonderful' baseless accusation as sarcasm."
+    },
+    {
+        "id": 153,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'worse off'."
+    },
+    {
+        "id": 154,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'devastating proof' as sarcastic."
+    },
+    {
+        "id": 155,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'is the only' as sarcastic."
+    },
+    {
+        "id": 156,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'easy' for 800 points as sarcasm."
+    },
+    {
+        "id": 157,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B). GT is (A) 'good sample size'."
+    },
+    {
+        "id": 158,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B). GT is (A) 'any technology'."
+    },
+    {
+        "id": 159,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'love it when bigots' as sarcasm."
+    },
+    {
+        "id": 160,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'no women on internet' as sarcasm."
+    },
+    {
+        "id": 161,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'oppressed' as sarcastic."
+    },
+    {
+        "id": 162,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B). GT is (A) 'enhances'."
+    },
+    {
+        "id": 163,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'face'."
+    },
+    {
+        "id": 164,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'yacht' as sarcastic."
+    },
+    {
+        "id": 165,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'highest sales... no one rewatching'."
+    },
+    {
+        "id": 166,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'negligence should be celebrated' as sarcasm."
+    },
+    {
+        "id": 167,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B). GT is (A) 'Romania'."
+    },
+    {
+        "id": 168,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'bus' scenario as sarcasm."
+    },
+    {
+        "id": 169,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'Nobody' as sarcastic regarding inheritance."
+    },
+    {
+        "id": 170,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) '17th ranked'."
+    },
+    {
+        "id": 171,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'walk' as sarcastic."
+    },
+    {
+        "id": 172,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'fine when they go to businesses' as sarcastic."
+    },
+    {
+        "id": 173,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A). GT is (B) 'Uranium'."
+    },
+    {
+        "id": 174,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'Best' as sarcastic."
+    },
+    {
+        "id": 175,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'cat is people' sarcasm."
+    },
+    {
+        "id": 176,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'slower = top' as sarcasm."
+    },
+    {
+        "id": 177,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'win you points' as sarcastic."
+    },
+    {
+        "id": 178,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'bestie' despite no contact as sarcasm."
+    }
+]

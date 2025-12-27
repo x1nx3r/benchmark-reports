@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model identifies the specialist as the antecedent, but ground truth says patient."
+    },
+    {
+        "id": 2,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly identifies ambiguity."
+    },
+    {
+        "id": 3,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selects 'The writer' but Ground Truth is 'Ambiguous'. This is a Winograd-style ambiguity."
+    },
+    {
+        "id": 4,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified ambiguity."
+    },
+    {
+        "id": 5,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified ambiguity regarding whose office."
+    },
+    {
+        "id": 6,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model selected the designer, but GT says Ambiguous."
+    },
+    {
+        "id": 7,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model selected the investigator, GT says Ambiguous."
+    },
+    {
+        "id": 8,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Ambiguous, GT says 'Asked the cleaner' (B). 'Them' typically refers to the singular object just mentioned in modern usage or plural, but contextually likely cleaner."
+    },
+    {
+        "id": 9,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified ambiguity."
+    },
+    {
+        "id": 10,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Ambiguous, GT says Chef (B)."
+    },
+    {
+        "id": 11,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Cashier, GT says Ambiguous."
+    },
+    {
+        "id": 12,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified ambiguity regarding 'his office'."
+    },
+    {
+        "id": 13,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified salesperson as recipient."
+    },
+    {
+        "id": 14,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Ambiguous, GT says 'The writer's friends' (A)."
+    },
+    {
+        "id": 15,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Ambiguous, GT says 'Gave the housekeeper' (B)."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the homeowner had purchased."
+    },
+    {
+        "id": 17,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 18,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says ambiguous, GT says employee's performance (B)."
+    },
+    {
+        "id": 19,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says ambiguous, GT says lawyer (A)."
+    },
+    {
+        "id": 20,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says mechanic's car, GT says customer's car (B)."
+    },
+    {
+        "id": 21,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 22,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says ambiguous, GT says accountant (B)."
+    },
+    {
+        "id": 23,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says developer, GT says Ambiguous (C)."
+    },
+    {
+        "id": 24,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says assistant, GT says cook (A)."
+    },
+    {
+        "id": 25,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 27,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model says ambiguous, GT says Gave the designer (B)."
+    },
+    {
+        "id": 28,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model says ambiguous, GT says Secretary (A)."
+    },
+    {
+        "id": 29,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 30,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 31,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says ambiguous, GT says writer (B)."
+    },
+    {
+        "id": 32,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Driver broke window, GT says Ambiguous (C)."
+    },
+    {
+        "id": 33,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Teacher liked cake, GT says Visitor (A)."
+    },
+    {
+        "id": 34,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 35,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says ambiguous, GT says Asked the cook (B)."
+    },
+    {
+        "id": 36,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says ambiguous, GT says parent's secretary (A)."
+    },
+    {
+        "id": 37,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Child would mop, GT says Janitor (A)."
+    },
+    {
+        "id": 38,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Writer focuses on code, GT says Developer (A). The GT here seems debatable based on stereotypes vs logic, but the model did not match GT."
+    },
+    {
+        "id": 39,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says ambiguous, GT says Carpenter (A)."
+    },
+    {
+        "id": 40,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Writer's friends (A)."
+    },
+    {
+        "id": 41,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Assistant (A)."
+    },
+    {
+        "id": 42,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Guard (B)."
+    },
+    {
+        "id": 43,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Mechanic standing, GT says Ambiguous (C)."
+    },
+    {
+        "id": 44,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Educator's policy (A)."
+    },
+    {
+        "id": 45,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 46,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 47,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Cashier needed to understand, GT says Lawyer (A)."
+    },
+    {
+        "id": 48,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 49,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 50,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Mechanic, GT says Ambiguous (C)."
+    },
+    {
+        "id": 51,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Pedestrian (B)."
+    },
+    {
+        "id": 52,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 53,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Carpenter (A)."
+    },
+    {
+        "id": 54,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Sheriff (A)."
+    },
+    {
+        "id": 55,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 56,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 57,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 58,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Customer's car (B)."
+    },
+    {
+        "id": 59,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 60,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 61,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Secretary, GT says Developer (A)."
+    },
+    {
+        "id": 62,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 63,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Customer's training, GT says Chef's (B)."
+    },
+    {
+        "id": 64,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 65,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 66,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Artist, GT says Ambiguous (C)."
+    },
+    {
+        "id": 67,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Writer, GT says Ambiguous (C)."
+    },
+    {
+        "id": 68,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 69,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Alex, GT says Ambiguous (C)."
+    },
+    {
+        "id": 70,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Patient (A)."
+    },
+    {
+        "id": 71,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 72,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 73,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 74,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Writer told, GT says Salesperson told (B)."
+    },
+    {
+        "id": 75,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 76,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Clerk (B)."
+    },
+    {
+        "id": 77,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Lawyer (A)."
+    },
+    {
+        "id": 78,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Customer (B)."
+    },
+    {
+        "id": 79,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says CEO (B)."
+    },
+    {
+        "id": 80,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 81,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Physician (B)."
+    },
+    {
+        "id": 82,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Surgeon needed rest, GT says Patient (B)."
+    },
+    {
+        "id": 83,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 84,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 85,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 86,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 87,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 88,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Secretary (A)."
+    },
+    {
+        "id": 89,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Gave Chief tips, GT says Housekeeper (B)."
+    },
+    {
+        "id": 90,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Practitioner felt ill, GT says Patient (B)."
+    },
+    {
+        "id": 91,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 92,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Ambiguous (C). Wait, response says Ambiguous. GT is C. Model is Correct. Wait, I marked false initially based on quick skim. Let me re-read. ID 92 Model: C. GT: C. Correct."
+    },
+    {
+        "id": 93,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 94,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Sam's office (A), GT says Sam's office (B). Wait. Model selected A, saying \"The office was Sam's office\". GT says \"(B) The office was Sam's office\". The letters are swapped in model output vs standard ordering? No, options are A: Producers, B: Sam, C: Ambiguous. Model text says: \"Option B says 'the office was Sam's office'... Thus, the correct antecedent is Sam's office.\" Then it says \"(A) It is Sam's office\". This is a hallucination of option labels. Incorrect."
+    },
+    {
+        "id": 95,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says 'Told the construction worker', GT says 'Told the editor' (B)."
+    },
+    {
+        "id": 96,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 97,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Educator's policy (A)."
+    },
+    {
+        "id": 98,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Producers (A)."
+    },
+    {
+        "id": 99,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Laborer smelled awful, GT says Ambiguous (C)."
+    },
+    {
+        "id": 100,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 101,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 102,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Writer (B)."
+    },
+    {
+        "id": 103,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Taylor sent, GT says Ambiguous (C)."
+    },
+    {
+        "id": 104,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 105,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 106,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 107,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Physician (B). Wait, Model concludes \"(A) The antecedent... is ambiguous\". But option A is \"Asked if the assistant needs help\". Model text says \"The correct answer is (C) Ambiguous... But... note the original options only present (A) and (C)... so A is ambiguous.\" This is very confused reasoning."
+    },
+    {
+        "id": 108,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Cashier is arrogant, GT says Ambiguous (C)."
+    },
+    {
+        "id": 109,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 110,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Customer's car (B)."
+    },
+    {
+        "id": 111,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 112,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 113,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Designer (B)."
+    },
+    {
+        "id": 114,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Janitor (B)."
+    },
+    {
+        "id": 115,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Technician (A)."
+    },
+    {
+        "id": 116,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Visitor (A)."
+    },
+    {
+        "id": 117,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Paralegal (A)."
+    },
+    {
+        "id": 118,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Secretary (B)."
+    },
+    {
+        "id": 119,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Nurse needed time, GT says Ambiguous (C)."
+    },
+    {
+        "id": 120,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Baker (B)."
+    },
+    {
+        "id": 121,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 122,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 123,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Guard (B)."
+    },
+    {
+        "id": 124,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Baker (B)."
+    },
+    {
+        "id": 125,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 126,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Client (B)."
+    },
+    {
+        "id": 127,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 128,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Scientist (B)."
+    },
+    {
+        "id": 129,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 130,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Assistant (A)."
+    },
+    {
+        "id": 131,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Sheriff (A)."
+    },
+    {
+        "id": 132,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Chief (A)."
+    },
+    {
+        "id": 133,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Secretary, GT says Analyst (B)."
+    },
+    {
+        "id": 134,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 135,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Janitor (A)."
+    },
+    {
+        "id": 136,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Laborer, GT says Ambiguous (C). Wait, Model concludes \"If (A) is not listed... best choice is (B)\". But GT is C. Model failed."
+    },
+    {
+        "id": 137,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Patient (B)."
+    },
+    {
+        "id": 138,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 139,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 140,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Client (B)."
+    },
+    {
+        "id": 141,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 142,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 143,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Developer (A)."
+    },
+    {
+        "id": 144,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Physician, GT says Assistant (A)."
+    },
+    {
+        "id": 145,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Architect's, GT says Ambiguous (C)."
+    },
+    {
+        "id": 146,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 147,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 148,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Sam's (B)."
+    },
+    {
+        "id": 149,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Parent's (A)."
+    },
+    {
+        "id": 150,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 151,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 152,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Developer, GT says Ambiguous (C)."
+    },
+    {
+        "id": 153,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 154,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Carpenter (A)."
+    },
+    {
+        "id": 155,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 156,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 157,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Janitor (A)."
+    },
+    {
+        "id": 158,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Employee's car, GT says Ambiguous (C)."
+    },
+    {
+        "id": 159,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 160,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Homeowner (A)."
+    },
+    {
+        "id": 161,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Secretary (A)."
+    },
+    {
+        "id": 162,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Paralegal (A)."
+    },
+    {
+        "id": 163,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Patient (B)."
+    },
+    {
+        "id": 164,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Tailor, GT says Ambiguous (C)."
+    },
+    {
+        "id": 165,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 166,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 167,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 168,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 169,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Writer (B)."
+    },
+    {
+        "id": 170,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 171,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Chef's (B)."
+    },
+    {
+        "id": 172,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Accountant (B)."
+    },
+    {
+        "id": 173,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Librarian, GT says CEO (B)."
+    },
+    {
+        "id": 174,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Director's, GT says Ambiguous (C)."
+    },
+    {
+        "id": 175,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says CEO (B)."
+    },
+    {
+        "id": 176,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Carpenter (B)."
+    },
+    {
+        "id": 177,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 178,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Patient (A)."
+    },
+    {
+        "id": 179,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Salesperson (B)."
+    },
+    {
+        "id": 180,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Chef (B)."
+    },
+    {
+        "id": 181,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Patient (A)."
+    },
+    {
+        "id": 182,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Student's, GT says Educator's (A)."
+    },
+    {
+        "id": 183,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Specialist (B)."
+    },
+    {
+        "id": 184,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Bailey's, GT says Ambiguous (C)."
+    },
+    {
+        "id": 185,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 186,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 187,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Parent's (A)."
+    },
+    {
+        "id": 188,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 189,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 190,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Developer's, GT says Ambiguous (C)."
+    },
+    {
+        "id": 191,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Accountant (B)."
+    },
+    {
+        "id": 192,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Analyst (B)."
+    },
+    {
+        "id": 193,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Carpenter, GT says Designer (B)."
+    },
+    {
+        "id": 194,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Surgeon, GT says Ambiguous (C)."
+    },
+    {
+        "id": 195,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Manager's car, GT says Ambiguous (C)."
+    },
+    {
+        "id": 196,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Cousin's boss (A)."
+    },
+    {
+        "id": 197,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Writer (B)."
+    },
+    {
+        "id": 198,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Alex, GT says Ambiguous (C)."
+    },
+    {
+        "id": 199,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 200,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Secretary (A)."
+    },
+    {
+        "id": 201,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Janitor (B)."
+    },
+    {
+        "id": 202,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 203,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 204,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 205,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Cook (A)."
+    },
+    {
+        "id": 206,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 207,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Chef's (B)."
+    },
+    {
+        "id": 208,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 209,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 210,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Paralegal (A)."
+    },
+    {
+        "id": 211,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 212,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 213,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Specialist, GT says Patient (A)."
+    },
+    {
+        "id": 214,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Director's, GT says Ambiguous (C)."
+    },
+    {
+        "id": 215,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Salesperson (B)."
+    },
+    {
+        "id": 216,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 217,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Patient (B)."
+    },
+    {
+        "id": 218,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 219,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Bailey's, GT says Ambiguous (C)."
+    },
+    {
+        "id": 220,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Pedestrian (B)."
+    },
+    {
+        "id": 221,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Technician (A)."
+    },
+    {
+        "id": 222,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Sam's (B)."
+    },
+    {
+        "id": 223,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Salesperson (B)."
+    },
+    {
+        "id": 224,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Pedestrian, GT says Worker (A)."
+    },
+    {
+        "id": 225,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 226,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Secretary (B)."
+    },
+    {
+        "id": 227,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Developer (A)."
+    },
+    {
+        "id": 228,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 229,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 230,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Architect's, GT says Ambiguous (C)."
+    },
+    {
+        "id": 231,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Cook (B)."
+    },
+    {
+        "id": 232,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Writer (B)."
+    },
+    {
+        "id": 233,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 234,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 235,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Manager's car, GT says Ambiguous (C)."
+    },
+    {
+        "id": 236,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Alex (A)."
+    },
+    {
+        "id": 237,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 238,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 239,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 240,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 241,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Visitor (A)."
+    },
+    {
+        "id": 242,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says We, GT says Alex (A)."
+    },
+    {
+        "id": 243,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says We, GT says Alex (A)."
+    },
+    {
+        "id": 244,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 245,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Secretary (B)."
+    },
+    {
+        "id": 246,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Teacher, GT says Visitor (A)."
+    },
+    {
+        "id": 247,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Counselor, GT says Chief (A)."
+    },
+    {
+        "id": 248,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Surgeon, GT says Patient (B)."
+    },
+    {
+        "id": 249,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model logic was contradictory but final output matched GT. Given reasoning score 5 because it arrived at the right conclusion despite phrasing confusion."
+    },
+    {
+        "id": 250,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says Ambiguous, GT says Housekeeper (B)."
+    }
+]

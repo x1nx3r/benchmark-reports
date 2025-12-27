@@ -1,0 +1,1498 @@
+[
+  {
+    "id": 1,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correctly reasoned."
+  },
+  {
+    "id": 2,
+    "is_correct": false,
+    "extracted_answer": null,
+    "reasoning_score": 1,
+    "error_type": "hallucination",
+    "comment": "Model hallucinates a new set of questions and answers instead of answering the original question."
+  },
+  {
+    "id": 3,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Model self-corrected in final output."
+  },
+  {
+    "id": 4,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 1,
+    "error_type": "hallucination",
+    "comment": "Model hallucinates new questions, but the answer to the relevant hallucinated question contradicts GT."
+  },
+  {
+    "id": 5,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 4,
+    "error_type": "none",
+    "comment": "Answer found at end of think block; final response text was effectively empty."
+  },
+  {
+    "id": 6,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 7,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 8,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 9,
+    "is_correct": false,
+    "extracted_answer": null,
+    "reasoning_score": 1,
+    "error_type": "hallucination",
+    "comment": "Model hallucinates completely unrelated scenarios about diet and car safety."
+  },
+  {
+    "id": 10,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 11,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 12,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 13,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 14,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 15,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 16,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 17,
+    "is_correct": false,
+    "extracted_answer": null,
+    "reasoning_score": 1,
+    "error_type": "hallucination",
+    "comment": "Model hallucinates unrelated scenarios (warehouse fire)."
+  },
+  {
+    "id": 18,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 19,
+    "is_correct": false,
+    "extracted_answer": null,
+    "reasoning_score": 1,
+    "error_type": "hallucination",
+    "comment": "Model hallucinates unrelated scenarios (back pain, dizzy runner)."
+  },
+  {
+    "id": 20,
+    "is_correct": false,
+    "extracted_answer": null,
+    "reasoning_score": 1,
+    "error_type": "hallucination",
+    "comment": "Model hallucinates Q&A about general causation mistakes."
+  },
+  {
+    "id": 21,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct, though the model response is repetitive."
+  },
+  {
+    "id": 22,
+    "is_correct": false,
+    "extracted_answer": null,
+    "reasoning_score": 1,
+    "error_type": "hallucination",
+    "comment": "Model hallucinates unrelated scenarios (exercise study, medication)."
+  },
+  {
+    "id": 23,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 24,
+    "is_correct": false,
+    "extracted_answer": null,
+    "reasoning_score": 1,
+    "error_type": "hallucination",
+    "comment": "Model hallucinates unrelated scenarios (earthquake, experiment)."
+  },
+  {
+    "id": 25,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 26,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 27,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 28,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 29,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 30,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 31,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 32,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 33,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 34,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 35,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 36,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 37,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 38,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 39,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 40,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 41,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 42,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 43,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 44,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 45,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 46,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 47,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 48,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 49,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 50,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 51,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 52,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 53,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 54,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 55,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 56,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 57,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 58,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 59,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 60,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 61,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 62,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 63,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 64,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 65,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 66,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 67,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 68,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 69,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 70,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 71,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 72,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 73,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 74,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 75,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 76,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 77,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 78,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 79,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 80,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 81,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 82,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 83,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 84,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 85,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 86,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 87,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 88,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 89,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 90,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 91,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 92,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 93,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 94,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 95,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 96,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 97,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 98,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 99,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 100,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 101,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 102,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 103,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 104,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 105,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 106,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 107,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 108,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 109,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 110,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 111,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 112,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 113,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 114,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 115,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 116,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 117,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 118,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 119,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 120,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 121,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 122,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 123,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 124,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 125,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 126,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 127,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 128,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 129,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 130,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 131,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 132,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 133,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 134,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 135,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 136,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 137,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 138,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 139,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 140,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 141,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 142,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 143,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 144,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 145,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 146,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 147,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 148,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 149,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 150,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 151,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 152,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 153,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 154,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 155,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 156,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 157,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 158,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 159,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 160,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 161,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 162,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 163,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 164,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 165,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 166,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 167,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 168,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 169,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 170,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 171,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 172,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 173,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 174,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 175,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 176,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 177,
+    "is_correct": false,
+    "extracted_answer": "Yes",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 178,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 179,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 180,
+    "is_correct": true,
+    "extracted_answer": "No",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 181,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 182,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 183,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 184,
+    "is_correct": false,
+    "extracted_answer": "No",
+    "reasoning_score": 2,
+    "error_type": "wrong_logic",
+    "comment": "Incorrect conclusion."
+  },
+  {
+    "id": 185,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 186,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  },
+  {
+    "id": 187,
+    "is_correct": true,
+    "extracted_answer": "Yes",
+    "reasoning_score": 5,
+    "error_type": "none",
+    "comment": "Correct."
+  }
+]

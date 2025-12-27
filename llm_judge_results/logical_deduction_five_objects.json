@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly deduced the order: Owl, Robin, Raven, Falcon, Quail."
+    },
+    {
+        "id": 2,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly ordered by age: Tractor, Bus, Minivan, Hatchback, Convertible."
+    },
+    {
+        "id": 3,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Misinterpreted 'gray book is the second from the right' as position 3 instead of position 4, leading to the wrong leftmost book."
+    },
+    {
+        "id": 4,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Correctly placed Raven at position 1 and Owl at position 2, but incorrectly selected option (A) which states Raven is second from left."
+    },
+    {
+        "id": 5,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Contradictory reasoning; acknowledges Green is rightmost (pos 5) but concludes it is second from right."
+    },
+    {
+        "id": 6,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly placed the Orange book in the third position."
+    },
+    {
+        "id": 7,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the Minivan as the newest based on the statements."
+    },
+    {
+        "id": 8,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Correctly ordered the golfers (Rob first, Joe last) but incorrectly selected (A) stating Rob finished last."
+    },
+    {
+        "id": 9,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed to satisfy all constraints simultaneously; logic became circular and contradictory."
+    },
+    {
+        "id": 10,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed to correctly order the vehicles by age; incorrectly concluded the Minivan was second-oldest."
+    },
+    {
+        "id": 11,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly ordered the prices and identified Loquats as second-cheapest."
+    },
+    {
+        "id": 12,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Contradictory logic; correctly notes Cantaloupes are most expensive in reasoning but selects Kiwis."
+    },
+    {
+        "id": 13,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Misplaced the Gray book (second from right = pos 4) as pos 5, skewing the rest of the order."
+    },
+    {
+        "id": 14,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly deduced the order: Joe, Ada, Eli, Mel, Amy."
+    },
+    {
+        "id": 15,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly determined Watermelons are the cheapest."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly ordered the books and identified Yellow as rightmost."
+    },
+    {
+        "id": 17,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly ordered the vehicles by age."
+    },
+    {
+        "id": 18,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly placed the Falcon in the second position from the right (pos 4)."
+    },
+    {
+        "id": 19,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Mel as finishing first."
+    },
+    {
+        "id": 20,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly deduced Joe finished second."
+    },
+    {
+        "id": 21,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Apples as second-cheapest."
+    },
+    {
+        "id": 22,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the Motorcycle as the newest."
+    },
+    {
+        "id": 23,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Logic correctly derived the order but concluded Ana finished last when the reasoning showed she was first."
+    },
+    {
+        "id": 24,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly deduced the order of the vehicles."
+    },
+    {
+        "id": 25,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly placed the Black book third from the left."
+    },
+    {
+        "id": 26,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Correct logic on the ordering but confused the options/positions."
+    },
+    {
+        "id": 27,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Ada as finishing last."
+    },
+    {
+        "id": 28,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Derived an incorrect order; placed Eve third when she should be second."
+    },
+    {
+        "id": 29,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Amy as finishing first."
+    },
+    {
+        "id": 30,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Concluded Mel finished second despite explicitly noting 'Mel finished first' in the reasoning."
+    },
+    {
+        "id": 31,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Logic correctly placed birds but failed to match the rightmost condition to the correct bird (Hummingbird, option B)."
+    },
+    {
+        "id": 32,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly placed Raven third from left."
+    },
+    {
+        "id": 33,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Eli finished second-to-last (4th)."
+    },
+    {
+        "id": 34,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Misplaced the Gray book; determined Gray as 2nd from left in options, but the logic was flawed."
+    },
+    {
+        "id": 35,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed to construct the correct order; Joe must be second-to-last."
+    },
+    {
+        "id": 36,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly deduced the positions, placing Gray second from left."
+    },
+    {
+        "id": 37,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly ordered fruits to find Kiwis are cheapest."
+    },
+    {
+        "id": 38,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Correctly placed Black at pos 2, but incorrectly concluded the answer was D based on confusing position indices."
+    },
+    {
+        "id": 39,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Rob finished third."
+    },
+    {
+        "id": 40,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly deduced the order; the Hummingbird is second from left."
+    },
+    {
+        "id": 41,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly deduced Truck as oldest; failed to process 'Truck is newer than Hatchback' correctly."
+    },
+    {
+        "id": 42,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Eli finished third."
+    },
+    {
+        "id": 43,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Correctly ordered birds but misidentified the rightmost one (Robin, not Crow)."
+    },
+    {
+        "id": 44,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly placed Cardinal third from left."
+    },
+    {
+        "id": 45,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Straightforward deduction based on explicit statement."
+    },
+    {
+        "id": 46,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the Crow as rightmost."
+    },
+    {
+        "id": 47,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Quail as second from left."
+    },
+    {
+        "id": 48,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Logic failed on the final step; correctly noted Bus is oldest in reasoning but selected D (Sedan)."
+    },
+    {
+        "id": 49,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly placed Owl leftmost."
+    },
+    {
+        "id": 50,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly placed Crow as leftmost; Falcon is leftmost."
+    },
+    {
+        "id": 51,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly deduced the order and identified Gray as second from right."
+    },
+    {
+        "id": 52,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly placed Yellow second from left; Green is second from left."
+    },
+    {
+        "id": 53,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Cantaloupes as cheapest."
+    },
+    {
+        "id": 54,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed to order vehicles correctly by age; Hatchback is second-oldest."
+    },
+    {
+        "id": 55,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Orange as the leftmost book."
+    },
+    {
+        "id": 56,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly placed the Crow as rightmost."
+    },
+    {
+        "id": 57,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Amy finished third."
+    },
+    {
+        "id": 58,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Robin as second from left."
+    },
+    {
+        "id": 59,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly placed Quail leftmost."
+    },
+    {
+        "id": 60,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect order derived; Bus is second-oldest."
+    },
+    {
+        "id": 61,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Contradiction: selected C (Blue Jay leftmost) when text says Cardinal is leftmost."
+    },
+    {
+        "id": 62,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Identified Bus as oldest (correct) but question asked for Newest. Motorcycle is newest."
+    },
+    {
+        "id": 63,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly deduced Yellow is third from left."
+    },
+    {
+        "id": 64,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Owl as leftmost."
+    },
+    {
+        "id": 65,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Derived correct position for Purple but failed to identify Red as rightmost."
+    },
+    {
+        "id": 66,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Gray book as second from right."
+    },
+    {
+        "id": 67,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Tractor as the oldest."
+    },
+    {
+        "id": 68,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly placed Owl second from right."
+    },
+    {
+        "id": 69,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Bus as the oldest."
+    },
+    {
+        "id": 70,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Correct logic on ordering but selected Pears (most expensive) instead of Apples (second-cheapest)."
+    },
+    {
+        "id": 71,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Orange book as rightmost."
+    },
+    {
+        "id": 72,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Correctly ordered items but selected Apples (third most expensive) instead of Cantaloupes (second cheapest)."
+    },
+    {
+        "id": 73,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Stated Eve finished third in reasoning but selected B (Eve finished third) when Mya finished third."
+    },
+    {
+        "id": 74,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Limousine as newest."
+    },
+    {
+        "id": 75,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Mangoes as third-most expensive."
+    },
+    {
+        "id": 76,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Loquats as second-cheapest."
+    },
+    {
+        "id": 77,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly placed Hawk third from left."
+    },
+    {
+        "id": 78,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly deduced Minivan as oldest; Tractor is the oldest."
+    },
+    {
+        "id": 79,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Amy finished second-to-last."
+    },
+    {
+        "id": 80,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly placed Quail third from left; Hawk is third from left."
+    },
+    {
+        "id": 81,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Brown book is second from left'."
+    },
+    {
+        "id": 82,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly placed Yellow book second from left; Yellow is second from right (4th)."
+    },
+    {
+        "id": 83,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Apples as third-most expensive; Watermelons are third-most."
+    },
+    {
+        "id": 84,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly deduced Amy finished second."
+    },
+    {
+        "id": 85,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly deduced Station Wagon as second-newest; Motorcyle is second-newest."
+    },
+    {
+        "id": 86,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly deduced Pears are the most expensive."
+    },
+    {
+        "id": 87,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Station Wagon as newest."
+    },
+    {
+        "id": 88,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified White book as rightmost."
+    },
+    {
+        "id": 89,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Pears as second-most expensive; Watermelons are second-most expensive."
+    },
+    {
+        "id": 90,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly placed Yellow book second from left."
+    },
+    {
+        "id": 91,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Red book is third from left'."
+    },
+    {
+        "id": 92,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Robin as rightmost."
+    },
+    {
+        "id": 93,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly placed Mya third; Eli finished third."
+    },
+    {
+        "id": 94,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Contradiction: selected (D) 'Joe finished second' while reasoning noted 'Ada finished second'."
+    },
+    {
+        "id": 95,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Blue jay is third from left'."
+    },
+    {
+        "id": 96,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly placed Blue book leftmost."
+    },
+    {
+        "id": 97,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Identified Crow as rightmost (correct position) but question asked for leftmost. Falcon is leftmost."
+    },
+    {
+        "id": 98,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Identified Loquats as cheapest; Oranges are cheapest."
+    },
+    {
+        "id": 99,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Identified Bus as oldest; Convertible is oldest."
+    },
+    {
+        "id": 100,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly placed Owl as leftmost; Raven is leftmost."
+    },
+    {
+        "id": 101,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly deduced Eve finished first."
+    },
+    {
+        "id": 102,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect order; Truck is third-newest."
+    },
+    {
+        "id": 103,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly placed Amy third; Eve finished third."
+    },
+    {
+        "id": 104,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly placed Bus as second-oldest; Hatchback is second-oldest."
+    },
+    {
+        "id": 105,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Blue book as leftmost."
+    },
+    {
+        "id": 106,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly placed Station Wagon as second-oldest; Convertible is second-oldest."
+    },
+    {
+        "id": 107,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Robin is second from left'."
+    },
+    {
+        "id": 108,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Motorcycle as second-oldest; Hatchback is second-oldest."
+    },
+    {
+        "id": 109,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Cardinal as second from right; Crow is second from right."
+    },
+    {
+        "id": 110,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Hatchback as second-oldest; Tractor is second-oldest."
+    },
+    {
+        "id": 111,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Blue book is second from right'."
+    },
+    {
+        "id": 112,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Bus as third-newest."
+    },
+    {
+        "id": 113,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Yellow book is rightmost'."
+    },
+    {
+        "id": 114,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect order; Crow is second from left."
+    },
+    {
+        "id": 115,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Sedan as second-oldest."
+    },
+    {
+        "id": 116,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Loquats as cheapest."
+    },
+    {
+        "id": 117,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Watermelons as second-cheapest; Oranges are second-cheapest."
+    },
+    {
+        "id": 118,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly placed Robin second from right."
+    },
+    {
+        "id": 119,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly placed Yellow book second from left."
+    },
+    {
+        "id": 120,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect order; Rob finished last."
+    },
+    {
+        "id": 121,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Purple book as second from right."
+    },
+    {
+        "id": 122,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect order; Eve finished third."
+    },
+    {
+        "id": 123,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Watermelons as most expensive."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Eli finished second-to-last."
+    },
+    {
+        "id": 125,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect order; Amy finished second."
+    },
+    {
+        "id": 126,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Apples as second-most expensive; Peaches are second-most expensive."
+    },
+    {
+        "id": 127,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect order; Rob finished second."
+    },
+    {
+        "id": 128,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly placed Raven second from right."
+    },
+    {
+        "id": 129,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly placed Hawk third from left."
+    },
+    {
+        "id": 130,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Hatchback as oldest; Truck is oldest."
+    },
+    {
+        "id": 131,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect order; Hatchback is third-newest."
+    },
+    {
+        "id": 132,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position; Gray book is second from right."
+    },
+    {
+        "id": 133,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Gray book as second from right."
+    },
+    {
+        "id": 134,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Plums as second-cheapest."
+    },
+    {
+        "id": 135,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect order; Mya finished second-to-last."
+    },
+    {
+        "id": 136,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position; Brown book is second from left."
+    },
+    {
+        "id": 137,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect order; Dan finished second-to-last."
+    },
+    {
+        "id": 138,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Truck as oldest."
+    },
+    {
+        "id": 139,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Hatchback as second-newest; Bus is second-newest."
+    },
+    {
+        "id": 140,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Peaches as second-most expensive."
+    },
+    {
+        "id": 141,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Hummingbird as rightmost; Blue Jay is second from right."
+    },
+    {
+        "id": 142,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Mangoes as cheapest."
+    },
+    {
+        "id": 143,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly placed Black book second from left."
+    },
+    {
+        "id": 144,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Crow as rightmost."
+    },
+    {
+        "id": 145,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly placed Crow second from right."
+    },
+    {
+        "id": 146,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Hummingbird as rightmost."
+    },
+    {
+        "id": 147,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Cantaloupes as second-most expensive."
+    },
+    {
+        "id": 148,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Rob finished first."
+    },
+    {
+        "id": 149,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Ana finished last."
+    },
+    {
+        "id": 150,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Loquats as second-most expensive; Peaches are second-most expensive."
+    },
+    {
+        "id": 151,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect order; Dan finished second-to-last."
+    },
+    {
+        "id": 152,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Robin is leftmost'."
+    },
+    {
+        "id": 153,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Mangoes as third-most expensive."
+    },
+    {
+        "id": 154,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Mya finished third."
+    },
+    {
+        "id": 155,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Sedan as second-newest; Bus is second-newest."
+    },
+    {
+        "id": 156,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Oranges as most expensive."
+    },
+    {
+        "id": 157,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Bus is third-newest'."
+    },
+    {
+        "id": 158,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Purple book is third from left'."
+    },
+    {
+        "id": 159,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Kiwis as second-cheapest."
+    },
+    {
+        "id": 160,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Red book is leftmost'."
+    },
+    {
+        "id": 161,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly placed Robin leftmost; Owl is leftmost."
+    },
+    {
+        "id": 162,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Mya finished second-to-last."
+    },
+    {
+        "id": 163,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect order; Eli finished second."
+    },
+    {
+        "id": 164,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect order; Joe finished second."
+    },
+    {
+        "id": 165,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Limousine as second-newest."
+    },
+    {
+        "id": 166,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Hatchback as newest; Sedan is newest."
+    },
+    {
+        "id": 167,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Hummingbird as rightmost."
+    },
+    {
+        "id": 168,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Mya finished second-to-last'."
+    },
+    {
+        "id": 169,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Motorcycle as third-newest."
+    },
+    {
+        "id": 170,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Station Wagon is second-oldest'."
+    },
+    {
+        "id": 171,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Cardinal as leftmost."
+    },
+    {
+        "id": 172,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect order; Amy finished second."
+    },
+    {
+        "id": 173,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Loquats as second-cheapest."
+    },
+    {
+        "id": 174,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position; Blue book is rightmost."
+    },
+    {
+        "id": 175,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified White book as leftmost."
+    },
+    {
+        "id": 176,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Brown book as leftmost; Black book is leftmost."
+    },
+    {
+        "id": 177,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect order; Eli finished last."
+    },
+    {
+        "id": 178,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Green book as rightmost."
+    },
+    {
+        "id": 179,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Motorcycle as second-newest."
+    },
+    {
+        "id": 180,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Watermelons as most expensive."
+    },
+    {
+        "id": 181,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect order; Mya finished third."
+    },
+    {
+        "id": 182,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly placed Robin second from right."
+    },
+    {
+        "id": 183,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect order; Dan finished third."
+    },
+    {
+        "id": 184,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Plums as third-most expensive; Apples are third-most expensive."
+    },
+    {
+        "id": 185,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Kiwis as most expensive; Apples are most expensive."
+    },
+    {
+        "id": 186,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly placed Black book third from left; Orange book is third from left."
+    },
+    {
+        "id": 187,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position; Black book is rightmost."
+    },
+    {
+        "id": 188,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Plums as second-most expensive; Loquats are second-most expensive."
+    },
+    {
+        "id": 189,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Purple book is third from left'."
+    },
+    {
+        "id": 190,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly placed Hawk second from left; Owl is second from left."
+    },
+    {
+        "id": 191,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Station Wagon is oldest'."
+    },
+    {
+        "id": 192,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Dan finished second-to-last."
+    },
+    {
+        "id": 193,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Sedan as second-oldest; Truck is second-oldest."
+    },
+    {
+        "id": 194,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Loquats are third-most expensive'."
+    },
+    {
+        "id": 195,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Robin as rightmost."
+    },
+    {
+        "id": 196,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect order; Eve finished third."
+    },
+    {
+        "id": 197,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position; Red book is third from left."
+    },
+    {
+        "id": 198,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Blue book as leftmost; Orange book is leftmost."
+    },
+    {
+        "id": 199,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position; Falcon is third from left."
+    },
+    {
+        "id": 200,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Mangoes as third-most expensive."
+    },
+    {
+        "id": 201,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect order; Joe finished second."
+    },
+    {
+        "id": 202,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly deduced Rob finished last."
+    },
+    {
+        "id": 203,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Tractor as oldest."
+    },
+    {
+        "id": 204,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Oranges as third-most expensive."
+    },
+    {
+        "id": 205,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect order; Eve finished second."
+    },
+    {
+        "id": 206,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Plums as most expensive; Cantaloupes are most expensive."
+    },
+    {
+        "id": 207,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Raven is second from right'."
+    },
+    {
+        "id": 208,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position; Yellow book is rightmost."
+    },
+    {
+        "id": 209,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect order; Mel finished second-to-last."
+    },
+    {
+        "id": 210,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Quail as second from right."
+    },
+    {
+        "id": 211,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Hatchback as oldest."
+    },
+    {
+        "id": 212,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Truck as newest."
+    },
+    {
+        "id": 213,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Kiwis as third-most expensive; Loquats are third-most expensive."
+    },
+    {
+        "id": 214,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Mel finished second-to-last."
+    },
+    {
+        "id": 215,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Watermelons are second-cheapest'."
+    },
+    {
+        "id": 216,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Convertible as second-oldest."
+    },
+    {
+        "id": 217,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Joe finished second'."
+    },
+    {
+        "id": 218,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Plums as second-most expensive."
+    },
+    {
+        "id": 219,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Kiwis as most expensive."
+    },
+    {
+        "id": 220,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Orange book is third from left'."
+    },
+    {
+        "id": 221,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly deduced Rob finished first."
+    },
+    {
+        "id": 222,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Loquats as cheapest."
+    },
+    {
+        "id": 223,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Gray book as second from left; Purple book is second from left."
+    },
+    {
+        "id": 224,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Motorcycle is second-newest'."
+    },
+    {
+        "id": 225,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Cardinal is second from right'."
+    },
+    {
+        "id": 226,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Watermelons as second-most expensive; Kiwis are second-most expensive."
+    },
+    {
+        "id": 227,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Blue book as leftmost."
+    },
+    {
+        "id": 228,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Sedan as third-newest."
+    },
+    {
+        "id": 229,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Crow is third from left'."
+    },
+    {
+        "id": 230,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Pears as most expensive."
+    },
+    {
+        "id": 231,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Oranges as most expensive."
+    },
+    {
+        "id": 232,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Cantaloupes as most expensive."
+    },
+    {
+        "id": 233,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Mel finished second'."
+    },
+    {
+        "id": 234,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Cantaloupes as second-most expensive; Peaches are second-most expensive."
+    },
+    {
+        "id": 235,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Blue Jay is leftmost'."
+    },
+    {
+        "id": 236,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Bus as second-newest; Sedan is second-newest."
+    },
+    {
+        "id": 237,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Yellow book as leftmost."
+    },
+    {
+        "id": 238,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Plums as third-most expensive; Mangoes are third-most expensive."
+    },
+    {
+        "id": 239,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly placed Crow second from right; Owl is second from right."
+    },
+    {
+        "id": 240,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect order; Ada finished first."
+    },
+    {
+        "id": 241,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Peaches as third-most expensive; Apples are third-most expensive."
+    },
+    {
+        "id": 242,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified Yellow book as second from right; Gray book is second from right."
+    },
+    {
+        "id": 243,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Crow is rightmost'."
+    },
+    {
+        "id": 244,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Contradiction: selected (D) 'Joe finished second' while reasoning noted 'Ada finished second'."
+    },
+    {
+        "id": 245,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect order; Rob finished third."
+    },
+    {
+        "id": 246,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect order; Dan finished first."
+    },
+    {
+        "id": 247,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly placed White book third from left."
+    },
+    {
+        "id": 248,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Kiwis as third-most expensive."
+    },
+    {
+        "id": 249,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Crow is third from left'."
+    },
+    {
+        "id": 250,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Direct deduction from statement 'Raven is second from left'."
+    }
+]

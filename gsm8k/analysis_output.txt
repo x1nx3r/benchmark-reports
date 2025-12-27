@@ -1,0 +1,154 @@
+
+################################################################################
+# ANALYZING: testrun-complete-8-shot
+################################################################################
+
+Found 1 sample files in /mnt/libraries/benchresults/gsm8k/testrun-complete-8-shot
+============================================================
+Analyzing: gsm8k
+------------------------------------------------------------
+  Total samples: 2638
+  Valid answers: 2572
+  Invalid answers: 66
+  Exact match correct: 911
+  Has repetition issues: 302
+  Accuracy: 34.5%
+  Improved extraction: 38/66 (57.6% of invalid)
+  Potential recovered matches: 1 (would boost accuracy to 34.6%)
+
+  Answer patterns found:
+    - hash_answer: 2524
+    - answer_colon: 2450
+    - the_answer_is: 150
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 4 (target: 20):
+      Extracted: None (pattern: None)
+      Repetition issues: {'has_repetition': True, 'repeated_sentences': 1, 'answer_repetitions': 0}
+      Response end: ...cken for the entire year is 1095 cups/year.
+The total number of cups per chicken for the entire year is 1095 cups/year.
+The total number of cups pe...
+    Doc ID 12 (target: 13):
+      Extracted: None (pattern: None)
+      Repetition issues: {'has_repetition': True, 'repeated_sentences': 1, 'answer_repetitions': 0}
+      Response end: ...0
+He will spend $3 to water and feed the tree, so he will have $10.50 - $3 = $<<10.5-3=7.50>>7.50
+The third year, the tree will produce 7 lemons, w...
+    Doc ID 15 (target: 125):
+      Extracted: $5125 (pattern: hash_answer)
+      Repetition issues: {'has_repetition': False, 'repeated_sentences': 0, 'answer_repetitions': 0}
+      Response end: ...many employees will receive a raise?
+Answer: The total amount of raises is $1.2 million.  If each employee receives a 10% raise, then the total amo...
+
+================================================================================
+OVERALL SUMMARY: testrun-complete-8-shot
+================================================================================
+
+Total samples analyzed: 2638
+Valid answers (parsed successfully): 2572
+Invalid answers (parsing failed): 66
+Samples with repetition issues: 302
+Exact match correct: 911
+Exact match incorrect: 1727
+
+Overall accuracy: 34.53%
+Answer parsing success rate: 97.50%
+Repetition issue rate: 11.45%
+
+--- IMPROVED EXTRACTION ANALYSIS ---
+Invalid answers that could be re-parsed: 38/66 (57.6%)
+Answers that match target after improved extraction: 1
+Potential accuracy with improved regex: 34.57% (vs 34.53% original)
+Potential accuracy gain: +0.04%
+
+Patterns that recovered answers:
+  - equals_answer: 20
+  - hash_answer: 9
+  - last_number: 6
+  - the_answer_is: 2
+  - amount_unit: 1
+
+Answer patterns across all samples:
+  - hash_answer: 2524 (95.7%)
+  - answer_colon: 2450 (92.9%)
+  - the_answer_is: 150 (5.7%)
+
+################################################################################
+# ANALYZING: testrun-complete-0-shot
+################################################################################
+
+Found 1 sample files in /mnt/libraries/benchresults/gsm8k/testrun-complete-0-shot
+============================================================
+Analyzing: gsm8k
+------------------------------------------------------------
+  Total samples: 2638
+  Valid answers: 1318
+  Invalid answers: 1320
+  Exact match correct: 576
+  Has repetition issues: 506
+  Accuracy: 21.8%
+  Improved extraction: 1048/1320 (79.4% of invalid)
+  Potential recovered matches: 502 (would boost accuracy to 40.9%)
+
+  Answer patterns found:
+    - the_answer_is: 1138
+    - answer_colon: 56
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: 18):
+      Extracted: 18 (pattern: best_answer)
+      Repetition issues: {'has_repetition': False, 'repeated_sentences': 0, 'answer_repetitions': 0}
+      Response end: ...es muffins for her friends every day with four. She sells the remainder at the farmers’ market daily for $2 per fresh duck egg. The remainder of th...
+    Doc ID 1 (target: 3):
+      Extracted: 3 (pattern: the_answer_is)
+      Repetition issues: {'has_repetition': True, 'repeated_sentences': 1, 'answer_repetitions': 10}
+      Response end: ...swer is 3.  The question is asking for the total number of bolts.  The answer is 3.  The question is asking for the total number of bolts.  The ans...
+    Doc ID 2 (target: 70000):
+      Extracted: 90000 (pattern: the_answer_is)
+      Repetition issues: {'has_repetition': True, 'repeated_sentences': 1, 'answer_repetitions': 7}
+      Response end: ...rofit, which is the amount he made after subtracting the cost.  The answer is 90,000.  The question is asking for the profit, which is the amount h...
+
+================================================================================
+OVERALL SUMMARY: testrun-complete-0-shot
+================================================================================
+
+Total samples analyzed: 2638
+Valid answers (parsed successfully): 1318
+Invalid answers (parsing failed): 1320
+Samples with repetition issues: 506
+Exact match correct: 576
+Exact match incorrect: 2062
+
+Overall accuracy: 21.83%
+Answer parsing success rate: 49.96%
+Repetition issue rate: 19.18%
+
+--- IMPROVED EXTRACTION ANALYSIS ---
+Invalid answers that could be re-parsed: 1048/1320 (79.4%)
+Answers that match target after improved extraction: 502
+Potential accuracy with improved regex: 40.86% (vs 21.83% original)
+Potential accuracy gain: +19.03%
+
+Patterns that recovered answers:
+  - the_answer_is: 534
+  - best_answer: 192
+  - equals_answer: 186
+  - last_number: 70
+  - boxed: 30
+  - amount_unit: 22
+  - answer_colon: 8
+  - total_is: 5
+  - final_answer: 1
+
+Answer patterns across all samples:
+  - the_answer_is: 1138 (43.1%)
+  - answer_colon: 56 (2.1%)
+
+################################################################################
+# COMPARISON ACROSS CONFIGS
+################################################################################
+
+Config                                     Accuracy   Parse Rate   Repetition
+--------------------------------------------------------------------------
+testrun-complete-0-shot                       21.8%        50.0%        19.2%
+testrun-complete-8-shot                       34.5%        97.5%        11.4%

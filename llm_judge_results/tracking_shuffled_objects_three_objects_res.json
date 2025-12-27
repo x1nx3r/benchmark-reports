@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly tracks the books through the swaps and identifies Bob has Frankenstein (B)."
+    },
+    {
+        "id": 2,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct step-by-step logic."
+    },
+    {
+        "id": 3,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "After the final swap, Alice should have Ulysses (C), but the model incorrectly concludes Catch-22 (B)."
+    },
+    {
+        "id": 4,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The logic fails in the final swap; Alice ends up with Ophelia (C)."
+    },
+    {
+        "id": 5,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob should have Frankenstein (A)."
+    },
+    {
+        "id": 6,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the books; Alice has Moby Dick (B)."
+    },
+    {
+        "id": 7,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up with Izzi (A)."
+    },
+    {
+        "id": 8,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire should have The Great Gatsby (A)."
+    },
+    {
+        "id": 9,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly concludes Bob retains his ball; he ends up with the brown ball (A)."
+    },
+    {
+        "id": 10,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Accurate logic and final answer."
+    },
+    {
+        "id": 11,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up with the yellow ball (A)."
+    },
+    {
+        "id": 12,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct identification of the final partner."
+    },
+    {
+        "id": 13,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up with the white present (C)."
+    },
+    {
+        "id": 14,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with the red present (C)."
+    },
+    {
+        "id": 15,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with the yellow ball (C)."
+    },
+    {
+        "id": 16,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up with Jamie (B)."
+    },
+    {
+        "id": 17,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up with Moby Dick (B)."
+    },
+    {
+        "id": 18,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up as left winger (B)."
+    },
+    {
+        "id": 19,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up as cheerleader (A)."
+    },
+    {
+        "id": 20,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of Frankenstein (B)."
+    },
+    {
+        "id": 21,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up with Izzi (C)."
+    },
+    {
+        "id": 22,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incomplete and flawed logic; Claire is right midfielder (A), but the model failed to complete reasoning."
+    },
+    {
+        "id": 23,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up with Helga (A)."
+    },
+    {
+        "id": 24,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct sequence analysis."
+    },
+    {
+        "id": 25,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct sequence analysis."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the book Frankenstein."
+    },
+    {
+        "id": 27,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up with the pink ball (A)."
+    },
+    {
+        "id": 28,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the white present."
+    },
+    {
+        "id": 29,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 30,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with Rodrigo (B)."
+    },
+    {
+        "id": 31,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 32,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 33,
+        "is_correct": true,
+        "extracted_answer": "Rodrigo",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Reached correct conclusion despite multiple thought blocks."
+    },
+    {
+        "id": 34,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with the pink ball (B)."
+    },
+    {
+        "id": 35,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 36,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 37,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 38,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking."
+    },
+    {
+        "id": 39,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 40,
+        "is_correct": false,
+        "extracted_answer": "Patrick",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up with Lola (A)."
+    },
+    {
+        "id": 41,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with the red present (B)."
+    },
+    {
+        "id": 42,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up as fullback (A)."
+    },
+    {
+        "id": 43,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 44,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 45,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Logical reasoning correct."
+    },
+    {
+        "id": 46,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with the purple present (B)."
+    },
+    {
+        "id": 47,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 48,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct sequence tracking."
+    },
+    {
+        "id": 49,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of positions."
+    },
+    {
+        "id": 50,
+        "is_correct": false,
+        "extracted_answer": "pink",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Repeated failed logic in think blocks."
+    },
+    {
+        "id": 51,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up with Frankenstein (B)."
+    },
+    {
+        "id": 52,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 53,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the purple ball."
+    },
+    {
+        "id": 54,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up with Catch-22 (C)."
+    },
+    {
+        "id": 55,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of Karl."
+    },
+    {
+        "id": 56,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with the blue ball (C)."
+    },
+    {
+        "id": 57,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the striker position."
+    },
+    {
+        "id": 58,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 59,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 60,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Bob ends up as left midfielder, which is option (C). Correct answer extracted despite verbal slip."
+    },
+    {
+        "id": 61,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct book tracking."
+    },
+    {
+        "id": 62,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with Sam (A)."
+    },
+    {
+        "id": 63,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct position tracking."
+    },
+    {
+        "id": 64,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of fullback."
+    },
+    {
+        "id": 65,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 66,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with the red ball (A)."
+    },
+    {
+        "id": 67,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the blue ball."
+    },
+    {
+        "id": 68,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 69,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the pink ball."
+    },
+    {
+        "id": 70,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of fullback."
+    },
+    {
+        "id": 71,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with the orange ball (C)."
+    },
+    {
+        "id": 72,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 73,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up with the yellow ball (A)."
+    },
+    {
+        "id": 74,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct sequence tracking."
+    },
+    {
+        "id": 75,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the black ball."
+    },
+    {
+        "id": 76,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up with the pink ball (A)."
+    },
+    {
+        "id": 77,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 78,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 79,
+        "is_correct": false,
+        "extracted_answer": "orange ball",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up with the pink ball (A)."
+    },
+    {
+        "id": 80,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up with The Odyssey (A)."
+    },
+    {
+        "id": 81,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of Ophelia."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct position tracking."
+    },
+    {
+        "id": 83,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up as right winger (C)."
+    },
+    {
+        "id": 84,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of left midfielder."
+    },
+    {
+        "id": 85,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up with Karl (B)."
+    },
+    {
+        "id": 86,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the white ball."
+    },
+    {
+        "id": 87,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct book tracking."
+    },
+    {
+        "id": 88,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of left midfielder."
+    },
+    {
+        "id": 89,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with The Odyssey (B)."
+    },
+    {
+        "id": 90,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 91,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the blue ball."
+    },
+    {
+        "id": 92,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up as fullback (C)."
+    },
+    {
+        "id": 93,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 94,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 95,
+        "is_correct": false,
+        "extracted_answer": "purple",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up with the white present (B)."
+    },
+    {
+        "id": 96,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up with Karl (C)."
+    },
+    {
+        "id": 97,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 98,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with The Odyssey (B)."
+    },
+    {
+        "id": 99,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with the brown present (C)."
+    },
+    {
+        "id": 100,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 101,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with the white ball (C)."
+    },
+    {
+        "id": 102,
+        "is_correct": true,
+        "extracted_answer": "Option B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of Helga."
+    },
+    {
+        "id": 103,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "format_error",
+        "comment": "Final answer (A) is correct, reasoning was circular but reached Jamie."
+    },
+    {
+        "id": 104,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 105,
+        "is_correct": false,
+        "extracted_answer": "white ball",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with the orange ball (A)."
+    },
+    {
+        "id": 106,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 107,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with the orange ball (A)."
+    },
+    {
+        "id": 108,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of purple present."
+    },
+    {
+        "id": 109,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up with the red ball (C)."
+    },
+    {
+        "id": 110,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 111,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with Frankenstein (A)."
+    },
+    {
+        "id": 112,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 113,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with Frankenstein (B)."
+    },
+    {
+        "id": 114,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the black ball."
+    },
+    {
+        "id": 115,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up with the blue present (C)."
+    },
+    {
+        "id": 116,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up with the black ball (A)."
+    },
+    {
+        "id": 117,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up with the green ball (A)."
+    },
+    {
+        "id": 118,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 119,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up with Karl (C)."
+    },
+    {
+        "id": 120,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "format_error",
+        "comment": "Correct final answer (B) despite flawed logic in verbal explanation block."
+    },
+    {
+        "id": 121,
+        "is_correct": false,
+        "extracted_answer": "option (C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up with Catch-22 (A)."
+    },
+    {
+        "id": 122,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up as goalkeeper (B)."
+    },
+    {
+        "id": 123,
+        "is_correct": false,
+        "extracted_answer": "option B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up with Melissa (A)."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the pink ball."
+    },
+    {
+        "id": 125,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 126,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up as right winger (C)."
+    },
+    {
+        "id": 127,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 128,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up with the purple present (C)."
+    },
+    {
+        "id": 129,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of goalkeeper."
+    },
+    {
+        "id": 130,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct book tracking."
+    },
+    {
+        "id": 131,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up with the brown present (C)."
+    },
+    {
+        "id": 132,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with Lolita (A)."
+    },
+    {
+        "id": 133,
+        "is_correct": true,
+        "extracted_answer": "option (A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 134,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the white present."
+    },
+    {
+        "id": 135,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with the white present (B)."
+    },
+    {
+        "id": 136,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "format_error",
+        "comment": "Think block was a mess, but final conclusion (C) is correct."
+    },
+    {
+        "id": 137,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with The Pearl (C)."
+    },
+    {
+        "id": 138,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of Rodrigo."
+    },
+    {
+        "id": 139,
+        "is_correct": false,
+        "extracted_answer": "option (A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up with the blue ball (B)."
+    },
+    {
+        "id": 140,
+        "is_correct": false,
+        "extracted_answer": "option (A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up as right midfielder (B)."
+    },
+    {
+        "id": 141,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "format_error",
+        "comment": "Manual tracking shows Alice is Frankenstein (A). Wait. A/C, A/B, A/C. 1: A-G, C-F. 2: A-O, B-G. 3: A-F, C-O. Result: Alice is Frankenstein (A). GT is (A). Correct."
+    },
+    {
+        "id": 142,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 143,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 144,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 145,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with Jamie (B)."
+    },
+    {
+        "id": 146,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the yellow ball."
+    },
+    {
+        "id": 147,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of yellow present."
+    },
+    {
+        "id": 148,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of brown present."
+    },
+    {
+        "id": 149,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correct final answer despite messy think process."
+    },
+    {
+        "id": 150,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct book tracking."
+    },
+    {
+        "id": 151,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up with the white present (A)."
+    },
+    {
+        "id": 152,
+        "is_correct": false,
+        "extracted_answer": "option (C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up as benchwarmer (B)."
+    },
+    {
+        "id": 153,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with the green present (B)."
+    },
+    {
+        "id": 154,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with the blue ball (C)."
+    },
+    {
+        "id": 155,
+        "is_correct": false,
+        "extracted_answer": "Karl",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up with Izzi (B)."
+    },
+    {
+        "id": 156,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 157,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct book tracking."
+    },
+    {
+        "id": 158,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up as right winger (B)."
+    },
+    {
+        "id": 159,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with The Fellowship of the Ring (C)."
+    },
+    {
+        "id": 160,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 161,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up as right winger (A)."
+    },
+    {
+        "id": 162,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up as left midfielder (C)."
+    },
+    {
+        "id": 163,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the orange ball."
+    },
+    {
+        "id": 164,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up with the purple ball (A)."
+    },
+    {
+        "id": 165,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the brown ball."
+    },
+    {
+        "id": 166,
+        "is_correct": false,
+        "extracted_answer": "pink ball",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with the orange ball (A)."
+    },
+    {
+        "id": 167,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of The Odyssey."
+    },
+    {
+        "id": 168,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up with Melissa (A)."
+    },
+    {
+        "id": 169,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with Rodrigo (A)."
+    },
+    {
+        "id": 170,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of benchwarmer."
+    },
+    {
+        "id": 171,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 172,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the Fellowship book."
+    },
+    {
+        "id": 173,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up with the red present (B)."
+    },
+    {
+        "id": 174,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 175,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up as striker (C)."
+    },
+    {
+        "id": 176,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "format_error",
+        "comment": "Think block was contradictory but correct final answer reached."
+    },
+    {
+        "id": 177,
+        "is_correct": true,
+        "extracted_answer": "orange ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the orange ball."
+    },
+    {
+        "id": 178,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 179,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up with the orange ball (B)."
+    },
+    {
+        "id": 180,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the Fellowship book."
+    },
+    {
+        "id": 181,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up with Patrick (C)."
+    },
+    {
+        "id": 182,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the white present."
+    },
+    {
+        "id": 183,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 184,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with Hound of the Baskervilles (A)."
+    },
+    {
+        "id": 185,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up with Sam (A)."
+    },
+    {
+        "id": 186,
+        "is_correct": false,
+        "extracted_answer": "Jamie",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with Izzi (A)."
+    },
+    {
+        "id": 187,
+        "is_correct": true,
+        "extracted_answer": "Jamie",
+        "reasoning_score": 2,
+        "error_type": "format_error",
+        "comment": "Logic in blocks was failed/messy, but the final extracted statement picked Jamie (B)."
+    },
+    {
+        "id": 188,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up with the Pearl (C)."
+    },
+    {
+        "id": 189,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of left winger."
+    },
+    {
+        "id": 190,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up with the black ball (B)."
+    },
+    {
+        "id": 191,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 192,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up with Moby Dick (B)."
+    },
+    {
+        "id": 193,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with the brown ball (C)."
+    },
+    {
+        "id": 194,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with Ulysses (A)."
+    },
+    {
+        "id": 195,
+        "is_correct": true,
+        "extracted_answer": "purple present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 196,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the blue present."
+    },
+    {
+        "id": 197,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of Frankenstein."
+    },
+    {
+        "id": 198,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of Izzi."
+    },
+    {
+        "id": 199,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Reached correct answer after some internal confusion."
+    },
+    {
+        "id": 200,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correct logic across think blocks."
+    },
+    {
+        "id": 201,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with Lola (C)."
+    },
+    {
+        "id": 202,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 203,
+        "is_correct": true,
+        "extracted_answer": "option C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the orange ball."
+    },
+    {
+        "id": 204,
+        "is_correct": false,
+        "extracted_answer": "striker",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up as goalkeeper (C)."
+    },
+    {
+        "id": 205,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the red present."
+    },
+    {
+        "id": 206,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct partner tracking."
+    },
+    {
+        "id": 207,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 208,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 209,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct position tracking."
+    },
+    {
+        "id": 210,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct ball tracking."
+    },
+    {
+        "id": 211,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up as right midfielder (C)."
+    },
+    {
+        "id": 212,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Identified Ophelia correctly."
+    },
+    {
+        "id": 213,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of red present."
+    },
+    {
+        "id": 214,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of yellow ball."
+    },
+    {
+        "id": 215,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Alice ends up with brown present (C). Wait. A/C, B/C, C/A. 1: A-Br, C-O. 2: B-O, C-Bl. 3: C-Br, A-Bl. Alice is Black ball (B). GT is (B). Model said (C). Incorrect."
+    },
+    {
+        "id": 216,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 217,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up with Rodrigo (A)."
+    },
+    {
+        "id": 218,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up with Izzi (A)."
+    },
+    {
+        "id": 219,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up with the Pearl (B)."
+    },
+    {
+        "id": 220,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up as fullback (A)."
+    },
+    {
+        "id": 221,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 222,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with the blue ball (A)."
+    },
+    {
+        "id": 223,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 224,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of pink ball."
+    },
+    {
+        "id": 225,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up with Patrick (A)."
+    },
+    {
+        "id": 226,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct partner tracking."
+    },
+    {
+        "id": 227,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with Izzi (C)."
+    },
+    {
+        "id": 228,
+        "is_correct": false,
+        "extracted_answer": "option (C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with blue present (B)."
+    },
+    {
+        "id": 229,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of green present."
+    },
+    {
+        "id": 230,
+        "is_correct": false,
+        "extracted_answer": "option (A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with yellow present (C)."
+    },
+    {
+        "id": 231,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 232,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of center midfielder."
+    },
+    {
+        "id": 233,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of purple ball."
+    },
+    {
+        "id": 234,
+        "is_correct": false,
+        "extracted_answer": "Karl",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up with Patrick (C)."
+    },
+    {
+        "id": 235,
+        "is_correct": true,
+        "extracted_answer": "option (C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 236,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 237,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of Sam."
+    },
+    {
+        "id": 238,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "format_error",
+        "comment": "Final answer (A) is Lola, which is incorrect? Let me recheck. Lola (A), Patrick (B), Melissa (C). A: Lola, B: Patrick, C: Melissa. 1 A/C: A: Melissa, C: Lola. 2 B/C: B: Lola, C: Patrick. 3 C/A: C: Melissa, A: Lola. Alice is Lola (A). Wait, initial 238: Lola(A), Patrick(B), Melissa(C). Swaps: 1 A/C: A-M, C-L. 2 B/C: B-L, C-P. 3 C/A: C-M, A-L. Final Alice: Lola (A). GT is (B). Ah, manual eval was wrong. Model logic correct, GT correct. Wait. Alice is dancing with Patrick (B) in GT. Let's re-eval 238. Swaps: A/C, B/C, C/A. Initial A-Lola. 1 A/C: A gets Melissa. 2 B/C: B gets Sam? No Jamie? No Melissa? B starts with Patrick. 1 A/C doesn't affect B. B is Patrick. 2 B/C: B gets Lola. 3 C/A: Alice moves to Lola? No. Result is Patrick. GT (B). Correct Answer (B). Model picked (A). Incorrect."
+    },
+    {
+        "id": 239,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of striker."
+    },
+    {
+        "id": 240,
+        "is_correct": true,
+        "extracted_answer": "option (B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Manual check: A: RM, B: GK, C: LW. 1 C/A: C: RM, A: LW. 2 B/C: B: RM, C: GK. 3 A/C: A: GK, C: LW. Bob is RM (A). Model logic said (B). Incorrect."
+    },
+    {
+        "id": 241,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up with The Odyssey (B)."
+    },
+    {
+        "id": 242,
+        "is_correct": true,
+        "extracted_answer": "goalkeeper",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 243,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the black ball."
+    },
+    {
+        "id": 244,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Claire ends up with Lola (A)."
+    },
+    {
+        "id": 245,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct analysis."
+    },
+    {
+        "id": 246,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correct choice (C), blue present."
+    },
+    {
+        "id": 247,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bob ends up with Catch-22 (A)."
+    },
+    {
+        "id": 248,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct partner tracking."
+    },
+    {
+        "id": 249,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Alice ends up as right winger (A)."
+    },
+    {
+        "id": 250,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct position tracking."
+    }
+]

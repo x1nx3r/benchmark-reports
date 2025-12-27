@@ -1,0 +1,1170 @@
+[
+    {
+        "id": 1,
+        "is_correct": true,
+        "extracted_answer": "James",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies James (12) as the oldest."
+    },
+    {
+        "id": 2,
+        "is_correct": true,
+        "extracted_answer": "Vincent",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly sorts alphabetically and identifies Vincent."
+    },
+    {
+        "id": 3,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly counts Louis, Vincent, and Gwen."
+    },
+    {
+        "id": 4,
+        "is_correct": true,
+        "extracted_answer": "5",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "The logic in the <think> block correctly identifies the 5 animals (3 penguins, 2 giraffes). The text following the think block becomes confused, but the initial derivation matches the Ground Truth."
+    },
+    {
+        "id": 5,
+        "is_correct": true,
+        "extracted_answer": "Vincent",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies Vincent."
+    },
+    {
+        "id": 6,
+        "is_correct": true,
+        "extracted_answer": "26",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly sums the ages."
+    },
+    {
+        "id": 7,
+        "is_correct": true,
+        "extracted_answer": "Gwen",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies Gwen."
+    },
+    {
+        "id": 8,
+        "is_correct": false,
+        "extracted_answer": "Donna",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model correctly sorts but picks the first instead of the last, or misinterprets order."
+    },
+    {
+        "id": 9,
+        "is_correct": true,
+        "extracted_answer": "5",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly counts the rows."
+    },
+    {
+        "id": 10,
+        "is_correct": true,
+        "extracted_answer": "Louis",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly associates Louis with Louis Armstrong."
+    },
+    {
+        "id": 11,
+        "is_correct": false,
+        "extracted_answer": "2",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly counts Gwen (8) as 'more than 8'."
+    },
+    {
+        "id": 12,
+        "is_correct": false,
+        "extracted_answer": "3",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Model lists only 2 giraffes (Gladys, Donna) but concludes 3 in the final sentence."
+    },
+    {
+        "id": 13,
+        "is_correct": false,
+        "extracted_answer": "2",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly counts Gwen (8) as 'less than 8'."
+    },
+    {
+        "id": 14,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly counts giraffes."
+    },
+    {
+        "id": 15,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly counts animals."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "1",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Model claims Gwen (8) is 'under 5' to exclude her, then arbitrarily selects option A (1) despite finding 0."
+    },
+    {
+        "id": 17,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies Gladys and Donna."
+    },
+    {
+        "id": 18,
+        "is_correct": false,
+        "extracted_answer": "4",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "Model hallucinates an original count of 5 rows, leading to an incorrect total after deletion."
+    },
+    {
+        "id": 19,
+        "is_correct": true,
+        "extracted_answer": "70",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly calculates average."
+    },
+    {
+        "id": 20,
+        "is_correct": true,
+        "extracted_answer": "Louis",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies Louis."
+    },
+    {
+        "id": 21,
+        "is_correct": false,
+        "extracted_answer": "2",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model failed to delete Bernard as instructed before counting."
+    },
+    {
+        "id": 22,
+        "is_correct": true,
+        "extracted_answer": "62",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly sums weights."
+    },
+    {
+        "id": 23,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "format_error",
+        "comment": "Model logic correctly identifies 1 penguin (Vincent), which corresponds to option (A), but the final extraction says 'B' or '2' in parts of the text."
+    },
+    {
+        "id": 24,
+        "is_correct": false,
+        "extracted_answer": "2",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model counts Bernard (age 5) as 'more than 5'."
+    },
+    {
+        "id": 25,
+        "is_correct": true,
+        "extracted_answer": "5",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 26,
+        "is_correct": false,
+        "extracted_answer": "4",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model failed to delete Bernard."
+    },
+    {
+        "id": 27,
+        "is_correct": true,
+        "extracted_answer": "James",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 28,
+        "is_correct": false,
+        "extracted_answer": "2",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly includes Bernard (deleted/age 5)."
+    },
+    {
+        "id": 29,
+        "is_correct": true,
+        "extracted_answer": "Vincent",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 30,
+        "is_correct": true,
+        "extracted_answer": "Donna",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 31,
+        "is_correct": true,
+        "extracted_answer": "Donna",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 32,
+        "is_correct": false,
+        "extracted_answer": "Jody",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model sorts incorrectly, believing J comes after M."
+    },
+    {
+        "id": 33,
+        "is_correct": true,
+        "extracted_answer": "Gwen",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 34,
+        "is_correct": true,
+        "extracted_answer": "Donna",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 35,
+        "is_correct": false,
+        "extracted_answer": "4",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model interprets individuals as distinct species."
+    },
+    {
+        "id": 36,
+        "is_correct": false,
+        "extracted_answer": "6",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Model hallucinates an original count of 5 penguins before James, leading to a total of 6."
+    },
+    {
+        "id": 37,
+        "is_correct": true,
+        "extracted_answer": "James",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 38,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 39,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 40,
+        "is_correct": true,
+        "extracted_answer": "Vincent",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 41,
+        "is_correct": false,
+        "extracted_answer": "2",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model contradictory logic about whether Vincent meets criteria."
+    },
+    {
+        "id": 42,
+        "is_correct": false,
+        "extracted_answer": "4",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model fails to delete Bernard."
+    },
+    {
+        "id": 43,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 44,
+        "is_correct": true,
+        "extracted_answer": "6",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "Model reasoning is flawed (misses entries) but arrives at the correct answer (B) by guessing."
+    },
+    {
+        "id": 45,
+        "is_correct": false,
+        "extracted_answer": "1",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model claims 9 is not greater than 8."
+    },
+    {
+        "id": 46,
+        "is_correct": true,
+        "extracted_answer": "Bernard",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 47,
+        "is_correct": true,
+        "extracted_answer": "Gladys",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 48,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 49,
+        "is_correct": true,
+        "extracted_answer": "41",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 50,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "Model identifies Gwen but claims Option D is not available, despite it being listed."
+    },
+    {
+        "id": 51,
+        "is_correct": true,
+        "extracted_answer": "Gwen",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 52,
+        "is_correct": false,
+        "extracted_answer": "Vincent",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model identifies 60 as lower than 50."
+    },
+    {
+        "id": 53,
+        "is_correct": true,
+        "extracted_answer": "Bernard",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 54,
+        "is_correct": true,
+        "extracted_answer": "Louis",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 55,
+        "is_correct": true,
+        "extracted_answer": "James",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 56,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 57,
+        "is_correct": true,
+        "extracted_answer": "70",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 58,
+        "is_correct": true,
+        "extracted_answer": "1",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 59,
+        "is_correct": true,
+        "extracted_answer": "Vincent",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 60,
+        "is_correct": true,
+        "extracted_answer": "11",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 61,
+        "is_correct": true,
+        "extracted_answer": "James",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 62,
+        "is_correct": true,
+        "extracted_answer": "29",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 63,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 64,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 65,
+        "is_correct": false,
+        "extracted_answer": "55",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model missed the added penguin (James)."
+    },
+    {
+        "id": 66,
+        "is_correct": true,
+        "extracted_answer": "60",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 67,
+        "is_correct": true,
+        "extracted_answer": "Gwen",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 68,
+        "is_correct": true,
+        "extracted_answer": "Vincent",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 69,
+        "is_correct": false,
+        "extracted_answer": "2",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model logic fails; incorrectly identifies Vincent as meeting 'age < 8' criteria."
+    },
+    {
+        "id": 70,
+        "is_correct": true,
+        "extracted_answer": "Louis",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 71,
+        "is_correct": false,
+        "extracted_answer": "5",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "Model hallucinates an original count of 5 penguins."
+    },
+    {
+        "id": 72,
+        "is_correct": true,
+        "extracted_answer": "Gwen",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 73,
+        "is_correct": true,
+        "extracted_answer": "Louis",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 74,
+        "is_correct": true,
+        "extracted_answer": "Gwen",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 75,
+        "is_correct": false,
+        "extracted_answer": "4",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model misinterprets 'species' as 'individuals'."
+    },
+    {
+        "id": 76,
+        "is_correct": false,
+        "extracted_answer": "8",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model missed James (added penguin)."
+    },
+    {
+        "id": 77,
+        "is_correct": false,
+        "extracted_answer": "2",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly states Vincent (9) is less than 8."
+    },
+    {
+        "id": 78,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 79,
+        "is_correct": true,
+        "extracted_answer": "24",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 80,
+        "is_correct": false,
+        "extracted_answer": "3",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model missed James in the count."
+    },
+    {
+        "id": 81,
+        "is_correct": false,
+        "extracted_answer": "Gwen",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Model logic is confused between tables and hallucinates that Gwen is last in both, or misreads the question."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "Gwen",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 83,
+        "is_correct": true,
+        "extracted_answer": "49",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 84,
+        "is_correct": false,
+        "extracted_answer": "1",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly disqualifies Louis (weight 11 < 12) for meeting criteria."
+    },
+    {
+        "id": 85,
+        "is_correct": true,
+        "extracted_answer": "55",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 86,
+        "is_correct": true,
+        "extracted_answer": "Vincent",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 87,
+        "is_correct": true,
+        "extracted_answer": "Gwen",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 88,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 89,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 90,
+        "is_correct": true,
+        "extracted_answer": "Vincent",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 91,
+        "is_correct": true,
+        "extracted_answer": "Louis",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 92,
+        "is_correct": false,
+        "extracted_answer": "2",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model lists 3 correct penguins but selects answer 2."
+    },
+    {
+        "id": 93,
+        "is_correct": true,
+        "extracted_answer": "1",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 94,
+        "is_correct": true,
+        "extracted_answer": "Gwen",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 95,
+        "is_correct": true,
+        "extracted_answer": "Vincent",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 96,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 97,
+        "is_correct": true,
+        "extracted_answer": "41",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 98,
+        "is_correct": true,
+        "extracted_answer": "Bernard",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 99,
+        "is_correct": true,
+        "extracted_answer": "Vincent",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 100,
+        "is_correct": true,
+        "extracted_answer": "Vincent",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 101,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model claims 'less than 12' includes 12 for James, but the final answer matches ground truth by chance or by balancing errors."
+    },
+    {
+        "id": 102,
+        "is_correct": true,
+        "extracted_answer": "50",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 103,
+        "is_correct": true,
+        "extracted_answer": "37",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model logic is confused but extracts correct option (A)."
+    },
+    {
+        "id": 104,
+        "is_correct": true,
+        "extracted_answer": "Bernard",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 105,
+        "is_correct": false,
+        "extracted_answer": "4",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model counts individuals as species."
+    },
+    {
+        "id": 106,
+        "is_correct": true,
+        "extracted_answer": "Vincent",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 107,
+        "is_correct": true,
+        "extracted_answer": "Vincent",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 108,
+        "is_correct": false,
+        "extracted_answer": "2",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model counts Bernard (5) as > 5."
+    },
+    {
+        "id": 109,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 110,
+        "is_correct": true,
+        "extracted_answer": "Vincent",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 111,
+        "is_correct": true,
+        "extracted_answer": "65",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 112,
+        "is_correct": true,
+        "extracted_answer": "Bernard",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 113,
+        "is_correct": true,
+        "extracted_answer": "50",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 114,
+        "is_correct": false,
+        "extracted_answer": "Marian",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified Marian (last giraffe) but question asked for last animal overall (Vincent)."
+    },
+    {
+        "id": 115,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 116,
+        "is_correct": true,
+        "extracted_answer": "Bernard",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 117,
+        "is_correct": true,
+        "extracted_answer": "Bernard",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 118,
+        "is_correct": false,
+        "extracted_answer": "3",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model missed James (12)."
+    },
+    {
+        "id": 119,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 120,
+        "is_correct": true,
+        "extracted_answer": "James",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 121,
+        "is_correct": true,
+        "extracted_answer": "1",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 122,
+        "is_correct": false,
+        "extracted_answer": "Vincent",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model claims 9 < 8."
+    },
+    {
+        "id": 123,
+        "is_correct": true,
+        "extracted_answer": "29",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "Vincent",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 125,
+        "is_correct": true,
+        "extracted_answer": "penguins",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 126,
+        "is_correct": true,
+        "extracted_answer": "Gladys",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 127,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 128,
+        "is_correct": true,
+        "extracted_answer": "1",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 129,
+        "is_correct": true,
+        "extracted_answer": "Vincent",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 130,
+        "is_correct": true,
+        "extracted_answer": "James",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 131,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 132,
+        "is_correct": true,
+        "extracted_answer": "50",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 133,
+        "is_correct": true,
+        "extracted_answer": "26",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 134,
+        "is_correct": true,
+        "extracted_answer": "55",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 135,
+        "is_correct": true,
+        "extracted_answer": "90",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 136,
+        "is_correct": true,
+        "extracted_answer": "Louis",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 137,
+        "is_correct": true,
+        "extracted_answer": "Gwen",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 138,
+        "is_correct": true,
+        "extracted_answer": "Vincent",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 139,
+        "is_correct": true,
+        "extracted_answer": "Gwen",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 140,
+        "is_correct": false,
+        "extracted_answer": "41",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly included Bernard (5) in sum after deletion instruction."
+    },
+    {
+        "id": 141,
+        "is_correct": true,
+        "extracted_answer": "Bernard",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 142,
+        "is_correct": true,
+        "extracted_answer": "5",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 143,
+        "is_correct": false,
+        "extracted_answer": "Louis",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model sorted incorrectly (stated Louis comes before Bernard)."
+    },
+    {
+        "id": 144,
+        "is_correct": false,
+        "extracted_answer": "Gwen",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "Model identifies correct answer but hallucinates that option D is not present."
+    },
+    {
+        "id": 145,
+        "is_correct": true,
+        "extracted_answer": "James",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 146,
+        "is_correct": true,
+        "extracted_answer": "Vincent",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    }
+]

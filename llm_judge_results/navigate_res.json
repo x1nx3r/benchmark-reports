@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model calculated final coordinates as (-3,0), which is not the starting point (0,0), but inexplicably concluded 'Yes' the person returns to the start."
+    },
+    {
+        "id": 2,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly determined the person moves away from the start."
+    },
+    {
+        "id": 3,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked the path."
+    },
+    {
+        "id": 4,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly calculated net displacement as zero."
+    },
+    {
+        "id": 5,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly determined the person does not return."
+    },
+    {
+        "id": 6,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the reversal."
+    },
+    {
+        "id": 7,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked coordinates to (0,0)."
+    },
+    {
+        "id": 8,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model failed simple arithmetic: 6 - 7 - 7 + 8 = 0, but model claimed net displacement."
+    },
+    {
+        "id": 9,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified unidirectional movement away from start."
+    },
+    {
+        "id": 10,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked complex path to a non-origin location."
+    },
+    {
+        "id": 11,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Model hallucinated a closed loop logic without tracking direction."
+    },
+    {
+        "id": 12,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly determined continuous movement away from start."
+    },
+    {
+        "id": 13,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model failed to see that turning around and taking same number of steps returns to start."
+    },
+    {
+        "id": 14,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked coordinates."
+    },
+    {
+        "id": 15,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked net left/right movement."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked path segments."
+    },
+    {
+        "id": 17,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly calculated net forward/backward steps."
+    },
+    {
+        "id": 18,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect path tracking."
+    },
+    {
+        "id": 19,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 20,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Hallucinated 'Yes' despite noting steps don't cancel."
+    },
+    {
+        "id": 21,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 22,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Failed to calculate 4+2=6, turn around, 6 back."
+    },
+    {
+        "id": 23,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 24,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model failed to track directions correctly."
+    },
+    {
+        "id": 25,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 27,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect net displacement calculation."
+    },
+    {
+        "id": 28,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 29,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 30,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 31,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly concluded return despite calculating net displacement."
+    },
+    {
+        "id": 32,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 33,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 34,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect path analysis."
+    },
+    {
+        "id": 35,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect calculation of net displacement."
+    },
+    {
+        "id": 36,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct calculation."
+    },
+    {
+        "id": 37,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking of relative coordinates."
+    },
+    {
+        "id": 38,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 39,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect analysis of 'turn around x3'."
+    },
+    {
+        "id": 40,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 41,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect summation of left/right steps."
+    },
+    {
+        "id": 42,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 43,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 44,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 45,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 46,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 47,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 48,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 49,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 50,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 51,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect net displacement calculation."
+    },
+    {
+        "id": 52,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 53,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect summation."
+    },
+    {
+        "id": 54,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 55,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed to track that turning around and retracing steps returns to start."
+    },
+    {
+        "id": 56,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 57,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 58,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 59,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect conclusion."
+    },
+    {
+        "id": 60,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly calculated net movement."
+    },
+    {
+        "id": 61,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Model claimed loop logic without evidence."
+    },
+    {
+        "id": 62,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 63,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 64,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect coordinate tracking."
+    },
+    {
+        "id": 65,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 66,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 67,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 68,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed to see 1+4-5=0."
+    },
+    {
+        "id": 69,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect path analysis."
+    },
+    {
+        "id": 70,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 71,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 72,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 73,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Miscounted steps or failed to track turning around."
+    },
+    {
+        "id": 74,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model calculated final position (-8, 0) but concluded 'Yes'."
+    },
+    {
+        "id": 75,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 76,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error."
+    },
+    {
+        "id": 77,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect path analysis."
+    },
+    {
+        "id": 78,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 79,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 80,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 81,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 83,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect path analysis."
+    },
+    {
+        "id": 84,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 85,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 86,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 87,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect logic regarding facing direction and steps."
+    },
+    {
+        "id": 88,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 89,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 90,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 91,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect path calculation."
+    },
+    {
+        "id": 92,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Extracted 'No', but model logic was confused."
+    },
+    {
+        "id": 93,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 94,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 95,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 96,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 97,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking of turns/steps."
+    },
+    {
+        "id": 98,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 99,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Model hallucinated a symmetry argument."
+    },
+    {
+        "id": 100,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error."
+    },
+    {
+        "id": 101,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 102,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 103,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 104,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 105,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 106,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 107,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly concluded return despite calculation errors."
+    },
+    {
+        "id": 108,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 109,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 110,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 111,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 112,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 113,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 114,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 115,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 116,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 117,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect arithmetic."
+    },
+    {
+        "id": 118,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect path analysis."
+    },
+    {
+        "id": 119,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 120,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 121,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error."
+    },
+    {
+        "id": 122,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 123,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect calculation of net displacement."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 125,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect path analysis."
+    },
+    {
+        "id": 126,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 127,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect path calculation."
+    },
+    {
+        "id": 128,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 129,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 130,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 131,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 132,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 133,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 134,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect path analysis."
+    },
+    {
+        "id": 135,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 136,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 137,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 138,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 139,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 140,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 141,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 142,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect logic about turning around."
+    },
+    {
+        "id": 143,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 144,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 145,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 146,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed to analyze steps."
+    },
+    {
+        "id": 147,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 148,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 149,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 150,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 151,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 152,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 153,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 154,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 155,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 156,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 157,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 158,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 159,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 160,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect path analysis."
+    },
+    {
+        "id": 161,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 162,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 163,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model text says 'Therefore, the answer should be No', extracted answer is 'No', but logic is confusing/wrong. Wait, did extraction get Yes? Check model response text again: 'Therefore, the answer should be No.' -> Extracted No. Ground Truth is No. Verdict Correct? Wait, let me check Model Response block. Ah, the response ends with 'Yes... The person ends up 11 units away...'. Wait, no, the final answer text says Yes. 'Yes. The person ends up 11 units away'. This is contradictory logic. If it ends up away, answer should be No. So logic is flawed."
+    },
+    {
+        "id": 164,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 165,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect calculation."
+    },
+    {
+        "id": 166,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 167,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 168,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 169,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 170,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect path calculation."
+    },
+    {
+        "id": 171,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect analysis of turning around."
+    },
+    {
+        "id": 172,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 173,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 174,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 175,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 176,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 177,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 178,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 179,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 180,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect path calculation."
+    },
+    {
+        "id": 181,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 182,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 183,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 184,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 185,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model logic led to 'No' (does not return) but then concluded Yes? Let me re-read model response ID 185. Model says 'Therefore, they indeed return to the starting point. Answer: Yes.' This is wrong according to ground truth No. My manual analysis gave No too. So model is incorrect."
+    },
+    {
+        "id": 186,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 187,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 188,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect path calculation."
+    },
+    {
+        "id": 189,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect calculation of net displacement."
+    },
+    {
+        "id": 190,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 191,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 192,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 193,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 194,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect calculation of coordinates."
+    },
+    {
+        "id": 195,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 196,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 197,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 198,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 199,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 200,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 201,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 202,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 203,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 204,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 205,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect path calculation."
+    },
+    {
+        "id": 206,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect logic."
+    },
+    {
+        "id": 207,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 208,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 209,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 210,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect path analysis."
+    },
+    {
+        "id": 211,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 212,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 213,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 214,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 215,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 216,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 217,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect calculation of net displacement."
+    },
+    {
+        "id": 218,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 219,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 220,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 221,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 222,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Logic failure: reversing direction and taking equal steps returns to start."
+    },
+    {
+        "id": 223,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 224,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 225,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 226,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 227,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 228,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 229,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 230,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 231,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect path reasoning."
+    },
+    {
+        "id": 232,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 233,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 234,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 235,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 236,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect calculation of net displacement."
+    },
+    {
+        "id": 237,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 238,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 239,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 240,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 241,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 242,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 243,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect path analysis."
+    },
+    {
+        "id": 244,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect calculation."
+    },
+    {
+        "id": 245,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 246,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect logic."
+    },
+    {
+        "id": 247,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 248,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 249,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 250,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    }
+]

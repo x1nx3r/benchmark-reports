@@ -1,0 +1,90 @@
+
+################################################################################
+# ANALYZING: 0-shot with sys (top_p=0.95, rep_penalty=1.05)
+################################################################################
+
+Found 1 sample files in /mnt/libraries/benchresults/bbh/top_p0.95,rep_penalty_1.05-zeroshot-sysprompt
+================================================================================
+
+Analyzing: bbh_cot_fewshot_boolean_expressions
+------------------------------------------------------------
+  Total samples: 250
+  Think tags found: 250
+  Valid answers: 32
+  Invalid answers: 218
+  Exact match correct: 1
+  Exact match incorrect: 249
+  Accuracy: 0.4%
+  Improved extraction: 176/218 (80.7% of invalid)
+  Potential recovered matches: 134 (would boost accuracy to 54.0%)
+  Answer patterns found:
+    - answer_colon: 128
+    - answer_is: 45
+    - final_answer: 34
+    - therefore: 22
+    - so_answer_is: 1
+
+  Sample invalid responses (showing up to 5):
+    Doc ID 0 (target: False):
+      <think>To evaluate the Boolean expression "not (True) and (True)", let's break i...
+      
+      First, we need to handle the negation inside the parentheses. The expression sta...
+    Doc ID 1 (target: True):
+      <think>To evaluate the given Boolean expression, let's break it down step by ste...
+      
+      First, we need to evaluate the innermost parentheses: "not False". Since False i...
+    Doc ID 2 (target: False):
+      <think>
+      
+      To evaluate the given Boolean expression, "not True or False or (False)", we'll ...
+    Doc ID 3 (target: False):
+      <think>To evaluate the given Boolean expression, let's break it down step by ste...
+      
+      The expression is: False or not (True) and False is
+    Doc ID 4 (target: True):
+      <think>
+      
+      To evaluate the result of the Boolean expression "True or not False and True", l...
+
+================================================================================
+OVERALL SUMMARY: 0-shot with sys (top_p=0.95, rep_penalty=1.05)
+================================================================================
+
+Total samples analyzed: 250
+Samples with <think> tags: 250
+Valid answers (parsed successfully): 32
+Invalid answers (parsing failed): 218
+Exact match correct: 1
+Exact match incorrect: 249
+
+Overall accuracy: 0.40%
+Answer parsing success rate: 12.80%
+Think tag occurrence rate: 100.00%
+
+--- IMPROVED EXTRACTION ANALYSIS ---
+Invalid answers that could be re-parsed: 176/218 (80.7%)
+Answers that match target after improved extraction: 134
+Potential accuracy with improved regex: 54.00% (vs 0.40% original)
+Potential accuracy gain: +53.60%
+
+Patterns that recovered answers:
+  - result_is: 34
+  - final_result: 34
+  - which_is: 32
+  - answer_is: 25
+  - the_answer_is: 13
+  - final_answer_is_boxed: 11
+  - we_get: 6
+  - answer_should_be: 5
+  - answer_colon_eol: 4
+  - ends_with_boolean: 2
+
+Answer patterns across all samples:
+  - answer_colon: 128 (51.2%)
+  - answer_is: 45 (18.0%)
+  - final_answer: 34 (13.6%)
+  - therefore: 22 (8.8%)
+  - so_answer_is: 1 (0.4%)
+
+Tasks with <think> tags: 1
+  - bbh_cot_fewshot_boolean_expressions

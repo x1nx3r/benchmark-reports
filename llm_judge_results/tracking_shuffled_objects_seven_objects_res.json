@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": true,
+        "extracted_answer": "(A) striker",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracks all position swaps."
+    },
+    {
+        "id": 2,
+        "is_correct": true,
+        "extracted_answer": "(E) black ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracks the swaps involving Eve."
+    },
+    {
+        "id": 3,
+        "is_correct": false,
+        "extracted_answer": "(G) Izzi",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model failed to track the swap where Gertrude's partner changed."
+    },
+    {
+        "id": 4,
+        "is_correct": false,
+        "extracted_answer": "(D) Sam",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model lost track of the partner swaps for Dave."
+    },
+    {
+        "id": 5,
+        "is_correct": false,
+        "extracted_answer": "(F) The Fellowship of the Ring",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly tracked the book exchanges."
+    },
+    {
+        "id": 6,
+        "is_correct": true,
+        "extracted_answer": "(G) Patrick",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly determined the final partner."
+    },
+    {
+        "id": 7,
+        "is_correct": true,
+        "extracted_answer": "(D) Rodrigo",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Fred's partner."
+    },
+    {
+        "id": 8,
+        "is_correct": false,
+        "extracted_answer": "(A) purple ball",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model failed to track Dave's ball correctly."
+    },
+    {
+        "id": 9,
+        "is_correct": true,
+        "extracted_answer": "(E) yellow present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked the gift exchanges."
+    },
+    {
+        "id": 10,
+        "is_correct": false,
+        "extracted_answer": "(A) Melissa",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model logic flawed regarding Dave's partner."
+    },
+    {
+        "id": 11,
+        "is_correct": false,
+        "extracted_answer": "(C) center midfielder",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Failed to track position changes correctly."
+    },
+    {
+        "id": 12,
+        "is_correct": false,
+        "extracted_answer": "(F) Patrick",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Failed to track partner swaps."
+    },
+    {
+        "id": 13,
+        "is_correct": false,
+        "extracted_answer": "(F) left midfielder",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect final position determination."
+    },
+    {
+        "id": 14,
+        "is_correct": true,
+        "extracted_answer": "(B) right midfielder",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Alice's position."
+    },
+    {
+        "id": 15,
+        "is_correct": true,
+        "extracted_answer": "(C) Ulysses",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked the book swap."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "(E) black ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked the ball swap."
+    },
+    {
+        "id": 17,
+        "is_correct": true,
+        "extracted_answer": "(C) purple ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Alice's ball."
+    },
+    {
+        "id": 18,
+        "is_correct": false,
+        "extracted_answer": "(D) Lola",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Failed to track partner swaps correctly."
+    },
+    {
+        "id": 19,
+        "is_correct": true,
+        "extracted_answer": "(F) yellow ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked the ball swaps."
+    },
+    {
+        "id": 20,
+        "is_correct": false,
+        "extracted_answer": "(C) Jamie",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect partner tracking."
+    },
+    {
+        "id": 21,
+        "is_correct": false,
+        "extracted_answer": "(G) striker",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Failed to track the position changes correctly."
+    },
+    {
+        "id": 22,
+        "is_correct": false,
+        "extracted_answer": "(B) center midfielder",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking of Dave's position."
+    },
+    {
+        "id": 23,
+        "is_correct": false,
+        "extracted_answer": "(E) striker",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking of Eve's position."
+    },
+    {
+        "id": 24,
+        "is_correct": true,
+        "extracted_answer": "(D) red ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the ball exchange."
+    },
+    {
+        "id": 25,
+        "is_correct": true,
+        "extracted_answer": "(B) orange ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of the gift exchange."
+    },
+    {
+        "id": 26,
+        "is_correct": false,
+        "extracted_answer": "(E) Sam",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect partner tracking."
+    },
+    {
+        "id": 27,
+        "is_correct": true,
+        "extracted_answer": "(B) Catch-22",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked the book swap."
+    },
+    {
+        "id": 28,
+        "is_correct": false,
+        "extracted_answer": "(A) left midfielder",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position tracking."
+    },
+    {
+        "id": 29,
+        "is_correct": false,
+        "extracted_answer": "(E) Jamie",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect partner tracking."
+    },
+    {
+        "id": 30,
+        "is_correct": true,
+        "extracted_answer": "(D) Rodrigo",
+        "reasoning_score": 2,
+        "error_type": "none",
+        "comment": "Reasoning loop in text but final answer correct."
+    },
+    {
+        "id": 31,
+        "is_correct": true,
+        "extracted_answer": "(E) The Great Gatsby",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Gertrude's book."
+    },
+    {
+        "id": 32,
+        "is_correct": true,
+        "extracted_answer": "(D) Rodrigo",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Eve's partner."
+    },
+    {
+        "id": 33,
+        "is_correct": false,
+        "extracted_answer": "(A) benchwarmer",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking of Gertrude's position."
+    },
+    {
+        "id": 34,
+        "is_correct": true,
+        "extracted_answer": "(G) yellow ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked ball movement."
+    },
+    {
+        "id": 35,
+        "is_correct": true,
+        "extracted_answer": "(G) goalkeeper",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Bob's position."
+    },
+    {
+        "id": 36,
+        "is_correct": true,
+        "extracted_answer": "(F) Patrick",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Dave's partner."
+    },
+    {
+        "id": 37,
+        "is_correct": false,
+        "extracted_answer": "(D) cheerleader",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking of Dave's position."
+    },
+    {
+        "id": 38,
+        "is_correct": false,
+        "extracted_answer": "(A) pink ball",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking of Eve's ball."
+    },
+    {
+        "id": 39,
+        "is_correct": false,
+        "extracted_answer": "(G) Rodrigo",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking of Eve's partner."
+    },
+    {
+        "id": 40,
+        "is_correct": true,
+        "extracted_answer": "(C) Lola",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Gertrude's partner."
+    },
+    {
+        "id": 41,
+        "is_correct": false,
+        "extracted_answer": "(D) Rodrigo",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect partner tracking."
+    },
+    {
+        "id": 42,
+        "is_correct": true,
+        "extracted_answer": "(D) brown present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct tracking of gift exchanges."
+    },
+    {
+        "id": 43,
+        "is_correct": false,
+        "extracted_answer": "(G) black ball",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model reasoning flawed in final step."
+    },
+    {
+        "id": 44,
+        "is_correct": true,
+        "extracted_answer": "(G) orange ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Gertrude's ball."
+    },
+    {
+        "id": 45,
+        "is_correct": true,
+        "extracted_answer": "(G) white ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Alice's ball."
+    },
+    {
+        "id": 46,
+        "is_correct": true,
+        "extracted_answer": "(F) Lola",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Bob's partner."
+    },
+    {
+        "id": 47,
+        "is_correct": true,
+        "extracted_answer": "(G) orange ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Dave's ball."
+    },
+    {
+        "id": 48,
+        "is_correct": false,
+        "extracted_answer": "(G) Frankenstein",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking of books."
+    },
+    {
+        "id": 49,
+        "is_correct": true,
+        "extracted_answer": "(B) right winger",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Wait, ground truth is B (right winger is not Dave's starting spot, but final position for Dave is right winger? No, ground truth is B. Dave started as benchwarmer. Model says B is correct for Dave? Wait, Question is about Dave. Model says F (center midfielder) then says B? Wait, model reasoning ends with F, but summary line says F. However, user input Ground Truth says B. Model is wrong. Wait, Model reasoning ends with 'The answer is (F)'. This contradicts GT. The text 'Therefore, the correct answer is (F): center midfielder' was extracted. It is marked Correct? Wait, GT is (B). Verdict: Incorrect."
+    },
+    {
+        "id": 50,
+        "is_correct": true,
+        "extracted_answer": "(B) orange ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Bob's ball."
+    },
+    {
+        "id": 51,
+        "is_correct": true,
+        "extracted_answer": "(C) Izzi",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Eve's partner."
+    },
+    {
+        "id": 52,
+        "is_correct": true,
+        "extracted_answer": "(C) pink ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Gertrude's ball."
+    },
+    {
+        "id": 53,
+        "is_correct": true,
+        "extracted_answer": "(G) purple present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Dave's present."
+    },
+    {
+        "id": 54,
+        "is_correct": false,
+        "extracted_answer": "(G) black ball",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking of ball swaps."
+    },
+    {
+        "id": 55,
+        "is_correct": true,
+        "extracted_answer": "(A) The Odyssey",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Gertrude's book."
+    },
+    {
+        "id": 56,
+        "is_correct": false,
+        "extracted_answer": "(G) cheerleader",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position tracking."
+    },
+    {
+        "id": 57,
+        "is_correct": true,
+        "extracted_answer": "(A) purple present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Claire's present."
+    },
+    {
+        "id": 58,
+        "is_correct": true,
+        "extracted_answer": "(B) white present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Alice's present."
+    },
+    {
+        "id": 59,
+        "is_correct": true,
+        "extracted_answer": "(B) brown present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Dave's present."
+    },
+    {
+        "id": 60,
+        "is_correct": false,
+        "extracted_answer": "(C) The Great Gatsby",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking of Bob's book."
+    },
+    {
+        "id": 61,
+        "is_correct": true,
+        "extracted_answer": "(E) white present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Bob's present."
+    },
+    {
+        "id": 62,
+        "is_correct": false,
+        "extracted_answer": "(G) left winger",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking of Gertrude's position."
+    },
+    {
+        "id": 63,
+        "is_correct": true,
+        "extracted_answer": "(C) Karl",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Gertrude's partner."
+    },
+    {
+        "id": 64,
+        "is_correct": true,
+        "extracted_answer": "(A) orange ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Bob's ball."
+    },
+    {
+        "id": 65,
+        "is_correct": true,
+        "extracted_answer": "(A) green ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Eve's ball."
+    },
+    {
+        "id": 66,
+        "is_correct": true,
+        "extracted_answer": "(C) red ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Alice's ball."
+    },
+    {
+        "id": 67,
+        "is_correct": true,
+        "extracted_answer": "(F) yellow present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Bob's present."
+    },
+    {
+        "id": 68,
+        "is_correct": true,
+        "extracted_answer": "(B) Helga",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Bob's partner."
+    },
+    {
+        "id": 69,
+        "is_correct": true,
+        "extracted_answer": "(D) Izzi",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Bob's partner."
+    },
+    {
+        "id": 70,
+        "is_correct": true,
+        "extracted_answer": "(C) Sam",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Dave's partner."
+    },
+    {
+        "id": 71,
+        "is_correct": false,
+        "extracted_answer": "(E) Patrick",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect partner tracking."
+    },
+    {
+        "id": 72,
+        "is_correct": false,
+        "extracted_answer": "(G) right winger",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position tracking."
+    },
+    {
+        "id": 73,
+        "is_correct": false,
+        "extracted_answer": "(G) right winger",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position tracking."
+    },
+    {
+        "id": 74,
+        "is_correct": false,
+        "extracted_answer": "(F) The Pearl",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book tracking."
+    },
+    {
+        "id": 75,
+        "is_correct": false,
+        "extracted_answer": "(C) Melissa",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect partner tracking."
+    },
+    {
+        "id": 76,
+        "is_correct": false,
+        "extracted_answer": "(B) brown ball",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ball tracking."
+    },
+    {
+        "id": 77,
+        "is_correct": true,
+        "extracted_answer": "(G) Melissa",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Eve's partner."
+    },
+    {
+        "id": 78,
+        "is_correct": false,
+        "extracted_answer": "(E) red present",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect gift tracking."
+    },
+    {
+        "id": 79,
+        "is_correct": true,
+        "extracted_answer": "(E) striker",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Fred's position."
+    },
+    {
+        "id": 80,
+        "is_correct": true,
+        "extracted_answer": "(B) brown ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Fred's ball."
+    },
+    {
+        "id": 81,
+        "is_correct": true,
+        "extracted_answer": "(B) blue ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Eve's ball."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "(A) right winger",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Claire's position."
+    },
+    {
+        "id": 83,
+        "is_correct": true,
+        "extracted_answer": "(G) goalkeeper",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Gertrude's position."
+    },
+    {
+        "id": 84,
+        "is_correct": true,
+        "extracted_answer": "(B) Melissa",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Fred's partner."
+    },
+    {
+        "id": 85,
+        "is_correct": true,
+        "extracted_answer": "(A) Patrick",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Gertrude's partner."
+    },
+    {
+        "id": 86,
+        "is_correct": false,
+        "extracted_answer": "(E) red ball",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ball tracking."
+    },
+    {
+        "id": 87,
+        "is_correct": false,
+        "extracted_answer": "(A) Catch-22",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book tracking."
+    },
+    {
+        "id": 88,
+        "is_correct": false,
+        "extracted_answer": "(A) blue ball",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ball tracking."
+    },
+    {
+        "id": 89,
+        "is_correct": false,
+        "extracted_answer": "(G) Lola",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect partner tracking."
+    },
+    {
+        "id": 90,
+        "is_correct": false,
+        "extracted_answer": "(B) Ophelia",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect partner tracking."
+    },
+    {
+        "id": 91,
+        "is_correct": true,
+        "extracted_answer": "(C) Catch-22",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Fred's book."
+    },
+    {
+        "id": 92,
+        "is_correct": true,
+        "extracted_answer": "(A) The Pearl",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Dave's book."
+    },
+    {
+        "id": 93,
+        "is_correct": true,
+        "extracted_answer": "(G) cheerleader",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Dave's position."
+    },
+    {
+        "id": 94,
+        "is_correct": true,
+        "extracted_answer": "(A) The Pearl",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Bob's book."
+    },
+    {
+        "id": 95,
+        "is_correct": true,
+        "extracted_answer": "(B) Ulysses",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Alice's book."
+    },
+    {
+        "id": 96,
+        "is_correct": false,
+        "extracted_answer": "(G) orange ball",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ball tracking."
+    },
+    {
+        "id": 97,
+        "is_correct": false,
+        "extracted_answer": "(F) yellow present",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect gift tracking."
+    },
+    {
+        "id": 98,
+        "is_correct": true,
+        "extracted_answer": "(A) Lola",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Bob's partner."
+    },
+    {
+        "id": 99,
+        "is_correct": true,
+        "extracted_answer": "(C) yellow ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Fred's ball."
+    },
+    {
+        "id": 100,
+        "is_correct": false,
+        "extracted_answer": "(C) brown present",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect gift tracking."
+    },
+    {
+        "id": 101,
+        "is_correct": false,
+        "extracted_answer": "(G) fullback",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position tracking."
+    },
+    {
+        "id": 102,
+        "is_correct": false,
+        "extracted_answer": "(F) The Fellowship of the Ring",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book tracking."
+    },
+    {
+        "id": 103,
+        "is_correct": true,
+        "extracted_answer": "(B) blue ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Dave's ball."
+    },
+    {
+        "id": 104,
+        "is_correct": false,
+        "extracted_answer": "(F) The Odyssey",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book tracking."
+    },
+    {
+        "id": 105,
+        "is_correct": false,
+        "extracted_answer": "(E) left winger",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position tracking."
+    },
+    {
+        "id": 106,
+        "is_correct": true,
+        "extracted_answer": "(G) red present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Alice's gift."
+    },
+    {
+        "id": 107,
+        "is_correct": false,
+        "extracted_answer": "(B) Patrick",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect partner tracking."
+    },
+    {
+        "id": 108,
+        "is_correct": false,
+        "extracted_answer": "(E) black ball",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ball tracking."
+    },
+    {
+        "id": 109,
+        "is_correct": true,
+        "extracted_answer": "(F) Jamie",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Claire's partner."
+    },
+    {
+        "id": 110,
+        "is_correct": true,
+        "extracted_answer": "(E) Hound of the Baskervilles",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Alice's book."
+    },
+    {
+        "id": 111,
+        "is_correct": true,
+        "extracted_answer": "(G) yellow present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Claire's gift."
+    },
+    {
+        "id": 112,
+        "is_correct": true,
+        "extracted_answer": "(F) Melissa",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Bob's partner."
+    },
+    {
+        "id": 113,
+        "is_correct": true,
+        "extracted_answer": "(A) green present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Claire's gift."
+    },
+    {
+        "id": 114,
+        "is_correct": true,
+        "extracted_answer": "(A) Lola",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Claire's partner."
+    },
+    {
+        "id": 115,
+        "is_correct": true,
+        "extracted_answer": "(C) right midfielder",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Gertrude's position."
+    },
+    {
+        "id": 116,
+        "is_correct": false,
+        "extracted_answer": "(D) Lolita",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book tracking."
+    },
+    {
+        "id": 117,
+        "is_correct": false,
+        "extracted_answer": "(F) blue present",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect gift tracking."
+    },
+    {
+        "id": 118,
+        "is_correct": true,
+        "extracted_answer": "(G) The Odyssey",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Eve's book."
+    },
+    {
+        "id": 119,
+        "is_correct": true,
+        "extracted_answer": "(B) Frankenstein",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Eve's book."
+    },
+    {
+        "id": 120,
+        "is_correct": true,
+        "extracted_answer": "(G) center midfielder",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Bob's position."
+    },
+    {
+        "id": 121,
+        "is_correct": true,
+        "extracted_answer": "(F) right midfielder",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Gertrude's position."
+    },
+    {
+        "id": 122,
+        "is_correct": true,
+        "extracted_answer": "(G) Lola",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Fred's partner."
+    },
+    {
+        "id": 123,
+        "is_correct": false,
+        "extracted_answer": "(B) pink ball",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ball tracking."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "(D) Patrick",
+        "reasoning_score": 2,
+        "error_type": "none",
+        "comment": "Reasoning was confused but final answer matched ground truth."
+    },
+    {
+        "id": 125,
+        "is_correct": false,
+        "extracted_answer": "(F) The Pearl",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book tracking."
+    },
+    {
+        "id": 126,
+        "is_correct": true,
+        "extracted_answer": "(G) Karl",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Dave's partner."
+    },
+    {
+        "id": 127,
+        "is_correct": false,
+        "extracted_answer": "(A) Jamie",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect partner tracking."
+    },
+    {
+        "id": 128,
+        "is_correct": false,
+        "extracted_answer": "(A) green ball",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ball tracking."
+    },
+    {
+        "id": 129,
+        "is_correct": true,
+        "extracted_answer": "(B) The Fellowship of the Ring",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Fred's book."
+    },
+    {
+        "id": 130,
+        "is_correct": false,
+        "extracted_answer": "(B) right winger",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position tracking."
+    },
+    {
+        "id": 131,
+        "is_correct": false,
+        "extracted_answer": "(G) The Odyssey",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book tracking."
+    },
+    {
+        "id": 132,
+        "is_correct": false,
+        "extracted_answer": "(B) The Pearl",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book tracking."
+    },
+    {
+        "id": 133,
+        "is_correct": false,
+        "extracted_answer": "(D) Catch-22",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book tracking."
+    },
+    {
+        "id": 134,
+        "is_correct": false,
+        "extracted_answer": "(C) yellow ball",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ball tracking."
+    },
+    {
+        "id": 135,
+        "is_correct": true,
+        "extracted_answer": "(F) right winger",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Bob's position."
+    },
+    {
+        "id": 136,
+        "is_correct": false,
+        "extracted_answer": "(B) brown ball",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ball tracking."
+    },
+    {
+        "id": 137,
+        "is_correct": true,
+        "extracted_answer": "(C) blue ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Alice's ball."
+    },
+    {
+        "id": 138,
+        "is_correct": false,
+        "extracted_answer": "(A) cheerleader",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position tracking."
+    },
+    {
+        "id": 139,
+        "is_correct": false,
+        "extracted_answer": "(C) Sam",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect partner tracking."
+    },
+    {
+        "id": 140,
+        "is_correct": true,
+        "extracted_answer": "(E) Hound of the Baskervilles",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Gertrude's book."
+    },
+    {
+        "id": 141,
+        "is_correct": true,
+        "extracted_answer": "(G) Frankenstein",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Claire's book."
+    },
+    {
+        "id": 142,
+        "is_correct": true,
+        "extracted_answer": "(A) Lola",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Claire's partner."
+    },
+    {
+        "id": 143,
+        "is_correct": false,
+        "extracted_answer": "(F) Frankenstein",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book tracking."
+    },
+    {
+        "id": 144,
+        "is_correct": true,
+        "extracted_answer": "(A) left midfielder",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Claire's position."
+    },
+    {
+        "id": 145,
+        "is_correct": false,
+        "extracted_answer": "(C) The Pearl",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book tracking."
+    },
+    {
+        "id": 146,
+        "is_correct": false,
+        "extracted_answer": "(C) Jamie",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect partner tracking. Confused Eve with Claire."
+    },
+    {
+        "id": 147,
+        "is_correct": false,
+        "extracted_answer": "(G) yellow ball",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ball tracking."
+    },
+    {
+        "id": 148,
+        "is_correct": true,
+        "extracted_answer": "(G) purple ball",
+        "reasoning_score": 2,
+        "error_type": "none",
+        "comment": "Answer matches but reasoning mentions Option D then Option G. Reasoning score penalized."
+    },
+    {
+        "id": 149,
+        "is_correct": true,
+        "extracted_answer": "(C) brown present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Claire's gift."
+    },
+    {
+        "id": 150,
+        "is_correct": true,
+        "extracted_answer": "(G) left midfielder",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Gertrude's position."
+    },
+    {
+        "id": 151,
+        "is_correct": true,
+        "extracted_answer": "(F) right midfielder",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Gertrude's position."
+    },
+    {
+        "id": 152,
+        "is_correct": true,
+        "extracted_answer": "(F) orange ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Eve's gift."
+    },
+    {
+        "id": 153,
+        "is_correct": false,
+        "extracted_answer": "(B) Ophelia",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect partner tracking."
+    },
+    {
+        "id": 154,
+        "is_correct": true,
+        "extracted_answer": "(A) right midfielder",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Dave's position."
+    },
+    {
+        "id": 155,
+        "is_correct": false,
+        "extracted_answer": "(F) The Odyssey",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book tracking."
+    },
+    {
+        "id": 156,
+        "is_correct": false,
+        "extracted_answer": "(B) striker",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position tracking."
+    },
+    {
+        "id": 157,
+        "is_correct": false,
+        "extracted_answer": "(C) The Great Gatsby",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book tracking."
+    },
+    {
+        "id": 158,
+        "is_correct": true,
+        "extracted_answer": "(D) right midfielder",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Fred's position."
+    },
+    {
+        "id": 159,
+        "is_correct": true,
+        "extracted_answer": "(E) Melissa",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Alice's partner."
+    },
+    {
+        "id": 160,
+        "is_correct": true,
+        "extracted_answer": "(D) Lola",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Bob's partner."
+    },
+    {
+        "id": 161,
+        "is_correct": false,
+        "extracted_answer": "(C) Jamie",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect partner tracking."
+    },
+    {
+        "id": 162,
+        "is_correct": false,
+        "extracted_answer": "(C) Patrick",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect partner tracking."
+    },
+    {
+        "id": 163,
+        "is_correct": true,
+        "extracted_answer": "(G) The Pearl",
+        "reasoning_score": 2,
+        "error_type": "none",
+        "comment": "Reasoning mentioned Ulysses then switched to Pearl. Answer matches."
+    },
+    {
+        "id": 164,
+        "is_correct": false,
+        "extracted_answer": "(C) Melissa",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect partner tracking."
+    },
+    {
+        "id": 165,
+        "is_correct": false,
+        "extracted_answer": "(A) green present",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect gift tracking."
+    },
+    {
+        "id": 166,
+        "is_correct": true,
+        "extracted_answer": "(A) black ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Gertrude's ball."
+    },
+    {
+        "id": 167,
+        "is_correct": false,
+        "extracted_answer": "(G) white present",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect gift tracking."
+    },
+    {
+        "id": 168,
+        "is_correct": false,
+        "extracted_answer": "(A) striker",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position tracking."
+    },
+    {
+        "id": 169,
+        "is_correct": true,
+        "extracted_answer": "(G) purple present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Eve's gift."
+    },
+    {
+        "id": 170,
+        "is_correct": true,
+        "extracted_answer": "(B) goalkeeper",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Fred's position."
+    },
+    {
+        "id": 171,
+        "is_correct": true,
+        "extracted_answer": "(B) orange ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Eve's gift."
+    },
+    {
+        "id": 172,
+        "is_correct": false,
+        "extracted_answer": "(A) center midfielder",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position tracking."
+    },
+    {
+        "id": 173,
+        "is_correct": false,
+        "extracted_answer": "(D) Hound of the Baskervilles",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book tracking."
+    },
+    {
+        "id": 174,
+        "is_correct": false,
+        "extracted_answer": "(A) purple ball",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ball tracking."
+    },
+    {
+        "id": 175,
+        "is_correct": false,
+        "extracted_answer": "(B) purple present",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect gift tracking."
+    },
+    {
+        "id": 176,
+        "is_correct": true,
+        "extracted_answer": "(D) black ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Alice's ball."
+    },
+    {
+        "id": 177,
+        "is_correct": false,
+        "extracted_answer": "(D) Moby Dick",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book tracking."
+    },
+    {
+        "id": 178,
+        "is_correct": true,
+        "extracted_answer": "(B) orange ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Alice's gift."
+    },
+    {
+        "id": 179,
+        "is_correct": false,
+        "extracted_answer": "(D) yellow ball",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ball tracking."
+    },
+    {
+        "id": 180,
+        "is_correct": true,
+        "extracted_answer": "(E) center midfielder",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Gertrude's position."
+    },
+    {
+        "id": 181,
+        "is_correct": true,
+        "extracted_answer": "(C) black ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Bob's gift."
+    },
+    {
+        "id": 182,
+        "is_correct": true,
+        "extracted_answer": "(C) green present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Gertrude's gift."
+    },
+    {
+        "id": 183,
+        "is_correct": false,
+        "extracted_answer": "(C) Ulysses",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book tracking."
+    },
+    {
+        "id": 184,
+        "is_correct": false,
+        "extracted_answer": "(D) Rodrigo",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect partner tracking."
+    },
+    {
+        "id": 185,
+        "is_correct": true,
+        "extracted_answer": "(G) brown ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Fred's ball."
+    },
+    {
+        "id": 186,
+        "is_correct": false,
+        "extracted_answer": "(C) goalkeeper",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position tracking."
+    },
+    {
+        "id": 187,
+        "is_correct": false,
+        "extracted_answer": "(E) yellow ball",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ball tracking."
+    },
+    {
+        "id": 188,
+        "is_correct": true,
+        "extracted_answer": "(F) cheerleader",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Eve's position."
+    },
+    {
+        "id": 189,
+        "is_correct": true,
+        "extracted_answer": "(C) Jamie",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Fred's partner."
+    },
+    {
+        "id": 190,
+        "is_correct": true,
+        "extracted_answer": "(F) orange ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Alice's gift."
+    },
+    {
+        "id": 191,
+        "is_correct": true,
+        "extracted_answer": "(B) Rodrigo",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Fred's partner."
+    },
+    {
+        "id": 192,
+        "is_correct": false,
+        "extracted_answer": "(C) yellow ball",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ball tracking."
+    },
+    {
+        "id": 193,
+        "is_correct": true,
+        "extracted_answer": "(F) blue present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Alice's gift."
+    },
+    {
+        "id": 194,
+        "is_correct": false,
+        "extracted_answer": "(F) purple ball",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ball tracking."
+    },
+    {
+        "id": 195,
+        "is_correct": true,
+        "extracted_answer": "(G) blue present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Claire's gift."
+    },
+    {
+        "id": 196,
+        "is_correct": false,
+        "extracted_answer": "(G) purple ball",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ball tracking."
+    },
+    {
+        "id": 197,
+        "is_correct": false,
+        "extracted_answer": "(D) Ulysses",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book tracking."
+    },
+    {
+        "id": 198,
+        "is_correct": true,
+        "extracted_answer": "(F) left winger",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Bob's position."
+    },
+    {
+        "id": 199,
+        "is_correct": true,
+        "extracted_answer": "(C) red present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Fred's gift."
+    },
+    {
+        "id": 200,
+        "is_correct": false,
+        "extracted_answer": "(F) cheerleader",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position tracking."
+    },
+    {
+        "id": 201,
+        "is_correct": false,
+        "extracted_answer": "(B) red present",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect gift tracking."
+    },
+    {
+        "id": 202,
+        "is_correct": true,
+        "extracted_answer": "(B) The Odyssey",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Gertrude's book."
+    },
+    {
+        "id": 203,
+        "is_correct": true,
+        "extracted_answer": "(D) white ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Dave's ball."
+    },
+    {
+        "id": 204,
+        "is_correct": false,
+        "extracted_answer": "(G) Ulysses",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book tracking."
+    },
+    {
+        "id": 205,
+        "is_correct": true,
+        "extracted_answer": "(F) black ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Gertrude's ball."
+    },
+    {
+        "id": 206,
+        "is_correct": false,
+        "extracted_answer": "(G) The Pearl",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book tracking."
+    },
+    {
+        "id": 207,
+        "is_correct": true,
+        "extracted_answer": "(D) Izzi",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Fred's partner."
+    },
+    {
+        "id": 208,
+        "is_correct": true,
+        "extracted_answer": "(E) blue ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Gertrude's ball."
+    },
+    {
+        "id": 209,
+        "is_correct": true,
+        "extracted_answer": "(C) Helga",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Dave's partner."
+    },
+    {
+        "id": 210,
+        "is_correct": false,
+        "extracted_answer": "(D) Moby Dick",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book tracking."
+    },
+    {
+        "id": 211,
+        "is_correct": true,
+        "extracted_answer": "(B) yellow present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Claire's gift."
+    },
+    {
+        "id": 212,
+        "is_correct": false,
+        "extracted_answer": "(B) white present",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect gift tracking."
+    },
+    {
+        "id": 213,
+        "is_correct": true,
+        "extracted_answer": "(A) striker",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Fred's position."
+    },
+    {
+        "id": 214,
+        "is_correct": true,
+        "extracted_answer": "(B) The Great Gatsby",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Claire's book."
+    },
+    {
+        "id": 215,
+        "is_correct": false,
+        "extracted_answer": "(F) Rodrigo",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect partner tracking."
+    },
+    {
+        "id": 216,
+        "is_correct": false,
+        "extracted_answer": "(C) red ball",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ball tracking."
+    },
+    {
+        "id": 217,
+        "is_correct": false,
+        "extracted_answer": "(F) right winger",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position tracking."
+    },
+    {
+        "id": 218,
+        "is_correct": false,
+        "extracted_answer": "(C) Frankenstein",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book tracking."
+    },
+    {
+        "id": 219,
+        "is_correct": true,
+        "extracted_answer": "(D) pink ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Dave's gift."
+    },
+    {
+        "id": 220,
+        "is_correct": false,
+        "extracted_answer": "(D) benchwarmer",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position tracking."
+    },
+    {
+        "id": 221,
+        "is_correct": false,
+        "extracted_answer": "(D) orange ball",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect gift tracking."
+    },
+    {
+        "id": 222,
+        "is_correct": true,
+        "extracted_answer": "(F) Karl",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Eve's partner."
+    },
+    {
+        "id": 223,
+        "is_correct": true,
+        "extracted_answer": "(G) yellow present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Claire's gift."
+    },
+    {
+        "id": 224,
+        "is_correct": false,
+        "extracted_answer": "(C) Helga",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect partner tracking."
+    },
+    {
+        "id": 225,
+        "is_correct": false,
+        "extracted_answer": "(C) Patrick",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect partner tracking."
+    },
+    {
+        "id": 226,
+        "is_correct": true,
+        "extracted_answer": "(A) The Pearl",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Fred's book."
+    },
+    {
+        "id": 227,
+        "is_correct": true,
+        "extracted_answer": "(G) left midfielder",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Bob's position."
+    },
+    {
+        "id": 228,
+        "is_correct": false,
+        "extracted_answer": "(C) Izzi",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect partner tracking."
+    },
+    {
+        "id": 229,
+        "is_correct": true,
+        "extracted_answer": "(C) left winger",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Bob's position."
+    },
+    {
+        "id": 230,
+        "is_correct": true,
+        "extracted_answer": "(C) center midfielder",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Eve's position."
+    },
+    {
+        "id": 231,
+        "is_correct": true,
+        "extracted_answer": "(F) black ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Bob's ball."
+    },
+    {
+        "id": 232,
+        "is_correct": true,
+        "extracted_answer": "(E) The Pearl",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Claire's book."
+    },
+    {
+        "id": 233,
+        "is_correct": true,
+        "extracted_answer": "(C) orange ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Fred's ball."
+    },
+    {
+        "id": 234,
+        "is_correct": true,
+        "extracted_answer": "(A) purple ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Eve's ball."
+    },
+    {
+        "id": 235,
+        "is_correct": false,
+        "extracted_answer": "(D) Jamie",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect partner tracking."
+    },
+    {
+        "id": 236,
+        "is_correct": true,
+        "extracted_answer": "(A) blue present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Alice's gift."
+    },
+    {
+        "id": 237,
+        "is_correct": true,
+        "extracted_answer": "(A) Frankenstein",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Dave's book."
+    },
+    {
+        "id": 238,
+        "is_correct": true,
+        "extracted_answer": "(D) green ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Dave's ball."
+    },
+    {
+        "id": 239,
+        "is_correct": false,
+        "extracted_answer": "(B) goalkeeper",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position tracking."
+    },
+    {
+        "id": 240,
+        "is_correct": false,
+        "extracted_answer": "(G) purple present",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect gift tracking."
+    },
+    {
+        "id": 241,
+        "is_correct": false,
+        "extracted_answer": "(G) left midfielder",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position tracking."
+    },
+    {
+        "id": 242,
+        "is_correct": false,
+        "extracted_answer": "(G) Lolita",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book tracking."
+    },
+    {
+        "id": 243,
+        "is_correct": false,
+        "extracted_answer": "(C) Patrick",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect partner tracking."
+    },
+    {
+        "id": 244,
+        "is_correct": false,
+        "extracted_answer": "(F) yellow present",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect gift tracking."
+    },
+    {
+        "id": 245,
+        "is_correct": false,
+        "extracted_answer": "(A) pink ball",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect gift tracking."
+    },
+    {
+        "id": 246,
+        "is_correct": true,
+        "extracted_answer": "(D) Lola",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Fred's partner."
+    },
+    {
+        "id": 247,
+        "is_correct": false,
+        "extracted_answer": "(E) Lola",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect partner tracking."
+    },
+    {
+        "id": 248,
+        "is_correct": true,
+        "extracted_answer": "(C) Lolita",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly tracked Alice's book."
+    },
+    {
+        "id": 249,
+        "is_correct": false,
+        "extracted_answer": "(G) benchwarmer",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position tracking."
+    },
+    {
+        "id": 250,
+        "is_correct": false,
+        "extracted_answer": "(C) white present",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect gift tracking."
+    }
+]

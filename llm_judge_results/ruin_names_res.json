@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C) arguing for pluralization, but Ground Truth is (A) 'ruin man'."
+    },
+    {
+        "id": 2,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A) 'bark knight' for the dog pun, but Ground Truth is (C) 'dork knight'."
+    },
+    {
+        "id": 3,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'shawshark' as the humorous edit."
+    },
+    {
+        "id": 4,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C) focusing on capitalization, Ground Truth is (D) 'the third pan'."
+    },
+    {
+        "id": 5,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C) 'coldglay', Ground Truth is (D) 'soldplay'."
+    },
+    {
+        "id": 6,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (D), Ground Truth is (B) 'paul severe'."
+    },
+    {
+        "id": 7,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'smashing bumpkins'."
+    },
+    {
+        "id": 8,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (D) 'guns n' hoses'."
+    },
+    {
+        "id": 9,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'the beatless'."
+    },
+    {
+        "id": 10,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'cellboy'."
+    },
+    {
+        "id": 11,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (A) 'phist'."
+    },
+    {
+        "id": 12,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'the why!'."
+    },
+    {
+        "id": 13,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'graveheart'."
+    },
+    {
+        "id": 14,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) 'the three stodges'."
+    },
+    {
+        "id": 15,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'the beer hunter'."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'toyz 2 men'."
+    },
+    {
+        "id": 17,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'the yeastie boys'."
+    },
+    {
+        "id": 18,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'toy division'."
+    },
+    {
+        "id": 19,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'ferbie hancock'."
+    },
+    {
+        "id": 20,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'bon liver'."
+    },
+    {
+        "id": 21,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C) 'star warts', Ground Truth is (B) 'start wars'."
+    },
+    {
+        "id": 22,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'tinderella'."
+    },
+    {
+        "id": 23,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (C) 'the italian hob'."
+    },
+    {
+        "id": 24,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'a few food men'."
+    },
+    {
+        "id": 25,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'raiders of the lost irk'."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'little hop of horrors'."
+    },
+    {
+        "id": 27,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), Ground Truth is (C) 'tree willy'."
+    },
+    {
+        "id": 28,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'pigies'."
+    },
+    {
+        "id": 29,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'the princess and the frig'."
+    },
+    {
+        "id": 30,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'poo fighters'."
+    },
+    {
+        "id": 31,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (D) 'the bodfather'."
+    },
+    {
+        "id": 32,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) 'panera'."
+    },
+    {
+        "id": 33,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'tot gun'."
+    },
+    {
+        "id": 34,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (B) 'diet another day'."
+    },
+    {
+        "id": 35,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) 'the moldy blues'."
+    },
+    {
+        "id": 36,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'fall out bot'."
+    },
+    {
+        "id": 37,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (D), Ground Truth is (A) 'live story'."
+    },
+    {
+        "id": 38,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'whiney houston'."
+    },
+    {
+        "id": 39,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'fridge of spies'."
+    },
+    {
+        "id": 40,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (C) 'reaking benjamin'."
+    },
+    {
+        "id": 41,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (C)."
+    },
+    {
+        "id": 42,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (D) 'jurassic pork'."
+    },
+    {
+        "id": 43,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (D), Ground Truth is (A) 'the bland'."
+    },
+    {
+        "id": 44,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'creedence clearwafer revival'."
+    },
+    {
+        "id": 45,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (D)."
+    },
+    {
+        "id": 46,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'get shirty'."
+    },
+    {
+        "id": 47,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'radiodead'."
+    },
+    {
+        "id": 48,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'bean girls'."
+    },
+    {
+        "id": 49,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) 'seven brides for seven brothels'."
+    },
+    {
+        "id": 50,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'the green mole'."
+    },
+    {
+        "id": 51,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), Ground Truth is (D) '...goof'."
+    },
+    {
+        "id": 52,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'new kids on the clock'."
+    },
+    {
+        "id": 53,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (B)."
+    },
+    {
+        "id": 54,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) '...weeding'."
+    },
+    {
+        "id": 55,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (B) 'shakes on a plane'."
+    },
+    {
+        "id": 56,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (A) 'ricky'."
+    },
+    {
+        "id": 57,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), Ground Truth is (D) 'punk floyd'."
+    },
+    {
+        "id": 58,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) 'brad religion'."
+    },
+    {
+        "id": 59,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (B) 'thy police'."
+    },
+    {
+        "id": 60,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) 'lice cube'."
+    },
+    {
+        "id": 61,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (D) 'few order'."
+    },
+    {
+        "id": 62,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'dolly kots'."
+    },
+    {
+        "id": 63,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A) 'vie', Ground Truth is (D) 'pie'."
+    },
+    {
+        "id": 64,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), Ground Truth is (D) 'sad max'."
+    },
+    {
+        "id": 65,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B) '8 male', Ground Truth is (D) '8 milk'."
+    },
+    {
+        "id": 66,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) '...gravy'."
+    },
+    {
+        "id": 67,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (A) 'planet of the ales'."
+    },
+    {
+        "id": 68,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'the rolling scones'."
+    },
+    {
+        "id": 69,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) 'reservoir bogs'."
+    },
+    {
+        "id": 70,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (A) '...boats'."
+    },
+    {
+        "id": 71,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'bridge of spivs'."
+    },
+    {
+        "id": 72,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (D) 'lost action hero'."
+    },
+    {
+        "id": 73,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (B) 'the gobfather'."
+    },
+    {
+        "id": 74,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (D) 'the full minty'."
+    },
+    {
+        "id": 75,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (B) 'last and furious'."
+    },
+    {
+        "id": 76,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'skinny yuppy'."
+    },
+    {
+        "id": 77,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'depeche mole'."
+    },
+    {
+        "id": 78,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (D) 'soy and the family stone'."
+    },
+    {
+        "id": 79,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) 'the defarted'."
+    },
+    {
+        "id": 80,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'blade ruiner'."
+    },
+    {
+        "id": 81,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'toe avengers'."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'die hare'."
+    },
+    {
+        "id": 83,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), Ground Truth is (C) 'tweezer'."
+    },
+    {
+        "id": 84,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'the bongest day'."
+    },
+    {
+        "id": 85,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (D), Ground Truth is (A) 'jabs'."
+    },
+    {
+        "id": 86,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) 'goonlight'."
+    },
+    {
+        "id": 87,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'animal fart'."
+    },
+    {
+        "id": 88,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'seven bridles...'."
+    },
+    {
+        "id": 89,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'piss'."
+    },
+    {
+        "id": 90,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'the polite'."
+    },
+    {
+        "id": 91,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) 'en rogue'."
+    },
+    {
+        "id": 92,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (B) 'top gin'."
+    },
+    {
+        "id": 93,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), Ground Truth is (A) '...grifts'."
+    },
+    {
+        "id": 94,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) 'sisters of percy'."
+    },
+    {
+        "id": 95,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (D), Ground Truth is (C) 'the jar'."
+    },
+    {
+        "id": 96,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'gong with the wind'."
+    },
+    {
+        "id": 97,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (B) 'gone with the wand'."
+    },
+    {
+        "id": 98,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'cream theater'."
+    },
+    {
+        "id": 99,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'belly and sebastian'."
+    },
+    {
+        "id": 100,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) 'dearth...'."
+    },
+    {
+        "id": 101,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (D), Ground Truth is (B) 'cattle of britain'."
+    },
+    {
+        "id": 102,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'dead man talking'."
+    },
+    {
+        "id": 103,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'suicide squid'."
+    },
+    {
+        "id": 104,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'the park knight'."
+    },
+    {
+        "id": 105,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), Ground Truth is (D) 'sheepless...'."
+    },
+    {
+        "id": 106,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), Ground Truth is (D) 'fink floyd'."
+    },
+    {
+        "id": 107,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) '...golden bun'."
+    },
+    {
+        "id": 108,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), Ground Truth is (D) 'the smash'."
+    },
+    {
+        "id": 109,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'pissy elliott'."
+    },
+    {
+        "id": 110,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'sleater-kidney'."
+    },
+    {
+        "id": 111,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'dirty lancing'."
+    },
+    {
+        "id": 112,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) '...strike bach'."
+    },
+    {
+        "id": 113,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'a bridge too fat'."
+    },
+    {
+        "id": 114,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'the meatles'."
+    },
+    {
+        "id": 115,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (A) 'light club'."
+    },
+    {
+        "id": 116,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'no time to diet'."
+    },
+    {
+        "id": 117,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (C) 'hatman begins'."
+    },
+    {
+        "id": 118,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (D) 'mold finger'."
+    },
+    {
+        "id": 119,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'calamity june'."
+    },
+    {
+        "id": 120,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'shaving private ryan'."
+    },
+    {
+        "id": 121,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'the colt'."
+    },
+    {
+        "id": 122,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'johnny got his run'."
+    },
+    {
+        "id": 123,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (D) 'counting brows'."
+    },
+    {
+        "id": 124,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), Ground Truth is (C) 'lawrence of arabica'."
+    },
+    {
+        "id": 125,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (A) 'jingle book'."
+    },
+    {
+        "id": 126,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'taint your wagon'."
+    },
+    {
+        "id": 127,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'slade'."
+    },
+    {
+        "id": 128,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (B) '...traveling pints'."
+    },
+    {
+        "id": 129,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (B) 'green dad'."
+    },
+    {
+        "id": 130,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'the stink'."
+    },
+    {
+        "id": 131,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) 'toe artist'."
+    },
+    {
+        "id": 132,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) 'the hose'."
+    },
+    {
+        "id": 133,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'blate runner'."
+    },
+    {
+        "id": 134,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'a view to a krill'."
+    },
+    {
+        "id": 135,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (D), Ground Truth is (B) 'pope floats'."
+    },
+    {
+        "id": 136,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'toe apartment'."
+    },
+    {
+        "id": 137,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'schindler's lift'."
+    },
+    {
+        "id": 138,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) 'beauty and the feast'."
+    },
+    {
+        "id": 139,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), Ground Truth is (C) 'newt of the world'."
+    },
+    {
+        "id": 140,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'the buns of navarone'."
+    },
+    {
+        "id": 141,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'the beagles'."
+    },
+    {
+        "id": 142,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'the codfather'."
+    },
+    {
+        "id": 143,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'dank williams'."
+    },
+    {
+        "id": 144,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) 'slack sabbath'."
+    },
+    {
+        "id": 145,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) '...bob poo'."
+    },
+    {
+        "id": 146,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'jethro dull'."
+    },
+    {
+        "id": 147,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'the hound of music'."
+    },
+    {
+        "id": 148,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'dread theater'."
+    },
+    {
+        "id": 149,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'my fair laddy'."
+    },
+    {
+        "id": 150,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (D) 'offstring'."
+    },
+    {
+        "id": 151,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), Ground Truth is (A) 'the long est day'."
+    },
+    {
+        "id": 152,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'apocalypse cow'."
+    },
+    {
+        "id": 153,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (D), Ground Truth is (B) 'stat wars'."
+    },
+    {
+        "id": 154,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'pig country'."
+    },
+    {
+        "id": 155,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) '12 hangry men'."
+    },
+    {
+        "id": 156,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) '...midnight piss'."
+    },
+    {
+        "id": 157,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B) 'man in black', Ground Truth is (A) 'hen in black'."
+    },
+    {
+        "id": 158,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'the beagles'."
+    },
+    {
+        "id": 159,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), Ground Truth is (D) 'raging dull'."
+    },
+    {
+        "id": 160,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) 'bed brains'."
+    },
+    {
+        "id": 161,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), Ground Truth is (D) 'thin fizzy'."
+    },
+    {
+        "id": 162,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), Ground Truth is (C) 'ten folds five'."
+    },
+    {
+        "id": 163,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'citizen kale'."
+    },
+    {
+        "id": 164,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'dave matthews hand'."
+    },
+    {
+        "id": 165,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (B) 'the mum of all fears'."
+    },
+    {
+        "id": 166,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'city hell'."
+    },
+    {
+        "id": 167,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (A) 'toe abyss'."
+    },
+    {
+        "id": 168,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (D), Ground Truth is (B) 'monk'."
+    },
+    {
+        "id": 169,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'six pistols'."
+    },
+    {
+        "id": 170,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), Ground Truth is (D) 'lift of brian'."
+    },
+    {
+        "id": 171,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (D), Ground Truth is (B) 'block panther'."
+    },
+    {
+        "id": 172,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (A) 'moldfinger'."
+    },
+    {
+        "id": 173,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) 'food fighters'."
+    },
+    {
+        "id": 174,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) 'hair supply'."
+    },
+    {
+        "id": 175,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (D), Ground Truth is (B) 'diana dross...'."
+    },
+    {
+        "id": 176,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) 'brokeback fountain'."
+    },
+    {
+        "id": 177,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) 'godzilla vs. bong'."
+    },
+    {
+        "id": 178,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'the pho!'."
+    },
+    {
+        "id": 179,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'the green milk'."
+    },
+    {
+        "id": 180,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) 'the dork knight'."
+    },
+    {
+        "id": 181,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'live and let diet'."
+    },
+    {
+        "id": 182,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'midnight cow boy'."
+    },
+    {
+        "id": 183,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'snot patrol'."
+    },
+    {
+        "id": 184,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'the mangles'."
+    },
+    {
+        "id": 185,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (D) 'state chumps'."
+    },
+    {
+        "id": 186,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (A) '...pots'."
+    },
+    {
+        "id": 187,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), Ground Truth is (D) 'dull metal jacket'."
+    },
+    {
+        "id": 188,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (D), Ground Truth is (C) 'friday the 12th'."
+    },
+    {
+        "id": 189,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'the baby city rollers'."
+    },
+    {
+        "id": 190,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'glue'."
+    },
+    {
+        "id": 191,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'the lap band'."
+    },
+    {
+        "id": 192,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (A) 'star wart'."
+    },
+    {
+        "id": 193,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (B) '...louse of usher'."
+    },
+    {
+        "id": 194,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (B) 'old toy'."
+    },
+    {
+        "id": 195,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), Ground Truth is (D) 'run dnc'."
+    },
+    {
+        "id": 196,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'the drapes of wrath'."
+    },
+    {
+        "id": 197,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (A) 'drag me to help'."
+    },
+    {
+        "id": 198,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'stalking heads'."
+    },
+    {
+        "id": 199,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), Ground Truth is (A) 'paul joakenfold'."
+    },
+    {
+        "id": 200,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), Ground Truth is (A) 'grief encounter'."
+    },
+    {
+        "id": 201,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'a tribe called queso'."
+    },
+    {
+        "id": 202,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (C) 'scar wars'."
+    },
+    {
+        "id": 203,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), Ground Truth is (C) 'the lizard of oz'."
+    },
+    {
+        "id": 204,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'run dmv'."
+    },
+    {
+        "id": 205,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (D) 'the third nan'."
+    },
+    {
+        "id": 206,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (D) 'fat on a hot tin roof'."
+    },
+    {
+        "id": 207,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'nothing hill'."
+    },
+    {
+        "id": 208,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'good will punting'."
+    },
+    {
+        "id": 209,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'poo fighters'."
+    },
+    {
+        "id": 210,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (A) 'goo goo dills'."
+    },
+    {
+        "id": 211,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (D), Ground Truth is (A) 'foundgarden'."
+    },
+    {
+        "id": 212,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), Ground Truth is (D) '...rabies'."
+    },
+    {
+        "id": 213,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) 'blub'."
+    },
+    {
+        "id": 214,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (D) 'blank sabbath'."
+    },
+    {
+        "id": 215,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (D) 'trills'."
+    },
+    {
+        "id": 216,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), Ground Truth is (D) 'sad company'."
+    },
+    {
+        "id": 217,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (D), Ground Truth is (C) '3:10 to duma'."
+    },
+    {
+        "id": 218,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) 'herman's permits'."
+    },
+    {
+        "id": 219,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (D) 'night of the lemons'."
+    },
+    {
+        "id": 220,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'the rolling scones'."
+    },
+    {
+        "id": 221,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'blue'."
+    },
+    {
+        "id": 222,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'a matter of wife and death'."
+    },
+    {
+        "id": 223,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'singin' in the ruin'."
+    },
+    {
+        "id": 224,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'the man with two drains'."
+    },
+    {
+        "id": 225,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (C) 'born flee'."
+    },
+    {
+        "id": 226,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'the woody blues'."
+    },
+    {
+        "id": 227,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'mojo rabbit'."
+    },
+    {
+        "id": 228,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (C) 'reservoir fogs'."
+    },
+    {
+        "id": 229,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'thunder toad'."
+    },
+    {
+        "id": 230,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (B) 'spar wars'."
+    },
+    {
+        "id": 231,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (B) 'deadfool'."
+    },
+    {
+        "id": 232,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'the lady varnishes'."
+    },
+    {
+        "id": 233,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (D) 'steely man'."
+    },
+    {
+        "id": 234,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), Ground Truth is (A) '...coats'."
+    },
+    {
+        "id": 235,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (D), Ground Truth is (B) 'the stone ropes'."
+    },
+    {
+        "id": 236,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (D), Ground Truth is (B) 'nine inch sails'."
+    },
+    {
+        "id": 237,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (D) 'billy midol'."
+    },
+    {
+        "id": 238,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (D) 'schindler's lost'."
+    },
+    {
+        "id": 239,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'sex fistols'."
+    },
+    {
+        "id": 240,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'gone with the wino'."
+    },
+    {
+        "id": 241,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'it's a wonderful line'."
+    },
+    {
+        "id": 242,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (B) 'suns n' roses'."
+    },
+    {
+        "id": 243,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (D), Ground Truth is (B) 'wetness'."
+    },
+    {
+        "id": 244,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (A) 'killing toke'."
+    },
+    {
+        "id": 245,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (D), Ground Truth is (A) 'panic! at the cisco'."
+    },
+    {
+        "id": 246,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (D) 'spite girls'."
+    },
+    {
+        "id": 247,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (A), Ground Truth is (D) 'the polite'."
+    },
+    {
+        "id": 248,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly selected (D) 'spandau pallet'."
+    },
+    {
+        "id": 249,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (B), Ground Truth is (D) 'tote'."
+    },
+    {
+        "id": 250,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selected (C), Ground Truth is (D) 'system of a gown'."
+    }
+]

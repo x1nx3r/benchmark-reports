@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option C (1pm-2pm), but this conflicts with the deli visit mentioned in the text."
+    },
+    {
+        "id": 2,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (12pm-1pm), but this conflicts with the electronic store visit."
+    },
+    {
+        "id": 3,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (6pm-7pm), but this conflicts with walking to the Statue of Liberty."
+    },
+    {
+        "id": 4,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 3pm and 4pm."
+    },
+    {
+        "id": 5,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (10am-3pm), but this conflicts with the cafe visit."
+    },
+    {
+        "id": 6,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 6am and 8am."
+    },
+    {
+        "id": 7,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 7am and 11am."
+    },
+    {
+        "id": 8,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 6am and 8am."
+    },
+    {
+        "id": 9,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Model hallucinates that option A is 3pm-6pm, but the options provided were different in its own trace (though it selected A). However, 3pm-6pm is correct gap. But Ground Truth is A (3pm-6pm) in dataset? Wait, checking prompt text: prompt options are A=3-6, B=9-10, C=7-8, D=10-3. So A is correct gap. Wait, GT is (A). Model says 'option (A) is not listed' then selects closest. But option A *is* listed as 3-6. Model confusion."
+    },
+    {
+        "id": 10,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 8pm and 10pm."
+    },
+    {
+        "id": 11,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option C (9am-12pm), but this conflicts with the bike shop visit."
+    },
+    {
+        "id": 12,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (2pm-4pm), but this conflicts with the office work."
+    },
+    {
+        "id": 13,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Model claims no option is correct, then effectively defaults. The correct gap is 4pm-6pm (A)."
+    },
+    {
+        "id": 14,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option C (8am-10am), but this conflicts with the deli visit."
+    },
+    {
+        "id": 15,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 7am and 11am."
+    },
+    {
+        "id": 16,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (5am-6am), but this conflicts with the electronic store visit."
+    },
+    {
+        "id": 17,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (6pm-9pm), but this conflicts with walking to the Statue of Liberty."
+    },
+    {
+        "id": 18,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (8am-9am), but this conflicts with the Eiffel Tower visit."
+    },
+    {
+        "id": 19,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 6am and 8am."
+    },
+    {
+        "id": 20,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 5am and 11am."
+    },
+    {
+        "id": 21,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (6am-9am), but this conflicts with the library visit."
+    },
+    {
+        "id": 22,
+        "is_correct": false,
+        "extracted_answer": "(None)",
+        "reasoning_score": 1,
+        "error_type": "no_answer",
+        "comment": "Model fails to identify the gap 6pm-8pm (Option D) because it misinterprets the timing of the last activity relative to the closure."
+    },
+    {
+        "id": 23,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option C (2pm-4pm), but this conflicts with office work."
+    },
+    {
+        "id": 24,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 7am and 9am."
+    },
+    {
+        "id": 25,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option D (3pm-4pm), but this conflicts with the library visit."
+    },
+    {
+        "id": 26,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option C (6am-7am), but this conflicts with the bakery visit."
+    },
+    {
+        "id": 27,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option C (5pm-6pm), but this conflicts with the library visit."
+    },
+    {
+        "id": 28,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 3pm and 9pm."
+    },
+    {
+        "id": 29,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 1pm and 6pm."
+    },
+    {
+        "id": 30,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 7am and 9am."
+    },
+    {
+        "id": 31,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 5pm and 7pm."
+    },
+    {
+        "id": 32,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 9am and 10am."
+    },
+    {
+        "id": 33,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option C (6am-1pm), but this conflicts with the deli visit."
+    },
+    {
+        "id": 34,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 7pm and 9pm."
+    },
+    {
+        "id": 35,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 5am and 7am."
+    },
+    {
+        "id": 36,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 11am and 12pm."
+    },
+    {
+        "id": 37,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (12pm-2pm), but this conflicts with the water park visit."
+    },
+    {
+        "id": 38,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (7am-12pm), but this conflicts with the Eiffel Tower visit."
+    },
+    {
+        "id": 39,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option D (1pm-2pm), but this conflicts with the tennis activity."
+    },
+    {
+        "id": 40,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 8am and 11am."
+    },
+    {
+        "id": 41,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option D (2pm-3pm), but this conflicts with the cafe visit."
+    },
+    {
+        "id": 42,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 7am and 8am."
+    },
+    {
+        "id": 43,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 8am and 10am."
+    },
+    {
+        "id": 44,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (1pm-3pm), but this conflicts with the mall visit."
+    },
+    {
+        "id": 45,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option C (5am-8am), but this conflicts with the deli visit."
+    },
+    {
+        "id": 46,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (4pm-5pm), but this conflicts with the Statue of Liberty visit."
+    },
+    {
+        "id": 47,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 8pm and 9pm."
+    },
+    {
+        "id": 48,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (5am-10am), but this conflicts with tennis."
+    },
+    {
+        "id": 49,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 9am and 12pm."
+    },
+    {
+        "id": 50,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 2pm and 4pm."
+    },
+    {
+        "id": 51,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 6am and 12pm."
+    },
+    {
+        "id": 52,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 8am and 12pm."
+    },
+    {
+        "id": 53,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 4pm and 8pm."
+    },
+    {
+        "id": 54,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (12pm-1pm), but this conflicts with tennis."
+    },
+    {
+        "id": 55,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 5am and 6am."
+    },
+    {
+        "id": 56,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 8am and 9am."
+    },
+    {
+        "id": 57,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 10am and 11am."
+    },
+    {
+        "id": 58,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 10am and 12pm."
+    },
+    {
+        "id": 59,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option D (8pm-9pm), but this conflicts with school."
+    },
+    {
+        "id": 60,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (9am-2pm), but this conflicts with the library visit."
+    },
+    {
+        "id": 61,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 8am and 9am."
+    },
+    {
+        "id": 62,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option D (1pm-6pm), but this conflicts with the Eiffel Tower visit."
+    },
+    {
+        "id": 63,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 1pm and 8pm."
+    },
+    {
+        "id": 64,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 6pm and 8pm."
+    },
+    {
+        "id": 65,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 2pm and 5pm."
+    },
+    {
+        "id": 66,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (6pm-7pm), but this conflicts with the cafe."
+    },
+    {
+        "id": 67,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (6am-8am), but this conflicts with the bike shop."
+    },
+    {
+        "id": 68,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option C (9am-10am), but this conflicts with yoga."
+    },
+    {
+        "id": 69,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 3pm and 4pm."
+    },
+    {
+        "id": 70,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (3pm-5pm), but this conflicts with the Eiffel Tower visit."
+    },
+    {
+        "id": 71,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 8am and 11am."
+    },
+    {
+        "id": 72,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 12pm and 2pm."
+    },
+    {
+        "id": 73,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 6pm and 8pm."
+    },
+    {
+        "id": 74,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (2pm-6pm), but this conflicts with the train station."
+    },
+    {
+        "id": 75,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (8am-9am), but this conflicts with the mall visit."
+    },
+    {
+        "id": 76,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 1pm and 3pm."
+    },
+    {
+        "id": 77,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 5pm and 6pm."
+    },
+    {
+        "id": 78,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 1pm and 3pm."
+    },
+    {
+        "id": 79,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 7pm and 9pm."
+    },
+    {
+        "id": 80,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option D (5am-6am), but this conflicts with the train station."
+    },
+    {
+        "id": 81,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (8am-10am), but this conflicts with the theater."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 6am and 7am."
+    },
+    {
+        "id": 83,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option D (8pm-9pm), but this conflicts with the water park."
+    },
+    {
+        "id": 84,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (10am-11am), but this conflicts with the bike shop."
+    },
+    {
+        "id": 85,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 11am and 12pm."
+    },
+    {
+        "id": 86,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option C (6am-1pm), but this conflicts with the train station."
+    },
+    {
+        "id": 87,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (2pm-7pm), but this conflicts with the water park."
+    },
+    {
+        "id": 88,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (11am-1pm). 11am-1pm includes 11-12 which is free, but 12-1 is not strictly covered by options? Wait, option A is 11-1. This is a gap."
+    },
+    {
+        "id": 89,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 6am and 7am."
+    },
+    {
+        "id": 90,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 5am and 7am."
+    },
+    {
+        "id": 91,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 4pm and 7pm."
+    },
+    {
+        "id": 92,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (8am-5pm), but this conflicts with the gym."
+    },
+    {
+        "id": 93,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (10am-1pm), but this conflicts with tennis."
+    },
+    {
+        "id": 94,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 2pm and 9pm."
+    },
+    {
+        "id": 95,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 1pm and 4pm."
+    },
+    {
+        "id": 96,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 6am and 7am."
+    },
+    {
+        "id": 97,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (8pm-9pm), but this conflicts with the water park."
+    },
+    {
+        "id": 98,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 11am and 12pm."
+    },
+    {
+        "id": 99,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 2pm and 7pm."
+    },
+    {
+        "id": 100,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option D (10am-4pm), but this conflicts with the rooftop visit."
+    },
+    {
+        "id": 101,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 1pm and 4pm."
+    },
+    {
+        "id": 102,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 5am and 8am."
+    },
+    {
+        "id": 103,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (6am-12pm), but this conflicts with the train station."
+    },
+    {
+        "id": 104,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Model selects option B, but hallucinates that option B is 7am-11am (valid time). Option B is 8pm-9pm (invalid). The actual valid gap is 5am-7am."
+    },
+    {
+        "id": 105,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option D (6am-3pm), but this conflicts with yoga."
+    },
+    {
+        "id": 106,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (6pm-7pm), but this conflicts with the library."
+    },
+    {
+        "id": 107,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 5am and 7am."
+    },
+    {
+        "id": 108,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 5am and 11am."
+    },
+    {
+        "id": 109,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option D (5am-10am), but this conflicts with the gym."
+    },
+    {
+        "id": 110,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (5am-6am), but this conflicts with the rooftop."
+    },
+    {
+        "id": 111,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 1pm and 2pm."
+    },
+    {
+        "id": 112,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 8am and 12pm."
+    },
+    {
+        "id": 113,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option C (6am-2pm), but this conflicts with the school."
+    },
+    {
+        "id": 114,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (3pm-9pm), but this conflicts with the train station."
+    },
+    {
+        "id": 115,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 11am and 2pm."
+    },
+    {
+        "id": 116,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (7am-9pm), but this conflicts with the library."
+    },
+    {
+        "id": 117,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (1pm-2pm), but this conflicts with the office."
+    },
+    {
+        "id": 118,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (7pm-10pm), but this conflicts with the train."
+    },
+    {
+        "id": 119,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (3pm-4pm), but this conflicts with the water park."
+    },
+    {
+        "id": 120,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option C (3pm-4pm), but this conflicts with the Statue of Liberty."
+    },
+    {
+        "id": 121,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 5pm and 6pm."
+    },
+    {
+        "id": 122,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (12pm-8pm), but this conflicts with the Leaning Tower."
+    },
+    {
+        "id": 123,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (9am-11am), but this conflicts with the school."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 9am and 6pm."
+    },
+    {
+        "id": 125,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 6am and 8am."
+    },
+    {
+        "id": 126,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (9am-10am), but this conflicts with the cafe."
+    },
+    {
+        "id": 127,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 8am and 1pm."
+    },
+    {
+        "id": 128,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 10am and 3pm."
+    },
+    {
+        "id": 129,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 11am and 8pm."
+    },
+    {
+        "id": 130,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 5pm and 9pm."
+    },
+    {
+        "id": 131,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 7pm and 9pm."
+    },
+    {
+        "id": 132,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (3pm-8pm), but this conflicts with the Leaning Tower."
+    },
+    {
+        "id": 133,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (5pm-8pm), but this conflicts with the electronics store."
+    },
+    {
+        "id": 134,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Model selects option D, but the reasoning is confused and references option A as 5-6am. Wait, final answer is A. Is A 5am-6am? Yes. Ground Truth A. Model explanation is garbled but selection matches."
+    },
+    {
+        "id": 135,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 5am and 7am."
+    },
+    {
+        "id": 136,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (11am-3pm), but this conflicts with the cafe."
+    },
+    {
+        "id": 137,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (4pm-6pm), but this conflicts with the electronics store."
+    },
+    {
+        "id": 138,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option C (2pm-3pm), but this conflicts with the Leaning Tower."
+    },
+    {
+        "id": 139,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 12pm and 3pm."
+    },
+    {
+        "id": 140,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (7am-8am), but this conflicts with the Eiffel Tower."
+    },
+    {
+        "id": 141,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (7pm-8pm), but this conflicts with the water park."
+    },
+    {
+        "id": 142,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (2pm-7pm), but this conflicts with the cafe."
+    },
+    {
+        "id": 143,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option D (1pm-3pm), but this conflicts with the garden."
+    },
+    {
+        "id": 144,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (11am-3pm), but this conflicts with the train station."
+    },
+    {
+        "id": 145,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option C (10am-12pm), but this conflicts with the bakery."
+    },
+    {
+        "id": 146,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (5pm-9pm), but this conflicts with the airport."
+    },
+    {
+        "id": 147,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 6am and 12pm."
+    },
+    {
+        "id": 148,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 9pm and 10pm."
+    },
+    {
+        "id": 149,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 5am and 11am."
+    },
+    {
+        "id": 150,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 1pm and 3pm."
+    },
+    {
+        "id": 151,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (5am-2pm), but this conflicts with the mall."
+    },
+    {
+        "id": 152,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 8am and 10am."
+    },
+    {
+        "id": 153,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (12pm-1pm), but this contradicts the logic. In fact, 12-1 is a gap. Wait, GT is (B). Model selects B eventually? But reasoning is confusing."
+    },
+    {
+        "id": 154,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option D (9pm-10pm), but this conflicts with the theater."
+    },
+    {
+        "id": 155,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (1pm-4pm), but this conflicts with the water park."
+    },
+    {
+        "id": 156,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 2pm and 10pm."
+    },
+    {
+        "id": 157,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 6am and 7am."
+    },
+    {
+        "id": 158,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 6am and 2pm."
+    },
+    {
+        "id": 159,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (10am-1pm), but this conflicts with the bakery."
+    },
+    {
+        "id": 160,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option C (5am-10am), but this conflicts with the bike shop."
+    },
+    {
+        "id": 161,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option C (6am-11am), but this conflicts with the bakery."
+    },
+    {
+        "id": 162,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option D (8am-3pm), but this conflicts with the library."
+    },
+    {
+        "id": 163,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option C (6am-11am), but this conflicts with the water park."
+    },
+    {
+        "id": 164,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 2pm and 4pm."
+    },
+    {
+        "id": 165,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (5pm-9pm), but this conflicts with the mall."
+    },
+    {
+        "id": 166,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 9am and 2pm. Note: Model logic is confusing but it eliminates options and points to A (not in choice list, but A matches prompt). Actually, wait. A is 9am-2pm. Model says option A is not listed? Then selects A? It's messy."
+    },
+    {
+        "id": 167,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option D (12pm-4pm), but this conflicts with the garden."
+    },
+    {
+        "id": 168,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (6am-12pm), but this conflicts with the cafe."
+    },
+    {
+        "id": 169,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option D (4pm-7pm), but this conflicts with the Statue of Liberty."
+    },
+    {
+        "id": 170,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 5pm and 6pm."
+    },
+    {
+        "id": 171,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (9pm-10pm), but this conflicts with the bike shop."
+    },
+    {
+        "id": 172,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 10am and 6pm."
+    },
+    {
+        "id": 173,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 7am and 6pm."
+    },
+    {
+        "id": 174,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 11am and 1pm."
+    },
+    {
+        "id": 175,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 6am and 8am."
+    },
+    {
+        "id": 176,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (4pm-6pm), but this conflicts with tennis."
+    },
+    {
+        "id": 177,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (5am-1pm), but this conflicts with the water park."
+    },
+    {
+        "id": 178,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option D (11am-12pm), but this conflicts with the bike shop."
+    },
+    {
+        "id": 179,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option C (7am-10am), but this conflicts with the electronics store."
+    },
+    {
+        "id": 180,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (5am-7am), but this conflicts with the Statue of Liberty."
+    },
+    {
+        "id": 181,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option D (7am-8am), but this conflicts with yoga."
+    },
+    {
+        "id": 182,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 10am and 5pm."
+    },
+    {
+        "id": 183,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 5pm and 6pm."
+    },
+    {
+        "id": 184,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 8am and 9am."
+    },
+    {
+        "id": 185,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (11am-2pm), but this conflicts with the bike shop."
+    },
+    {
+        "id": 186,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 6am and 10am."
+    },
+    {
+        "id": 187,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 12pm and 3pm."
+    },
+    {
+        "id": 188,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 9am and 4pm."
+    },
+    {
+        "id": 189,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 5am and 6am."
+    },
+    {
+        "id": 190,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 3pm and 7pm."
+    },
+    {
+        "id": 191,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 12pm and 1pm."
+    },
+    {
+        "id": 192,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 4pm and 9pm."
+    },
+    {
+        "id": 193,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 11am and 3pm."
+    },
+    {
+        "id": 194,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 7am and 2pm."
+    },
+    {
+        "id": 195,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 11am and 1pm."
+    },
+    {
+        "id": 196,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (4pm-10pm), but this conflicts with the airport."
+    },
+    {
+        "id": 197,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (3pm-6pm), but claims it overlaps with the mall (6-8)? No, 3-6 is a gap between airport (2-3) and mall (6-8). Wait, 3-6 is a gap. Model says option A is not possible, then selects it? It's confused. But 3pm-6pm is a gap. GT is A. So model selected correct letter despite saying it's impossible?"
+    },
+    {
+        "id": 198,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 3pm and 4pm."
+    },
+    {
+        "id": 199,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 8pm and 9pm."
+    },
+    {
+        "id": 200,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 7am and 11am."
+    },
+    {
+        "id": 201,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 7am and 9am."
+    },
+    {
+        "id": 202,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 1pm and 4pm."
+    },
+    {
+        "id": 203,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 6am and 7am."
+    },
+    {
+        "id": 204,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 2pm and 3pm."
+    },
+    {
+        "id": 205,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option C (4pm-7pm), but this conflicts with the library."
+    },
+    {
+        "id": 206,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option C (12pm-4pm), but this conflicts with the Statue of Liberty."
+    },
+    {
+        "id": 207,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (5am-8am), but this conflicts with yoga."
+    },
+    {
+        "id": 208,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 6am and 11am."
+    },
+    {
+        "id": 209,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 8am and 1pm."
+    },
+    {
+        "id": 210,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (6pm-7pm), but this conflicts with the water park."
+    },
+    {
+        "id": 211,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 6pm and 8pm."
+    },
+    {
+        "id": 212,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option C (5pm-7pm), but this conflicts with the deli."
+    },
+    {
+        "id": 213,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (7am-8am), but this conflicts with the Leaning Tower."
+    },
+    {
+        "id": 214,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 9am and 12pm."
+    },
+    {
+        "id": 215,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (5am-9am), but this conflicts with the bike shop."
+    },
+    {
+        "id": 216,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option C (9am-11am), but this conflicts with the Eiffel Tower."
+    },
+    {
+        "id": 217,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 7am and 9am."
+    },
+    {
+        "id": 218,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 10am and 1pm."
+    },
+    {
+        "id": 219,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option D (8am-10am), but this conflicts with the electronics store."
+    },
+    {
+        "id": 220,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option C (8am-10am), but this conflicts with tennis."
+    },
+    {
+        "id": 221,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option D (4pm-5pm), but this conflicts with the bakery."
+    },
+    {
+        "id": 222,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (1pm-3pm), but this conflicts with the office."
+    },
+    {
+        "id": 223,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 11am and 5pm."
+    },
+    {
+        "id": 224,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 2pm and 7pm."
+    },
+    {
+        "id": 225,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option D (7am-11am), but this conflicts with the electronics store."
+    },
+    {
+        "id": 226,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (8am-10am), but this conflicts with the electronics store."
+    },
+    {
+        "id": 227,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option D (11am-2pm), but this conflicts with the water park."
+    },
+    {
+        "id": 228,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 1pm and 2pm."
+    },
+    {
+        "id": 229,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 4pm and 5pm."
+    },
+    {
+        "id": 230,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 6am and 8am."
+    },
+    {
+        "id": 231,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option D (7pm-8pm), but this conflicts with the library."
+    },
+    {
+        "id": 232,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option D (3pm-9pm), but this conflicts with the Eiffel Tower."
+    },
+    {
+        "id": 233,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (6am-8am), but this conflicts with the Leaning Tower."
+    },
+    {
+        "id": 234,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 6am and 11am."
+    },
+    {
+        "id": 235,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (9am-12pm), but this conflicts with the train."
+    },
+    {
+        "id": 236,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 6am and 9am."
+    },
+    {
+        "id": 237,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (5am-7am), but this conflicts with the Leaning Tower."
+    },
+    {
+        "id": 238,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option C (7am-9am), but this conflicts with the Leaning Tower."
+    },
+    {
+        "id": 239,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 9am and 12pm."
+    },
+    {
+        "id": 240,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option C (5pm-7pm), but this conflicts with the electronics store."
+    },
+    {
+        "id": 241,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 8am and 12pm."
+    },
+    {
+        "id": 242,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 5pm and 6pm."
+    },
+    {
+        "id": 243,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 10am and 1pm."
+    },
+    {
+        "id": 244,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 9am and 11am."
+    },
+    {
+        "id": 245,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option D (7am-11am), but this conflicts with yoga."
+    },
+    {
+        "id": 246,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option D (10am-3pm), but this conflicts with the bike shop."
+    },
+    {
+        "id": 247,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 10am and 12pm."
+    },
+    {
+        "id": 248,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option B (2pm-5pm), but this conflicts with the gym."
+    },
+    {
+        "id": 249,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the gap between 11am and 2pm."
+    },
+    {
+        "id": 250,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model selects option A (5pm-8pm), but this conflicts with the deli."
+    }
+]

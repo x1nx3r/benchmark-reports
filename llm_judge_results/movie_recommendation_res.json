@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly identified the theme (popular 90s movies/blockbusters) and selected The Lion King."
+    },
+    {
+        "id": 2,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly identified Terminator 2 as the matching high-profile blockbuster."
+    },
+    {
+        "id": 3,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly linked Forrest Gump to the other 90s classics."
+    },
+    {
+        "id": 4,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Braveheart as the matching high-acclaim 90s film."
+    },
+    {
+        "id": 5,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Schindler's List."
+    },
+    {
+        "id": 6,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Independence Day."
+    },
+    {
+        "id": 7,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Forrest Gump."
+    },
+    {
+        "id": 8,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Shawshank Redemption."
+    },
+    {
+        "id": 9,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Forrest Gump."
+    },
+    {
+        "id": 10,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model selected The Hidden Fortress (an inspiration for Star Wars), but Ground Truth is Schindler's List, likely grouping by IMDb Top 250 status."
+    },
+    {
+        "id": 11,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Tae Guk Gi based on war themes, but Stargate is the more likely Hollywood blockbuster match."
+    },
+    {
+        "id": 12,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Dances with Wolves."
+    },
+    {
+        "id": 13,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Independence Day."
+    },
+    {
+        "id": 14,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Fugitive."
+    },
+    {
+        "id": 15,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Seven."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Schindler's List."
+    },
+    {
+        "id": 17,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Fugitive."
+    },
+    {
+        "id": 18,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Pulp Fiction."
+    },
+    {
+        "id": 19,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Braveheart."
+    },
+    {
+        "id": 20,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Silence of the Lambs."
+    },
+    {
+        "id": 21,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Philadelphia."
+    },
+    {
+        "id": 22,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Independence Day."
+    },
+    {
+        "id": 23,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Forrest Gump."
+    },
+    {
+        "id": 24,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Fifth Element."
+    },
+    {
+        "id": 25,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Raiders of the Lost Ark."
+    },
+    {
+        "id": 26,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Children of the Corn III, but the correct answer was Cool Hand Luke (presumably due to classic status similarity with Alien/Sixth Sense)."
+    },
+    {
+        "id": 27,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected True Lies."
+    },
+    {
+        "id": 28,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Shawshank Redemption."
+    },
+    {
+        "id": 29,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Pretty Woman."
+    },
+    {
+        "id": 30,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Dances with Wolves."
+    },
+    {
+        "id": 31,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Fugitive."
+    },
+    {
+        "id": 32,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Braveheart."
+    },
+    {
+        "id": 33,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Shawshank Redemption."
+    },
+    {
+        "id": 34,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Usual Suspects."
+    },
+    {
+        "id": 35,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Star Wars Episode IV - A New Hope."
+    },
+    {
+        "id": 36,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model selected An American Werewolf in London (inferred from 'An'), but the correct answer was Monty Python (A). Monty Python is a classic often grouped with these films in Top 250 lists."
+    },
+    {
+        "id": 37,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Forrest Gump."
+    },
+    {
+        "id": 38,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Alien Resurrection, but Ground Truth was Batman. Batman fits the blockbuster theme better than Alien Resurrection."
+    },
+    {
+        "id": 39,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Terminator 2 Judgment Day."
+    },
+    {
+        "id": 40,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Pretty Woman."
+    },
+    {
+        "id": 41,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Go."
+    },
+    {
+        "id": 42,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Fugitive."
+    },
+    {
+        "id": 43,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Schindler's List."
+    },
+    {
+        "id": 44,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Fugitive."
+    },
+    {
+        "id": 45,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Forrest Gump."
+    },
+    {
+        "id": 46,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Lion King."
+    },
+    {
+        "id": 47,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Pinocchio."
+    },
+    {
+        "id": 48,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Fifth Element."
+    },
+    {
+        "id": 49,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Fugitive."
+    },
+    {
+        "id": 50,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Shawshank Redemption."
+    },
+    {
+        "id": 51,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Star Wars Episode IV - A New Hope."
+    },
+    {
+        "id": 52,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Independence Day."
+    },
+    {
+        "id": 53,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Get Shorty."
+    },
+    {
+        "id": 54,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Star Wars Episode VII - The Force Awakens."
+    },
+    {
+        "id": 55,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Mask."
+    },
+    {
+        "id": 56,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Schindler's List."
+    },
+    {
+        "id": 57,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Back to the Future."
+    },
+    {
+        "id": 58,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Chocolat, but Ground Truth was Goodfellas (C). Goodfellas fits the high-rated classic theme better than Chocolat."
+    },
+    {
+        "id": 59,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Independence Day."
+    },
+    {
+        "id": 60,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Inception."
+    },
+    {
+        "id": 61,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Shawshank Redemption."
+    },
+    {
+        "id": 62,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Crimson Tide."
+    },
+    {
+        "id": 63,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Batman."
+    },
+    {
+        "id": 64,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Terminator 2 Judgment Day."
+    },
+    {
+        "id": 65,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Goodfellas."
+    },
+    {
+        "id": 66,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Independence Day."
+    },
+    {
+        "id": 67,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 1984. Ground Truth was District 9. District 9 makes more sense as a modern sci-fi classic alongside the inputs."
+    },
+    {
+        "id": 68,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Shawshank Redemption."
+    },
+    {
+        "id": 69,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Fugitive."
+    },
+    {
+        "id": 70,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Dances with Wolves."
+    },
+    {
+        "id": 71,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Silence of the Lambs."
+    },
+    {
+        "id": 72,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Fargo."
+    },
+    {
+        "id": 73,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Romper Stomper, but GT was Up (C). Up is a highly rated top 250 film, matching the others."
+    },
+    {
+        "id": 74,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Goodfellas."
+    },
+    {
+        "id": 75,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Pulp Fiction."
+    },
+    {
+        "id": 76,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Forrest Gump."
+    },
+    {
+        "id": 77,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Dances with Wolves."
+    },
+    {
+        "id": 78,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Saving Private Ryan."
+    },
+    {
+        "id": 79,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Terminator 2 Judgment Day."
+    },
+    {
+        "id": 80,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Raiders of the Lost Ark."
+    },
+    {
+        "id": 81,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Princess Bride."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Wizard of Oz."
+    },
+    {
+        "id": 83,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Best Men. Ground Truth was Crimson Tide (B). Crimson Tide fits the 90s thriller/drama theme better."
+    },
+    {
+        "id": 84,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Fugitive."
+    },
+    {
+        "id": 85,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Fugitive."
+    },
+    {
+        "id": 86,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Get Shorty."
+    },
+    {
+        "id": 87,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Shawshank Redemption."
+    },
+    {
+        "id": 88,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Forrest Gump."
+    },
+    {
+        "id": 89,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Schindler's List."
+    },
+    {
+        "id": 90,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Indiana Jones and the Last Crusade."
+    },
+    {
+        "id": 91,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Heat."
+    },
+    {
+        "id": 92,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Dead Man Walking."
+    },
+    {
+        "id": 93,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected LA Confidential."
+    },
+    {
+        "id": 94,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Dances with Wolves."
+    },
+    {
+        "id": 95,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Clear and Present Danger."
+    },
+    {
+        "id": 96,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Night of the Living Dead. Ground Truth was Forrest Gump (B). Gump fits the 'major classic' grouping better."
+    },
+    {
+        "id": 97,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Forrest Gump."
+    },
+    {
+        "id": 98,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Get Shorty."
+    },
+    {
+        "id": 99,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Fugitive."
+    },
+    {
+        "id": 100,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Bright. GT was Babe (B). Both are family/fantasy, but Babe is a 90s classic like the others."
+    },
+    {
+        "id": 101,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected The Stunt Man. GT was Aladdin (B). Aladdin is the obvious animated classic match."
+    },
+    {
+        "id": 102,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Inception."
+    },
+    {
+        "id": 103,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Eastern Promises. GT was Babe (A). Babe is the family classic match."
+    },
+    {
+        "id": 104,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Star Wars Episode IV - A New Hope."
+    },
+    {
+        "id": 105,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Terminator."
+    },
+    {
+        "id": 106,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Pulp Fiction."
+    },
+    {
+        "id": 107,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Babe."
+    },
+    {
+        "id": 108,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Dances with Wolves."
+    },
+    {
+        "id": 109,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Schindler's List."
+    },
+    {
+        "id": 110,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Godfather."
+    },
+    {
+        "id": 111,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Dances with Wolves."
+    },
+    {
+        "id": 112,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Ride with the Devil. GT was The Usual Suspects (C). The Usual Suspects is the correct match for popularity and genre blend."
+    },
+    {
+        "id": 113,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Seven."
+    },
+    {
+        "id": 114,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Terminator."
+    },
+    {
+        "id": 115,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Raiders of the Lost Ark."
+    },
+    {
+        "id": 116,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Kolya. GT was Get Shorty (A). Get Shorty fits the 90s crime/comedy genre."
+    },
+    {
+        "id": 117,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Unstrung Heroes. GT was Braveheart (C). Braveheart fits the 90s blockbuster theme."
+    },
+    {
+        "id": 118,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Lion King."
+    },
+    {
+        "id": 119,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Toy Story."
+    },
+    {
+        "id": 120,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Terminator 2 Judgment Day."
+    },
+    {
+        "id": 121,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected The Morning After. GT was Raiders of the Lost Ark (B). Raiders is the adventure classic match."
+    },
+    {
+        "id": 122,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Star Wars Episode V - The Empire Strikes Back."
+    },
+    {
+        "id": 123,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Fugitive."
+    },
+    {
+        "id": 124,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected The Proposition. GT was Pretty Woman (D). Pretty Woman is the other 90s classic in the list."
+    },
+    {
+        "id": 125,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected LA Confidential."
+    },
+    {
+        "id": 126,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Pulp Fiction."
+    },
+    {
+        "id": 127,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Pulp Fiction."
+    },
+    {
+        "id": 128,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Lion King."
+    },
+    {
+        "id": 129,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Star Wars Episode IV - A New Hope."
+    },
+    {
+        "id": 130,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Gattaca."
+    },
+    {
+        "id": 131,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Le Samourai. GT was Raiders of the Lost Ark (B). Raiders fits the blockbuster theme."
+    },
+    {
+        "id": 132,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Fargo."
+    },
+    {
+        "id": 133,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected The Impostors. GT was American Beauty (D). American Beauty is the other major 90s film."
+    },
+    {
+        "id": 134,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Hostage. GT was Get Shorty (C). Get Shorty is the crime comedy match."
+    },
+    {
+        "id": 135,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Usual Suspects."
+    },
+    {
+        "id": 136,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Independence Day."
+    },
+    {
+        "id": 137,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Batman."
+    },
+    {
+        "id": 138,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Gladiator."
+    },
+    {
+        "id": 139,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Léon The Professional."
+    },
+    {
+        "id": 140,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Hunt for Red October."
+    },
+    {
+        "id": 141,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Shawshank Redemption."
+    },
+    {
+        "id": 142,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Pulp Fiction."
+    },
+    {
+        "id": 143,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Braveheart."
+    },
+    {
+        "id": 144,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Braveheart."
+    },
+    {
+        "id": 145,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Behind Enemy Lines. GT was Being John Malkovich (D). Being John Malkovich is the cult classic match."
+    },
+    {
+        "id": 146,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Three to Tango. GT was The Shawshank Redemption (E). Shawshank is the high-rated classic."
+    },
+    {
+        "id": 147,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Fugitive."
+    },
+    {
+        "id": 148,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Family Guy Presents It's a Trap. GT was Toy Story (D). Toy Story is the major film match."
+    },
+    {
+        "id": 149,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Apollo 13."
+    },
+    {
+        "id": 150,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Terminator 2 Judgment Day."
+    },
+    {
+        "id": 151,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Apollo 13."
+    },
+    {
+        "id": 152,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Black Snake Moan. GT was Dances with Wolves (C). Dances with Wolves is the epic/classic match."
+    },
+    {
+        "id": 153,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Crimson Tide."
+    },
+    {
+        "id": 154,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected The Devil and Daniel Johnston. GT was The Silence of the Lambs (C). Silence is the classic thriller match."
+    },
+    {
+        "id": 155,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Rear Window."
+    },
+    {
+        "id": 156,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Kiss Kiss Bang Bang. GT was Monty Python (D). Monty Python fits the cult/classic status."
+    },
+    {
+        "id": 157,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Raiders of the Lost Ark."
+    },
+    {
+        "id": 158,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Princess Bride."
+    },
+    {
+        "id": 159,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Shawshank Redemption."
+    },
+    {
+        "id": 160,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Star Wars Episode IV - A New Hope."
+    },
+    {
+        "id": 161,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Matrix."
+    },
+    {
+        "id": 162,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Lion King."
+    },
+    {
+        "id": 163,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Attack of the Killer Tomatoes!. GT was Up (B). Up fits the high-rated classic theme."
+    },
+    {
+        "id": 164,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Monsters Inc. GT was Monsters Inc (A). Wait, Model selected B but GT is A. The text says '(A) Monsters Inc'. Model says 'B) Monsters Inc'. Error in option letter parsing."
+    },
+    {
+        "id": 165,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Raiders of the Lost Ark."
+    },
+    {
+        "id": 166,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Independence Day."
+    },
+    {
+        "id": 167,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Pretty Woman."
+    },
+    {
+        "id": 168,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Batman."
+    },
+    {
+        "id": 169,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Memento."
+    },
+    {
+        "id": 170,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Bone Tomahawk. GT was Clear and Present Danger (B). Clear and Present Danger is the thriller match."
+    },
+    {
+        "id": 171,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Shawshank Redemption."
+    },
+    {
+        "id": 172,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Shawshank Redemption."
+    },
+    {
+        "id": 173,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Dances with Wolves."
+    },
+    {
+        "id": 174,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Being John Malkovich."
+    },
+    {
+        "id": 175,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Silence of the Lambs."
+    },
+    {
+        "id": 176,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Schindler's List."
+    },
+    {
+        "id": 177,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Star Wars Episode IV - A New Hope."
+    },
+    {
+        "id": 178,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Batman."
+    },
+    {
+        "id": 179,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Usual Suspects."
+    },
+    {
+        "id": 180,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Matrix."
+    },
+    {
+        "id": 181,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Lord of the Rings The Two Towers."
+    },
+    {
+        "id": 182,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Shawshank Redemption."
+    },
+    {
+        "id": 183,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Schindler's List."
+    },
+    {
+        "id": 184,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected The Letter. GT was Pulp Fiction (C). Pulp Fiction is the crime classic match."
+    },
+    {
+        "id": 185,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Shawshank Redemption."
+    },
+    {
+        "id": 186,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Braveheart."
+    },
+    {
+        "id": 187,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Son in Law. GT was Independence Day (A). Independence Day fits the blockbuster theme."
+    },
+    {
+        "id": 188,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Pulp Fiction."
+    },
+    {
+        "id": 189,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Highlander. GT was Austin Powers (B). Austin Powers fits the popular/comedy mix."
+    },
+    {
+        "id": 190,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Lilya 4-Ever. GT was Schindler's List (B). Schindler's List is the drama classic match."
+    },
+    {
+        "id": 191,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Raiders of the Lost Ark."
+    },
+    {
+        "id": 192,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Aladdin."
+    },
+    {
+        "id": 193,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Falling Down. GT was The Shawshank Redemption (C). Shawshank is the top-rated classic match."
+    },
+    {
+        "id": 194,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Braveheart."
+    },
+    {
+        "id": 195,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Batman."
+    },
+    {
+        "id": 196,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Batman."
+    },
+    {
+        "id": 197,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Skyline. GT was Jurassic Park (B). Jurassic Park fits the blockbuster theme."
+    },
+    {
+        "id": 198,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Righteous Kill. GT was Forrest Gump (A). Forrest Gump is the classic drama match."
+    },
+    {
+        "id": 199,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Braveheart."
+    },
+    {
+        "id": 200,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected People I Know (C)? Wait, model selected C. Ground Truth is D (Braveheart). Braveheart fits better. Model logic failed."
+    },
+    {
+        "id": 201,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected The Boy and the Beast. GT was The Silence of the Lambs (A). Silence fits the highly rated classic theme."
+    },
+    {
+        "id": 202,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Independence Day."
+    },
+    {
+        "id": 203,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Fight Club."
+    },
+    {
+        "id": 204,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Joe Dirt 2 (or A). GT was Braveheart (B). Braveheart is the correct high-profile film."
+    },
+    {
+        "id": 205,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Shawshank Redemption."
+    },
+    {
+        "id": 206,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Dances with Wolves."
+    },
+    {
+        "id": 207,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Toy Story."
+    },
+    {
+        "id": 208,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Groundhog Day."
+    },
+    {
+        "id": 209,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Aladdin."
+    },
+    {
+        "id": 210,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Forrest Gump."
+    },
+    {
+        "id": 211,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Reservoir Dogs."
+    },
+    {
+        "id": 212,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Terminator 2 Judgment Day."
+    },
+    {
+        "id": 213,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Pulp Fiction."
+    },
+    {
+        "id": 214,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Star Wars Episode IV - A New Hope."
+    },
+    {
+        "id": 215,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Fugitive."
+    },
+    {
+        "id": 216,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Forrest Gump."
+    },
+    {
+        "id": 217,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Mask."
+    },
+    {
+        "id": 218,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Pulp Fiction."
+    },
+    {
+        "id": 219,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected The Man Who Knew Too Much. GT was Forrest Gump (C). Forrest Gump is the classic match."
+    },
+    {
+        "id": 220,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Get Smart. GT was The Silence of the Lambs (A). Silence fits the popular/thriller mix."
+    },
+    {
+        "id": 221,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Tristram Shandy. GT was The Fugitive (A). Fugitive fits the blockbuster drama theme."
+    },
+    {
+        "id": 222,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Twelve Monkeys."
+    },
+    {
+        "id": 223,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected From Hell. GT was Independence Day (C). Independence Day fits the blockbuster theme."
+    },
+    {
+        "id": 224,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Trumbo. GT was One Flew Over the Cuckoo's Nest (B). Cuckoo's Nest is the classic drama match."
+    },
+    {
+        "id": 225,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Star Wars Episode VI - Return of the Jedi."
+    },
+    {
+        "id": 226,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Pulp Fiction."
+    },
+    {
+        "id": 227,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Star Wars Episode V - The Empire Strikes Back."
+    },
+    {
+        "id": 228,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Shrek."
+    },
+    {
+        "id": 229,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Dances with Wolves."
+    },
+    {
+        "id": 230,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected The Crossing Guard. GT was Forrest Gump (B). Forrest Gump is the classic match."
+    },
+    {
+        "id": 231,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected The Seventh Sign. GT was The Godfather Part II (A). Godfather fits the crime/classic theme."
+    },
+    {
+        "id": 232,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Dances with Wolves."
+    },
+    {
+        "id": 233,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Braveheart."
+    },
+    {
+        "id": 234,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected IQ. GT was Pulp Fiction (C). Pulp Fiction fits the popular/classic theme."
+    },
+    {
+        "id": 235,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Independence Day."
+    },
+    {
+        "id": 236,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Schindler's List."
+    },
+    {
+        "id": 237,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Forrest Gump."
+    },
+    {
+        "id": 238,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Braveheart."
+    },
+    {
+        "id": 239,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Dances with Wolves."
+    },
+    {
+        "id": 240,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Secret Garden."
+    },
+    {
+        "id": 241,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Forrest Gump."
+    },
+    {
+        "id": 242,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Silence of the Lambs."
+    },
+    {
+        "id": 243,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Star Wars Episode IV - A New Hope."
+    },
+    {
+        "id": 244,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Schindler's List."
+    },
+    {
+        "id": 245,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected The Usual Suspects."
+    },
+    {
+        "id": 246,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Pulp Fiction."
+    },
+    {
+        "id": 247,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Seven."
+    },
+    {
+        "id": 248,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected Cloud Atlas. GT was The Godfather (C). Godfather fits the high-rated classic theme."
+    },
+    {
+        "id": 249,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Braveheart."
+    },
+    {
+        "id": 250,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly selected Aladdin."
+    }
+]

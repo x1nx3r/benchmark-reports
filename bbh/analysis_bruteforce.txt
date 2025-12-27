@@ -1,0 +1,912 @@
+
+################################################################################
+# ANALYZING: top_p0.95,rep_penalty1.05-zeroshot-bruteforcesysprompt
+################################################################################
+
+Found 27 sample files in /mnt/libraries/benchresults/bbh/top_p0.95,rep_penalty1.05-zeroshot-bruteforcesysprompt
+================================================================================
+
+Analyzing: bbh_cot_fewshot_boolean_expressions
+------------------------------------------------------------
+  Total samples: 250
+  Think tags found: 250
+  Valid answers: 29
+  Invalid answers: 221
+  Exact match correct: 0
+  Exact match incorrect: 250
+  Accuracy: 0.0%
+  Improved extraction: 174/221 (78.7% of invalid)
+  Potential recovered matches: 120 (would boost accuracy to 48.0%)
+  Answer patterns found:
+    - answer_colon: 118
+    - answer_is: 40
+    - final_answer: 37
+    - therefore: 26
+    - so_answer_is: 2
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: False):
+      <think>To evaluate the Boolean expression "not (True) and (True)", let's break i...
+      
+      First, we have the innermost parentheses: "not (True)". The operator 'not' inver...
+    Doc ID 1 (target: True):
+      <think>To evaluate the given Boolean expression, let's break it down step by ste...
+      
+      1. **First part**: "True and not not ( not False )"
+    Doc ID 2 (target: False):
+      <think>
+      
+      To evaluate the given Boolean expression, let's break it down step by step:
+
+Analyzing: bbh_cot_fewshot_causal_judgement
+------------------------------------------------------------
+  Total samples: 187
+  Think tags found: 187
+  Valid answers: 29
+  Invalid answers: 158
+  Exact match correct: 0
+  Exact match incorrect: 187
+  Accuracy: 0.0%
+  Improved extraction: 120/158 (75.9% of invalid)
+  Potential recovered matches: 58 (would boost accuracy to 31.0%)
+  Answer patterns found:
+    - answer_colon: 178
+    - answer_is: 39
+    - therefore: 9
+    - so_answer_is: 4
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: No):
+      <think>To answer this question, a typical person would need to apply basic causa...
+      
+      A typical person would likely answer: **No**.
+    Doc ID 1 (target: No):
+      <think>To answer this question, let's consider how a typical person might reason...
+      
+      1. **Exposure to As...
+    Doc ID 2 (target: Yes):
+      <think>To address this question, we'll need to consider the factors contributing...
+      
+      1. **John's History**: At 17, John started working in the woodwork division. H.....
+
+Analyzing: bbh_cot_fewshot_date_understanding
+------------------------------------------------------------
+  Total samples: 250
+  Think tags found: 250
+  Valid answers: 29
+  Invalid answers: 221
+  Exact match correct: 0
+  Exact match incorrect: 250
+  Accuracy: 0.0%
+  Improved extraction: 200/221 (90.5% of invalid)
+  Potential recovered matches: 87 (would boost accuracy to 34.8%)
+  Answer patterns found:
+    - answer_colon: 221
+    - answer_is: 35
+    - therefore: 10
+    - so_answer_is: 4
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: (B)):
+      <think>Let's break down the problem step by step to determine the date tomorrow....
+    Doc ID 1 (target: (A)):
+      <think>Let's analyze the problem step by step. The user provided that in the UK,...
+      
+      First, we need to determine the current month and year...
+    Doc ID 2 (target: (B)):
+      <think>To solve this problem, let's break it down step by step.
+      
+      First, we know that Jane and John married on January 2, 1958, which is their 5-y...
+
+Analyzing: bbh_cot_fewshot_disambiguation_qa
+------------------------------------------------------------
+  Total samples: 250
+  Think tags found: 250
+  Valid answers: 32
+  Invalid answers: 218
+  Exact match correct: 1
+  Exact match incorrect: 249
+  Accuracy: 0.4%
+  Improved extraction: 203/218 (93.1% of invalid)
+  Potential recovered matches: 51 (would boost accuracy to 20.8%)
+  Answer patterns found:
+    - answer_colon: 229
+    - answer_is: 33
+    - therefore: 15
+    - so_answer_is: 1
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: (A)):
+      <think>To determine the antecedent of the pronoun "he," let's analyze the senten...
+      
+      First, the subject of the sentence is "The patient." The verb phrase "was referr...
+    Doc ID 1 (target: (C)):
+      <think>To determine the antecedent of the pronoun "he" in the sentence "The scie...
+      
+      First, we need to identify the subject in each clause. The first clause is "The ...
+    Doc ID 3 (target: (C)):
+      <think>To determine the antecedent of the pronoun "he" in the sentence "The scie...
+      
+      First, we need to understand that an antecedent is the noun or pronoun that a pr...
+
+Analyzing: bbh_cot_fewshot_dyck_languages
+------------------------------------------------------------
+  Total samples: 250
+  Think tags found: 250
+  Valid answers: 15
+  Invalid answers: 235
+  Exact match correct: 0
+  Exact match incorrect: 250
+  Accuracy: 0.0%
+  Improved extraction: 116/235 (49.4% of invalid)
+  Potential recovered matches: 11 (would boost accuracy to 4.4%)
+  Answer patterns found:
+    - answer_colon: 85
+    - final_answer: 26
+    - answer_is: 17
+    - therefore: 4
+    - so_answer_is: 2
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: ] ]):
+      <think>To correctly close a Dyck-n word, we need to ensure that all the open par...
+      
+      Starting from the give...
+    Doc ID 1 (target: ] ] >):
+      <think>To complete the rest of the Dyck-n word sequence and ensure proper closur...
+    Doc ID 2 (target: }):
+      <think>To complete the rest of the Dyck-n word sequence, we need to ensure that ...
+      
+      { < { { [ ] } } { < [ { { < > } ...
+
+Analyzing: bbh_cot_fewshot_formal_fallacies
+------------------------------------------------------------
+  Total samples: 250
+  Think tags found: 250
+  Valid answers: 19
+  Invalid answers: 231
+  Exact match correct: 0
+  Exact match incorrect: 250
+  Accuracy: 0.0%
+  Improved extraction: 179/231 (77.5% of invalid)
+  Potential recovered matches: 107 (would boost accuracy to 42.8%)
+  Answer patterns found:
+    - answer_colon: 65
+    - answer_is: 20
+    - therefore: 9
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: invalid):
+      <think>To determine whether the argument is deductively valid or invalid, we nee...
+      
+      The argument states: "First of all, whoever is a schoolmate of Sondra is not a s...
+    Doc ID 1 (target: invalid):
+      <think>To determine whether the given argument is deductively valid or invalid, ...
+      
+      The argument is structured as follows:
+    Doc ID 2 (target: invalid):
+      <think>To determine whether the given argument is deductively valid or invalid, ...
+      
+      First, let's break down the argument into premises and the conclusion:
+
+Analyzing: bbh_cot_fewshot_geometric_shapes
+------------------------------------------------------------
+  Total samples: 250
+  Think tags found: 250
+  Valid answers: 15
+  Invalid answers: 235
+  Exact match correct: 0
+  Exact match incorrect: 250
+  Accuracy: 0.0%
+  Improved extraction: 222/235 (94.5% of invalid)
+  Potential recovered matches: 56 (would boost accuracy to 22.4%)
+  Answer patterns found:
+    - answer_colon: 216
+    - answer_is: 18
+    - therefore: 2
+    - so_answer_is: 1
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: (B)):
+      <think>To determine the geometric shape represented by the given SVG path, let's...
+    Doc ID 1 (target: (J)):
+      <think>To determine the geometric shape represented by the given SVG path, let's...
+      
+      First, the path starts with "M 30.17,45.97 L 58.79,40.36 L 18.10,15.70 M 18.10,1...
+    Doc ID 2 (target: (K)):
+      <think>Let's analyze the given SVG path element step by step to determine which ...
+      
+      First, we need to recall the standard SVG path commands and their effects on the...
+
+Analyzing: bbh_cot_fewshot_hyperbaton
+------------------------------------------------------------
+  Total samples: 250
+  Think tags found: 250
+  Valid answers: 18
+  Invalid answers: 232
+  Exact match correct: 1
+  Exact match incorrect: 249
+  Accuracy: 0.4%
+  Improved extraction: 217/232 (93.5% of invalid)
+  Potential recovered matches: 86 (would boost accuracy to 34.8%)
+  Answer patterns found:
+    - answer_colon: 208
+    - answer_is: 20
+    - therefore: 9
+    - so_answer_is: 2
+    - final_answer: 1
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: (A)):
+      <think>To determine the correct adjective order in the given options, let's reca...
+      
+      First, adjectives typically come before nouns they modify. The order is usually:...
+    Doc ID 3 (target: (B)):
+      <think>To determine which sentence has the correct adjective order, we need to f...
+      
+      (A) cloth smoking rectangular motorcycle
+    Doc ID 4 (target: (A)):
+      <think>To determine the correct adjective order in the given options, let's appl...
+      
+      In option (A), "pyramidal American glass exercise surfboard," the adjectives are...
+
+Analyzing: bbh_cot_fewshot_logical_deduction_five_objects
+------------------------------------------------------------
+  Total samples: 250
+  Think tags found: 250
+  Valid answers: 35
+  Invalid answers: 215
+  Exact match correct: 0
+  Exact match incorrect: 250
+  Accuracy: 0.0%
+  Improved extraction: 198/215 (92.1% of invalid)
+  Potential recovered matches: 68 (would boost accuracy to 27.2%)
+  Answer patterns found:
+    - answer_colon: 209
+    - answer_is: 48
+    - therefore: 19
+    - final_answer: 2
+    - so_answer_is: 1
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: (A)):
+      <think>To solve this logical deduction problem, let's break down the given infor...
+      
+      1. **Start with the given order**: The five birds are arranged in a fixed order....
+    Doc ID 2 (target: (E)):
+      <think>Let's start by breaking down the information given in the problem and the...
+      
+      The first statement says: "The gray book is to the left of the green book." This...
+    Doc ID 3 (target: (B)):
+      <think>Let's analyze the given information step by step to determine the order o...
+      
+      1. **The cardinal is the rightmost:** This tells us that the cardinal is located...
+
+Analyzing: bbh_cot_fewshot_logical_deduction_seven_objects
+------------------------------------------------------------
+  Total samples: 250
+  Think tags found: 250
+  Valid answers: 34
+  Invalid answers: 216
+  Exact match correct: 1
+  Exact match incorrect: 249
+  Accuracy: 0.4%
+  Improved extraction: 175/216 (81.0% of invalid)
+  Potential recovered matches: 36 (would boost accuracy to 14.8%)
+  Answer patterns found:
+    - answer_colon: 148
+    - answer_is: 43
+    - therefore: 16
+    - so_answer_is: 2
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: (D)):
+      <think>Let's break down the problem step by step to deduce the correct order.
+      
+      First, we know that Dan finished third. So option (D) is correct as per the give...
+    Doc ID 1 (target: (B)):
+      <think>Let's start by analyzing the given information to determine the order of ...
+      
+      The first paragraph mentions that the station wagon is the fourth-newest. This i...
+    Doc ID 2 (target: (A)):
+      <think>To solve this problem, let's break down the information given in each par...
+      
+      First paragraph:
+
+Analyzing: bbh_cot_fewshot_logical_deduction_three_objects
+------------------------------------------------------------
+  Total samples: 250
+  Think tags found: 250
+  Valid answers: 35
+  Invalid answers: 215
+  Exact match correct: 2
+  Exact match incorrect: 248
+  Accuracy: 0.8%
+  Improved extraction: 209/215 (97.2% of invalid)
+  Potential recovered matches: 135 (would boost accuracy to 54.8%)
+  Answer patterns found:
+    - answer_colon: 240
+    - answer_is: 42
+    - therefore: 14
+    - so_answer_is: 4
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: (A)):
+      <think>Let's break down the problem step by step to determine the correct order ...
+      
+      First, we need to understand the given statements:
+    Doc ID 1 (target: (B)):
+      <think>Let's tackle this logical deduction problem step by step. We need to dete...
+      
+      First, let's parse the given statements:
+    Doc ID 2 (target: (C)):
+      <think>Let's analyze the given information step by step to determine the correct...
+      
+      From the first paragraph, we know that on the shelf, there are three books: a bl...
+
+Analyzing: bbh_cot_fewshot_movie_recommendation
+------------------------------------------------------------
+  Total samples: 250
+  Think tags found: 250
+  Valid answers: 3
+  Invalid answers: 247
+  Exact match correct: 0
+  Exact match incorrect: 250
+  Accuracy: 0.0%
+  Improved extraction: 94/247 (38.1% of invalid)
+  Potential recovered matches: 20 (would boost accuracy to 8.0%)
+  Answer patterns found:
+    - answer_colon: 96
+    - answer_is: 4
+    - therefore: 1
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: (C)):
+      <think>To find a movie similar to the given list (Batman, The Mask, The Fugitive...
+      
+      1. **Superheroes and Fantasy**: Batman is a superhero, while The Mask combines d...
+    Doc ID 1 (target: (D)):
+      <think>To recommend a movie similar to the given list (The Sixth Sense, The Matr...
+      
+      Firstly, The Sixth Sense and The Matrix both feature complex, layered narratives...
+    Doc ID 2 (target: (C)):
+      <think>To find a movie similar to the given list, which includes historical dram...
+      
+      First, let's analy...
+
+Analyzing: bbh_cot_fewshot_multistep_arithmetic_two
+------------------------------------------------------------
+  Total samples: 250
+  Think tags found: 250
+  Valid answers: 51
+  Invalid answers: 199
+  Exact match correct: 0
+  Exact match incorrect: 250
+  Accuracy: 0.0%
+  Improved extraction: 174/199 (87.4% of invalid)
+  Potential recovered matches: 98 (would boost accuracy to 39.2%)
+  Answer patterns found:
+    - answer_colon: 210
+    - final_answer: 132
+    - answer_is: 61
+    - therefore: 44
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: 24):
+      <think>Let's tackle this problem step by step to find the value of the given exp...
+      
+      First, we need to evaluate the expressions inside the parentheses separately and...
+    Doc ID 1 (target: 63):
+      <think>Let's tackle this problem step by step to find the value of the given exp...
+      
+      First, we have the expression: ((-9 * -5 - 6 + -2) - (-8 - -6 * -3 * 1))
+    Doc ID 2 (target: -50):
+      <think>Let's tackle this problem step by step. The expression given is quite com...
+      
+      First, let's look at the innermost parentheses. Starting from the left:
+
+Analyzing: bbh_cot_fewshot_navigate
+------------------------------------------------------------
+  Total samples: 250
+  Think tags found: 250
+  Valid answers: 140
+  Invalid answers: 110
+  Exact match correct: 0
+  Exact match incorrect: 250
+  Accuracy: 0.0%
+  Improved extraction: 87/110 (79.1% of invalid)
+  Potential recovered matches: 47 (would boost accuracy to 18.8%)
+  Answer patterns found:
+    - answer_colon: 221
+    - answer_is: 165
+    - therefore: 81
+    - final_answer: 10
+    - so_answer_is: 7
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: No):
+      <think>To determine if following these navigation instructions returns you to th...
+      
+      Starting at the starting point (0,0) for simplicity.
+    Doc ID 1 (target: No):
+      <think>Let's break down the instructions step by step to determine if the person...
+      
+      1. **Always face forward**: This implies that the direction is fixed throughout ...
+    Doc ID 5 (target: Yes):
+      <think>Let's break down the given instructions step by step to determine if they...
+      
+      1. **Take 8 steps**: Starting at the origin (point O), moving forward 8 steps wo...
+
+Analyzing: bbh_cot_fewshot_object_counting
+------------------------------------------------------------
+  Total samples: 250
+  Think tags found: 250
+  Valid answers: 31
+  Invalid answers: 219
+  Exact match correct: 1
+  Exact match incorrect: 249
+  Accuracy: 0.4%
+  Improved extraction: 146/219 (66.7% of invalid)
+  Potential recovered matches: 49 (would boost accuracy to 20.0%)
+  Answer patterns found:
+    - answer_colon: 105
+    - answer_is: 38
+    - therefore: 15
+    - final_answer: 4
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: 8):
+      <think>Okay, let's tackle this question step by step. The user wants to know how...
+      
+      First, we need to identify which items on the list are musical instruments. Look...
+    Doc ID 1 (target: 15):
+      <think>Okay, let's tackle this problem step by step. The user wants to know how ...
+      
+      1. **Start with individual counts**: The user lists different...
+    Doc ID 3 (target: 14):
+      <think>Okay, let's tackle this problem step by step. The question is asking how ...
+      
+      First, let's list out each fruit mentioned:
+
+Analyzing: bbh_cot_fewshot_penguins_in_a_table
+------------------------------------------------------------
+  Total samples: 146
+  Think tags found: 146
+  Valid answers: 21
+  Invalid answers: 125
+  Exact match correct: 0
+  Exact match incorrect: 146
+  Accuracy: 0.0%
+  Improved extraction: 114/125 (91.2% of invalid)
+  Potential recovered matches: 58 (would boost accuracy to 39.7%)
+  Answer patterns found:
+    - answer_colon: 132
+    - answer_is: 37
+    - therefore: 10
+    - final_answer: 3
+    - so_answer_is: 2
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: (E)):
+      <think>To find the oldest penguin from the given table, we need to identify the ...
+      
+      Option (A): Louis - Age: 7
+    Doc ID 1 (target: (C)):
+      <think>To find the name of the last penguin sorted in alphabetical order, we nee...
+      
+      Looking at the provided names: Louis, Bernard, Vincent, Gwen. Sorting these alph...
+    Doc ID 2 (target: (C)):
+      <think>To determine how many penguins are more than 5 years old, we need to exam...
+      
+      First, let's identify the penguins who are older than 5 years. We can do this by...
+
+Analyzing: bbh_cot_fewshot_reasoning_about_colored_objects
+------------------------------------------------------------
+  Total samples: 250
+  Think tags found: 250
+  Valid answers: 31
+  Invalid answers: 219
+  Exact match correct: 0
+  Exact match incorrect: 250
+  Accuracy: 0.0%
+  Improved extraction: 202/219 (92.2% of invalid)
+  Potential recovered matches: 95 (would boost accuracy to 38.0%)
+  Answer patterns found:
+    - answer_colon: 233
+    - answer_is: 44
+    - therefore: 17
+    - so_answer_is: 6
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: (D)):
+      <think>To solve this problem, let's first count the number of grey objects on th...
+      
+      So, the total number of grey objects is 3 (grey cat toys) + 3 (grey notebooks) =...
+    Doc ID 1 (target: (Q)):
+      <think>Let's break down the problem step by step. We have three objects arranged...
+      
+      First, we need to identify the order of the objects from left to rig...
+    Doc ID 3 (target: (D)):
+      <think>To solve this problem, let's break it down step by step.
+      
+      First, we need to identify the red item. The question states that there is a red...
+
+Analyzing: bbh_cot_fewshot_ruin_names
+------------------------------------------------------------
+  Total samples: 250
+  Think tags found: 250
+  Valid answers: 2
+  Invalid answers: 248
+  Exact match correct: 0
+  Exact match incorrect: 250
+  Accuracy: 0.0%
+  Improved extraction: 236/248 (95.2% of invalid)
+  Potential recovered matches: 78 (would boost accuracy to 31.2%)
+  Answer patterns found:
+    - answer_colon: 181
+    - answer_is: 6
+    - therefore: 2
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: (A)):
+      <think>Let's break down the options to identify the humorous edit. The original ...
+    Doc ID 1 (target: (C)):
+      <think>To determine which option is a humorous edit that "ruins" the original mo...
+      
+      First, we need to understand what makes a humorous edit. Humor often involves wo...
+    Doc ID 2 (target: (D)):
+      <think>To determine which option is a humorous edit, let's analyze each choice b...
+      
+      Starting with option (A), 'the shapwshank redemption', it has a noticeable typo ...
+
+Analyzing: bbh_cot_fewshot_salient_translation_error_detection
+------------------------------------------------------------
+  Total samples: 250
+  Think tags found: 250
+  Valid answers: 37
+  Invalid answers: 213
+  Exact match correct: 0
+  Exact match incorrect: 250
+  Accuracy: 0.0%
+  Improved extraction: 200/213 (93.9% of invalid)
+  Potential recovered matches: 18 (would boost accuracy to 7.2%)
+  Answer patterns found:
+    - answer_colon: 179
+    - answer_is: 39
+    - therefore: 17
+    - so_answer_is: 5
+    - final_answer: 1
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: (A)):
+      <think>To identify the type of error in the given translation, let's first analy...
+      
+      The source sentence is: "Karl Borromäus Joseph Fürst von Liechtenstein war ein k...
+    Doc ID 1 (target: (A)):
+      <think>To identify the type of error in the given translation, let's analyze the...
+      
+      First, I'll examine the source sentence: "Auf dieser Seite sind die Baudenkmäler...
+    Doc ID 3 (target: (F)):
+      <think>To identify the error in the given translation, let's analyze each option...
+      
+      First, we look at the options:
+
+Analyzing: bbh_cot_fewshot_snarks
+------------------------------------------------------------
+  Total samples: 178
+  Think tags found: 178
+  Valid answers: 6
+  Invalid answers: 172
+  Exact match correct: 0
+  Exact match incorrect: 178
+  Accuracy: 0.0%
+  Improved extraction: 138/172 (80.2% of invalid)
+  Potential recovered matches: 29 (would boost accuracy to 16.3%)
+  Answer patterns found:
+    - answer_colon: 87
+    - answer_is: 8
+    - therefore: 1
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: (B)):
+      <think>To determine if the given statements are sarcastic, let's analyze each op...
+      
+      First, option (A): "He's a generous person, trying to promote a charity stream t...
+    Doc ID 1 (target: (A)):
+      <think>To determine if the given statements are sarcastic, let's analyze each op...
+      
+      Starting with Option (A): "Hey just be happy then you won't be depressed anymore...
+    Doc ID 2 (target: (A)):
+      <think>Let's analyze the options given to determine which statement is sarcastic...
+      
+      First, we need to recall the definition of sarcasm provided earlier from the Cam...
+
+Analyzing: bbh_cot_fewshot_sports_understanding
+------------------------------------------------------------
+  Total samples: 250
+  Think tags found: 250
+  Valid answers: 6
+  Invalid answers: 244
+  Exact match correct: 0
+  Exact match incorrect: 250
+  Accuracy: 0.0%
+  Improved extraction: 71/244 (29.1% of invalid)
+  Potential recovered matches: 5 (would boost accuracy to 2.0%)
+  Answer patterns found:
+    - answer_colon: 10
+    - answer_is: 6
+    - therefore: 5
+    - final_answer: 1
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: no):
+      <think>To determine if the sentence "Elias Lindholm beat the buzzer" is plausibl...
+      
+      1. **Understanding "Beat the buzzer":** In sports, especially hockey, "beating t...
+    Doc ID 1 (target: yes):
+      <think>To determine if the sentence "John Carlson scored in the third period" is...
+      
+      First, we need to identify who John Carlson is. From my knowledge, John Carlson ...
+    Doc ID 2 (target: yes):
+      <think>To determine if the sentence "Marcelo got on the end of a through ball" i...
+      
+      First, we need to understand what a "through ball" means. A through ball is a ty...
+
+Analyzing: bbh_cot_fewshot_temporal_sequences
+------------------------------------------------------------
+  Total samples: 250
+  Think tags found: 250
+  Valid answers: 24
+  Invalid answers: 226
+  Exact match correct: 0
+  Exact match incorrect: 250
+  Accuracy: 0.0%
+  Improved extraction: 205/226 (90.7% of invalid)
+  Potential recovered matches: 57 (would boost accuracy to 22.8%)
+  Answer patterns found:
+    - answer_colon: 209
+    - answer_is: 27
+    - therefore: 10
+    - so_answer_is: 4
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: (A)):
+      <think>First, let's analyze the given information step by step to determine when...
+      
+      From the information provided, we know Susan's activities and their correspondin...
+    Doc ID 1 (target: (C)):
+      <think>To solve this problem, we need to determine the possible time slots when ...
+      
+      First, we know that Emily woke up at 10am. This is her earliest known activity t...
+    Doc ID 3 (target: (D)):
+      <think>First, we need to figure out when James could have gone to the beach. The...
+      
+      1. James woke up at 5 am. This is an important starting point because it gives u...
+
+Analyzing: bbh_cot_fewshot_tracking_shuffled_objects_five_objects
+------------------------------------------------------------
+  Total samples: 250
+  Think tags found: 250
+  Valid answers: 24
+  Invalid answers: 226
+  Exact match correct: 0
+  Exact match incorrect: 250
+  Accuracy: 0.0%
+  Improved extraction: 192/226 (85.0% of invalid)
+  Potential recovered matches: 87 (would boost accuracy to 34.8%)
+  Answer patterns found:
+    - answer_colon: 205
+    - answer_is: 58
+    - final_answer: 9
+    - so_answer_is: 8
+    - therefore: 6
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: (A)):
+      <think>To determine Alice's final partner after the series of swaps, let's break...
+      
+      1. **Start:** The initial partners are given:
+    Doc ID 1 (target: (C)):
+      <think>To determine Alice's final partner, we need to track her position through...
+      
+      Initially, Alice is dancing with Ophelia.
+    Doc ID 2 (target: (A)):
+      <think>Let's tackle this problem step by step to determine Claire's final partne...
+      
+      First, we need to track the changes in partners for each dancer throughout the s...
+
+Analyzing: bbh_cot_fewshot_tracking_shuffled_objects_seven_objects
+------------------------------------------------------------
+  Total samples: 250
+  Think tags found: 250
+  Valid answers: 30
+  Invalid answers: 220
+  Exact match correct: 0
+  Exact match incorrect: 250
+  Accuracy: 0.0%
+  Improved extraction: 175/220 (79.5% of invalid)
+  Potential recovered matches: 71 (would boost accuracy to 28.4%)
+  Answer patterns found:
+    - answer_colon: 197
+    - answer_is: 62
+    - final_answer: 16
+    - therefore: 10
+    - so_answer_is: 5
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: (A)):
+      <think>To determine Gertrude's final position, let's break down each swap step-b...
+      
+      1. **First Swap**: Eve (goalkeeper) and Claire (left winger) trade positions.
+    Doc ID 1 (target: (E)):
+      <think>To determine where Eve ends up, let's break down the swaps step by step. 
+      
+      First swap: Claire (brown) and Bob (yellow). Eve starts with a black ball. So af...
+    Doc ID 2 (target: (F)):
+      <think>To determine Gertrude's final partner, we need to track the changes in he...
+      
+      1. **First swap:** Alice and Fred switch partners. Initially, Alice is with Meli...
+
+Analyzing: bbh_cot_fewshot_tracking_shuffled_objects_three_objects
+------------------------------------------------------------
+  Total samples: 250
+  Think tags found: 250
+  Valid answers: 20
+  Invalid answers: 230
+  Exact match correct: 0
+  Exact match incorrect: 250
+  Accuracy: 0.0%
+  Improved extraction: 203/230 (88.3% of invalid)
+  Potential recovered matches: 106 (would boost accuracy to 42.4%)
+  Answer patterns found:
+    - answer_colon: 209
+    - answer_is: 47
+    - final_answer: 15
+    - therefore: 7
+    - so_answer_is: 1
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: (B)):
+      <think>Let's analyze the problem step by step to determine where Bob ends up at ...
+      
+      Initially, the books are distributed as follows:
+    Doc ID 1 (target: (A)):
+      <think>To determine Alice's final book, we need to follow the sequence of swaps ...
+      
+      1. **Initial Positions**:
+    Doc ID 2 (target: (C)):
+      <think>To solve this problem, we need to track the ownership of each book throug...
+      
+      Initially:
+
+Analyzing: bbh_cot_fewshot_web_of_lies
+------------------------------------------------------------
+  Total samples: 250
+  Think tags found: 250
+  Valid answers: 88
+  Invalid answers: 162
+  Exact match correct: 0
+  Exact match incorrect: 250
+  Accuracy: 0.0%
+  Improved extraction: 109/162 (67.3% of invalid)
+  Potential recovered matches: 37 (would boost accuracy to 14.8%)
+  Answer patterns found:
+    - answer_colon: 186
+    - answer_is: 137
+    - therefore: 29
+    - final_answer: 14
+    - so_answer_is: 6
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 1 (target: No):
+      <think>To evaluate whether Shalonda tells the truth, we need to analyze the give...
+      
+      First, Kristian lies. This statement (K) is a direct assertion. The truth value ...
+    Doc ID 3 (target: No):
+      <think>To evaluate this boolean function, let's break down the statements and th...
+      
+      1. **Christie tells the truth**: Let's denote C as "Christie tells the truth." S...
+    Doc ID 5 (target: No):
+      <think>Let's tackle this boolean function problem step by step. The question is ...
+      
+      First, we need to translate each statement into a boolean variable. Let's assign...
+
+Analyzing: bbh_cot_fewshot_word_sorting
+------------------------------------------------------------
+  Total samples: 250
+  Think tags found: 250
+  Valid answers: 4
+  Invalid answers: 246
+  Exact match correct: 0
+  Exact match incorrect: 250
+  Accuracy: 0.0%
+  Improved extraction: 192/246 (78.0% of invalid)
+  Potential recovered matches: 63 (would boost accuracy to 25.2%)
+  Answer patterns found:
+    - answer_colon: 65
+    - final_answer: 14
+    - answer_is: 4
+    - so_answer_is: 2
+
+  Sample invalid responses (showing up to 3):
+    Doc ID 0 (target: syndrome therefrom):
+      <think>To sort the given words alphabetically, let's break down each word and co...
+      
+      1. **List**: The first letter is "L", followed by "i", then "s", and finally "t"...
+    Doc ID 1 (target: barn damp delmarva dot drumhead embezzle entirety greene guru it&t malton obstetric onus panicking prod same scorch splutter subsist thrill):
+      <think>To sort the given list of words alphabetically, I'll first ensure each wo...
+      
+      1. **Check each word**: Verify that all words are properly capitalized and conta...
+    Doc ID 2 (target: artillery bainite doris fda harm incongruous monkey prosody vegetate vivian):
+      <think>To sort the given list of words alphabetically, I'll start by arranging e...
+      
+      1. **List**: The first letter is "L", so it comes after the words starting with ...
+
+================================================================================
+OVERALL SUMMARY: top_p0.95,rep_penalty1.05-zeroshot-bruteforcesysprompt
+================================================================================
+
+Total samples analyzed: 6511
+Samples with <think> tags: 6511
+Valid answers (parsed successfully): 808
+Invalid answers (parsing failed): 5703
+Exact match correct: 6
+Exact match incorrect: 6505
+
+Overall accuracy: 0.09%
+Answer parsing success rate: 12.41%
+Think tag occurrence rate: 100.00%
+
+--- IMPROVED EXTRACTION ANALYSIS ---
+Invalid answers that could be re-parsed: 4551/5703 (79.8%)
+Answers that match target after improved extraction: 1733
+Potential accuracy with improved regex: 26.71% (vs 0.09% original)
+Potential accuracy gain: +26.62%
+
+Patterns that recovered answers:
+  - answer_is: 2172
+  - which_is: 1001
+  - the_answer_is: 283
+  - answer_colon_eol: 188
+  - answer_should_be: 170
+  - numbered_list_last: 157
+  - argument_is_valid: 82
+  - answer_would_be: 69
+  - final_answer_is_boxed: 65
+  - which_is_option: 48
+
+Answer patterns across all samples:
+  - answer_colon: 4442 (68.2%)
+  - answer_is: 1098 (16.9%)
+  - therefore: 388 (6.0%)
+  - final_answer: 285 (4.4%)
+  - so_answer_is: 69 (1.1%)
+
+Tasks with <think> tags: 27
+  - bbh_cot_fewshot_boolean_expressions
+  - bbh_cot_fewshot_causal_judgement
+  - bbh_cot_fewshot_date_understanding
+  - bbh_cot_fewshot_disambiguation_qa
+  - bbh_cot_fewshot_dyck_languages
+  - bbh_cot_fewshot_formal_fallacies
+  - bbh_cot_fewshot_geometric_shapes
+  - bbh_cot_fewshot_hyperbaton
+  - bbh_cot_fewshot_logical_deduction_five_objects
+  - bbh_cot_fewshot_logical_deduction_seven_objects
+  - bbh_cot_fewshot_logical_deduction_three_objects
+  - bbh_cot_fewshot_movie_recommendation
+  - bbh_cot_fewshot_multistep_arithmetic_two
+  - bbh_cot_fewshot_navigate
+  - bbh_cot_fewshot_object_counting
+  - bbh_cot_fewshot_penguins_in_a_table
+  - bbh_cot_fewshot_reasoning_about_colored_objects
+  - bbh_cot_fewshot_ruin_names
+  - bbh_cot_fewshot_salient_translation_error_detection
+  - bbh_cot_fewshot_snarks
+  - bbh_cot_fewshot_sports_understanding
+  - bbh_cot_fewshot_temporal_sequences
+  - bbh_cot_fewshot_tracking_shuffled_objects_five_objects
+  - bbh_cot_fewshot_tracking_shuffled_objects_seven_objects
+  - bbh_cot_fewshot_tracking_shuffled_objects_three_objects
+  - bbh_cot_fewshot_web_of_lies
+  - bbh_cot_fewshot_word_sorting

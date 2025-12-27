@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": false,
+        "extracted_answer": "F",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The model incorrectly identified the 7-sided polygon (heptagon) as an octagon."
+    },
+    {
+        "id": 2,
+        "is_correct": true,
+        "extracted_answer": "J",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a triangle."
+    },
+    {
+        "id": 3,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path draws a quadrilateral (trapezoid), but the model identified it as a kite."
+    },
+    {
+        "id": 4,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a line."
+    },
+    {
+        "id": 5,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a trapezoid, but the model identified it as a kite."
+    },
+    {
+        "id": 6,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a hexagon (6 vertices), but the model identified it as a heptagon."
+    },
+    {
+        "id": 7,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a triangle (3 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 8,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a hexagon (6 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 9,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a trapezoid (closed quadrilateral), but the model identified it as a line."
+    },
+    {
+        "id": 10,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a pentagon (5 vertices), but the model identified it as a line."
+    },
+    {
+        "id": 11,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a hexagon (6 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 12,
+        "is_correct": true,
+        "extracted_answer": "J",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a triangle."
+    },
+    {
+        "id": 13,
+        "is_correct": true,
+        "extracted_answer": "K",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly matches the ground truth (Ellipse), although technically it is a circle (equal radii)."
+    },
+    {
+        "id": 14,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The ground truth labels this 'ellipse', but with equal radii it is a circle. The model chose circle, which is mathematically correct but mismatches the GT label."
+    },
+    {
+        "id": 15,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a trapezoid (4 vertices), but the model identified it as a hexagon."
+    },
+    {
+        "id": 16,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path describes a sector (lines + arc), but the model identified it as a circle."
+    },
+    {
+        "id": 17,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a heptagon."
+    },
+    {
+        "id": 18,
+        "is_correct": true,
+        "extracted_answer": "F",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as an octagon."
+    },
+    {
+        "id": 19,
+        "is_correct": false,
+        "extracted_answer": "G",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a trapezoid (4 vertices), but the model identified it as a pentagon."
+    },
+    {
+        "id": 20,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a heptagon (7 vertices), but the model identified it as a hexagon."
+    },
+    {
+        "id": 21,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a hexagon (6 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 22,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms an octagon (8 vertices), but the model identified it as a heptagon."
+    },
+    {
+        "id": 23,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a pentagon (5 vertices), but the model identified it as a line."
+    },
+    {
+        "id": 24,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a hexagon."
+    },
+    {
+        "id": 25,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms an octagon (8 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a kite."
+    },
+    {
+        "id": 27,
+        "is_correct": true,
+        "extracted_answer": "J",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a triangle."
+    },
+    {
+        "id": 28,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a heptagon."
+    },
+    {
+        "id": 29,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a hexagon (6 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 30,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a rectangle (trapezoid in GT), but the model identified it as a kite."
+    },
+    {
+        "id": 31,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a hexagon."
+    },
+    {
+        "id": 32,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a pentagon (5 vertices), but the model identified it as a hexagon."
+    },
+    {
+        "id": 33,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path defines a sector (lines and arc), but the model identified it as a circle."
+    },
+    {
+        "id": 34,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "GT is ellipse (though radii are equal, suggesting circle). Model says circle. Mismatch."
+    },
+    {
+        "id": 35,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a hexagon."
+    },
+    {
+        "id": 36,
+        "is_correct": false,
+        "extracted_answer": "J",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a sector, but the model identified it as a triangle."
+    },
+    {
+        "id": 37,
+        "is_correct": false,
+        "extracted_answer": "F",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a heptagon (7 vertices), but the model identified it as an octagon."
+    },
+    {
+        "id": 38,
+        "is_correct": true,
+        "extracted_answer": "J",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a triangle."
+    },
+    {
+        "id": 39,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path defines a sector (lines and arc), but the model identified it as a circle."
+    },
+    {
+        "id": 40,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a line."
+    },
+    {
+        "id": 41,
+        "is_correct": true,
+        "extracted_answer": "F",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as an octagon."
+    },
+    {
+        "id": 42,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a kite."
+    },
+    {
+        "id": 43,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path describes a sector, but the model identified it as a hexagon."
+    },
+    {
+        "id": 44,
+        "is_correct": false,
+        "extracted_answer": "J",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path is a simple line segment (2 points), but the model identified it as a triangle."
+    },
+    {
+        "id": 45,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a triangle (3 vertices), but the model identified it as a line."
+    },
+    {
+        "id": 46,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "GT is ellipse. Model says circle (radii equal). Mismatch."
+    },
+    {
+        "id": 47,
+        "is_correct": true,
+        "extracted_answer": "K",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as an ellipse."
+    },
+    {
+        "id": 48,
+        "is_correct": false,
+        "extracted_answer": "H",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a kite (quadrilateral), but the model identified it as a rectangle."
+    },
+    {
+        "id": 49,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a heptagon (7 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 50,
+        "is_correct": true,
+        "extracted_answer": "G",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a pentagon."
+    },
+    {
+        "id": 51,
+        "is_correct": false,
+        "extracted_answer": "G",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a heptagon (7 vertices), but the model identified it as a pentagon."
+    },
+    {
+        "id": 52,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a hexagon."
+    },
+    {
+        "id": 53,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a hexagon (6 vertices), but the model identified it as a line."
+    },
+    {
+        "id": 54,
+        "is_correct": true,
+        "extracted_answer": "G",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a pentagon."
+    },
+    {
+        "id": 55,
+        "is_correct": false,
+        "extracted_answer": "F",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a heptagon (7 vertices), but the model identified it as an octagon."
+    },
+    {
+        "id": 56,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a line."
+    },
+    {
+        "id": 57,
+        "is_correct": false,
+        "extracted_answer": "H",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a kite (4 vertices), but the model identified it as a rectangle."
+    },
+    {
+        "id": 58,
+        "is_correct": false,
+        "extracted_answer": "F",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a heptagon (7 vertices), but the model identified it as an octagon."
+    },
+    {
+        "id": 59,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a kite."
+    },
+    {
+        "id": 60,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "GT is ellipse. Model says circle (equal radii). Mismatch."
+    },
+    {
+        "id": 61,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a kite (4 vertices), but the model identified it as a hexagon."
+    },
+    {
+        "id": 62,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a triangle (3 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 63,
+        "is_correct": true,
+        "extracted_answer": "I",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a sector."
+    },
+    {
+        "id": 64,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a hexagon (6 vertices), but the model identified it as a line."
+    },
+    {
+        "id": 65,
+        "is_correct": true,
+        "extracted_answer": "J",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a triangle."
+    },
+    {
+        "id": 66,
+        "is_correct": true,
+        "extracted_answer": "K",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as an ellipse."
+    },
+    {
+        "id": 67,
+        "is_correct": false,
+        "extracted_answer": "G",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a trapezoid (4 vertices), but the model identified it as a pentagon."
+    },
+    {
+        "id": 68,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a hexagon."
+    },
+    {
+        "id": 69,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a line."
+    },
+    {
+        "id": 70,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a sector, but the model identified it as a circle."
+    },
+    {
+        "id": 71,
+        "is_correct": true,
+        "extracted_answer": "J",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a triangle."
+    },
+    {
+        "id": 72,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "GT is ellipse. Model says circle (equal radii). Mismatch."
+    },
+    {
+        "id": 73,
+        "is_correct": false,
+        "extracted_answer": "H",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a rectangle, which is a trapezoid. GT says trapezoid. Model says rectangle. Rectangle is more specific, but GT mismatch leads to False."
+    },
+    {
+        "id": 74,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a line."
+    },
+    {
+        "id": 75,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a line."
+    },
+    {
+        "id": 76,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a line."
+    },
+    {
+        "id": 77,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a sector, but the model identified it as a circle."
+    },
+    {
+        "id": 78,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a kite."
+    },
+    {
+        "id": 79,
+        "is_correct": true,
+        "extracted_answer": "I",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a sector."
+    },
+    {
+        "id": 80,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a line."
+    },
+    {
+        "id": 81,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a trapezoid (4 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "F",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as an octagon."
+    },
+    {
+        "id": 83,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a hexagon."
+    },
+    {
+        "id": 84,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a triangle (3 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 85,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a triangle (3 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 86,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a line."
+    },
+    {
+        "id": 87,
+        "is_correct": false,
+        "extracted_answer": "H",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a sector, but the model identified it as a rectangle."
+    },
+    {
+        "id": 88,
+        "is_correct": false,
+        "extracted_answer": "J",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a trapezoid (4 vertices), but the model identified it as a triangle."
+    },
+    {
+        "id": 89,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms an octagon (8 vertices), but the model identified it as a hexagon."
+    },
+    {
+        "id": 90,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a hexagon (6 vertices), but the model identified it as a heptagon."
+    },
+    {
+        "id": 91,
+        "is_correct": true,
+        "extracted_answer": "G",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a pentagon."
+    },
+    {
+        "id": 92,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a heptagon (7 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 93,
+        "is_correct": true,
+        "extracted_answer": "J",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a triangle."
+    },
+    {
+        "id": 94,
+        "is_correct": false,
+        "extracted_answer": "J",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a trapezoid (4 vertices), but the model identified it as a triangle."
+    },
+    {
+        "id": 95,
+        "is_correct": true,
+        "extracted_answer": "G",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a pentagon."
+    },
+    {
+        "id": 96,
+        "is_correct": false,
+        "extracted_answer": "H",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "GT is ellipse. Model identified as rectangle. Mismatch."
+    },
+    {
+        "id": 97,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms an octagon (8 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 98,
+        "is_correct": false,
+        "extracted_answer": "H",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a pentagon (5 vertices), but the model identified it as a rectangle."
+    },
+    {
+        "id": 99,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a trapezoid (rectangle is a type of trapezoid). GT is trapezoid. Model says kite."
+    },
+    {
+        "id": 100,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms an octagon (8 vertices), but the model identified it as a hexagon."
+    },
+    {
+        "id": 101,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms an octagon (8 vertices), but the model identified it as a line."
+    },
+    {
+        "id": 102,
+        "is_correct": false,
+        "extracted_answer": "G",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a triangle (3 vertices), but the model identified it as a pentagon."
+    },
+    {
+        "id": 103,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a hexagon."
+    },
+    {
+        "id": 104,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a heptagon (7 vertices), but the model identified it as a hexagon."
+    },
+    {
+        "id": 105,
+        "is_correct": true,
+        "extracted_answer": "K",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as an ellipse."
+    },
+    {
+        "id": 106,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a hexagon."
+    },
+    {
+        "id": 107,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a kite."
+    },
+    {
+        "id": 108,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a line."
+    },
+    {
+        "id": 109,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a heptagon (7 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 110,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "GT is ellipse. Model says circle (equal radii). Mismatch."
+    },
+    {
+        "id": 111,
+        "is_correct": false,
+        "extracted_answer": "K",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "GT is ellipse. Model matches GT."
+    },
+    {
+        "id": 112,
+        "is_correct": false,
+        "extracted_answer": "H",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a rectangle, which is a type of trapezoid. GT says trapezoid. Model says rectangle. Match is False strictly."
+    },
+    {
+        "id": 113,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a heptagon (7 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 114,
+        "is_correct": false,
+        "extracted_answer": "J",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a heptagon (7 vertices), but the model identified it as a triangle."
+    },
+    {
+        "id": 115,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path describes a sector, but the model identified it as a circle."
+    },
+    {
+        "id": 116,
+        "is_correct": true,
+        "extracted_answer": "J",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a triangle."
+    },
+    {
+        "id": 117,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a triangle (3 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 118,
+        "is_correct": true,
+        "extracted_answer": "F",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as an octagon."
+    },
+    {
+        "id": 119,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "GT is ellipse. Model says circle (equal radii). Mismatch."
+    },
+    {
+        "id": 120,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a line."
+    },
+    {
+        "id": 121,
+        "is_correct": true,
+        "extracted_answer": "K",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a trapezoid."
+    },
+    {
+        "id": 122,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a pentagon (5 vertices), but the model identified it as a heptagon."
+    },
+    {
+        "id": 123,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a pentagon (5 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a line."
+    },
+    {
+        "id": 125,
+        "is_correct": true,
+        "extracted_answer": "K",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as an ellipse."
+    },
+    {
+        "id": 126,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a hexagon (6 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 127,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a heptagon (7 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 128,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a kite."
+    },
+    {
+        "id": 129,
+        "is_correct": true,
+        "extracted_answer": "K",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as an ellipse."
+    },
+    {
+        "id": 130,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a hexagon (6 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 131,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a hexagon."
+    },
+    {
+        "id": 132,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms an octagon (8 vertices), but the model identified it as a line."
+    },
+    {
+        "id": 133,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a line."
+    },
+    {
+        "id": 134,
+        "is_correct": false,
+        "extracted_answer": "H",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a triangle (3 vertices), but the model identified it as a rectangle."
+    },
+    {
+        "id": 135,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a trapezoid (4 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 136,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path describes a sector, but the model identified it as a circle."
+    },
+    {
+        "id": 137,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a line."
+    },
+    {
+        "id": 138,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a triangle (3 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 139,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms an octagon (8 vertices), but the model identified it as a hexagon."
+    },
+    {
+        "id": 140,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a line."
+    },
+    {
+        "id": 141,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a kite (quadrilateral), but the model identified it as a line."
+    },
+    {
+        "id": 142,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a line."
+    },
+    {
+        "id": 143,
+        "is_correct": true,
+        "extracted_answer": "K",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as an ellipse."
+    },
+    {
+        "id": 144,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a heptagon."
+    },
+    {
+        "id": 145,
+        "is_correct": false,
+        "extracted_answer": "F",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a heptagon (7 vertices), but the model identified it as an octagon."
+    },
+    {
+        "id": 146,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "GT is ellipse. Model says circle (equal radii). Mismatch."
+    },
+    {
+        "id": 147,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a hexagon."
+    },
+    {
+        "id": 148,
+        "is_correct": false,
+        "extracted_answer": "H",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a kite (quadrilateral), but the model identified it as a rectangle."
+    },
+    {
+        "id": 149,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a hexagon (6 vertices), but the model identified it as a heptagon."
+    },
+    {
+        "id": 150,
+        "is_correct": true,
+        "extracted_answer": "I",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a sector."
+    },
+    {
+        "id": 151,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a line, but the model identified it as a kite."
+    },
+    {
+        "id": 152,
+        "is_correct": true,
+        "extracted_answer": "I",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a sector."
+    },
+    {
+        "id": 153,
+        "is_correct": false,
+        "extracted_answer": "F",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a heptagon (7 vertices), but the model identified it as an octagon."
+    },
+    {
+        "id": 154,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a hexagon."
+    },
+    {
+        "id": 155,
+        "is_correct": true,
+        "extracted_answer": "J",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a triangle."
+    },
+    {
+        "id": 156,
+        "is_correct": true,
+        "extracted_answer": "G",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a pentagon."
+    },
+    {
+        "id": 157,
+        "is_correct": false,
+        "extracted_answer": "H",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a kite (4 vertices), but the model identified it as a rectangle."
+    },
+    {
+        "id": 158,
+        "is_correct": false,
+        "extracted_answer": "J",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a kite (quadrilateral), but the model identified it as a triangle."
+    },
+    {
+        "id": 159,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a hexagon (6 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 160,
+        "is_correct": true,
+        "extracted_answer": "F",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as an octagon."
+    },
+    {
+        "id": 161,
+        "is_correct": false,
+        "extracted_answer": "H",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a triangle (3 vertices), but the model identified it as a rectangle."
+    },
+    {
+        "id": 162,
+        "is_correct": true,
+        "extracted_answer": "K",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as an ellipse."
+    },
+    {
+        "id": 163,
+        "is_correct": true,
+        "extracted_answer": "F",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as an octagon."
+    },
+    {
+        "id": 164,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a trapezoid (4 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 165,
+        "is_correct": true,
+        "extracted_answer": "K",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as an ellipse."
+    },
+    {
+        "id": 166,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a pentagon (5 vertices), but the model identified it as a hexagon."
+    },
+    {
+        "id": 167,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a hexagon (6 vertices), but the model identified it as a heptagon."
+    },
+    {
+        "id": 168,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms an octagon (8 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 169,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms an octagon (8 vertices), but the model identified it as a hexagon."
+    },
+    {
+        "id": 170,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path describes a sector, but the model identified it as a circle."
+    },
+    {
+        "id": 171,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path describes a sector, but the model identified it as a circle."
+    },
+    {
+        "id": 172,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms an octagon (8 vertices), but the model identified it as a line."
+    },
+    {
+        "id": 173,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a hexagon (6 vertices), but the model identified it as a line."
+    },
+    {
+        "id": 174,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms an octagon (8 vertices), but the model identified it as a line."
+    },
+    {
+        "id": 175,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a kite."
+    },
+    {
+        "id": 176,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a kite."
+    },
+    {
+        "id": 177,
+        "is_correct": false,
+        "extracted_answer": "H",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a kite (4 vertices), but the model identified it as a rectangle."
+    },
+    {
+        "id": 178,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a kite."
+    },
+    {
+        "id": 179,
+        "is_correct": false,
+        "extracted_answer": "F",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a pentagon (5 vertices), but the model identified it as an octagon."
+    },
+    {
+        "id": 180,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a hexagon."
+    },
+    {
+        "id": 181,
+        "is_correct": true,
+        "extracted_answer": "I",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a sector."
+    },
+    {
+        "id": 182,
+        "is_correct": true,
+        "extracted_answer": "K",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as an ellipse."
+    },
+    {
+        "id": 183,
+        "is_correct": true,
+        "extracted_answer": "K",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a trapezoid."
+    },
+    {
+        "id": 184,
+        "is_correct": false,
+        "extracted_answer": "G",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a kite (4 vertices), but the model identified it as a pentagon."
+    },
+    {
+        "id": 185,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a line."
+    },
+    {
+        "id": 186,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms an octagon (8 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 187,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a hexagon (6 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 188,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a line."
+    },
+    {
+        "id": 189,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path describes a sector, but the model identified it as a circle."
+    },
+    {
+        "id": 190,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a hexagon."
+    },
+    {
+        "id": 191,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms an octagon (8 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 192,
+        "is_correct": false,
+        "extracted_answer": "J",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms an octagon (8 vertices), but the model identified it as a triangle."
+    },
+    {
+        "id": 193,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a hexagon."
+    },
+    {
+        "id": 194,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a line."
+    },
+    {
+        "id": 195,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a trapezoid (4 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 196,
+        "is_correct": true,
+        "extracted_answer": "F",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as an octagon."
+    },
+    {
+        "id": 197,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a kite (4 vertices), but the model identified it as a heptagon."
+    },
+    {
+        "id": 198,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a hexagon (6 vertices), but the model identified it as a heptagon."
+    },
+    {
+        "id": 199,
+        "is_correct": true,
+        "extracted_answer": "I",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a sector."
+    },
+    {
+        "id": 200,
+        "is_correct": true,
+        "extracted_answer": "K",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a trapezoid."
+    },
+    {
+        "id": 201,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "GT is ellipse. Model says circle (equal radii). Mismatch."
+    },
+    {
+        "id": 202,
+        "is_correct": true,
+        "extracted_answer": "G",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a pentagon."
+    },
+    {
+        "id": 203,
+        "is_correct": false,
+        "extracted_answer": "F",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a triangle (3 vertices), but the model identified it as an octagon."
+    },
+    {
+        "id": 204,
+        "is_correct": false,
+        "extracted_answer": "I",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "GT is ellipse. Model says sector. Mismatch."
+    },
+    {
+        "id": 205,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a line."
+    },
+    {
+        "id": 206,
+        "is_correct": false,
+        "extracted_answer": "F",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a heptagon (7 vertices), but the model identified it as an octagon."
+    },
+    {
+        "id": 207,
+        "is_correct": true,
+        "extracted_answer": "F",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as an octagon."
+    },
+    {
+        "id": 208,
+        "is_correct": false,
+        "extracted_answer": "G",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a heptagon (7 vertices), but the model identified it as a pentagon."
+    },
+    {
+        "id": 209,
+        "is_correct": true,
+        "extracted_answer": "I",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a sector."
+    },
+    {
+        "id": 210,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a pentagon (5 vertices), but the model identified it as a heptagon."
+    },
+    {
+        "id": 211,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path describes a sector, but the model identified it as a circle."
+    },
+    {
+        "id": 212,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a trapezoid (4 vertices), but the model identified it as a circle."
+    },
+    {
+        "id": 213,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a heptagon."
+    },
+    {
+        "id": 214,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a kite."
+    },
+    {
+        "id": 215,
+        "is_correct": true,
+        "extracted_answer": "F",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as an octagon."
+    },
+    {
+        "id": 216,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a line."
+    },
+    {
+        "id": 217,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path describes a sector, but the model identified it as a kite."
+    },
+    {
+        "id": 218,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a pentagon (5 vertices), but the model identified it as a heptagon."
+    },
+    {
+        "id": 219,
+        "is_correct": true,
+        "extracted_answer": "J",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a triangle."
+    },
+    {
+        "id": 220,
+        "is_correct": true,
+        "extracted_answer": "J",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a triangle."
+    },
+    {
+        "id": 221,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "GT is ellipse. Model says circle (equal radii). Mismatch."
+    },
+    {
+        "id": 222,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "GT is ellipse. Model says circle (equal radii). Mismatch."
+    },
+    {
+        "id": 223,
+        "is_correct": false,
+        "extracted_answer": "G",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a kite (4 vertices), but the model identified it as a pentagon."
+    },
+    {
+        "id": 224,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a trapezoid (4 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 225,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a trapezoid (4 vertices, rectangle), but the model identified it as a kite."
+    },
+    {
+        "id": 226,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a hexagon (6 vertices), but the model identified it as a line."
+    },
+    {
+        "id": 227,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a trapezoid (4 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 228,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a triangle (3 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 229,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a heptagon."
+    },
+    {
+        "id": 230,
+        "is_correct": true,
+        "extracted_answer": "J",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a triangle."
+    },
+    {
+        "id": 231,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path describes a sector, but the model identified it as a circle."
+    },
+    {
+        "id": 232,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a triangle (3 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 233,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a line."
+    },
+    {
+        "id": 234,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a hexagon."
+    },
+    {
+        "id": 235,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a pentagon (5 vertices), but the model identified it as a heptagon."
+    },
+    {
+        "id": 236,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a pentagon (5 vertices), but the model identified it as a heptagon."
+    },
+    {
+        "id": 237,
+        "is_correct": true,
+        "extracted_answer": "F",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as an octagon."
+    },
+    {
+        "id": 238,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a pentagon (5 vertices), but the model identified it as a heptagon."
+    },
+    {
+        "id": 239,
+        "is_correct": false,
+        "extracted_answer": "H",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a rectangle (which is a type of trapezoid). GT is trapezoid. Model says rectangle. Match is False strictly."
+    },
+    {
+        "id": 240,
+        "is_correct": false,
+        "extracted_answer": "J",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a pentagon (5 vertices), but the model identified it as a triangle."
+    },
+    {
+        "id": 241,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms an octagon (8 vertices), but the model identified it as a line."
+    },
+    {
+        "id": 242,
+        "is_correct": false,
+        "extracted_answer": "F",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a pentagon (5 vertices), but the model identified it as an octagon."
+    },
+    {
+        "id": 243,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "GT is ellipse. Model says circle (equal radii). Mismatch."
+    },
+    {
+        "id": 244,
+        "is_correct": true,
+        "extracted_answer": "G",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a pentagon."
+    },
+    {
+        "id": 245,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a heptagon (7 vertices), but the model identified it as a kite."
+    },
+    {
+        "id": 246,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path describes a sector, but the model identified it as a circle."
+    },
+    {
+        "id": 247,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path describes a sector, but the model identified it as a hexagon."
+    },
+    {
+        "id": 248,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The path forms a trapezoid (4 vertices), but the model identified it as a hexagon."
+    },
+    {
+        "id": 249,
+        "is_correct": true,
+        "extracted_answer": "I",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a sector."
+    },
+    {
+        "id": 250,
+        "is_correct": true,
+        "extracted_answer": "I",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the path as a sector."
+    }
+]

@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": true,
+        "extracted_answer": "24",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly calculated both parts and the final difference."
+    },
+    {
+        "id": 2,
+        "is_correct": true,
+        "extracted_answer": "63",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Step-by-step arithmetic is correct."
+    },
+    {
+        "id": 3,
+        "is_correct": false,
+        "extracted_answer": "-38",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model failed to correctly subtract the numbers in the second parenthesis (-2 + -7 - 7 - -7 is -9, not -21)."
+    },
+    {
+        "id": 4,
+        "is_correct": true,
+        "extracted_answer": "-11520",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct for the multi-step multiplication."
+    },
+    {
+        "id": 5,
+        "is_correct": true,
+        "extracted_answer": "58",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct for both parts of the addition."
+    },
+    {
+        "id": 6,
+        "is_correct": true,
+        "extracted_answer": "-33",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly followed PEMDAS rules for negative numbers."
+    },
+    {
+        "id": 7,
+        "is_correct": false,
+        "extracted_answer": "7",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model claimed -6 * -8 resulted in 6 in the final simplified step of the trace, which is wrong (48)."
+    },
+    {
+        "id": 8,
+        "is_correct": true,
+        "extracted_answer": "-80",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct application of addition with negative results."
+    },
+    {
+        "id": 9,
+        "is_correct": false,
+        "extracted_answer": "-858",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Calculation of the second parenthesis (5 + -7 - 4 * -5) should be 18, not -22."
+    },
+    {
+        "id": 10,
+        "is_correct": true,
+        "extracted_answer": "20",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Step-by-step subtraction of negative results is correct."
+    },
+    {
+        "id": 11,
+        "is_correct": true,
+        "extracted_answer": "54",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic sequence is correct."
+    },
+    {
+        "id": 12,
+        "is_correct": true,
+        "extracted_answer": "-8840",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct large number multiplication."
+    },
+    {
+        "id": 13,
+        "is_correct": true,
+        "extracted_answer": "42",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result for multiplication of two negative results."
+    },
+    {
+        "id": 14,
+        "is_correct": false,
+        "extracted_answer": "294",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model miscalculated sums inside parentheses (-6 + -9 - -6 + -4 is -13, not -21; -1 - -6 + -4 - 3 is -2, not -14)."
+    },
+    {
+        "id": 15,
+        "is_correct": false,
+        "extracted_answer": "1624",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Calculation in first parenthesis is incorrect (-5 - -32 + 8 = 35, not -29)."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "1608",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 17,
+        "is_correct": true,
+        "extracted_answer": "31",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct addition of results."
+    },
+    {
+        "id": 18,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Logic and signs are correctly handled."
+    },
+    {
+        "id": 19,
+        "is_correct": true,
+        "extracted_answer": "-92",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 20,
+        "is_correct": true,
+        "extracted_answer": "5",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Subtraction of two negative results leads to correct positive answer."
+    },
+    {
+        "id": 21,
+        "is_correct": true,
+        "extracted_answer": "-1",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 22,
+        "is_correct": true,
+        "extracted_answer": "-35",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct handling of zero multiplication."
+    },
+    {
+        "id": 23,
+        "is_correct": false,
+        "extracted_answer": "6",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Model calculation failed and switched to a generic example question at the end."
+    },
+    {
+        "id": 24,
+        "is_correct": false,
+        "extracted_answer": "31",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model miscalculated the simplified parts (18 + 13 is wrong; the question evaluates to -5)."
+    },
+    {
+        "id": 25,
+        "is_correct": false,
+        "extracted_answer": "3400",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model missed the sign in the result (85 * 40 = 3400 vs -3400)."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "71",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 27,
+        "is_correct": false,
+        "extracted_answer": "-5",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error in the second parenthesis (-2 - -1 - 1 + 2 is 0, not -2)."
+    },
+    {
+        "id": 28,
+        "is_correct": true,
+        "extracted_answer": "25",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 29,
+        "is_correct": true,
+        "extracted_answer": "416",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct large number multiplication."
+    },
+    {
+        "id": 30,
+        "is_correct": false,
+        "extracted_answer": "46",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Second parenthesis calculation is wrong (7 + -5 - -3 is 5, not -1)."
+    },
+    {
+        "id": 31,
+        "is_correct": false,
+        "extracted_answer": "6",
+        "reasoning_score": 1,
+        "error_type": "no_answer",
+        "comment": "The model response drifts into a different question halfway through."
+    },
+    {
+        "id": 32,
+        "is_correct": true,
+        "extracted_answer": "-19",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 33,
+        "is_correct": true,
+        "extracted_answer": "44",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Step-by-step arithmetic is correct."
+    },
+    {
+        "id": 34,
+        "is_correct": false,
+        "extracted_answer": "36",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect simplification of both parentheses."
+    },
+    {
+        "id": 35,
+        "is_correct": false,
+        "extracted_answer": "-54",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated first parenthesis (1 - 0 - -7 is 8, not -6)."
+    },
+    {
+        "id": 36,
+        "is_correct": false,
+        "extracted_answer": "0",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated second parenthesis (6 - 1 - -5 is 10, not 0)."
+    },
+    {
+        "id": 37,
+        "is_correct": false,
+        "extracted_answer": "-12",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "The calculation for the first parenthesis is wrong."
+    },
+    {
+        "id": 38,
+        "is_correct": false,
+        "extracted_answer": "-1",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated first parenthesis (0 - -5 is 5, correct, but Ground Truth is -9... wait, 0 - -1 + -1 + -3 is -3. Ground truth is -9? Let's check math: 0 - (-1) + (-1) + (-3) = 1 - 1 - 3 = -3. Wait, second part is 6. -3 - 6 = -9. Correct. Model got first part 5 instead of -3)."
+    },
+    {
+        "id": 39,
+        "is_correct": false,
+        "extracted_answer": "31",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated the final addition."
+    },
+    {
+        "id": 40,
+        "is_correct": true,
+        "extracted_answer": "70",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 41,
+        "is_correct": true,
+        "extracted_answer": "976",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 42,
+        "is_correct": true,
+        "extracted_answer": "2240",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 43,
+        "is_correct": true,
+        "extracted_answer": "57",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 44,
+        "is_correct": true,
+        "extracted_answer": "150",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic and arithmetic."
+    },
+    {
+        "id": 45,
+        "is_correct": false,
+        "extracted_answer": "-13",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First parenthesis evaluation is incorrect (-2 - -25 - 6 = 17, not -33)."
+    },
+    {
+        "id": 46,
+        "is_correct": false,
+        "extracted_answer": "-59",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Second parenthesis evaluation is incorrect (1 + -4 - -12 = 9, not -15)."
+    },
+    {
+        "id": 47,
+        "is_correct": true,
+        "extracted_answer": "-20",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 48,
+        "is_correct": true,
+        "extracted_answer": "84",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 49,
+        "is_correct": true,
+        "extracted_answer": "-76",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 50,
+        "is_correct": false,
+        "extracted_answer": "-1361",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "First part miscalculated (-7*9 - -9 + 7 = -63 + 9 + 7 = -47, not -65)."
+    },
+    {
+        "id": 51,
+        "is_correct": true,
+        "extracted_answer": "65",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 52,
+        "is_correct": true,
+        "extracted_answer": "-37",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Final answer is correct, although the extracted answer in the prompt text varied in the manual thinking section."
+    },
+    {
+        "id": 53,
+        "is_correct": false,
+        "extracted_answer": "67",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated first part (1 + 3 - -9 is 13, correct, but question says 1 + 3 - -5 - 4 which is 5, not 13)."
+    },
+    {
+        "id": 54,
+        "is_correct": true,
+        "extracted_answer": "36",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 55,
+        "is_correct": false,
+        "extracted_answer": "-2508",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Multiplication error (1134 * 34 is not -2508)."
+    },
+    {
+        "id": 56,
+        "is_correct": true,
+        "extracted_answer": "89",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 57,
+        "is_correct": true,
+        "extracted_answer": "-48",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 58,
+        "is_correct": true,
+        "extracted_answer": "211",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 59,
+        "is_correct": true,
+        "extracted_answer": "83",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 60,
+        "is_correct": false,
+        "extracted_answer": "-16",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "First parenthesis miscalculation (-1 + -6 - -4 + -6 is -9, not -5)."
+    },
+    {
+        "id": 61,
+        "is_correct": true,
+        "extracted_answer": "-51",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 62,
+        "is_correct": false,
+        "extracted_answer": "54",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated first parenthesis (3 - -6 - 7 + 3 is 5, not -1)."
+    },
+    {
+        "id": 63,
+        "is_correct": false,
+        "extracted_answer": "89",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Model got 80 + 9, but first parenthesis evaluation is 71, not 80."
+    },
+    {
+        "id": 64,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 65,
+        "is_correct": true,
+        "extracted_answer": "-46",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 66,
+        "is_correct": true,
+        "extracted_answer": "15",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 67,
+        "is_correct": true,
+        "extracted_answer": "365",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct large number arithmetic."
+    },
+    {
+        "id": 68,
+        "is_correct": true,
+        "extracted_answer": "-99",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 69,
+        "is_correct": true,
+        "extracted_answer": "-33",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 70,
+        "is_correct": true,
+        "extracted_answer": "88",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 71,
+        "is_correct": false,
+        "extracted_answer": "-41",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Second parenthesis calculation is wrong (-15 instead of -1)."
+    },
+    {
+        "id": 72,
+        "is_correct": true,
+        "extracted_answer": "48",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 73,
+        "is_correct": false,
+        "extracted_answer": "32",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Question 1st parenthesis calculation is wrong (6 - 1 - -3 + -2 is 6, not 0)."
+    },
+    {
+        "id": 74,
+        "is_correct": false,
+        "extracted_answer": "8",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Calculation of second parenthesis is wrong (0 + -9 - -3 + -6 - 5 is -17, model got -5)."
+    },
+    {
+        "id": 75,
+        "is_correct": false,
+        "extracted_answer": "30",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated both parentheses."
+    },
+    {
+        "id": 76,
+        "is_correct": false,
+        "extracted_answer": "37",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Model calculated -30 + -7 = 37 in the trace, which is -37, but then failed to keep the sign."
+    },
+    {
+        "id": 77,
+        "is_correct": true,
+        "extracted_answer": "-320",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct multiplication."
+    },
+    {
+        "id": 78,
+        "is_correct": false,
+        "extracted_answer": "108",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated right parenthesis (-7 + 4 - 21 is -24, not 18)."
+    },
+    {
+        "id": 79,
+        "is_correct": false,
+        "extracted_answer": "-42",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Model evaluated 3 - -12 + 6 as 21, but it's 3 + 12 + 6 = 21, yet first part 5 - 26 = -21, so -21 - 21 = -42. But second part in question is (3 - 4 * -3 - -6) = 3 - (-12) - (-6) = 3 + 12 + 6 = 21. First part is 5 - (-2 * -9 + 8) = 5 - (18 + 8) = 5 - 26 = -21. -21 - 21 = -42. Wait, why is Ground Truth -26?"
+    },
+    {
+        "id": 80,
+        "is_correct": true,
+        "extracted_answer": "30",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct addition."
+    },
+    {
+        "id": 81,
+        "is_correct": true,
+        "extracted_answer": "-10",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "-35",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct multiplication of results."
+    },
+    {
+        "id": 83,
+        "is_correct": false,
+        "extracted_answer": "-10",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated both parentheses."
+    },
+    {
+        "id": 84,
+        "is_correct": true,
+        "extracted_answer": "443",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 85,
+        "is_correct": true,
+        "extracted_answer": "14",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct subtraction of results."
+    },
+    {
+        "id": 86,
+        "is_correct": true,
+        "extracted_answer": "33",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 87,
+        "is_correct": false,
+        "extracted_answer": "217",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "The result should be negative (15 - 232 = -217)."
+    },
+    {
+        "id": 88,
+        "is_correct": true,
+        "extracted_answer": "-262",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 89,
+        "is_correct": false,
+        "extracted_answer": "86",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated first part."
+    },
+    {
+        "id": 90,
+        "is_correct": true,
+        "extracted_answer": "-1300",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 91,
+        "is_correct": false,
+        "extracted_answer": "-13",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Second parenthesis evaluation is incorrect (should be 9, model got 7)."
+    },
+    {
+        "id": 92,
+        "is_correct": false,
+        "extracted_answer": "-20",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated both parentheses."
+    },
+    {
+        "id": 93,
+        "is_correct": false,
+        "extracted_answer": "39627",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Multiplying 333 * -120 should be -39960."
+    },
+    {
+        "id": 94,
+        "is_correct": false,
+        "extracted_answer": "-92",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Second parenthesis calculation is incorrect (should be -90, model got 78)."
+    },
+    {
+        "id": 95,
+        "is_correct": false,
+        "extracted_answer": "Cut off/8324",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Response is cut off and contains logic errors in multiplication."
+    },
+    {
+        "id": 96,
+        "is_correct": true,
+        "extracted_answer": "72",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 97,
+        "is_correct": false,
+        "extracted_answer": "31",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Calculation of second parenthesis is slightly off."
+    },
+    {
+        "id": 98,
+        "is_correct": true,
+        "extracted_answer": "-17",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 99,
+        "is_correct": true,
+        "extracted_answer": "-13",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 100,
+        "is_correct": true,
+        "extracted_answer": "94",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 101,
+        "is_correct": true,
+        "extracted_answer": "-21",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct results."
+    },
+    {
+        "id": 102,
+        "is_correct": true,
+        "extracted_answer": "-3850",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct multiplication."
+    },
+    {
+        "id": 103,
+        "is_correct": false,
+        "extracted_answer": "0",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Calculation of second parenthesis is wrong."
+    },
+    {
+        "id": 104,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct handling of double negatives."
+    },
+    {
+        "id": 105,
+        "is_correct": false,
+        "extracted_answer": "2646",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Missed the sign in the multiplication."
+    },
+    {
+        "id": 106,
+        "is_correct": true,
+        "extracted_answer": "12",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 107,
+        "is_correct": false,
+        "extracted_answer": "24",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Evaluation of second part is slightly off."
+    },
+    {
+        "id": 108,
+        "is_correct": true,
+        "extracted_answer": "140",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic and arithmetic."
+    },
+    {
+        "id": 109,
+        "is_correct": false,
+        "extracted_answer": "-248",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Evaluation of second part is incorrect."
+    },
+    {
+        "id": 110,
+        "is_correct": false,
+        "extracted_answer": "-16",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "First part simplified to -8, correct, but second part 2 - 8 is wrong? No, Ground Truth is -6, so model is wrong."
+    },
+    {
+        "id": 111,
+        "is_correct": false,
+        "extracted_answer": "-5",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Second parenthesis calculation is off."
+    },
+    {
+        "id": 112,
+        "is_correct": true,
+        "extracted_answer": "-57",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct arithmetic."
+    },
+    {
+        "id": 113,
+        "is_correct": false,
+        "extracted_answer": "29",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Calculation error in second parenthesis."
+    },
+    {
+        "id": 114,
+        "is_correct": false,
+        "extracted_answer": "86",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated first part (-9*-5 - 5 + 7 = 47, not 57)."
+    },
+    {
+        "id": 115,
+        "is_correct": true,
+        "extracted_answer": "-330",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic and product."
+    },
+    {
+        "id": 116,
+        "is_correct": true,
+        "extracted_answer": "-8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 117,
+        "is_correct": true,
+        "extracted_answer": "1980",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct arithmetic."
+    },
+    {
+        "id": 118,
+        "is_correct": true,
+        "extracted_answer": "78",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct subtraction."
+    },
+    {
+        "id": 119,
+        "is_correct": false,
+        "extracted_answer": "16",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Second part calculation is incorrect."
+    },
+    {
+        "id": 120,
+        "is_correct": true,
+        "extracted_answer": "72",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 121,
+        "is_correct": true,
+        "extracted_answer": "-35",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 122,
+        "is_correct": true,
+        "extracted_answer": "-8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 123,
+        "is_correct": true,
+        "extracted_answer": "-264",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "0",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct zero multiplication logic."
+    },
+    {
+        "id": 125,
+        "is_correct": true,
+        "extracted_answer": "-83",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic in final part of response."
+    },
+    {
+        "id": 126,
+        "is_correct": false,
+        "extracted_answer": "667",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated both parentheses."
+    },
+    {
+        "id": 127,
+        "is_correct": false,
+        "extracted_answer": "12",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Second parenthesis calculation is off."
+    },
+    {
+        "id": 128,
+        "is_correct": true,
+        "extracted_answer": "45",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 129,
+        "is_correct": true,
+        "extracted_answer": "-196",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 130,
+        "is_correct": false,
+        "extracted_answer": "-35",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Second parenthesis miscalculation (0 - -7 is 7, not -7)."
+    },
+    {
+        "id": 131,
+        "is_correct": true,
+        "extracted_answer": "3420",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 132,
+        "is_correct": true,
+        "extracted_answer": "-90",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 133,
+        "is_correct": false,
+        "extracted_answer": "21",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part calculation is incorrect."
+    },
+    {
+        "id": 134,
+        "is_correct": true,
+        "extracted_answer": "-81",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 135,
+        "is_correct": false,
+        "extracted_answer": "-10",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Evaluation of first parenthesis is incorrect."
+    },
+    {
+        "id": 136,
+        "is_correct": true,
+        "extracted_answer": "-89",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 137,
+        "is_correct": false,
+        "extracted_answer": "325",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Evaluation of first parenthesis is incorrect."
+    },
+    {
+        "id": 138,
+        "is_correct": true,
+        "extracted_answer": "-24",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 139,
+        "is_correct": false,
+        "extracted_answer": "2",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Calculation of first part is off."
+    },
+    {
+        "id": 140,
+        "is_correct": true,
+        "extracted_answer": "-39",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 141,
+        "is_correct": false,
+        "extracted_answer": "158",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect multiplication and part combination."
+    },
+    {
+        "id": 142,
+        "is_correct": true,
+        "extracted_answer": "-60",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic and result."
+    },
+    {
+        "id": 143,
+        "is_correct": true,
+        "extracted_answer": "-284",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic and result."
+    },
+    {
+        "id": 144,
+        "is_correct": true,
+        "extracted_answer": "-8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 145,
+        "is_correct": true,
+        "extracted_answer": "-4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 146,
+        "is_correct": false,
+        "extracted_answer": "1200",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Multiplication error (24 * 15 is not 1200)."
+    },
+    {
+        "id": 147,
+        "is_correct": true,
+        "extracted_answer": "32",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct arithmetic."
+    },
+    {
+        "id": 148,
+        "is_correct": true,
+        "extracted_answer": "220",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 149,
+        "is_correct": true,
+        "extracted_answer": "18",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct handling of zero multiplication."
+    },
+    {
+        "id": 150,
+        "is_correct": true,
+        "extracted_answer": "-18",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct arithmetic."
+    },
+    {
+        "id": 151,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 152,
+        "is_correct": true,
+        "extracted_answer": "-84",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct product."
+    },
+    {
+        "id": 153,
+        "is_correct": true,
+        "extracted_answer": "-71",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 154,
+        "is_correct": true,
+        "extracted_answer": "-343",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct multiplication sequence."
+    },
+    {
+        "id": 155,
+        "is_correct": false,
+        "extracted_answer": "-5353",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Multiplication error (-133 * 41 is not -5353)."
+    },
+    {
+        "id": 156,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct arithmetic."
+    },
+    {
+        "id": 157,
+        "is_correct": false,
+        "extracted_answer": "-39",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Evaluation of first parenthesis is incorrect."
+    },
+    {
+        "id": 158,
+        "is_correct": false,
+        "extracted_answer": "59",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Second parenthesis miscalculation."
+    },
+    {
+        "id": 159,
+        "is_correct": true,
+        "extracted_answer": "-43",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct subtraction."
+    },
+    {
+        "id": 160,
+        "is_correct": false,
+        "extracted_answer": "-27",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Calculation of second part is wrong."
+    },
+    {
+        "id": 161,
+        "is_correct": true,
+        "extracted_answer": "-61",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 162,
+        "is_correct": false,
+        "extracted_answer": "3",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Calculation of first parenthesis is incorrect."
+    },
+    {
+        "id": 163,
+        "is_correct": false,
+        "extracted_answer": "165",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Evaluation of second parenthesis is incorrect."
+    },
+    {
+        "id": 164,
+        "is_correct": false,
+        "extracted_answer": "15",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Evaluation of second parenthesis is incorrect."
+    },
+    {
+        "id": 165,
+        "is_correct": true,
+        "extracted_answer": "30",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 166,
+        "is_correct": false,
+        "extracted_answer": "25",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Evaluation of first part is slightly off."
+    },
+    {
+        "id": 167,
+        "is_correct": true,
+        "extracted_answer": "26",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct subtraction of results."
+    },
+    {
+        "id": 168,
+        "is_correct": true,
+        "extracted_answer": "-224",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 169,
+        "is_correct": false,
+        "extracted_answer": "1",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Evaluation of first parenthesis is incorrect."
+    },
+    {
+        "id": 170,
+        "is_correct": true,
+        "extracted_answer": "-151",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 171,
+        "is_correct": false,
+        "extracted_answer": "-170",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Calculation of first part is off."
+    },
+    {
+        "id": 172,
+        "is_correct": false,
+        "extracted_answer": "110",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Second parenthesis evaluation is incorrect."
+    },
+    {
+        "id": 173,
+        "is_correct": true,
+        "extracted_answer": "-32",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 174,
+        "is_correct": true,
+        "extracted_answer": "-6",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 175,
+        "is_correct": true,
+        "extracted_answer": "-262",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 176,
+        "is_correct": true,
+        "extracted_answer": "-48",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 177,
+        "is_correct": true,
+        "extracted_answer": "15",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic for double negatives."
+    },
+    {
+        "id": 178,
+        "is_correct": true,
+        "extracted_answer": "-554",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Arithmetic is correct."
+    },
+    {
+        "id": 179,
+        "is_correct": true,
+        "extracted_answer": "-11",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 180,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 181,
+        "is_correct": true,
+        "extracted_answer": "-240",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic and arithmetic."
+    },
+    {
+        "id": 182,
+        "is_correct": true,
+        "extracted_answer": "2652",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 183,
+        "is_correct": true,
+        "extracted_answer": "-5",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct arithmetic."
+    },
+    {
+        "id": 184,
+        "is_correct": true,
+        "extracted_answer": "-11",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 185,
+        "is_correct": false,
+        "extracted_answer": "-360",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated second parenthesis."
+    },
+    {
+        "id": 186,
+        "is_correct": true,
+        "extracted_answer": "48",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 187,
+        "is_correct": true,
+        "extracted_answer": "522",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct multiplication."
+    },
+    {
+        "id": 188,
+        "is_correct": true,
+        "extracted_answer": "41",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 189,
+        "is_correct": true,
+        "extracted_answer": "-52",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 190,
+        "is_correct": false,
+        "extracted_answer": "-243",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Calculation error in second part."
+    },
+    {
+        "id": 191,
+        "is_correct": true,
+        "extracted_answer": "15",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 192,
+        "is_correct": false,
+        "extracted_answer": "36",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated first parenthesis."
+    },
+    {
+        "id": 193,
+        "is_correct": false,
+        "extracted_answer": "-32",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated first part."
+    },
+    {
+        "id": 194,
+        "is_correct": true,
+        "extracted_answer": "-340",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct arithmetic."
+    },
+    {
+        "id": 195,
+        "is_correct": true,
+        "extracted_answer": "107",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 196,
+        "is_correct": false,
+        "extracted_answer": "0",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Evaluation of first parenthesis is slightly off."
+    },
+    {
+        "id": 197,
+        "is_correct": true,
+        "extracted_answer": "-21",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 198,
+        "is_correct": true,
+        "extracted_answer": "1168",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct multiplication."
+    },
+    {
+        "id": 199,
+        "is_correct": true,
+        "extracted_answer": "-32",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic and result."
+    },
+    {
+        "id": 200,
+        "is_correct": false,
+        "extracted_answer": "44",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated both parentheses."
+    },
+    {
+        "id": 201,
+        "is_correct": true,
+        "extracted_answer": "181",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 202,
+        "is_correct": false,
+        "extracted_answer": "64",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated both parentheses."
+    },
+    {
+        "id": 203,
+        "is_correct": true,
+        "extracted_answer": "-60",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct arithmetic."
+    },
+    {
+        "id": 204,
+        "is_correct": false,
+        "extracted_answer": "336",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Multiplication error (26 * 252 is 6552, not 336)."
+    },
+    {
+        "id": 205,
+        "is_correct": true,
+        "extracted_answer": "-7",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 206,
+        "is_correct": true,
+        "extracted_answer": "63",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 207,
+        "is_correct": true,
+        "extracted_answer": "52",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 208,
+        "is_correct": true,
+        "extracted_answer": "-10",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 209,
+        "is_correct": false,
+        "extracted_answer": "-28",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Second parenthesis calculation is incorrect."
+    },
+    {
+        "id": 210,
+        "is_correct": true,
+        "extracted_answer": "330",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct large number subtraction."
+    },
+    {
+        "id": 211,
+        "is_correct": true,
+        "extracted_answer": "17",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct handling of subtraction."
+    },
+    {
+        "id": 212,
+        "is_correct": false,
+        "extracted_answer": "-1518",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Calculation of first parenthesis is slightly off."
+    },
+    {
+        "id": 213,
+        "is_correct": true,
+        "extracted_answer": "-113",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 214,
+        "is_correct": false,
+        "extracted_answer": "-602",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Second parenthesis calculation is incorrect."
+    },
+    {
+        "id": 215,
+        "is_correct": false,
+        "extracted_answer": "-160",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Evaluation of second part is incorrect."
+    },
+    {
+        "id": 216,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 217,
+        "is_correct": false,
+        "extracted_answer": "20",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "The result should be negative."
+    },
+    {
+        "id": 218,
+        "is_correct": true,
+        "extracted_answer": "123",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 219,
+        "is_correct": false,
+        "extracted_answer": "-279",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Evaluation of first parenthesis is incorrect."
+    },
+    {
+        "id": 220,
+        "is_correct": false,
+        "extracted_answer": "3780",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Evaluation of second part is incorrect."
+    },
+    {
+        "id": 221,
+        "is_correct": true,
+        "extracted_answer": "120",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 222,
+        "is_correct": true,
+        "extracted_answer": "128",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 223,
+        "is_correct": true,
+        "extracted_answer": "3255",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct large number multiplication."
+    },
+    {
+        "id": 224,
+        "is_correct": true,
+        "extracted_answer": "346",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct handling of negation."
+    },
+    {
+        "id": 225,
+        "is_correct": true,
+        "extracted_answer": "-38",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 226,
+        "is_correct": true,
+        "extracted_answer": "-30",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 227,
+        "is_correct": false,
+        "extracted_answer": "-198",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Evaluation of first part is incorrect."
+    },
+    {
+        "id": 228,
+        "is_correct": true,
+        "extracted_answer": "24",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 229,
+        "is_correct": false,
+        "extracted_answer": "484",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Evaluation of second part is incorrect."
+    },
+    {
+        "id": 230,
+        "is_correct": false,
+        "extracted_answer": "44",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Evaluation of right parenthesis is incorrect."
+    },
+    {
+        "id": 231,
+        "is_correct": true,
+        "extracted_answer": "17",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 232,
+        "is_correct": false,
+        "extracted_answer": "-99",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated first parenthesis."
+    },
+    {
+        "id": 233,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct subtraction."
+    },
+    {
+        "id": 234,
+        "is_correct": true,
+        "extracted_answer": "867",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct arithmetic."
+    },
+    {
+        "id": 235,
+        "is_correct": true,
+        "extracted_answer": "-147",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 236,
+        "is_correct": false,
+        "extracted_answer": "11000",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated first part."
+    },
+    {
+        "id": 237,
+        "is_correct": false,
+        "extracted_answer": "79",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Evaluation of second part is incorrect."
+    },
+    {
+        "id": 238,
+        "is_correct": false,
+        "extracted_answer": "-44",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Product should be positive."
+    },
+    {
+        "id": 239,
+        "is_correct": true,
+        "extracted_answer": "-114",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 240,
+        "is_correct": true,
+        "extracted_answer": "336",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 241,
+        "is_correct": false,
+        "extracted_answer": "-68",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Evaluation of second part is incorrect."
+    },
+    {
+        "id": 242,
+        "is_correct": true,
+        "extracted_answer": "216",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 243,
+        "is_correct": true,
+        "extracted_answer": "-3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 244,
+        "is_correct": false,
+        "extracted_answer": "252,192",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Multiplication error (332 * 756 is 250992, not 252192)."
+    },
+    {
+        "id": 245,
+        "is_correct": true,
+        "extracted_answer": "-25",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 246,
+        "is_correct": true,
+        "extracted_answer": "48",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 247,
+        "is_correct": true,
+        "extracted_answer": "464",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct result."
+    },
+    {
+        "id": 248,
+        "is_correct": false,
+        "extracted_answer": "-2448",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Trace had a mid-calculation change and reached -2448, which is incorrect."
+    },
+    {
+        "id": 249,
+        "is_correct": true,
+        "extracted_answer": "14",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Wait, the response is actually ID 250 in the list but marked 249 in question. Result is 14, ground truth 10. Logic error."
+    },
+    {
+        "id": 250,
+        "is_correct": false,
+        "extracted_answer": "14",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Evaluation of first part is incorrect (5 - -16 should be 21, but 5 - 11 = -6... Ground truth is 10)."
+    }
+]

@@ -1,0 +1,377 @@
+
+################################################################################
+# top_p0.95,rep_penalty1.05-zeroshot-bruteforcesysprompt
+################################################################################
+
+Found 27 task files
+
+============================================================
+Task: boolean_expressions
+------------------------------------------------------------
+  Samples: 250 | Think tags: 236 (94%)
+  Official: 0 (0.0%)
+  True:     199 (79.6%)
+  Wrong:    45 (18.0%)
+  No answer: 6 (2.4%)
+
+  Samples:
+    [CORRECT] Doc 0: target='False' got='false'
+    [WRONG_ANSWER] Doc 1: target='True' got='false'
+
+============================================================
+Task: causal_judgement
+------------------------------------------------------------
+  Samples: 187 | Think tags: 186 (99%)
+  Official: 0 (0.0%)
+  True:     92 (49.2%)
+  Wrong:    74 (39.6%)
+  No answer: 21 (11.2%)
+
+  Samples:
+    [CORRECT] Doc 0: target='No' got='no'
+    [CORRECT] Doc 1: target='No' got='no'
+
+============================================================
+Task: date_understanding
+------------------------------------------------------------
+  Samples: 250 | Think tags: 221 (88%)
+  Official: 0 (0.0%)
+  True:     117 (46.8%)
+  Wrong:    109 (43.6%)
+  No answer: 24 (9.6%)
+
+  Samples:
+    [WRONG_ANSWER] Doc 0: target='(B)' got='(c)'
+    [CORRECT] Doc 1: target='(A)' got='(a)'
+
+============================================================
+Task: disambiguation_qa
+------------------------------------------------------------
+  Samples: 250 | Think tags: 248 (99%)
+  Official: 1 (0.4%)
+  True:     90 (36.0%)
+  Wrong:    138 (55.2%)
+  No answer: 22 (8.8%)
+
+  Samples:
+    [WRONG_ANSWER] Doc 0: target='(A)' got='(b)'
+    [CORRECT] Doc 1: target='(C)' got='(c)'
+
+============================================================
+Task: dyck_languages
+------------------------------------------------------------
+  Samples: 250 | Think tags: 146 (58%)
+  Official: 0 (0.0%)
+  True:     146 (58.4%)
+  Wrong:    0 (0.0%)
+  No answer: 104 (41.6%)
+
+  Samples:
+    [NO_ANSWER] Doc 0: target='] ]' got='None'
+    [NO_ANSWER] Doc 1: target='] ] >' got='None'
+
+============================================================
+Task: formal_fallacies
+------------------------------------------------------------
+  Samples: 250 | Think tags: 239 (96%)
+  Official: 0 (0.0%)
+  True:     65 (26.0%)
+  Wrong:    184 (73.6%)
+  No answer: 1 (0.4%)
+
+  Samples:
+    [WRONG_ANSWER] Doc 0: target='invalid' got='no'
+    [WRONG_ANSWER] Doc 1: target='invalid' got='no'
+
+============================================================
+Task: geometric_shapes
+------------------------------------------------------------
+  Samples: 250 | Think tags: 227 (91%)
+  Official: 0 (0.0%)
+  True:     78 (31.2%)
+  Wrong:    76 (30.4%)
+  No answer: 96 (38.4%)
+
+  Samples:
+    [WRONG_ANSWER] Doc 0: target='(B)' got='(f)'
+    [NO_ANSWER] Doc 1: target='(J)' got='None'
+
+============================================================
+Task: hyperbaton
+------------------------------------------------------------
+  Samples: 250 | Think tags: 248 (99%)
+  Official: 1 (0.4%)
+  True:     137 (54.8%)
+  Wrong:    105 (42.0%)
+  No answer: 8 (3.2%)
+
+  Samples:
+    [CORRECT] Doc 0: target='(A)' got='(a)'
+    [CORRECT] Doc 1: target='(B)' got='(b)'
+
+============================================================
+Task: logical_deduction_five_objects
+------------------------------------------------------------
+  Samples: 250 | Think tags: 192 (77%)
+  Official: 0 (0.0%)
+  True:     100 (40.0%)
+  Wrong:    120 (48.0%)
+  No answer: 30 (12.0%)
+
+  Samples:
+    [CORRECT] Doc 0: target='(A)' got='(a)'
+    [CORRECT] Doc 1: target='(B)' got='(b)'
+
+============================================================
+Task: logical_deduction_seven_objects
+------------------------------------------------------------
+  Samples: 250 | Think tags: 125 (50%)
+  Official: 1 (0.4%)
+  True:     65 (26.0%)
+  Wrong:    107 (42.8%)
+  No answer: 78 (31.2%)
+
+  Samples:
+    [CORRECT] Doc 0: target='(D)' got='(d)'
+    [WRONG_ANSWER] Doc 1: target='(B)' got='(d)'
+
+============================================================
+Task: logical_deduction_three_objects
+------------------------------------------------------------
+  Samples: 250 | Think tags: 242 (97%)
+  Official: 2 (0.8%)
+  True:     147 (58.8%)
+  Wrong:    95 (38.0%)
+  No answer: 8 (3.2%)
+
+  Samples:
+    [CORRECT] Doc 0: target='(A)' got='(a)'
+    [NO_ANSWER] Doc 1: target='(B)' got='None'
+
+============================================================
+Task: movie_recommendation
+------------------------------------------------------------
+  Samples: 250 | Think tags: 249 (100%)
+  Official: 0 (0.0%)
+  True:     89 (35.6%)
+  Wrong:    100 (40.0%)
+  No answer: 61 (24.4%)
+
+  Samples:
+    [WRONG_ANSWER] Doc 0: target='(C)' got='(b)'
+    [NO_ANSWER] Doc 1: target='(D)' got='None'
+
+============================================================
+Task: multistep_arithmetic_two
+------------------------------------------------------------
+  Samples: 250 | Think tags: 242 (97%)
+  Official: 0 (0.0%)
+  True:     152 (60.8%)
+  Wrong:    0 (0.0%)
+  No answer: 98 (39.2%)
+
+  Samples:
+    [CORRECT] Doc 0: target='24' got='24'
+    [CORRECT] Doc 1: target='63' got='63'
+
+============================================================
+Task: navigate
+------------------------------------------------------------
+  Samples: 250 | Think tags: 240 (96%)
+  Official: 0 (0.0%)
+  True:     154 (61.6%)
+  Wrong:    73 (29.2%)
+  No answer: 23 (9.2%)
+
+  Samples:
+    [WRONG_ANSWER] Doc 0: target='No' got='yes'
+    [NO_ANSWER] Doc 1: target='No' got='None'
+
+============================================================
+Task: object_counting
+------------------------------------------------------------
+  Samples: 250 | Think tags: 249 (100%)
+  Official: 1 (0.4%)
+  True:     143 (57.2%)
+  Wrong:    0 (0.0%)
+  No answer: 107 (42.8%)
+
+  Samples:
+    [CORRECT] Doc 0: target='8' got='8'
+    [CORRECT] Doc 1: target='15' got='15'
+
+============================================================
+Task: penguins_in_a_table
+------------------------------------------------------------
+  Samples: 146 | Think tags: 140 (96%)
+  Official: 0 (0.0%)
+  True:     79 (54.1%)
+  Wrong:    58 (39.7%)
+  No answer: 9 (6.2%)
+
+  Samples:
+    [CORRECT] Doc 0: target='(E)' got='(e)'
+    [CORRECT] Doc 1: target='(C)' got='(c)'
+
+============================================================
+Task: reasoning_about_colored_objects
+------------------------------------------------------------
+  Samples: 250 | Think tags: 243 (97%)
+  Official: 0 (0.0%)
+  True:     130 (52.0%)
+  Wrong:    67 (26.8%)
+  No answer: 53 (21.2%)
+
+  Samples:
+    [WRONG_ANSWER] Doc 0: target='(D)' got='(a)'
+    [NO_ANSWER] Doc 1: target='(Q)' got='None'
+
+============================================================
+Task: ruin_names
+------------------------------------------------------------
+  Samples: 250 | Think tags: 250 (100%)
+  Official: 0 (0.0%)
+  True:     135 (54.0%)
+  Wrong:    112 (44.8%)
+  No answer: 3 (1.2%)
+
+  Samples:
+    [WRONG_ANSWER] Doc 0: target='(A)' got='(c)'
+    [WRONG_ANSWER] Doc 1: target='(C)' got='(a)'
+
+============================================================
+Task: salient_translation_error_detection
+------------------------------------------------------------
+  Samples: 250 | Think tags: 235 (94%)
+  Official: 0 (0.0%)
+  True:     67 (26.8%)
+  Wrong:    158 (63.2%)
+  No answer: 25 (10.0%)
+
+  Samples:
+    [WRONG_ANSWER] Doc 0: target='(A)' got='(e)'
+    [WRONG_ANSWER] Doc 1: target='(A)' got='(d)'
+
+============================================================
+Task: snarks
+------------------------------------------------------------
+  Samples: 178 | Think tags: 177 (99%)
+  Official: 0 (0.0%)
+  True:     105 (59.0%)
+  Wrong:    69 (38.8%)
+  No answer: 4 (2.2%)
+
+  Samples:
+    [CORRECT] Doc 0: target='(B)' got='(b)'
+    [WRONG_ANSWER] Doc 1: target='(A)' got='(b)'
+
+============================================================
+Task: sports_understanding
+------------------------------------------------------------
+  Samples: 250 | Think tags: 250 (100%)
+  Official: 0 (0.0%)
+  True:     152 (60.8%)
+  Wrong:    93 (37.2%)
+  No answer: 5 (2.0%)
+
+  Samples:
+    [WRONG_ANSWER] Doc 0: target='no' got='yes'
+    [CORRECT] Doc 1: target='yes' got='yes'
+
+============================================================
+Task: temporal_sequences
+------------------------------------------------------------
+  Samples: 250 | Think tags: 204 (82%)
+  Official: 0 (0.0%)
+  True:     92 (36.8%)
+  Wrong:    134 (53.6%)
+  No answer: 24 (9.6%)
+
+  Samples:
+    [WRONG_ANSWER] Doc 0: target='(A)' got='(c)'
+    [WRONG_ANSWER] Doc 1: target='(C)' got='(a)'
+
+============================================================
+Task: tracking_shuffled_objects_five_objects
+------------------------------------------------------------
+  Samples: 250 | Think tags: 229 (92%)
+  Official: 0 (0.0%)
+  True:     99 (39.6%)
+  Wrong:    129 (51.6%)
+  No answer: 22 (8.8%)
+
+  Samples:
+    [WRONG_ANSWER] Doc 0: target='(A)' got='(e)'
+    [CORRECT] Doc 1: target='(C)' got='(c)'
+
+============================================================
+Task: tracking_shuffled_objects_seven_objects
+------------------------------------------------------------
+  Samples: 250 | Think tags: 196 (78%)
+  Official: 0 (0.0%)
+  True:     77 (30.8%)
+  Wrong:    106 (42.4%)
+  No answer: 67 (26.8%)
+
+  Samples:
+    [CORRECT] Doc 0: target='(A)' got='(a)'
+    [WRONG_ANSWER] Doc 1: target='(E)' got='(a)'
+
+============================================================
+Task: tracking_shuffled_objects_three_objects
+------------------------------------------------------------
+  Samples: 250 | Think tags: 244 (98%)
+  Official: 0 (0.0%)
+  True:     112 (44.8%)
+  Wrong:    114 (45.6%)
+  No answer: 24 (9.6%)
+
+  Samples:
+    [NO_ANSWER] Doc 0: target='(B)' got='None'
+    [CORRECT] Doc 1: target='(A)' got='(a)'
+
+============================================================
+Task: web_of_lies
+------------------------------------------------------------
+  Samples: 250 | Think tags: 218 (87%)
+  Official: 0 (0.0%)
+  True:     30 (12.0%)
+  Wrong:    188 (75.2%)
+  No answer: 32 (12.8%)
+
+  Samples:
+    [NO_ANSWER] Doc 0: target='No' got='None'
+    [WRONG_ANSWER] Doc 1: target='No' got='false'
+
+============================================================
+Task: word_sorting
+------------------------------------------------------------
+  Samples: 250 | Think tags: 163 (65%)
+  Official: 0 (0.0%)
+  True:     2 (0.8%)
+  Wrong:    0 (0.0%)
+  No answer: 248 (99.2%)
+
+  Samples:
+    [CORRECT] Doc 0: target='syndrome therefrom' got='syndrome therefrom'
+    [NO_ANSWER] Doc 1: target='barn damp delmarva dot drumhead embezzle entirety greene guru it&t malton obstetric onus panicking prod same scorch splutter subsist thrill' got='None'
+
+================================================================================
+SUMMARY: top_p0.95,rep_penalty1.05-zeroshot-bruteforcesysprompt
+================================================================================
+
+Total samples: 6511
+Think tags: 5839 (89.7%)
+
+--- ACCURACY ---
+Official (benchmark):      6 ( 0.09%)
+True (extracted):       2854 (43.83%)
+Gap:                          +43.74%
+
+--- ERROR BREAKDOWN ---
+Wrong answer (model chose wrong):  2454 ( 37.7%)
+No answer (couldn't extract):      1203 ( 18.5%)
+
+--- FORMAT RECOVERY ---
+Correct but unrecognized by benchmark: 2848
+Recovery potential: +43.74%

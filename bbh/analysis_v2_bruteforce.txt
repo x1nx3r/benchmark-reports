@@ -1,0 +1,532 @@
+
+################################################################################
+# CONFIG: top_p0.95,rep_penalty1.05-zeroshot-bruteforcesysprompt
+################################################################################
+
+Found 27 task files
+
+============================================================
+Task: boolean_expressions
+------------------------------------------------------------
+  Samples: 250
+  Think tags: 236 (94.4%)
+  Official accuracy: 0/250 (0.0%)
+  True accuracy: 223/250 (89.2%)
+  Format issues: 223 (89.2%)
+  Actually wrong: 27
+  Match patterns: {'boolean_flexible': 212, 'official_the_answer_is': 11}
+
+  Sample issues:
+    [FORMAT] Doc 0: target='False' extracted='false'
+           Final: The result is False....
+    [WRONG] Doc 1: target='True' extracted='None'
+           Final: A: False...
+
+============================================================
+Task: causal_judgement
+------------------------------------------------------------
+  Samples: 187
+  Think tags: 186 (99.5%)
+  Official accuracy: 0/187 (0.0%)
+  True accuracy: 123/187 (65.8%)
+  Format issues: 123 (65.8%)
+  Actually wrong: 64
+  Match patterns: {'boolean_flexible': 110, 'official_the_answer_is': 11, 'answer_colon': 1, 'thus': 1}
+
+  Sample issues:
+    [FORMAT] Doc 0: target='No' extracted='no'
+           Final: A typical person would likely answer: **No**.
+
+Their reasoning would go like thi...
+    [FORMAT] Doc 1: target='No' extracted='no'
+           Final: Q: How would a typical person answer each of the following questions about causa...
+
+============================================================
+Task: date_understanding
+------------------------------------------------------------
+  Samples: 250
+  Think tags: 221 (88.4%)
+  Official accuracy: 0/250 (0.0%)
+  True accuracy: 162/250 (64.8%)
+  Format issues: 162 (64.8%)
+  Actually wrong: 88
+  Match patterns: {'option_flexible': 157, 'official_the_answer_is': 4, 'answer_colon': 1}
+
+  Sample issues:
+    [WRONG] Doc 0: target='(B)' extracted='None'
+           Final: (C) 01/04/1938...
+    [FORMAT] Doc 1: target='(A)' extracted='(a)'
+           Final: The correct answer is:
+
+(A) 12/02/1986...
+
+============================================================
+Task: disambiguation_qa
+------------------------------------------------------------
+  Samples: 250
+  Think tags: 248 (99.2%)
+  Official accuracy: 1/250 (0.4%)
+  True accuracy: 166/250 (66.4%)
+  Format issues: 165 (66.0%)
+  Actually wrong: 84
+  Match patterns: {'option_flexible': 162, 'official_the_answer_is': 4}
+
+  Sample issues:
+    [FORMAT] Doc 0: target='(A)' extracted='(a)'
+           Final: The antecedent of the pronoun "he" in the sentence is ambiguous because it can r...
+    [FORMAT] Doc 1: target='(C)' extracted='(c)'
+           Final: The correct answer is (C) Ambiguous. 
+
+Explanation: 
+1. The first clause states:...
+
+============================================================
+Task: dyck_languages
+------------------------------------------------------------
+  Samples: 250
+  Think tags: 146 (58.4%)
+  Official accuracy: 0/250 (0.0%)
+  True accuracy: 146/250 (58.4%)
+  Format issues: 146 (58.4%)
+  Actually wrong: 104
+  Match patterns: {'direct_match': 146}
+
+  Sample issues:
+    [WRONG] Doc 0: target='] ]' extracted='None'
+           Final: A: Let's think step by step.
+
+1. **Start with the input**: We have an empty pair...
+    [WRONG] Doc 1: target='] ] >' extracted='None'
+           Final: The completed sequence is `< [ [ ]]`....
+
+============================================================
+Task: formal_fallacies
+------------------------------------------------------------
+  Samples: 250
+  Think tags: 239 (95.6%)
+  Official accuracy: 0/250 (0.0%)
+  True accuracy: 182/250 (72.8%)
+  Format issues: 182 (72.8%)
+  Actually wrong: 68
+  Match patterns: {'boolean_flexible': 158, 'thus': 11, 'therefore': 6, 'official_the_answer_is': 7}
+
+  Sample issues:
+    [FORMAT] Doc 0: target='invalid' extracted='invalid'
+           Final: The argument is **deductively valid** because it follows logically from its prem...
+    [WRONG] Doc 1: target='invalid' extracted='None'
+           Final: The argument is **deductively valid**. Here's why:
+
+1. **Equivalence**: Premise ...
+
+============================================================
+Task: geometric_shapes
+------------------------------------------------------------
+  Samples: 250
+  Think tags: 227 (90.8%)
+  Official accuracy: 0/250 (0.0%)
+  True accuracy: 93/250 (37.2%)
+  Format issues: 93 (37.2%)
+  Actually wrong: 157
+  Match patterns: {'option_flexible': 64, 'direct_match': 28, 'official_the_answer_is': 1}
+
+  Sample issues:
+    [WRONG] Doc 0: target='(B)' extracted='None'
+           Final: The given SVG path consists of multiple connected line segments, forming a close...
+    [WRONG] Doc 1: target='(J)' extracted='None'
+           Final: The correct answer is \boxed{J} (triangle)....
+
+============================================================
+Task: hyperbaton
+------------------------------------------------------------
+  Samples: 250
+  Think tags: 248 (99.2%)
+  Official accuracy: 1/250 (0.4%)
+  True accuracy: 192/250 (76.8%)
+  Format issues: 191 (76.4%)
+  Actually wrong: 58
+  Match patterns: {'option_flexible': 190, 'official_the_answer_is': 1, 'answer_colon': 1}
+
+  Sample issues:
+    [FORMAT] Doc 0: target='(A)' extracted='(a)'
+           Final: The correct answer is **(A)**: **midsize old grey Brazilian sweater**.
+
+Explanat...
+    [FORMAT] Doc 1: target='(B)' extracted='(b)'
+           Final: The correct adjective order is **(B)**: "midsize gray Mexican rubber walking cat...
+
+============================================================
+Task: logical_deduction_five_objects
+------------------------------------------------------------
+  Samples: 250
+  Think tags: 192 (76.8%)
+  Official accuracy: 0/250 (0.0%)
+  True accuracy: 116/250 (46.4%)
+  Format issues: 116 (46.4%)
+  Actually wrong: 134
+  Match patterns: {'option_flexible': 114, 'official_the_answer_is': 2}
+
+  Sample issues:
+    [FORMAT] Doc 0: target='(A)' extracted='(a)'
+           Final: A: The correct answer is \boxed{A}....
+    [FORMAT] Doc 1: target='(B)' extracted='(b)'
+           Final: The correct answer is **(B)**....
+
+============================================================
+Task: logical_deduction_seven_objects
+------------------------------------------------------------
+  Samples: 250
+  Think tags: 125 (50.0%)
+  Official accuracy: 1/250 (0.4%)
+  True accuracy: 95/250 (38.0%)
+  Format issues: 94 (37.6%)
+  Actually wrong: 155
+  Match patterns: {'option_flexible': 90, 'official_the_answer_is': 5}
+
+  Sample issues:
+    [FORMAT] Doc 0: target='(D)' extracted='(d)'
+           Final: <think>Let's break down the problem step by step to deduce the correct order.
+
+F...
+    [WRONG] Doc 1: target='(B)' extracted='None'
+           Final: <think>Let's start by analyzing the given information to determine the order of ...
+
+============================================================
+Task: logical_deduction_three_objects
+------------------------------------------------------------
+  Samples: 250
+  Think tags: 242 (96.8%)
+  Official accuracy: 2/250 (0.8%)
+  True accuracy: 190/250 (76.0%)
+  Format issues: 188 (75.2%)
+  Actually wrong: 60
+  Match patterns: {'option_flexible': 187, 'official_the_answer_is': 3}
+
+  Sample issues:
+    [FORMAT] Doc 0: target='(A)' extracted='(a)'
+           Final: The correct answer is (A): The blue jay is the second from the left....
+    [WRONG] Doc 1: target='(B)' extracted='None'
+           Final: The logical deduction can be summarized as follows:
+
+- The motorcyle is newer th...
+
+============================================================
+Task: movie_recommendation
+------------------------------------------------------------
+  Samples: 250
+  Think tags: 249 (99.6%)
+  Official accuracy: 0/250 (0.0%)
+  True accuracy: 132/250 (52.8%)
+  Format issues: 132 (52.8%)
+  Actually wrong: 118
+  Match patterns: {'option_flexible': 131, 'official_the_answer_is': 1}
+
+  Sample issues:
+    [WRONG] Doc 0: target='(C)' extracted='None'
+           Final: Based on the given list of movies (Batman, The Mask, The Fugitive, Pretty Woman)...
+    [WRONG] Doc 1: target='(D)' extracted='None'
+           Final: To find a movie similar to **The Sixth Sense**, **The Matrix**, **Forrest Gump**...
+
+============================================================
+Task: multistep_arithmetic_two
+------------------------------------------------------------
+  Samples: 250
+  Think tags: 242 (96.8%)
+  Official accuracy: 0/250 (0.0%)
+  True accuracy: 152/250 (60.8%)
+  Format issues: 152 (60.8%)
+  Actually wrong: 98
+  Match patterns: {'direct_match': 148, 'official_the_answer_is': 4}
+
+  Sample issues:
+    [FORMAT] Doc 0: target='24' extracted='24'
+           Final: A: ((-1 + 2 + 9 * 5) - (-2 + -4 + -4 * -7)) = 
+**Step 1:** Evaluate expressions ...
+    [FORMAT] Doc 1: target='63' extracted='63'
+           Final: A: \boxed{63}...
+
+============================================================
+Task: navigate
+------------------------------------------------------------
+  Samples: 250
+  Think tags: 240 (96.0%)
+  Official accuracy: 0/250 (0.0%)
+  True accuracy: 170/250 (68.0%)
+  Format issues: 170 (68.0%)
+  Actually wrong: 80
+  Match patterns: {'official_the_answer_is': 56, 'boolean_flexible': 111, 'thus': 2, 'therefore': 1}
+
+  Sample issues:
+    [WRONG] Doc 0: target='No' extracted='None'
+           Final: **Answer:**  
+Yes. Following all the instructions results in ending back at the ...
+    [WRONG] Doc 1: target='No' extracted='None'
+           Final: ```python
+def check_return(start_direction, steps_left, steps_forward):
+    curr...
+
+============================================================
+Task: object_counting
+------------------------------------------------------------
+  Samples: 250
+  Think tags: 249 (99.6%)
+  Official accuracy: 1/250 (0.4%)
+  True accuracy: 143/250 (57.2%)
+  Format issues: 142 (56.8%)
+  Actually wrong: 107
+  Match patterns: {'direct_match': 137, 'official_the_answer_is': 6}
+
+  Sample issues:
+    [FORMAT] Doc 0: target='8' extracted='8'
+           Final: Q: A bookshelf has 5 shelves, and each shelf can hold 8 books. How many books ca...
+    [FORMAT] Doc 1: target='15' extracted='15'
+           Final: The total number of fruits is \boxed{15}....
+
+============================================================
+Task: penguins_in_a_table
+------------------------------------------------------------
+  Samples: 146
+  Think tags: 140 (95.9%)
+  Official accuracy: 0/146 (0.0%)
+  True accuracy: 92/146 (63.0%)
+  Format issues: 92 (63.0%)
+  Actually wrong: 54
+  Match patterns: {'option_flexible': 90, 'official_the_answer_is': 1, 'answer_colon': 1}
+
+  Sample issues:
+    [WRONG] Doc 0: target='(E)' extracted='None'
+           Final: A: The oldest penguin is **James**, whose age is 12 years. 
+
+The other options c...
+    [FORMAT] Doc 1: target='(C)' extracted='(c)'
+           Final: (A) Louis
+(B) Bernard
+(C) Vincent
+(D) Gwen
+(E) James
+A: Let's think step by step...
+
+============================================================
+Task: reasoning_about_colored_objects
+------------------------------------------------------------
+  Samples: 250
+  Think tags: 243 (97.2%)
+  Official accuracy: 0/250 (0.0%)
+  True accuracy: 141/250 (56.4%)
+  Format issues: 141 (56.4%)
+  Actually wrong: 109
+  Match patterns: {'direct_match': 43, 'option_flexible': 93, 'official_the_answer_is': 5}
+
+  Sample issues:
+    [WRONG] Doc 0: target='(D)' extracted='None'
+           Final: (A) zero...
+    [WRONG] Doc 1: target='(Q)' extracted='None'
+           Final: Answer: Q....
+
+============================================================
+Task: ruin_names
+------------------------------------------------------------
+  Samples: 250
+  Think tags: 250 (100.0%)
+  Official accuracy: 0/250 (0.0%)
+  True accuracy: 153/250 (61.2%)
+  Format issues: 153 (61.2%)
+  Actually wrong: 97
+  Match patterns: {'option_flexible': 150, 'official_the_answer_is': 3}
+
+  Sample issues:
+    [WRONG] Doc 0: target='(A)' extracted='None'
+           Final: The correct answer is **(C) rain men**. This edit changes the original "Rain" to...
+    [WRONG] Doc 1: target='(C)' extracted='None'
+           Final: (A) the bark knight rises...
+
+============================================================
+Task: salient_translation_error_detection
+------------------------------------------------------------
+  Samples: 250
+  Think tags: 235 (94.0%)
+  Official accuracy: 0/250 (0.0%)
+  True accuracy: 99/250 (39.6%)
+  Format issues: 99 (39.6%)
+  Actually wrong: 151
+  Match patterns: {'option_flexible': 93, 'official_the_answer_is': 6}
+
+  Sample issues:
+    [WRONG] Doc 0: target='(A)' extracted='None'
+           Final: The error in the translation is related to **Dropped Content** (Option E). Speci...
+    [WRONG] Doc 1: target='(A)' extracted='None'
+           Final: The error in the translation is that it incorrectly handles named entities. Spec...
+
+============================================================
+Task: snarks
+------------------------------------------------------------
+  Samples: 178
+  Think tags: 177 (99.4%)
+  Official accuracy: 0/178 (0.0%)
+  True accuracy: 143/178 (80.3%)
+  Format issues: 143 (80.3%)
+  Actually wrong: 35
+  Match patterns: {'option_flexible': 143}
+
+  Sample issues:
+    [FORMAT] Doc 0: target='(B)' extracted='(b)'
+           Final: Option (B) is the sarcastic statement because it contrasts the individual's name...
+    [WRONG] Doc 1: target='(A)' extracted='None'
+           Final: The statement that is sarcastic is (B): **"Hey just be happy that you won't be d...
+
+============================================================
+Task: sports_understanding
+------------------------------------------------------------
+  Samples: 250
+  Think tags: 250 (100.0%)
+  Official accuracy: 0/250 (0.0%)
+  True accuracy: 60/250 (24.0%)
+  Format issues: 60 (24.0%)
+  Actually wrong: 190
+  Match patterns: {'boolean_flexible': 58, 'thus': 2}
+
+  Sample issues:
+    [WRONG] Doc 0: target='no' extracted='None'
+           Final: The sentence "Elias Lindholm beat the buzzer" is **plausible**. It correctly des...
+    [WRONG] Doc 1: target='yes' extracted='None'
+           Final: The sentence "John Carlson scored in the third period" is **plausible**. Here's ...
+
+============================================================
+Task: temporal_sequences
+------------------------------------------------------------
+  Samples: 250
+  Think tags: 204 (81.6%)
+  Official accuracy: 0/250 (0.0%)
+  True accuracy: 174/250 (69.6%)
+  Format issues: 174 (69.6%)
+  Actually wrong: 76
+  Match patterns: {'option_flexible': 171, 'official_the_answer_is': 3}
+
+  Sample issues:
+    [FORMAT] Doc 0: target='(A)' extracted='(a)'
+           Final: <think>First, let's analyze the given information step by step to determine when...
+    [FORMAT] Doc 1: target='(C)' extracted='(c)'
+           Final: Q: Today, Emily went to the library. Between what times could they have gone?
+We...
+
+============================================================
+Task: tracking_shuffled_objects_five_objects
+------------------------------------------------------------
+  Samples: 250
+  Think tags: 229 (91.6%)
+  Official accuracy: 0/250 (0.0%)
+  True accuracy: 115/250 (46.0%)
+  Format issues: 115 (46.0%)
+  Actually wrong: 135
+  Match patterns: {'option_flexible': 108, 'official_the_answer_is': 7}
+
+  Sample issues:
+    [WRONG] Doc 0: target='(A)' extracted='None'
+           Final: The final answer is $\boxed{E}$...
+    [FORMAT] Doc 1: target='(C)' extracted='(c)'
+           Final: Alice's final partner is **(C) Melissa**. 
+
+Here's the step-by-step breakdown:
+1...
+
+============================================================
+Task: tracking_shuffled_objects_seven_objects
+------------------------------------------------------------
+  Samples: 250
+  Think tags: 196 (78.4%)
+  Official accuracy: 0/250 (0.0%)
+  True accuracy: 84/250 (33.6%)
+  Format issues: 84 (33.6%)
+  Actually wrong: 166
+  Match patterns: {'option_flexible': 74, 'official_the_answer_is': 10}
+
+  Sample issues:
+    [FORMAT] Doc 0: target='(A)' extracted='(a)'
+           Final: Alice is playing striker after the final swap. 
+
+The correct answer is: 
+(A) str...
+    [WRONG] Doc 1: target='(E)' extracted='None'
+           Final: (A) Let's think step by step. To determine where Eve ends up, let's break down t...
+
+============================================================
+Task: tracking_shuffled_objects_three_objects
+------------------------------------------------------------
+  Samples: 250
+  Think tags: 244 (97.6%)
+  Official accuracy: 0/250 (0.0%)
+  True accuracy: 136/250 (54.4%)
+  Format issues: 136 (54.4%)
+  Actually wrong: 114
+  Match patterns: {'option_flexible': 121, 'official_the_answer_is': 13, 'answer_colon': 2}
+
+  Sample issues:
+    [WRONG] Doc 0: target='(B)' extracted='None'
+           Final: <think>Let's denote each person's book with variables for clarity:
+
+- Alice's bo...
+    [FORMAT] Doc 1: target='(A)' extracted='(a)'
+           Final: A: Alice has **(A)** Hound of the Baskervilles....
+
+============================================================
+Task: web_of_lies
+------------------------------------------------------------
+  Samples: 250
+  Think tags: 218 (87.2%)
+  Official accuracy: 0/250 (0.0%)
+  True accuracy: 86/250 (34.4%)
+  Format issues: 86 (34.4%)
+  Actually wrong: 164
+  Match patterns: {'official_the_answer_is': 48, 'boolean_flexible': 31, 'therefore': 4, 'thus': 3}
+
+  Sample issues:
+    [WRONG] Doc 0: target='No' extracted='None'
+           Final: ...
+    [FORMAT] Doc 1: target='No' extracted='**no**, shalonda does not tell the truth'
+           Final: The answer is **No**, Shalonda does not tell the truth. Here's the breakdown:
+
+-...
+
+============================================================
+Task: word_sorting
+------------------------------------------------------------
+  Samples: 250
+  Think tags: 163 (65.2%)
+  Official accuracy: 0/250 (0.0%)
+  True accuracy: 2/250 (0.8%)
+  Format issues: 2 (0.8%)
+  Actually wrong: 248
+  Match patterns: {'direct_match': 2}
+
+  Sample issues:
+    [FORMAT] Doc 0: target='syndrome therefrom' extracted='syndrome therefrom'
+           Final: A: Let's think step by step. 
+
+First, we compare each word's letters to determin...
+    [WRONG] Doc 1: target='barn damp delmarva dot drumhead embezzle entirety greene guru it&t malton obstetric onus panicking prod same scorch splutter subsist thrill' extracted='None'
+           Final: <think>To sort the given list of words alphabetically, I'll first ensure each wo...
+
+================================================================================
+SUMMARY: top_p0.95,rep_penalty1.05-zeroshot-bruteforcesysprompt
+================================================================================
+
+Total samples: 6511
+Think tags present: 5839 (89.7%)
+
+--- ACCURACY METRICS ---
+Official accuracy (benchmark): 6/6511 (0.09%)
+True accuracy (flexible):      3570/6511 (54.83%)
+Accuracy gap:                  +54.74%
+
+--- ERROR BREAKDOWN ---
+Format issues (correct but unrecognized): 3564 (54.7%)
+Actually wrong answers:                   2941 (45.2%)
+Official parse rate:                      808 (12.4%)
+
+--- MATCH PATTERNS ---
+  option_flexible: 2138
+  boolean_flexible: 680
+  direct_match: 504
+  official_the_answer_is: 212
+  thus: 19
+  therefore: 11
+  answer_colon: 6

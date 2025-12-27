@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model misinterpreted the translation provided in the prompt. It claimed the translation dropped 'judicial field marshal' and replaced it with 'Prince of Liechtenstein', but the provided translation actually reads '...was an judicial field marshal'. The model failed to notice the adjective substitution 'kaiserlicher' (imperial) -> 'judicial', which is the actual error."
+    },
+    {
+        "id": 2,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified that the proper name 'Übersee' was mistranslated to 'mainland', which is a Named Entity error."
+    },
+    {
+        "id": 3,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model focused on 'politische Gemeinde' vs 'municipality', but missed the typo 'canon' for 'Kanton', which falls under Facts (trivial errors)."
+    },
+    {
+        "id": 4,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model argued for Dropped Content because the family name 'Korbblütler' was removed/replaced. However, the replacement of the specific family entity 'Korbblütler' with 'Artemisia' (which is the genus) is a factual error or named entity issue. The Ground Truth is (F) Facts, likely due to the incorrect biological classification."
+    },
+    {
+        "id": 5,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "The model hallucinated that the translation omitted 'of the Federal Republic of Germany', stating it was dropped content. The provided translation clearly includes 'of the Federal Republic of Germany'."
+    },
+    {
+        "id": 6,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model identified the confusion between genus and species names but classified it as a Modifier/Adjective error. The Ground Truth considers this a Factual error (F) because the taxonomic classification is factually wrong in the translation."
+    },
+    {
+        "id": 7,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model focused on the modifier 'historischer' being missing. However, the entire phrase 'inklusive historischer Wappen' (including historical coats of arms) is missing from the translation, which constitutes Dropped Content (E)."
+    },
+    {
+        "id": 8,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model argued for Modifier/Adjective error regarding 'German teacher'. However, the more significant error is the change of the Named Entity 'Georg Otto Bussenius' to 'Otto' (dropping first and last names), which aligns with Named Entities (D)."
+    },
+    {
+        "id": 9,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model hallucinated that 'German' shouldn't be capitalized or was the wrong part of speech. It completely missed the glaring numerical error where '19.' (19th) was translated to '190th'. Ground Truth is (B)."
+    },
+    {
+        "id": 10,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "The model claimed the translation dropped '(XXVII)', but the translation provided in the text ('...Austrian National Council (XXVII)') clearly includes it."
+    },
+    {
+        "id": 11,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model focused on 'Juristin' vs 'Lawyer' and title nuances. It missed the clear numerical error where '2005' was translated to '2015'. Ground Truth is (B)."
+    },
+    {
+        "id": 12,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identified the 'September' -> 'November' numerical error in its reasoning but ultimately selected (A) Modifiers based on the loss of 'Olympisches'. While 'Olympisches' is missing, the date change is a clear Numerical Value error (B)."
+    },
+    {
+        "id": 13,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "The translation 'unlisted' is the antonym of 'aufgelistet' (listed). This is a Negation/Antonym error (C). The model chose Modifiers (A)."
+    },
+    {
+        "id": 14,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The translation truncated the name 'Nordi Mukiele Mulere' to just 'Nordi'. This is a Named Entity error (D). The model focused on the dropped clause about roots (E), which is also valid, but the name change is usually prioritized as a Named Entity error."
+    },
+    {
+        "id": 15,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the numerical error (260 -> 360)."
+    },
+    {
+        "id": 16,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The founding year changed from 1899 to 1989. This is a Numerical Value error (B). The model classified it as Dropped Content (E)."
+    },
+    {
+        "id": 17,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the unit error (mm -> nm) as a Numerical Value error."
+    },
+    {
+        "id": 18,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "The model failed to produce a coherent final answer in the output block, getting stuck in a loop ('Wait, the options...'). It eventually output 'B', but the reasoning was nonsensical. The Ground Truth is (E) Dropped Content (omitting 'in den Oberen See')."
+    },
+    {
+        "id": 19,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "The model completely missed the change of the Named Entity 'Dazaifu' to 'Darfur' (D). It focused on 'Japanese' as a modifier."
+    },
+    {
+        "id": 20,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed the Named Entity 'Philly Mob' to 'The Chilly Mob'. The model focused on modifiers and possessives rather than the blatant name change (D)."
+    },
+    {
+        "id": 21,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model argued content was dropped, but the error is the modification of 'old city centre' and 'new west' descriptions. Ground Truth is (A) Modifiers."
+    },
+    {
+        "id": 22,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the date change (1759 -> 1659) as a Numerical Value error."
+    },
+    {
+        "id": 23,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Gattung' (genus) to 'genius'. This is a lexical error, categorized as Fact (F). The model selected Named Entities (D)."
+    },
+    {
+        "id": 24,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the name truncation ('Richard Raphael Roland Risse' to 'Risse') as a Named Entity error."
+    },
+    {
+        "id": 25,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the dropped/modified adjective 'ehemalige' (former)."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the Named Entity change from 'Sassnitz' to 'Seibnitz'."
+    },
+    {
+        "id": 27,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Kassel' to 'Tossel', which is a Named Entity error (D). The model focused on dropped clauses."
+    },
+    {
+        "id": 28,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed the entity name 'Chūō' to 'Cha'. This is a Fact (F) error (misspelling/wrong fact) or possibly Named Entity. Ground Truth is (F). Model chose (E) Dropped Content."
+    },
+    {
+        "id": 29,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the entity change from 'Espenlaub' to 'Lebenshraum'."
+    },
+    {
+        "id": 30,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the entity change from 'Hague Convention' to 'Prague Convention'."
+    },
+    {
+        "id": 31,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the unit error (km -> mm) as Numerical Values."
+    },
+    {
+        "id": 32,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Dorf' (village) to 'mall'. This is a factual error regarding the type of place (F). Model selected Named Entities (D)."
+    },
+    {
+        "id": 33,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the number change (20% -> 30%)."
+    },
+    {
+        "id": 34,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the unit error (ha -> km)."
+    },
+    {
+        "id": 35,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model focused on possessives. The error is the omission of the adjective/modifier 'nicht kommerzielle' (non-commercial). Ground Truth is (A) Modifiers/Adjectives."
+    },
+    {
+        "id": 36,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the ordinal number change (fourth -> fifth)."
+    },
+    {
+        "id": 37,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Vogelzeichnungen' (bird drawings) to just 'birds'. This is a factual error (F) regarding what he is known for. Model chose Dropped Content (E)."
+    },
+    {
+        "id": 38,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the Named Entity error ('Neu-Ulm' -> 'New-York')."
+    },
+    {
+        "id": 39,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation dropped the clause 'bzw. der Neu- und Ausbaustrecke Karlsruhe–Basel'. This is Dropped Content (E). The model focused on adjectives."
+    },
+    {
+        "id": 40,
+        "is_correct": true,
+        "extracted_answer": "F",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the factual error (River -> Dam)."
+    },
+    {
+        "id": 41,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the numerical error (18th -> 19th)."
+    },
+    {
+        "id": 42,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation has a factual error: 'nördlich' (north) was translated to 'south'. The model missed this and focused on adjective placement. Ground Truth is (F)."
+    },
+    {
+        "id": 43,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the Name change (Farkas -> Puskas)."
+    },
+    {
+        "id": 44,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified dropped content (location)."
+    },
+    {
+        "id": 45,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Bronze' to 'gold'. This is a Factual error (F). The model focused on the '13' vs '13th' which is debatable, but the material change is a clear Fact error."
+    },
+    {
+        "id": 46,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The translation omitted 'deutscher' (German). This is a dropped modifier (A). Model chose Dropped Content (E)."
+    },
+    {
+        "id": 47,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation dropped the entire clause 'im Südosten Baden-Württembergs'. This is Dropped Content (E). The model focused on 'Mittelstadt' -> 'town'."
+    },
+    {
+        "id": 48,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified dropped content (family, cultivar)."
+    },
+    {
+        "id": 49,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The translation dropped 'verschleißfreie' (wear-free). This is a Modifier error (A). Model chose Dropped Content."
+    },
+    {
+        "id": 50,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed the number '4.' to '6th'. This is a Numerical Value error (B). Model focused on dropped units."
+    },
+    {
+        "id": 51,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the modifier change ('Tiroler' -> 'Herculean')."
+    },
+    {
+        "id": 52,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Theologe' (Theologian) to 'mathematician'. This is a Factual error (F). Model chose Modifier/Adjective."
+    },
+    {
+        "id": 53,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Greifswald' to 'Griswald'. This is a Named Entity typo (D). The model focused on dates."
+    },
+    {
+        "id": 54,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the entity change ('Erden' -> 'earth')."
+    },
+    {
+        "id": 55,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Thierstein' to 'Thorstein'. This is a Named Entity error (D). Model chose Modifiers."
+    },
+    {
+        "id": 56,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'unvollständige' (incomplete) to 'complete'. This is an Antonym error (C). Model chose Modifiers."
+    },
+    {
+        "id": 57,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'National Register of Historic Places' to 'The Register ed. Historic Places'. This is a Named Entity error (D). Model chose Modifiers."
+    },
+    {
+        "id": 58,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Ukraine' to 'Russia'. This is a Named Entity error (D). Model focused on dropped population data."
+    },
+    {
+        "id": 59,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'tourist' purposes to 'military' purposes. This is a Factual error (F). Model chose Modifiers."
+    },
+    {
+        "id": 60,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The name was truncated ('Pedro Morenés y Álvarez de Eulate' -> 'Pedro'). This is a Named Entity error (D). Model chose Modifiers."
+    },
+    {
+        "id": 61,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'catch fire' to 'set on ice'. This is an Antonym error (C). Model chose Modifiers."
+    },
+    {
+        "id": 62,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the numerical error (37 -> 17)."
+    },
+    {
+        "id": 63,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed '1272 m' to '1272 ft'. This is a Unit/Numerical error (B). Model chose Dropped Content."
+    },
+    {
+        "id": 64,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'writer' to 'hack'. This is a Factual error (F). Model chose Named Entities."
+    },
+    {
+        "id": 65,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the entity change ('Pfälzerwald' -> 'Palestine')."
+    },
+    {
+        "id": 66,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'zweigleisige' (double-track) to 'single-track'. While this involves a number concept, 'double-track' is an adjective modifying the railway. Ground Truth is (A) Modifiers. Model selected (B) Numerical."
+    },
+    {
+        "id": 67,
+        "is_correct": true,
+        "extracted_answer": "F",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the added factual error in the date."
+    },
+    {
+        "id": 68,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Nizhny Novgorod' to 'Nizhny Novgooder'. This is a typo in a Name (D). Model chose Modifiers."
+    },
+    {
+        "id": 69,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the dropped content ('Indiana')."
+    },
+    {
+        "id": 70,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Kleinstadt' (small town) to 'city'. This is a Modifier/Adjective error (A). Model chose Dropped Content."
+    },
+    {
+        "id": 71,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the Name change ('East Timor' -> 'West Timor')."
+    },
+    {
+        "id": 72,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the modifier error ('Meeren' -> 'the seas' vs 'on the seas')."
+    },
+    {
+        "id": 73,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified dropped content ('errichtet wurde')."
+    },
+    {
+        "id": 74,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the Name change ('Stederdorf' -> 'Seedorf')."
+    },
+    {
+        "id": 75,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation added a year to the date ('29 September 1962' vs 'am 29.'). This is adding a Fact (F). Model selected (B)."
+    },
+    {
+        "id": 76,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation dropped 'deutscher' (German). This is a Modifier error (A). Model selected (B) Numerical."
+    },
+    {
+        "id": 77,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'A' to 'C'. This is a Factual error (F). Model selected (A)."
+    },
+    {
+        "id": 78,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation added 'plays as a striker'. This is a Factual error (F). Model selected (E)."
+    },
+    {
+        "id": 79,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified dropped content ('Niedersachsen')."
+    },
+    {
+        "id": 80,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Malerin' (Painter) to 'dancer'. This is a Factual error (F). Model selected (D)."
+    },
+    {
+        "id": 81,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the Name change ('Rabenvögel' -> 'Columbine')."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the numerical error (870 -> 70)."
+    },
+    {
+        "id": 83,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Schweizer' (Swiss) to 'Canadian'. This is a Modifier/Adjective error (A). Model selected (D)."
+    },
+    {
+        "id": 84,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed the dates to a location ('held at...'). This is a Numerical Value error (B). Model selected (A)."
+    },
+    {
+        "id": 85,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Tennisspieler' to 'soccer player'. This is a Factual error (F). Model selected (A)."
+    },
+    {
+        "id": 86,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Schauspieler' to 'director'. This is a Factual error (F). Model selected (A)."
+    },
+    {
+        "id": 87,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Gunter' to 'Hunter'. This is a Named Entity error (D). Model selected (A)."
+    },
+    {
+        "id": 88,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Ukraine' to 'Russia'. This is a Named Entity error (D). Model selected (E)."
+    },
+    {
+        "id": 89,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'mittelalterlicher' (medieval) to 'modern'. This is an Antonym error (C). Model selected (A)."
+    },
+    {
+        "id": 90,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'deutsche' to 'French'. This is a Modifier/Adjective error (A). Model selected (D)."
+    },
+    {
+        "id": 91,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the Adjective change ('Austrian' -> 'Australian')."
+    },
+    {
+        "id": 92,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the numerical error (68 -> 88)."
+    },
+    {
+        "id": 93,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'beginnenden' (beginning) to 'end'. This is an Antonym error (C). Model selected (B)."
+    },
+    {
+        "id": 94,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the Modifier change ('numidischer' -> 'Dravidian')."
+    },
+    {
+        "id": 95,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed '415' to '416'. This is a Numerical error (B). However, the GT is (B). Model output explanation ends by saying 'The error is Dropped Content', then 'Correct Answer: (E)'. But then it talks about numerical in reasoning? The final selection in the text was (E), but the prompt asked for B? The reasoning seems confused. Wait, GT is B. Model selected E. Failed."
+    },
+    {
+        "id": 96,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the Numerical error (1525 -> 1625)."
+    },
+    {
+        "id": 97,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed '1949' to '1989'. This is a Numerical error (B). Model selected (E)."
+    },
+    {
+        "id": 98,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'hydro' to 'solar'. This is a Modifier error (A). Model selected (D)."
+    },
+    {
+        "id": 99,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the numerical error (445 -> 45)."
+    },
+    {
+        "id": 100,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation added information that might be wrong or irrelevant. This is categorized as Fact (F). Model selected (E)."
+    },
+    {
+        "id": 101,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the numerical error (5 -> 51)."
+    },
+    {
+        "id": 102,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the numerical error (11 -> 12)."
+    },
+    {
+        "id": 103,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'open' to 'closed'. This is an Antonym error (C). Model selected (D)."
+    },
+    {
+        "id": 104,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'largest' to 'smallest'. This is an Antonym error (C). Model selected (A)."
+    },
+    {
+        "id": 105,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Stadt' (City) to 'clown'. This is a Fact error (F). Model selected (D)."
+    },
+    {
+        "id": 106,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the numerical error (125 -> 25)."
+    },
+    {
+        "id": 107,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'surname' to 'firstname'. This is a Fact error (F). Model selected (A)."
+    },
+    {
+        "id": 108,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation dropped '120 Einwohner'. This is Dropped Content (E). Model selected (D)."
+    },
+    {
+        "id": 109,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed '2058' to '258'. This is a Numerical error (B). Model selected (D)."
+    },
+    {
+        "id": 110,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation dropped 'in brackets'. This is Dropped Content (E). Model selected (A)."
+    },
+    {
+        "id": 111,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Landstadt' to 'urban town' (near antonym 'rural'). Ground Truth is (C) Negation or Antonyms (Landstadt implies rural, Urban implies city). Model selected (A)."
+    },
+    {
+        "id": 112,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the numerical error (4 -> 40)."
+    },
+    {
+        "id": 113,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Dynacord' to 'Lyracord'. This is a Named Entity error (D). Model selected (E)."
+    },
+    {
+        "id": 114,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation dropped 'im Landkreis Havelland'. This is Dropped Content (E). Model selected (A)."
+    },
+    {
+        "id": 115,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed '6' to '7'. This is a Numerical error (B). Model selected (E)."
+    },
+    {
+        "id": 116,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the modifier change ('Jazz' -> 'hit')."
+    },
+    {
+        "id": 117,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Skirennläufer' (skier) to 'dancer'. This is a Fact error (F). Model selected (A)."
+    },
+    {
+        "id": 118,
+        "is_correct": false,
+        "extracted_answer": "F",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Ground Truth is (A) Modifiers/Adjectives. The translation garbled the modifiers. Model selected (F)."
+    },
+    {
+        "id": 119,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation introduced a fact error (Blankenese is Hamburg vs district of Hamburg is... actually looks like Fact F). Model selected (D)."
+    },
+    {
+        "id": 120,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed '10' to '100'. This is a Numerical error (B). Model selected (E)."
+    },
+    {
+        "id": 121,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Nattern' to 'Lantern'. This is a Named Entity error (D). Model selected (A)."
+    },
+    {
+        "id": 122,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'founded' to 'destroyed'. This is an Antonym error (C). Model selected (D)."
+    },
+    {
+        "id": 123,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Štramberk' to 'it'. This is a Named Entity error (D). Model selected (E)."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the adjective change ('fast' -> 'small')."
+    },
+    {
+        "id": 125,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation dropped '27'. This is Dropped Content (E). Model selected (A)."
+    },
+    {
+        "id": 126,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Köln' to 'Color'. This is a Named Entity error (D). Model selected (E)."
+    },
+    {
+        "id": 127,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation dropped 'Regisseur und Intendant'. This is Dropped Content (E). Model selected (A)."
+    },
+    {
+        "id": 128,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Gerichte' (courts) to 'stadiums'. This is a Fact error (F). Model selected (A)."
+    },
+    {
+        "id": 129,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'kalkliebendes' (lime-loving) to 'lime-hating'. This is an Antonym error (C). Model selected (A)."
+    },
+    {
+        "id": 130,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'green' to 'red'. This is a Fact error (F). Model selected (A)."
+    },
+    {
+        "id": 131,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the numerical error (2200 -> 22000)."
+    },
+    {
+        "id": 132,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the numerical error (122 -> 182)."
+    },
+    {
+        "id": 133,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the Named Entity change ('Vienna-Innere Stadt' -> 'Vienna')."
+    },
+    {
+        "id": 134,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Potsdam' to 'Pots'. This is a Named Entity error (D). Model selected (E)."
+    },
+    {
+        "id": 135,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Meter' to 'mile'. This is a Numerical Value error (B). Model selected (E)."
+    },
+    {
+        "id": 136,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'große' to 'major'. GT is (A). Model selected (E)."
+    },
+    {
+        "id": 137,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the Adjective change ('Austrian' -> 'Australian')."
+    },
+    {
+        "id": 138,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Tennisspieler' to 'soccer player'. This is a Fact error (F). Model selected (A)."
+    },
+    {
+        "id": 139,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Altenburg' to 'Altavista'. This is a Named Entity error (D). Model selected (A)."
+    },
+    {
+        "id": 140,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Gerät' (device) to 'vehicle'. This is a Fact error (F). Model selected (A)."
+    },
+    {
+        "id": 141,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'ausgestorbenen' (extinct) to 'living'. This is an Antonym error (C). Model selected (E)."
+    },
+    {
+        "id": 142,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the numerical error (34 -> 39)."
+    },
+    {
+        "id": 143,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed '20.' (20th) to '20 July 1898'. It added a month and year. This is a Numerical error (B). Model selected (E)."
+    },
+    {
+        "id": 144,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the numerical error (1903 -> 1993)."
+    },
+    {
+        "id": 145,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Boyd Kevin Rutherford' to 'Boyd'. This is a Named Entity error (D). Model selected (E)."
+    },
+    {
+        "id": 146,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the Negation error ('alcoholic' -> 'non-alcoholic')."
+    },
+    {
+        "id": 147,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Region' to 'country'. This is a Fact error (F). Model selected (D)."
+    },
+    {
+        "id": 148,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified dropped content ('2121 Einwohner')."
+    },
+    {
+        "id": 149,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the numerical error (67 -> 77)."
+    },
+    {
+        "id": 150,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the Adjective change ('Irish' -> 'British')."
+    },
+    {
+        "id": 151,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the numerical error (21 -> 23)."
+    },
+    {
+        "id": 152,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified dropped content ('Brandenburg')."
+    },
+    {
+        "id": 153,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified dropped content ('ähnlich wie ein Gericht')."
+    },
+    {
+        "id": 154,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Halle' to 'Halle'. The numbers 15 and 17 are kept. What is the error? GT is (D). Named Entity. Model selected (C). (Maybe Halle Saale vs Halle?)"
+    },
+    {
+        "id": 155,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Nord-Elsass' to 'Northern Alicia'. This is a Named Entity error (D). Model selected (E)."
+    },
+    {
+        "id": 156,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Château Cantenac-Brown' to 'Chateau'. This is a Named Entity error (D). Model selected (E)."
+    },
+    {
+        "id": 157,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the Adjective change ('armloser' -> 'feckless')."
+    },
+    {
+        "id": 158,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Badeni' to 'Banzini'. This is a Named Entity error (D). Model selected (E)."
+    },
+    {
+        "id": 159,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the numerical error (19th -> 20th)."
+    },
+    {
+        "id": 160,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'nach slowakischen Denkmalschutzvorschriften geschützten' to 'unlisted'. This is a Fact error (F). Model selected (D)."
+    },
+    {
+        "id": 161,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Éric Alauzet' to 'Eric'. This is a Named Entity error (D). Model selected (A)."
+    },
+    {
+        "id": 162,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the Negation error ('open' -> 'never open')."
+    },
+    {
+        "id": 163,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Mitte des 19.' (mid 19th) to 'start of the 19th'. This is a Negation/Antonym error (C). Model selected (E)."
+    },
+    {
+        "id": 164,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Naturschutzgebiete' (nature reserves) to 'manure reserves'. This is a Fact error (F). Model selected (D)."
+    },
+    {
+        "id": 165,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Ekkehard' to 'Eduard'. This is a Named Entity error (D). Model selected (A)."
+    },
+    {
+        "id": 166,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Barocks' to 'Rococo'. This is Dropped Content (E) or Fact. GT is (E). Model selected (B)."
+    },
+    {
+        "id": 167,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed '22.' to '28'. This is a Numerical error (B). Model selected (A)."
+    },
+    {
+        "id": 168,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Rugby- und Fußballstadion' to 'multi-use'. GT is (A). Model selected (E)."
+    },
+    {
+        "id": 169,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified dropped content."
+    },
+    {
+        "id": 170,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Modifier error."
+    },
+    {
+        "id": 171,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Burkardroth' to 'Burka'. This is a Named Entity error (D). Model selected (E)."
+    },
+    {
+        "id": 172,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the Name change ('Oberlausitz' -> 'Upper Lusatia' vs 'Regionalbus'). Wait, GT is (D). Model selected (D)."
+    },
+    {
+        "id": 173,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the Name change ('Dresden' -> 'Dresmontovia')."
+    },
+    {
+        "id": 174,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Christina Schulze Föcking' to 'Föcking'. This is a Named Entity error (D). Model selected (A)."
+    },
+    {
+        "id": 175,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'aufgelistet' to 'not listed'. This is a Negation error (C). Model selected (A)."
+    },
+    {
+        "id": 176,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation dropped '5491'. This is a Numerical error (B). Model selected (A)."
+    },
+    {
+        "id": 177,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Höhe' (height) to 'weight'. This is a Fact error (F). Model selected (B)."
+    },
+    {
+        "id": 178,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the Name change ('Hohenfelde' -> 'Hohenbrucke')."
+    },
+    {
+        "id": 179,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed '48' to '68'. This is a Numerical error (B). Model selected (E)."
+    },
+    {
+        "id": 180,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'kleines' (small) to 'big'. This is an Antonym error (C). Model selected (A)."
+    },
+    {
+        "id": 181,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'niederländischer' (Dutch) to 'Socialist'. This is a Modifier error (A). Model selected (D)."
+    },
+    {
+        "id": 182,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Krasnojarskoje' to 'Krasnoyarskoye'. This is a Named Entity error (D). Model selected (E)."
+    },
+    {
+        "id": 183,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Bludenz' to 'Bludette'. This is a Named Entity error (D). Model selected (E)."
+    },
+    {
+        "id": 184,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Memmingen' to 'Meninges'. This is a Named Entity error (D). Model selected (E)."
+    },
+    {
+        "id": 185,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Negation error ('all' -> 'no')."
+    },
+    {
+        "id": 186,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Dorf' (village) to 'city'. This is a Fact error (F). Model selected (A)."
+    },
+    {
+        "id": 187,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed '57' to '67'. This is a Numerical error (B). Model selected (A)."
+    },
+    {
+        "id": 188,
+        "is_correct": false,
+        "extracted_answer": "F",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Alte Kirche' to 'The Kirchhof'. This is a Named Entity error (D). Model selected (F)."
+    },
+    {
+        "id": 189,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Negation error ('can' -> 'cannot')."
+    },
+    {
+        "id": 190,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Landkreis' to 'state'. This is a Fact error (F). Model selected (E)."
+    },
+    {
+        "id": 191,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Sohn' (son) to 'daughter'. This is an Antonym error (C). Model selected (A)."
+    },
+    {
+        "id": 192,
+        "is_correct": false,
+        "extracted_answer": "F",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation dropped '3.718'. This is a Numerical error (B). Model selected (F)."
+    },
+    {
+        "id": 193,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'deutscher' to 'Prussian'. This is a Modifier error (A). Model selected (E)."
+    },
+    {
+        "id": 194,
+        "is_correct": true,
+        "extracted_answer": "D",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Name change ('Tokushima' -> 'Tokyo')."
+    },
+    {
+        "id": 195,
+        "is_correct": false,
+        "extracted_answer": "F",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'heating' to 'cooling'. This is an Antonym error (C). Model selected (F)."
+    },
+    {
+        "id": 196,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Schlössern' (castles) to 'rockets'. This is a Fact error (F). Model selected (D)."
+    },
+    {
+        "id": 197,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Negation removal."
+    },
+    {
+        "id": 198,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation dropped 'Evangelischen Kirche...'. This is Dropped Content (E). Model selected (B)."
+    },
+    {
+        "id": 199,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Obere' (Upper) to 'Lower'. This is an Antonym error (C). Model selected (A)."
+    },
+    {
+        "id": 200,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Dropped Content."
+    },
+    {
+        "id": 201,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation dropped 'im baden-württembergischen...'. This is Dropped Content (E). Model selected (A)."
+    },
+    {
+        "id": 202,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Numerical error (8 -> 6)."
+    },
+    {
+        "id": 203,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Wüstenbrand' to 'Wüsten'. This is a Named Entity error (D). Model selected (E)."
+    },
+    {
+        "id": 204,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed '3.' to '33rd'. This is a Numerical error (B). Model selected (A)."
+    },
+    {
+        "id": 205,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Adjective change ('buddhist' -> 'Hindu')."
+    },
+    {
+        "id": 206,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation dropped the location 'im Olympiastadion'. This is Dropped Content (E). Model selected (D)."
+    },
+    {
+        "id": 207,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Modifier error (Handkäse translation)."
+    },
+    {
+        "id": 208,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'See' (lake) to 'fake'. This is a Fact error (F). Model selected (E)."
+    },
+    {
+        "id": 209,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Käuze' to 'fowls'. This is a Fact error (F). Model selected (B)."
+    },
+    {
+        "id": 210,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'meterspurige' to 'wide gauge'. This is an Antonym error (C). Model selected (A)."
+    },
+    {
+        "id": 211,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Sumner' to 'Summer'. This is a Named Entity error (D). Model selected (E)."
+    },
+    {
+        "id": 212,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'zweitgrößte' to 'third largest'. This is a Numerical error (B). Model selected (A)."
+    },
+    {
+        "id": 213,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Metallurge' to 'metalist'. This is a Fact error (F). Model selected (E)."
+    },
+    {
+        "id": 214,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Lienz' to 'Munich'. This is a Named Entity error (D). Model selected (E)."
+    },
+    {
+        "id": 215,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Numerical error (km -> m)."
+    },
+    {
+        "id": 216,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed '84.' to '4th'. This is a Numerical error (B). Model selected (A)."
+    },
+    {
+        "id": 217,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Wildwasserfluss' to 'sea'. This is a Fact error (F). Model selected (A)."
+    },
+    {
+        "id": 218,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Dropped Content."
+    },
+    {
+        "id": 219,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Fachliteratur' to 'general literature'. This is an Antonym error (C). Model selected (A)."
+    },
+    {
+        "id": 220,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Jura Margulis' to 'Jura'. This is a Named Entity error (D). Model selected (E)."
+    },
+    {
+        "id": 221,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Dropped Content."
+    },
+    {
+        "id": 222,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Numerical error (22 -> 23)."
+    },
+    {
+        "id": 223,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Liste der Kinos' and 'existiert haben'. GT is (A). Model selected (C)."
+    },
+    {
+        "id": 224,
+        "is_correct": false,
+        "extracted_answer": "C",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'seal' to 'steal'. This is a Fact error (F). Model selected (C)."
+    },
+    {
+        "id": 225,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Vorderasien' to 'Far East'. This is an Antonym error (C). Model selected (E)."
+    },
+    {
+        "id": 226,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Numerical error (1410 -> 1140)."
+    },
+    {
+        "id": 227,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Göppingen' to 'Baden-Württemberg' (in district of...). This is a Named Entity error (D). Model selected (E)."
+    },
+    {
+        "id": 228,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Der Luvwinkel' to 'Not the Luv angle'. This is Negation (C). Model selected (D)."
+    },
+    {
+        "id": 229,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Niederösterreich' to 'Upper Austria'. This is an Antonym error (C). Model selected (D)."
+    },
+    {
+        "id": 230,
+        "is_correct": true,
+        "extracted_answer": "E",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Dropped Content."
+    },
+    {
+        "id": 231,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed '16 to 23' to '23 to 16'. This is a Numerical error (B). Model selected (A)."
+    },
+    {
+        "id": 232,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed '19.' to '18th'. This is a Numerical error (B). Model selected (E)."
+    },
+    {
+        "id": 233,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Kornweihe' to 'consecration'. This is a Named Entity error (D). Model selected (A)."
+    },
+    {
+        "id": 234,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Oberhofmarschall' to 'teacher'. This is a Fact error (F). Model selected (A)."
+    },
+    {
+        "id": 235,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Martin Stephen McCann' to 'McCann'. This is a Named Entity error (D). Model selected (A)."
+    },
+    {
+        "id": 236,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation dropped '1,278 km²'. This is Dropped Content (E). Model selected (A)."
+    },
+    {
+        "id": 237,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Kulmbach' to 'Kumbh'. This is a Named Entity error (D). Model selected (A)."
+    },
+    {
+        "id": 238,
+        "is_correct": true,
+        "extracted_answer": "F",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Fact error ('victories' vs 'Opfer')."
+    },
+    {
+        "id": 239,
+        "is_correct": false,
+        "extracted_answer": "B",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'war' to 'was not'. This is Negation (C). Model selected (B)."
+    },
+    {
+        "id": 240,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Audio-CDs' to 'video CDs'. This is a Fact error (F). Model selected (A)."
+    },
+    {
+        "id": 241,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Königlicher' (Royal) to 'Common'. This is a Fact error (F). Model selected (D)."
+    },
+    {
+        "id": 242,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed '1778' to '1878'. This is a Numerical error (B). Model selected (E)."
+    },
+    {
+        "id": 243,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'ungarischer' to 'Austrian'. This is a Modifier error (A). Model selected (D)."
+    },
+    {
+        "id": 244,
+        "is_correct": false,
+        "extracted_answer": "E",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'Karnevalsumzug' to 'Rose Procession'. GT is (A). Model selected (E)."
+    },
+    {
+        "id": 245,
+        "is_correct": true,
+        "extracted_answer": "A",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Modifier error."
+    },
+    {
+        "id": 246,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Numerical error (6 vs 7)."
+    },
+    {
+        "id": 247,
+        "is_correct": true,
+        "extracted_answer": "B",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Numerical error (1893 -> 1993)."
+    },
+    {
+        "id": 248,
+        "is_correct": true,
+        "extracted_answer": "C",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Negation."
+    },
+    {
+        "id": 249,
+        "is_correct": false,
+        "extracted_answer": "A",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation dropped 'schwäbischen'. This is Dropped Content (E). Model selected (A)."
+    },
+    {
+        "id": 250,
+        "is_correct": false,
+        "extracted_answer": "D",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The translation changed 'moderne' to 'ancient'. This is an Antonym error (C). Model selected (D)."
+    }
+]
