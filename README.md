@@ -1,6 +1,6 @@
 # Benchmark Reports Repository
 
-Comprehensive benchmark evaluation results for **Gemini Pro 3 Preview** on multiple reasoning benchmarks, with LLM-as-Judge evaluation using semantic matching.
+Comprehensive benchmark evaluation results for llama 3.2 3B-thinking on multiple reasoning benchmarks, with LLM-as-Judge evaluation using semantic matching.
 
 ---
 
@@ -8,7 +8,7 @@ Comprehensive benchmark evaluation results for **Gemini Pro 3 Preview** on multi
 
 | Metric                   | Value                 |
 | ------------------------ | --------------------- |
-| **Model Tested**         | Gemini Pro 3 Preview  |
+| **Model Tested**         | llama 3.2 3B thinking |
 | **Benchmarks**           | BBH (27 tasks), GSM8K |
 | **Total BBH Samples**    | 6,510                 |
 | **Overall BBH Accuracy** | 60.1%                 |
