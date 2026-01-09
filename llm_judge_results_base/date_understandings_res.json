@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the date."
+    },
+    {
+        "id": 2,
+        "is_correct": false,
+        "extracted_answer": "01/01",
+        "reasoning_score": 1,
+        "error_type": "format_error",
+        "comment": "Model entered a repetitive loop and failed to produce a valid final answer."
+    },
+    {
+        "id": 3,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model logic (1958 + 5 = 1963) is sound, but conflicts with Ground Truth (1961), suggesting a dataset ambiguity."
+    },
+    {
+        "id": 4,
+        "is_correct": false,
+        "extracted_answer": "12",
+        "reasoning_score": 1,
+        "error_type": "format_error",
+        "comment": "Model entered a repetitive loop calculating dates back to 1971 and failed to select an option."
+    },
+    {
+        "id": 5,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model miscalculated the date (16+7=23, not 21) and failed to interpret the relative 'today' correctly."
+    },
+    {
+        "id": 6,
+        "is_correct": false,
+        "extracted_answer": "However, none of the options",
+        "reasoning_score": 2,
+        "error_type": "format_error",
+        "comment": "Model identified the correct date (Feb 2009) which matches option (B), but then hallucinated that the option didn't match and entered a loop."
+    },
+    {
+        "id": 7,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed arithmetic (May 9 + 40 days is not June 8) and failed to match the Ground Truth."
+    },
+    {
+        "id": 8,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Calculated 'yesterday relative to tomorrow' (which is today) instead of 'yesterday relative to today'."
+    },
+    {
+        "id": 9,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the reference date and performed the subtraction."
+    },
+    {
+        "id": 10,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Logic failed during the year subtraction and final option selection."
+    },
+    {
+        "id": 11,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly handled the month rollover."
+    },
+    {
+        "id": 12,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct calculation."
+    },
+    {
+        "id": 13,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model entered a loop and failed to correctly calculate the offset."
+    },
+    {
+        "id": 14,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the palindrome date and performed the subtraction."
+    },
+    {
+        "id": 15,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Calculated 'one week from tomorrow' instead of 'one week from today'."
+    },
+    {
+        "id": 16,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed to realize that the date given in the prompt *was* tomorrow."
+    },
+    {
+        "id": 17,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct calculation."
+    },
+    {
+        "id": 18,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Severe calculation errors regarding date offsets."
+    },
+    {
+        "id": 19,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model miscalculated the date subtraction (off by one day) and hallucinated the text of option (C) to match its wrong answer."
+    },
+    {
+        "id": 20,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct calculation."
+    },
+    {
+        "id": 21,
+        "is_correct": false,
+        "extracted_answer": "None",
+        "reasoning_score": 3,
+        "error_type": "no_answer",
+        "comment": "Model failed to adjust for 'today' vs 'yesterday' and could not find a matching option."
+    },
+    {
+        "id": 22,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Model used 'yesterday' as the base but lucked into the correct option (B)."
+    },
+    {
+        "id": 23,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "none",
+        "comment": "Model hallucinated the current date (Jan 29) but serendipitously selected the correct option."
+    },
+    {
+        "id": 24,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated the offset for '36 hours' and the resulting week-ago calculation."
+    },
+    {
+        "id": 25,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Reasoning was confused about US/UK formats but arrived at the correct date."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct calculation."
+    },
+    {
+        "id": 27,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated the base date (Today)."
+    },
+    {
+        "id": 28,
+        "is_correct": false,
+        "extracted_answer": "68 days = 31 + 31",
+        "reasoning_score": 1,
+        "error_type": "format_error",
+        "comment": "Model entered a calculation loop and failed to produce an answer."
+    },
+    {
+        "id": 29,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Calculated 'week ago from yesterday' instead of 'week ago from today'."
+    },
+    {
+        "id": 30,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the date pattern."
+    },
+    {
+        "id": 31,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct calculation of the date based on duration."
+    },
+    {
+        "id": 32,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Misinterpreted the reference date."
+    },
+    {
+        "id": 33,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Confused US/UK formats during calculation."
+    },
+    {
+        "id": 34,
+        "is_correct": false,
+        "extracted_answer": "05/03",
+        "reasoning_score": 1,
+        "error_type": "format_error",
+        "comment": "Model entered a loop listing dates backwards."
+    },
+    {
+        "id": 35,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Reasoning was shaky, but selected the closest correct option."
+    },
+    {
+        "id": 36,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct calculation."
+    },
+    {
+        "id": 37,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Calculation error on days."
+    },
+    {
+        "id": 38,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly handled UK date format and subtraction."
+    },
+    {
+        "id": 39,
+        "is_correct": false,
+        "extracted_answer": "So,",
+        "reasoning_score": 1,
+        "error_type": "format_error",
+        "comment": "Model entered a loop subtracting months one by one."
+    },
+    {
+        "id": 40,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct calculation."
+    },
+    {
+        "id": 41,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct calculation handling the birthdate logic."
+    },
+    {
+        "id": 42,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the valid premise."
+    },
+    {
+        "id": 43,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct calculation."
+    },
+    {
+        "id": 44,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Calculation was inexact, leading to a guess."
+    },
+    {
+        "id": 45,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct calculation."
+    },
+    {
+        "id": 46,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Confused the scheduling/delay logic."
+    },
+    {
+        "id": 47,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct calculation."
+    },
+    {
+        "id": 48,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Calculation error (Jan 2 - 10 days)."
+    },
+    {
+        "id": 49,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed to identify the palindrome date correctly."
+    },
+    {
+        "id": 50,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Used the marriage year (1958) instead of the anniversary year (2008)."
+    },
+    {
+        "id": 51,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Calculation used the wrong base date (tomorrow vs today) but arrived at the correct answer due to month alignment."
+    },
+    {
+        "id": 52,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct calculation."
+    },
+    {
+        "id": 53,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect date calculation."
+    },
+    {
+        "id": 54,
+        "is_correct": false,
+        "extracted_answer": "The closest date",
+        "reasoning_score": 1,
+        "error_type": "format_error",
+        "comment": "Model entered a loop."
+    },
+    {
+        "id": 55,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 56,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic determining current date and subtracting."
+    },
+    {
+        "id": 57,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 58,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correct outcome, though leap year reasoning was slightly glossed over."
+    },
+    {
+        "id": 59,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Calculation error (3/12 - 10 != 3/2 with correct math)."
+    },
+    {
+        "id": 60,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 61,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 62,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 63,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 64,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Calculated 24h from the event date rather than 'today' (reference date), leading to mismatch with Ground Truth."
+    },
+    {
+        "id": 65,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect date calculation (Feb 29 + 1 day vs Feb 28)."
+    },
+    {
+        "id": 66,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 67,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 68,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 69,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Logic error in defining 'today' relative to deadline."
+    },
+    {
+        "id": 70,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 71,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 72,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Model hallucinated the content of the option."
+    },
+    {
+        "id": 73,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 74,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "wrong_logic",
+        "comment": "Model logic was correct (Jan 31 + 7 days = Feb 7), but Ground Truth is (D) 02/06/2012, suggesting a dataset discrepancy."
+    },
+    {
+        "id": 75,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Math error on year subtraction or day calculation."
+    },
+    {
+        "id": 76,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 77,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Reasoning was mostly correct but missed the exact day (Nov 1 vs Nov 2)."
+    },
+    {
+        "id": 78,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Calculated based on the booked date instead of 'today'."
+    },
+    {
+        "id": 79,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 80,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Calculated relative to booked date instead of 'today'."
+    },
+    {
+        "id": 81,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 83,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 84,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 85,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 86,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 87,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Misread the question (calculated 3 days later instead of tomorrow)."
+    },
+    {
+        "id": 88,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 89,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Logic was correct on date but failed to match the correct option code provided in prompt."
+    },
+    {
+        "id": 90,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 91,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 92,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 93,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bad arithmetic."
+    },
+    {
+        "id": 94,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 95,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 96,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 97,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Logic failure in subtraction."
+    },
+    {
+        "id": 98,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 99,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 100,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect base date calculation."
+    },
+    {
+        "id": 101,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated offset (Mar 8 vs Mar 7)."
+    },
+    {
+        "id": 102,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 103,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 104,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "Hallucinated option content."
+    },
+    {
+        "id": 105,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 106,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Correct choice via shaky reasoning."
+    },
+    {
+        "id": 107,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 108,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 109,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 110,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 111,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 112,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 113,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 114,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 115,
+        "is_correct": false,
+        "extracted_answer": "The closest date",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Logic failure."
+    },
+    {
+        "id": 116,
+        "is_correct": false,
+        "extracted_answer": "3",
+        "reasoning_score": 1,
+        "error_type": "format_error",
+        "comment": "Model entered a loop."
+    },
+    {
+        "id": 117,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Misidentified base date."
+    },
+    {
+        "id": 118,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 119,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Calculation error."
+    },
+    {
+        "id": 120,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Ignored the question."
+    },
+    {
+        "id": 121,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Calculated for tomorrow from tomorrow."
+    },
+    {
+        "id": 122,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 123,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 125,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 126,
+        "is_correct": false,
+        "extracted_answer": "a",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Calculation error."
+    },
+    {
+        "id": 127,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Misread the question premise."
+    },
+    {
+        "id": 128,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Month calculation error."
+    },
+    {
+        "id": 129,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 130,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Base date identification error."
+    },
+    {
+        "id": 131,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 132,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 133,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 134,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 135,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 136,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect date calculation."
+    },
+    {
+        "id": 137,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 138,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 139,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect interpretation of '36 hours'."
+    },
+    {
+        "id": 140,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Base date calculation error."
+    },
+    {
+        "id": 141,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 142,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Logic failed to identify today correctly."
+    },
+    {
+        "id": 143,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 144,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correct outcome."
+    },
+    {
+        "id": 145,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 146,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model logic was correct, but dataset options seem incorrect/ambiguous."
+    },
+    {
+        "id": 147,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Calculation error."
+    },
+    {
+        "id": 148,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 149,
+        "is_correct": false,
+        "extracted_answer": "today",
+        "reasoning_score": 1,
+        "error_type": "format_error",
+        "comment": "Model entered a loop."
+    },
+    {
+        "id": 150,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 151,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 152,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error."
+    },
+    {
+        "id": 153,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 154,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 155,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Error in base date identification."
+    },
+    {
+        "id": 156,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Calculation error."
+    },
+    {
+        "id": 157,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 158,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect date year calculation."
+    },
+    {
+        "id": 159,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model reasoning correct (2/12), but matched to option (C) while GT claims (B). Semantic match failure."
+    },
+    {
+        "id": 160,
+        "is_correct": false,
+        "extracted_answer": "to",
+        "reasoning_score": 1,
+        "error_type": "format_error",
+        "comment": "Model entered a loop."
+    },
+    {
+        "id": 161,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 162,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model matched reasoning to option (F) but GT is (A). Likely ambiguity or error in GT."
+    },
+    {
+        "id": 163,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 164,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect '36h' interpretation."
+    },
+    {
+        "id": 165,
+        "is_correct": false,
+        "extracted_answer": "December 19, 2014",
+        "reasoning_score": 2,
+        "error_type": "no_answer",
+        "comment": "Model failed to select a provided option letter clearly."
+    },
+    {
+        "id": 166,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 167,
+        "is_correct": false,
+        "extracted_answer": "option,",
+        "reasoning_score": 1,
+        "error_type": "format_error",
+        "comment": "Model entered a loop."
+    },
+    {
+        "id": 168,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 169,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 170,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 171,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 172,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 173,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Correct logic about duration but miscalculated final date."
+    },
+    {
+        "id": 174,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "format_error",
+        "comment": "Model reasoning failed to stabilize on an answer."
+    },
+    {
+        "id": 175,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 176,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Misidentified the correct option."
+    },
+    {
+        "id": 177,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 178,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Calculation error on days."
+    },
+    {
+        "id": 179,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 180,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 181,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct match."
+    },
+    {
+        "id": 182,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 183,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 184,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 185,
+        "is_correct": false,
+        "extracted_answer": "Subtracting",
+        "reasoning_score": 1,
+        "error_type": "format_error",
+        "comment": "Model entered a loop."
+    },
+    {
+        "id": 186,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated offset."
+    },
+    {
+        "id": 187,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 188,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correct outcome, slight calculation stumble in reasoning."
+    },
+    {
+        "id": 189,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Correct choice, reasoning slightly off on 'Today's date'."
+    },
+    {
+        "id": 190,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 191,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Logic failure."
+    },
+    {
+        "id": 192,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 193,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Failed to shift base date correctly."
+    },
+    {
+        "id": 194,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect date result."
+    },
+    {
+        "id": 195,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 196,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 197,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 198,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Hallucinated premise details."
+    },
+    {
+        "id": 199,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 200,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 201,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Misinterpreted 'yesterday' logic."
+    },
+    {
+        "id": 202,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 203,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Bad logic."
+    },
+    {
+        "id": 204,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 205,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 206,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Calculation error."
+    },
+    {
+        "id": 207,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 208,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 209,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 210,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Calculation error."
+    },
+    {
+        "id": 211,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Calculation error."
+    },
+    {
+        "id": 212,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Calculation error."
+    },
+    {
+        "id": 213,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Calculation error."
+    },
+    {
+        "id": 214,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated offset."
+    },
+    {
+        "id": 215,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correct choice, reasoning slightly confused year."
+    },
+    {
+        "id": 216,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 217,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 218,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Calculation error."
+    },
+    {
+        "id": 219,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 220,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Miscalculated base date."
+    },
+    {
+        "id": 221,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Used wrong base date."
+    },
+    {
+        "id": 222,
+        "is_correct": false,
+        "extracted_answer": "date a",
+        "reasoning_score": 1,
+        "error_type": "format_error",
+        "comment": "Model entered a loop."
+    },
+    {
+        "id": 223,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 224,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 225,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 226,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Wrong base date used."
+    },
+    {
+        "id": 227,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Wrong base date used."
+    },
+    {
+        "id": 228,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 229,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 230,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 231,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 232,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Wrong base date used."
+    },
+    {
+        "id": 233,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 234,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Terrible arithmetic (Jan 1 - 10 = Jan 31)."
+    },
+    {
+        "id": 235,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed to identify the palindrome correctly."
+    },
+    {
+        "id": 236,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 237,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Calculation error on days."
+    },
+    {
+        "id": 238,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 239,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 240,
+        "is_correct": false,
+        "extracted_answer": "12/24/192",
+        "reasoning_score": 1,
+        "error_type": "format_error",
+        "comment": "Model entered a loop."
+    },
+    {
+        "id": 241,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 242,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 243,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 244,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 245,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Correct match, flawed calculation steps."
+    },
+    {
+        "id": 246,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 247,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 248,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 249,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Used wrong base date."
+    },
+    {
+        "id": 250,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Terrible arithmetic."
+    }
+]

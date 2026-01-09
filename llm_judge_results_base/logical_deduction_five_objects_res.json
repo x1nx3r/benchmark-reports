@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct answer derived with valid step-by-step reasoning."
+    },
+    {
+        "id": 2,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct answer derived with valid logic."
+    },
+    {
+        "id": 3,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed to correctly order the items; incorrectly deduced the leftmost book."
+    },
+    {
+        "id": 4,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct deduction."
+    },
+    {
+        "id": 5,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct deduction."
+    },
+    {
+        "id": 6,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly ordered the books and identified the third one."
+    },
+    {
+        "id": 7,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 8,
+        "is_correct": false,
+        "extracted_answer": null,
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Model entered a repetitive loop and failed to produce a final answer."
+    },
+    {
+        "id": 9,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect positioning of books leading to wrong conclusion."
+    },
+    {
+        "id": 10,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Flawed logic regarding the relative ages of the vehicles."
+    },
+    {
+        "id": 11,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the price order."
+    },
+    {
+        "id": 12,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct deduction."
+    },
+    {
+        "id": 13,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct deduction."
+    },
+    {
+        "id": 14,
+        "is_correct": false,
+        "extracted_answer": null,
+        "reasoning_score": 2,
+        "error_type": "no_answer",
+        "comment": "Model failed to determine Joe's position despite sufficient information."
+    },
+    {
+        "id": 15,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correct conclusion reached, though the reasoning contained some uncertainty."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Model derived the correct answer but expressed confusion about the options matching the order."
+    },
+    {
+        "id": 17,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Contradictory reasoning regarding the second-oldest vehicle."
+    },
+    {
+        "id": 18,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly placed the robin."
+    },
+    {
+        "id": 19,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct deduction."
+    },
+    {
+        "id": 20,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 21,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 22,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrectly identified the newest vehicle."
+    },
+    {
+        "id": 23,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed to correctly order the golfers."
+    },
+    {
+        "id": 24,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of vehicle ages."
+    },
+    {
+        "id": 25,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the black book's position."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct deduction."
+    },
+    {
+        "id": 27,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 28,
+        "is_correct": false,
+        "extracted_answer": null,
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Model entered a repetitive loop of self-correction and failed to answer."
+    },
+    {
+        "id": 29,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 30,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly deduced Joe's position."
+    },
+    {
+        "id": 31,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 32,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the raven's position."
+    },
+    {
+        "id": 33,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Failed to correctly determine the second-to-last golfer."
+    },
+    {
+        "id": 34,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct deduction."
+    },
+    {
+        "id": 35,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ordering of the golfers."
+    },
+    {
+        "id": 36,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect logic regarding the position of the brown book."
+    },
+    {
+        "id": 37,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 38,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect final deduction."
+    },
+    {
+        "id": 39,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 40,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect interpretation of 'second from the left'."
+    },
+    {
+        "id": 41,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the oldest vehicle."
+    },
+    {
+        "id": 42,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 43,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect determination of the rightmost bird."
+    },
+    {
+        "id": 44,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of positions."
+    },
+    {
+        "id": 45,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 46,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 47,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 48,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect logic regarding relative ages."
+    },
+    {
+        "id": 49,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 50,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the leftmost bird."
+    },
+    {
+        "id": 51,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect positioning of books."
+    },
+    {
+        "id": 52,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect order deduction."
+    },
+    {
+        "id": 53,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 54,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction about the second-oldest vehicle."
+    },
+    {
+        "id": 55,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 56,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect positioning of the raven."
+    },
+    {
+        "id": 57,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 58,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect positioning of the owl."
+    },
+    {
+        "id": 59,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 60,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 61,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect positioning of the quail."
+    },
+    {
+        "id": 62,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 63,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 64,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 65,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning derived after discarding incorrect options."
+    },
+    {
+        "id": 66,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 67,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 68,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 69,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the oldest vehicle."
+    },
+    {
+        "id": 70,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 71,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 72,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 73,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 74,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the newest vehicle."
+    },
+    {
+        "id": 75,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 76,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect determination of the second-cheapest fruit."
+    },
+    {
+        "id": 77,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect positioning of the birds."
+    },
+    {
+        "id": 78,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 79,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 80,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Model identifies a conflict in the puzzle constraints but arrives at the correct answer based on available options."
+    },
+    {
+        "id": 81,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 83,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect sorting of prices."
+    },
+    {
+        "id": 84,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 85,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ranking of vehicles by age."
+    },
+    {
+        "id": 86,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 87,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 88,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the rightmost book."
+    },
+    {
+        "id": 89,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Reasoning contains errors but arrives at the correct conclusion by elimination."
+    },
+    {
+        "id": 90,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 91,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 92,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect positioning of the birds."
+    },
+    {
+        "id": 93,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ranking of the golfers."
+    },
+    {
+        "id": 94,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 95,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 96,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 97,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 98,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 99,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ordering of vehicle ages."
+    },
+    {
+        "id": 100,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the leftmost bird."
+    },
+    {
+        "id": 101,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 102,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Reasoning identified that the correct answer was not among the options, but correctly matched the Ground Truth option letter by deduction."
+    },
+    {
+        "id": 103,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the 3rd place golfer."
+    },
+    {
+        "id": 104,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 105,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 106,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect identification of the second-oldest vehicle."
+    },
+    {
+        "id": 107,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect positioning of the birds."
+    },
+    {
+        "id": 108,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect logic regarding the second-oldest vehicle."
+    },
+    {
+        "id": 109,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect positioning of the birds."
+    },
+    {
+        "id": 110,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Model identified inconsistencies in the problem statement but correctly identified the option that matches the logic provided."
+    },
+    {
+        "id": 111,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 112,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the third-newest vehicle."
+    },
+    {
+        "id": 113,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 114,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 115,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 116,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 117,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Correct answer derived despite some logical leaps."
+    },
+    {
+        "id": 118,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 119,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the second book from the left."
+    },
+    {
+        "id": 120,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ordering of the golfers."
+    },
+    {
+        "id": 121,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect positioning of the books."
+    },
+    {
+        "id": 122,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the ranking."
+    },
+    {
+        "id": 123,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model reasoning loop and confusion, but final selection matches ground truth."
+    },
+    {
+        "id": 125,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ranking of the golfers."
+    },
+    {
+        "id": 126,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the second-most expensive fruit."
+    },
+    {
+        "id": 127,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the second place golfer."
+    },
+    {
+        "id": 128,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect positioning of the birds."
+    },
+    {
+        "id": 129,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 130,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the oldest vehicle."
+    },
+    {
+        "id": 131,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 132,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 133,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 134,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 135,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the second-to-last golfer."
+    },
+    {
+        "id": 136,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 137,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Correct answer derived, though reasoning on 'second-to-last' vs 'last' was slightly confused."
+    },
+    {
+        "id": 138,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the oldest vehicle."
+    },
+    {
+        "id": 139,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 140,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ordering of fruit prices."
+    },
+    {
+        "id": 141,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect logic regarding the position of the birds."
+    },
+    {
+        "id": 142,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 143,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect positioning of the books."
+    },
+    {
+        "id": 144,
+        "is_correct": false,
+        "extracted_answer": null,
+        "reasoning_score": 2,
+        "error_type": "no_answer",
+        "comment": "Model deduced an answer not present in options."
+    },
+    {
+        "id": 145,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 146,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of bird positions."
+    },
+    {
+        "id": 147,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect pricing deduction."
+    },
+    {
+        "id": 148,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 149,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ranking of the golfers."
+    },
+    {
+        "id": 150,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 151,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed to determine the second-to-last golfer."
+    },
+    {
+        "id": 152,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 153,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Logic was slightly repetitive but reached correct conclusion."
+    },
+    {
+        "id": 154,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect logic regarding Joe's finishing position."
+    },
+    {
+        "id": 155,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 156,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 157,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 158,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book positioning."
+    },
+    {
+        "id": 159,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 160,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 161,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the leftmost bird."
+    },
+    {
+        "id": 162,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Reasoning claimed correct answer wasn't among options, but actually selected D (which was correct) as 'incorrect'."
+    },
+    {
+        "id": 163,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect placement of the golfers."
+    },
+    {
+        "id": 164,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the second place golfer."
+    },
+    {
+        "id": 165,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 166,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the newest vehicle."
+    },
+    {
+        "id": 167,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect determination of the rightmost bird."
+    },
+    {
+        "id": 168,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 169,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 170,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 171,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 172,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 173,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 174,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 175,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 176,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 177,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the last place golfer."
+    },
+    {
+        "id": 178,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect positioning of the books."
+    },
+    {
+        "id": 179,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 180,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 181,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of third place."
+    },
+    {
+        "id": 182,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of bird positions."
+    },
+    {
+        "id": 183,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ranking."
+    },
+    {
+        "id": 184,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect price ranking."
+    },
+    {
+        "id": 185,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect price ranking."
+    },
+    {
+        "id": 186,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 187,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 188,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect price ranking."
+    },
+    {
+        "id": 189,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 190,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Correct answer but some circular logic in the trace."
+    },
+    {
+        "id": 191,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect age deduction."
+    },
+    {
+        "id": 192,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of rank."
+    },
+    {
+        "id": 193,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Correct answer reached, although reasoning contained some confusion about oldest/newest."
+    },
+    {
+        "id": 194,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 195,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the rightmost bird."
+    },
+    {
+        "id": 196,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of third place."
+    },
+    {
+        "id": 197,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book position."
+    },
+    {
+        "id": 198,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 199,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the third bird."
+    },
+    {
+        "id": 200,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect price ranking."
+    },
+    {
+        "id": 201,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ranking of golfers."
+    },
+    {
+        "id": 202,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect determination of the last place golfer."
+    },
+    {
+        "id": 203,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect determination of the oldest vehicle."
+    },
+    {
+        "id": 204,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 205,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of second place."
+    },
+    {
+        "id": 206,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 207,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 208,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 209,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 210,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 211,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the oldest vehicle."
+    },
+    {
+        "id": 212,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the newest vehicle."
+    },
+    {
+        "id": 213,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ranking of price."
+    },
+    {
+        "id": 214,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect determination of the second-to-last golfer."
+    },
+    {
+        "id": 215,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 216,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 217,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ranking."
+    },
+    {
+        "id": 218,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 219,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 220,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 221,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of first place."
+    },
+    {
+        "id": 222,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the cheapest fruit."
+    },
+    {
+        "id": 223,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 224,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the second-newest vehicle."
+    },
+    {
+        "id": 225,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect determination of the second bird from the right."
+    },
+    {
+        "id": 226,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 227,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 228,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the third-newest vehicle."
+    },
+    {
+        "id": 229,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect interpretation of bird positions."
+    },
+    {
+        "id": 230,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 231,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 232,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the most expensive fruit."
+    },
+    {
+        "id": 233,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 234,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 235,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the leftmost bird."
+    },
+    {
+        "id": 236,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the second-newest vehicle."
+    },
+    {
+        "id": 237,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 238,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 239,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect interpretation of bird positions."
+    },
+    {
+        "id": 240,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 241,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 242,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position deduction."
+    },
+    {
+        "id": 243,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 244,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 245,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ranking."
+    },
+    {
+        "id": 246,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 247,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 248,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 249,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 250,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    }
+]

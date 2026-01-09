@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 2,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 3,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 4,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 5,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Logic error in the final step of tracking positions."
+    },
+    {
+        "id": 6,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 7,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 8,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model correctly identifies the book ('The Great Gatsby') but incorrectly maps it to option (C) 'Lolita'."
+    },
+    {
+        "id": 9,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model falsely claims no change occurred in a swap step."
+    },
+    {
+        "id": 10,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 11,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 12,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "Model hallucinates partner names not involved in the swap during reasoning."
+    },
+    {
+        "id": 13,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 14,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect logic in the final tracking step."
+    },
+    {
+        "id": 15,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 17,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 18,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 19,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model hallucinates the outcome of the final swap."
+    },
+    {
+        "id": 20,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 21,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 22,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 23,
+        "is_correct": false,
+        "extracted_answer": "Claire",
+        "reasoning_score": 2,
+        "error_type": "format_error",
+        "comment": "Model names a person (Claire) instead of a partner from the options."
+    },
+    {
+        "id": 24,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 25,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 27,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 28,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 29,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model identifies the correct book name but maps it to the wrong option letter."
+    },
+    {
+        "id": 30,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 31,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 32,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 33,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model confuses partner names with dancer names in reasoning."
+    },
+    {
+        "id": 34,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 35,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 36,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 37,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 38,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 39,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 40,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 41,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 42,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 43,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 44,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 45,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 46,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 47,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 48,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 49,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 50,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 51,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 52,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model tracking fails in the final swap description."
+    },
+    {
+        "id": 53,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 54,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 55,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 56,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 57,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 58,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 59,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking of books through swaps."
+    },
+    {
+        "id": 60,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 61,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 62,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 63,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 64,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 65,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 66,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 67,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Reasoning is perfect, but ground truth is (A). Likely a ground truth error or ambiguity in question, but strictly model output contradicts GT."
+    },
+    {
+        "id": 68,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 69,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 70,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 71,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 72,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 73,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 74,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 75,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 76,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 77,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 78,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 79,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 80,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 81,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model hallucinates partners during tracking."
+    },
+    {
+        "id": 82,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking of positions."
+    },
+    {
+        "id": 83,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 84,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 85,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 86,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 87,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 88,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly tracks positions in the final steps."
+    },
+    {
+        "id": 89,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 90,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 91,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 92,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 93,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model makes an error in tracking the outcome of swaps."
+    },
+    {
+        "id": 94,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 95,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 96,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking of partners."
+    },
+    {
+        "id": 97,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 98,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 99,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 100,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 101,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 102,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 103,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model correctly tracks but makes a mapping error in the final answer selection."
+    },
+    {
+        "id": 104,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 105,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 106,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 107,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 108,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 109,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 110,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 111,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model identifies correct book title but selects wrong option letter."
+    },
+    {
+        "id": 112,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 113,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 114,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 115,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model hallucinates the color of the ball in the final step."
+    },
+    {
+        "id": 116,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 117,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 118,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 119,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 120,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 121,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 122,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 123,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 125,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 126,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking of positions."
+    },
+    {
+        "id": 127,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 128,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 129,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 130,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 131,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 132,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 133,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model hallucinates the color of the gift in the final steps."
+    },
+    {
+        "id": 134,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 135,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 136,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 137,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 138,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 139,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model confuses ball colors during tracking."
+    },
+    {
+        "id": 140,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 141,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 142,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 143,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking of positions."
+    },
+    {
+        "id": 144,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 145,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 146,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 147,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 148,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 149,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking of positions."
+    },
+    {
+        "id": 150,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 151,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 152,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 153,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 154,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 155,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 156,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 157,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 158,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 159,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 160,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 161,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 162,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 163,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 164,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 165,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 166,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 167,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 168,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 169,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 170,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 171,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 172,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 173,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 174,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 175,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 176,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 177,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 178,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 179,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 180,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 181,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 182,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 183,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 184,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 185,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 186,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 187,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 188,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 189,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 190,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 191,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 192,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 193,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 194,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 195,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 196,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 197,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 198,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 199,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 200,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 201,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 202,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 203,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 204,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 205,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 206,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 207,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 208,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 209,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 210,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 211,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model hallucinates positions during tracking."
+    },
+    {
+        "id": 212,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 213,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 214,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 215,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 216,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 217,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 218,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 219,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 220,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 221,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 222,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 223,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 224,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 225,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 226,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 227,
+        "is_correct": true,
+        "extracted_answer": "(C) Izzi",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 228,
+        "is_correct": true,
+        "extracted_answer": "(B) blue present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 229,
+        "is_correct": true,
+        "extracted_answer": "(B) green present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 230,
+        "is_correct": true,
+        "extracted_answer": "(C) yellow present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 231,
+        "is_correct": true,
+        "extracted_answer": "(A) orange ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 232,
+        "is_correct": true,
+        "extracted_answer": "(B) center midfielder",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 233,
+        "is_correct": true,
+        "extracted_answer": "(B) purple ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 234,
+        "is_correct": true,
+        "extracted_answer": "(C) Patrick",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 235,
+        "is_correct": false,
+        "extracted_answer": "(E) The Pearl",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model correctly tracks step 1 and 2, but fails the swap logic in step 3, stating Alice swaps with Bob but retaining her previous book."
+    },
+    {
+        "id": 236,
+        "is_correct": true,
+        "extracted_answer": "(C) Moby Dick",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 237,
+        "is_correct": true,
+        "extracted_answer": "(C) Sam",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 238,
+        "is_correct": true,
+        "extracted_answer": "(B) Patrick",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 239,
+        "is_correct": true,
+        "extracted_answer": "(A) Striker",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Model arrives at the correct answer, but hallucinates in the textual trace of step 2 (claims Alice starts as GK when she started as Striker), yet self-corrects the state later."
+    },
+    {
+        "id": 240,
+        "is_correct": true,
+        "extracted_answer": "(A) right midfielder",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 241,
+        "is_correct": true,
+        "extracted_answer": "(B) The Odyssey",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 242,
+        "is_correct": false,
+        "extracted_answer": "(A) benchwarmer",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model tracks swaps incorrectly starting from step 1."
+    },
+    {
+        "id": 243,
+        "is_correct": true,
+        "extracted_answer": "(B) black ball",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Model reaches correct conclusion, but the logic in step 2 is flawed (claims no change happened during a swap where change should occur, yet balances it out with another error later)."
+    },
+    {
+        "id": 244,
+        "is_correct": true,
+        "extracted_answer": "(A) Lola",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 245,
+        "is_correct": true,
+        "extracted_answer": "(A) The Great Gatsby",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 246,
+        "is_correct": true,
+        "extracted_answer": "(C) blue present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 247,
+        "is_correct": true,
+        "extracted_answer": "(A) Catch-22",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 248,
+        "is_correct": false,
+        "extracted_answer": "(A) Rodrigo",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly tracks the final swap, assigning the wrong partner (original partner instead of current partner)."
+    },
+    {
+        "id": 249,
+        "is_correct": true,
+        "extracted_answer": "(A) right winger",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 250,
+        "is_correct": true,
+        "extracted_answer": "(B) cheerleader",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    }
+]

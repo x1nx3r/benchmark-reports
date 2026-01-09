@@ -5,21 +5,47 @@ import json
 import os
 from collections import defaultdict
 
-def main():
-    results_dir = "/mnt/libraries/benchresults/llm_judge_results"
-    files = [f for f in os.listdir(results_dir) if f.endswith(".json")]
-    files.sort()
+import argparse
+import glob
 
+def main():
+    parser = argparse.ArgumentParser(description="Analyze LLM Judge Results")
+    parser.add_argument("inputs", nargs="*", help="Input JSON files or directory")
+    args = parser.parse_args()
+
+    files = []
+    if not args.inputs:
+        results_dir = "/mnt/libraries/benchresults/llm_judge_results"
+        if os.path.exists(results_dir):
+            files = [os.path.join(results_dir, f) for f in os.listdir(results_dir) if f.endswith(".json")]
+    else:
+        for inp in args.inputs:
+            if os.path.isdir(inp):
+                files.extend([os.path.join(inp, f) for f in os.listdir(inp) if f.endswith(".json")])
+            elif os.path.isfile(inp):
+                files.append(inp)
+            else:
+                 # Try glob expansion in case shell didn't do it (though usually shell does)
+                 expanded = glob.glob(inp)
+                 files.extend(expanded)
+    
+    files = sorted(list(set(files)))
+    
     all_results = {}
     parse_errors = []
-
-    for f in files:
+    
+    for f_path in files:
         try:
-            with open(os.path.join(results_dir, f), "r") as fp:
+            with open(f_path, "r") as fp:
                 data = json.load(fp)
-                all_results[f] = data
+                # Use basename for referencing in dict to match original logic style if needed, 
+                # but careful if multiple files have same name in diff dirs. 
+                # Original script keyed by filename (f).
+                # Let's verify how it's used.
+                fname = os.path.basename(f_path)
+                all_results[fname] = data
         except json.JSONDecodeError as e:
-            parse_errors.append((f, str(e)))
+            parse_errors.append((f_path, str(e)))
 
     if parse_errors:
         print("=== JSON Parse Errors ===")

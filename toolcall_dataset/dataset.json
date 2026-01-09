@@ -1,0 +1,1002 @@
+[
+  {
+    "doc_id": "sample_50",
+    "question": "A shirt costs $25. It is on sale for 20% off. What is the sale price?",
+    "injected_solution": "<think>\nFirst, I calculate the discount amount: 20% of 25.\n</think>\n<tool_code>calculator(expression=\"25 * 0.20\")</tool_code>\n<tool_output>5.0</tool_output>\n<think>\nThe discount is $5. Now I subtract the discount from the original price: 25 - 5.\n</think>\n<tool_code>calculator(expression=\"25 - 5\")</tool_code>\n<tool_output>20</tool_output>\n<think>\nThe sale price is $20.\n</think>\nThe sale price is $20."
+  },
+  {
+    "doc_id": "sample_51",
+    "question": "How many legs does a dog have?",
+    "injected_solution": "<think>\nThis is a general knowledge question based on biological definition. Dogs typically have 4 legs. No calculation is needed.\n</think>\nA dog has 4 legs."
+  },
+  {
+    "doc_id": "sample_52",
+    "question": "Calculate the area of a circle with a radius of 4 (use pi = 3.14).",
+    "injected_solution": "<think>\nThe formula for the area of a circle is pi * r^2. I need to calculate 3.14 * 4^2.\n</think>\n<tool_code>calculator(expression=\"3.14 * 4**2\")</tool_code>\n<tool_output>50.24</tool_output>\n<think>\nThe calculator returns 50.24. Let me double check the magnitude. 4 squared is 16. 16 times 3 is 48. 50.24 is close to 48, so the calculation is reasonable.\n</think>\nThe area is 50.24."
+  },
+  {
+    "doc_id": "sample_53",
+    "question": "John is 15 years old. His father is 3 times his age. How old is his father?",
+    "injected_solution": "<think>\nI need to multiply John's age (15) by 3.\n</think>\n<tool_code>calculator(expression=\"15 * 3\")</tool_code>\n<tool_output>45</tool_output>\n<think>\nHis father is 45 years old.\n</think>\nHis father is 45 years old."
+  },
+  {
+    "doc_id": "sample_54",
+    "question": "What is 100 minus 1?",
+    "injected_solution": "<think>\n100 minus 1 is 99. This is a trivial subtraction.\n</think>\nThe answer is 99."
+  },
+  {
+    "doc_id": "sample_55",
+    "question": "A recipe calls for 2 cups of sugar. If you triple the recipe, how much sugar do you need?",
+    "injected_solution": "<think>\nTripling means multiplying by 3. I need to calculate 2 * 3.\n</think>\n<tool_code>calculator(expression=\"2 * 3\")</tool_code>\n<tool_output>6</tool_output>\n<think>\nYou need 6 cups of sugar.\n</think>\nYou need 6 cups of sugar."
+  },
+  {
+    "doc_id": "sample_56",
+    "question": "Convert 120 minutes into hours.",
+    "injected_solution": "<think>\nThere are 60 minutes in an hour. I need to divide 120 by 60.\n</think>\n<tool_code>calculator(expression=\"120 / 60\")</tool_code>\n<tool_output>2.0</tool_output>\n<think>\nIt is exactly 2 hours.\n</think>\nIt is 2 hours."
+  },
+  {
+    "doc_id": "sample_57",
+    "question": "A box contains 24 chocolates. If you share them equally among 4 people, how many does each person get?",
+    "injected_solution": "<think>\nI need to divide the total chocolates (24) by the number of people (4).\n</think>\n<tool_code>calculator(expression=\"24 / 4\")</tool_code>\n<tool_output>6.0</tool_output>\n<think>\nEach person gets 6 chocolates.\n</think>\nEach person gets 6 chocolates."
+  },
+  {
+    "doc_id": "sample_58",
+    "question": "Is the sun hot?",
+    "injected_solution": "<think>\nThis is a factual question about the nature of the sun. It is known to be hot. No tool required.\n</think>\nYes, the sun is hot."
+  },
+  {
+    "doc_id": "sample_59",
+    "question": "Solve for y: 2y = 10.",
+    "injected_solution": "<think>\nTo find y, I divide 10 by 2.\n</think>\n<tool_code>calculator(expression=\"10 / 2\")</tool_code>\n<tool_output>5.0</tool_output>\n<think>\ny equals 5.\n</think>\ny equals 5."
+  },
+  {
+    "doc_id": "sample_60",
+    "question": "If a car travels 400 miles in 8 hours, what is its average speed?",
+    "injected_solution": "<think>\nAverage speed is distance divided by time. I will calculate 400 / 8.\n</think>\n<tool_code>calculator(expression=\"400 / 8\")</tool_code>\n<tool_output>50.0</tool_output>\n<think>\nThe average speed is 50 miles per hour.\n</think>\nThe average speed is 50 mph."
+  },
+  {
+    "doc_id": "sample_61",
+    "question": "A rectangle has a perimeter of 50. The width is 10. What is the length?",
+    "injected_solution": "<think>\nThe formula is P = 2(l + w). So 50 = 2(l + 10). First, divide perimeter by 2.\n</think>\n<tool_code>calculator(expression=\"50 / 2\")</tool_code>\n<tool_output>25.0</tool_output>\n<think>\nl + w = 25. Since w is 10, I subtract 10 from 25.\n</think>\n<tool_code>calculator(expression=\"25 - 10\")</tool_code>\n<tool_output>15</tool_output>\n<think>\nThe length is 15. Checking: 2(15+10) = 50. Correct.\n</think>\nThe length is 15."
+  },
+  {
+    "doc_id": "sample_62",
+    "question": "What is 1 + 1?",
+    "injected_solution": "<think>\n1 plus 1 is 2. This is the most basic arithmetic fact.\n</think>\nThe answer is 2."
+  },
+  {
+    "doc_id": "sample_63",
+    "question": "Tom has $100. He spends $25.50 on a book and $14.25 on lunch. How much does he have left?",
+    "injected_solution": "<think>\nFirst, I sum the expenses: 25.50 + 14.25.\n</think>\n<tool_code>calculator(expression=\"25.50 + 14.25\")</tool_code>\n<tool_output>39.75</tool_output>\n<think>\nTotal spent is $39.75. Now subtract this from the starting amount: 100 - 39.75.\n</think>\n<tool_code>calculator(expression=\"100 - 39.75\")</tool_code>\n<tool_output>60.25</tool_output>\n<think>\nHe has $60.25 left.\n</think>\nHe has $60.25 left."
+  },
+  {
+    "doc_id": "sample_64",
+    "question": "What is 12 squared?",
+    "injected_solution": "<think>\n12 squared is 12 * 12.\n</think>\n<tool_code>calculator(expression=\"12 * 12\")</tool_code>\n<tool_output>144</tool_output>\n<think>\nThe answer is 144.\n</think>\n144."
+  },
+  {
+    "doc_id": "sample_65",
+    "question": "Identify the number of sides on a triangle.",
+    "injected_solution": "<think>\nBy definition, a triangle has 3 sides. No calculation needed.\n</think>\nA triangle has 3 sides."
+  },
+  {
+    "doc_id": "sample_66",
+    "question": "A gym membership costs $30 a month plus a $50 joining fee. What is the total cost for the first year?",
+    "injected_solution": "<think>\nFirst, calculate the cost of the monthly fees for a year (12 months): 30 * 12.\n</think>\n<tool_code>calculator(expression=\"30 * 12\")</tool_code>\n<tool_output>360</tool_output>\n<think>\nThe monthly fees total $360. Now add the joining fee: 360 + 50.\n</think>\n<tool_code>calculator(expression=\"360 + 50\")</tool_code>\n<tool_output>410</tool_output>\n<think>\nThe total cost is $410.\n</think>\nThe total cost is $410."
+  },
+  {
+    "doc_id": "sample_67",
+    "question": "Divide 7895 by 34.",
+    "injected_solution": "<think>\nI need to perform the division 7895 / 34.\n</think>\n<tool_code>calculator(expression=\"7895 / 34\")</tool_code>\n<tool_output>232.2058823529412</tool_output>\n<think>\nThe result is approximately 232.21. Let me verify by estimation. 30 * 200 = 6000. 30 * 250 = 7500. 232 seems correct as it is close to the estimate.\n</think>\nThe answer is approximately 232.21."
+  },
+  {
+    "doc_id": "sample_68",
+    "question": "If you have 5 apples and give 2 to a friend, how many do you have?",
+    "injected_solution": "<think>\n5 minus 2 is 3. Trivial arithmetic.\n</think>\nYou have 3 apples."
+  },
+  {
+    "doc_id": "sample_69",
+    "question": "What is 20% of 150?",
+    "injected_solution": "<think>\nI need to calculate 0.20 * 150.\n</think>\n<tool_code>calculator(expression=\"150 * 0.20\")</tool_code>\n<tool_output>30.0</tool_output>\n<think>\nThe answer is 30.\n</think>\n30."
+  },
+  {
+    "doc_id": "sample_70",
+    "question": "How many minutes are in a day?",
+    "injected_solution": "<think>\nThere are 24 hours in a day and 60 minutes in an hour. I will multiply 24 by 60.\n</think>\n<tool_code>calculator(expression=\"24 * 60\")</tool_code>\n<tool_output>1440</tool_output>\n<think>\nThere are 1440 minutes in a day.\n</think>\nThere are 1440 minutes in a day."
+  },
+  {
+    "doc_id": "sample_71",
+    "question": "A rectangle has a length of 15 and a width of 8. What is the area?",
+    "injected_solution": "<think>\nArea is length times width. 15 * 8.\n</think>\n<tool_code>calculator(expression=\"15 * 8\")</tool_code>\n<tool_output>120</tool_output>\n<think>\nThe area is 120.\n</think>\nThe area is 120."
+  },
+  {
+    "doc_id": "sample_72",
+    "question": "Is water a liquid at room temperature?",
+    "injected_solution": "<think>\nThis is a fact about the state of matter of water. At room temperature, it is liquid. No tool needed.\n</think>\nYes, water is a liquid at room temperature."
+  },
+  {
+    "doc_id": "sample_73",
+    "question": "Calculate the volume of a cube with side length 4.",
+    "injected_solution": "<think>\nThe volume of a cube is side cubed. 4^3.\n</think>\n<tool_code>calculator(expression=\"4**3\")</tool_code>\n<tool_output>64</tool_output>\n<think>\nThe volume is 64.\n</think>\nThe volume is 64."
+  },
+  {
+    "doc_id": "sample_74",
+    "question": "If you drive at 65 mph for 4 hours, how far do you go?",
+    "injected_solution": "<think>\nDistance = Speed * Time. 65 * 4.\n</think>\n<tool_code>calculator(expression=\"65 * 4\")</tool_code>\n<tool_output>260</tool_output>\n<think>\nYou travel 260 miles.\n</think>\nYou go 260 miles."
+  },
+  {
+    "doc_id": "sample_75",
+    "question": "What is the sum of angles in a triangle?",
+    "injected_solution": "<think>\nBy definition, the sum of angles in a triangle is 180 degrees.\n</think>\n180 degrees."
+  },
+  {
+    "doc_id": "sample_76",
+    "question": "A store sells 3 apples for $1.50. How much do 10 apples cost?",
+    "injected_solution": "<think>\nFirst, find the cost of one apple: 1.50 / 3.\n</think>\n<tool_code>calculator(expression=\"1.50 / 3\")</tool_code>\n<tool_output>0.5</tool_output>\n<think>\nOne apple costs $0.50. Now multiply by 10.\n</think>\n<tool_code>calculator(expression=\"0.5 * 10\")</tool_code>\n<tool_output>5.0</tool_output>\n<think>\n10 apples cost $5.00.\n</think>\n10 apples cost $5.00."
+  },
+  {
+    "doc_id": "sample_77",
+    "question": "What is 1000 divided by 5?",
+    "injected_solution": "<think>\nI need to divide 1000 by 5.\n</think>\n<tool_code>calculator(expression=\"1000 / 5\")</tool_code>\n<tool_output>200.0</tool_output>\n<think>\nThe answer is 200.\n</think>\n200."
+  },
+  {
+    "doc_id": "sample_78",
+    "question": "Convert 3 days into hours.",
+    "injected_solution": "<think>\n3 days * 24 hours/day.\n</think>\n<tool_code>calculator(expression=\"3 * 24\")</tool_code>\n<tool_output>72</tool_output>\n<think>\nThere are 72 hours.\n</think>\n72 hours."
+  },
+  {
+    "doc_id": "sample_79",
+    "question": "Is 7 a prime number?",
+    "injected_solution": "<think>\n7 has no divisors other than 1 and itself. This is a basic math fact.\n</think>\nYes, 7 is a prime number."
+  },
+  {
+    "doc_id": "sample_80",
+    "question": "Calculate 123 plus 456.",
+    "injected_solution": "<think>\nI need to add 123 and 456.\n</think>\n<tool_code>calculator(expression=\"123 + 456\")</tool_code>\n<tool_output>579</tool_output>\n<think>\nThe sum is 579.\n</think>\n579."
+  },
+  {
+    "doc_id": "sample_81",
+    "question": "What is 50% of 20?",
+    "injected_solution": "<think>\n50% is half. Half of 20 is 10. No tool needed.\n</think>\n10."
+  },
+  {
+    "doc_id": "sample_82",
+    "question": "A bag has 10 marbles. 3 are red, 2 are blue, and the rest are green. How many are green?",
+    "injected_solution": "<think>\nFirst sum the red and blue marbles: 3 + 2.\n</think>\n<tool_code>calculator(expression=\"3 + 2\")</tool_code>\n<tool_output>5</tool_output>\n<think>\nThere are 5 red and blue marbles. Subtract this from the total: 10 - 5.\n</think>\n<tool_code>calculator(expression=\"10 - 5\")</tool_code>\n<tool_output>5</tool_output>\n<think>\nThere are 5 green marbles.\n</think>\nThere are 5 green marbles."
+  },
+  {
+    "doc_id": "sample_83",
+    "question": "What is the cube root of 27?",
+    "injected_solution": "<think>\nI need to find a number that multiplied by itself 3 times equals 27. 3 * 3 * 3 is 27. I recall this.\n</think>\n3."
+  },
+  {
+    "doc_id": "sample_84",
+    "question": "Calculate the average of 10, 20, 30, and 40.",
+    "injected_solution": "<think>\nSum the numbers first: 10 + 20 + 30 + 40.\n</think>\n<tool_code>calculator(expression=\"10 + 20 + 30 + 40\")</tool_code>\n<tool_output>100</tool_output>\n<think>\nThe sum is 100. Divide by the count (4).\n</think>\n<tool_code>calculator(expression=\"100 / 4\")</tool_code>\n<tool_output>25.0</tool_output>\n<think>\nThe average is 25.\n</think>\nThe average is 25."
+  },
+  {
+    "doc_id": "sample_85",
+    "question": "Find the hypotenuse of a triangle with legs 6 and 8.",
+    "injected_solution": "<think>\nUse Pythagorean theorem: sqrt(6^2 + 8^2).\n</think>\n<tool_code>calculator(expression=\"(6**2 + 8**2)**0.5\")</tool_code>\n<tool_output>10.0</tool_output>\n<think>\nThe hypotenuse is 10. Let me check: 36 + 64 = 100. Sqrt(100) is 10. Correct.\n</think>\nThe hypotenuse is 10."
+  },
+  {
+    "doc_id": "sample_86",
+    "question": "What is 2 to the 10th power?",
+    "injected_solution": "<think>\nI need to calculate 2^10.\n</think>\n<tool_code>calculator(expression=\"2**10\")</tool_code>\n<tool_output>1024</tool_output>\n<think>\nThe value is 1024.\n</think>\n1024."
+  },
+  {
+    "doc_id": "sample_87",
+    "question": "If you earn $15 per hour and work 40 hours, what is your pay?",
+    "injected_solution": "<think>\nMultiply rate by hours: 15 * 40.\n</think>\n<tool_code>calculator(expression=\"15 * 40\")</tool_code>\n<tool_output>600</tool_output>\n<think>\nYour pay is $600.\n</think>\n$600."
+  },
+  {
+    "doc_id": "sample_88",
+    "question": "How many millimeters in a centimeter?",
+    "injected_solution": "<think>\nThere are 10 millimeters in 1 centimeter. This is a metric definition.\n</think>\n10 millimeters."
+  },
+  {
+    "doc_id": "sample_89",
+    "question": "What is 9 times 9?",
+    "injected_solution": "<think>\n9 times 9 is 81. Basic multiplication table.\n</think>\n81."
+  },
+  {
+    "doc_id": "sample_90",
+    "question": "A circle has a diameter of 10. What is the circumference? (pi = 3.14)",
+    "injected_solution": "<think>\nCircumference is pi * diameter. 3.14 * 10.\n</think>\n<tool_code>calculator(expression=\"3.14 * 10\")</tool_code>\n<tool_output>31.4</tool_output>\n<think>\nThe circumference is 31.4.\n</think>\n31.4."
+  },
+  {
+    "doc_id": "sample_91",
+    "question": "Subtract 45 from 100.",
+    "injected_solution": "<think>\n100 - 45.\n</think>\n<tool_code>calculator(expression=\"100 - 45\")</tool_code>\n<tool_output>55</tool_output>\n<think>\nThe difference is 55.\n</think>\n55."
+  },
+  {
+    "doc_id": "sample_92",
+    "question": "What is 10% of 500?",
+    "injected_solution": "<think>\n0.10 * 500.\n</think>\n<tool_code>calculator(expression=\"500 * 0.10\")</tool_code>\n<tool_output>50.0</tool_output>\n<think>\nThe answer is 50.\n</think>\n50."
+  },
+  {
+    "doc_id": "sample_93",
+    "question": "How many degrees in a right angle?",
+    "injected_solution": "<think>\nA right angle is 90 degrees by definition.\n</think>\n90 degrees."
+  },
+  {
+    "doc_id": "sample_94",
+    "question": "If you have 1000 sheets of paper and use 125, how many are left?",
+    "injected_solution": "<think>\n1000 - 125.\n</think>\n<tool_code>calculator(expression=\"1000 - 125\")</tool_code>\n<tool_output>875</tool_output>\n<think>\nThere are 875 sheets left.\n</think>\n875 sheets."
+  },
+  {
+    "doc_id": "sample_95",
+    "question": "Multiply 25 by 25.",
+    "injected_solution": "<think>\n25 * 25.\n</think>\n<tool_code>calculator(expression=\"25 * 25\")</tool_code>\n<tool_output>625</tool_output>\n<think>\nThe product is 625.\n</think>\n625."
+  },
+  {
+    "doc_id": "sample_96",
+    "question": "Convert 1 hour and 30 minutes to minutes.",
+    "injected_solution": "<think>\n1 hour is 60 minutes. Add 30. 60 + 30.\n</think>\n<tool_code>calculator(expression=\"60 + 30\")</tool_code>\n<tool_output>90</tool_output>\n<think>\nIt is 90 minutes.\n</think>\n90 minutes."
+  },
+  {
+    "doc_id": "sample_97",
+    "question": "What is 3 cubed?",
+    "injected_solution": "<think>\n3 cubed is 3 * 3 * 3.\n</think>\n<tool_code>calculator(expression=\"3**3\")</tool_code>\n<tool_output>27</tool_output>\n<think>\nThe answer is 27.\n</think>\n27."
+  },
+  {
+    "doc_id": "sample_98",
+    "question": "Is 0 a positive number?",
+    "injected_solution": "<think>\nZero is neither positive nor negative. This is a definition.\n</think>\nNo, zero is neither positive nor negative."
+  },
+  {
+    "doc_id": "sample_99",
+    "question": "Calculate the sale price of a $200 item with 30% off.",
+    "injected_solution": "<think>\nCalculate discount: 200 * 0.30.\n</think>\n<tool_code>calculator(expression=\"200 * 0.30\")</tool_code>\n<tool_output>60.0</tool_output>\n<think>\nDiscount is $60. Subtract from original: 200 - 60.\n</think>\n<tool_code>calculator(expression=\"200 - 60\")</tool_code>\n<tool_output>140</tool_output>\n<think>\nThe sale price is $140.\n</think>\n$140."
+  },
+  {
+    "doc_id": "sample_100",
+    "question": "A baker bakes 12 loaves of bread per hour. How many loaves does he bake in 8 hours?",
+    "injected_solution": "<think>\nI need to multiply the hourly rate (12) by the number of hours (8).\n</think>\n<tool_code>calculator(expression=\"12 * 8\")</tool_code>\n<tool_output>96</tool_output>\n<think>\nThe baker bakes 96 loaves.\n</think>\nHe bakes 96 loaves."
+  },
+  {
+    "doc_id": "sample_101",
+    "question": "If you have 10 fingers, how many fingers do 5 people have?",
+    "injected_solution": "<think>\nThis assumes a standard number of fingers. 10 fingers per person times 5 people.\n</think>\n<tool_code>calculator(expression=\"10 * 5\")</tool_code>\n<tool_output>50</tool_output>\n<think>\nThey have 50 fingers.\n</think>\n50 fingers."
+  },
+  {
+    "doc_id": "sample_102",
+    "question": "Which is colder: 0 degrees Celsius or 32 degrees Fahrenheit?",
+    "injected_solution": "<think>\nThis is a fact recall regarding temperature scales. 0 degrees Celsius is the freezing point of water, which is exactly 32 degrees Fahrenheit. They are the same temperature.\n</think>\nThey are the same temperature."
+  },
+  {
+    "doc_id": "sample_103",
+    "question": "Calculate the perimeter of a rectangle with length 15 and width 10.",
+    "injected_solution": "<think>\nThe formula is 2 * (length + width). I'll calculate 2 * (15 + 10).\n</think>\n<tool_code>calculator(expression=\"2 * (15 + 10)\")</tool_code>\n<tool_output>50</tool_output>\n<think>\nThe perimeter is 50.\n</think>\n50."
+  },
+  {
+    "doc_id": "sample_104",
+    "question": "A library charges $0.50 per day for overdue books. If a book is 14 days overdue, what is the fine?",
+    "injected_solution": "<think>\nMultiply the daily rate ($0.50) by the number of days (14).\n</think>\n<tool_code>calculator(expression=\"0.50 * 14\")</tool_code>\n<tool_output>7.0</tool_output>\n<think>\nThe fine is $7.00.\n</think>\n$7.00."
+  },
+  {
+    "doc_id": "sample_105",
+    "question": "What is the square root of 81?",
+    "injected_solution": "<think>\nI know from multiplication tables that 9 * 9 is 81. I do not need a tool for this.\n</think>\n9."
+  },
+  {
+    "doc_id": "sample_106",
+    "question": "Divide 5000 by 100.",
+    "injected_solution": "<think>\nI need to divide 5000 by 100.\n</think>\n<tool_code>calculator(expression=\"5000 / 100\")</tool_code>\n<tool_output>50.0</tool_output>\n<think>\nThe result is 50.\n</think>\n50."
+  },
+  {
+    "doc_id": "sample_107",
+    "question": "Find 25% of 80.",
+    "injected_solution": "<think>\n25% is 0.25. Multiply 80 by 0.25.\n</think>\n<tool_code>calculator(expression=\"80 * 0.25\")</tool_code>\n<tool_output>20.0</tool_output>\n<think>\nThe answer is 20.\n</think>\n20."
+  },
+  {
+    "doc_id": "sample_108",
+    "question": "A movie is 135 minutes long. How many hours is that?",
+    "injected_solution": "<think>\nDivide minutes by 60 to get hours.\n</think>\n<tool_code>calculator(expression=\"135 / 60\")</tool_code>\n<tool_output>2.25</tool_output>\n<think>\nIt is 2.25 hours, or 2 hours and 15 minutes.\n</think>\n2.25 hours."
+  },
+  {
+    "doc_id": "sample_109",
+    "question": "If x - 10 = 20, what is x?",
+    "injected_solution": "<think>\nAdd 10 to both sides. 20 + 10.\n</think>\n<tool_code>calculator(expression=\"20 + 10\")</tool_code>\n<tool_output>30</tool_output>\n<think>\nx is 30.\n</think>\n30."
+  },
+  {
+    "doc_id": "sample_110",
+    "question": "Calculate the volume of a box 10cm x 5cm x 2cm.",
+    "injected_solution": "<think>\nVolume is length * width * height. 10 * 5 * 2.\n</think>\n<tool_code>calculator(expression=\"10 * 5 * 2\")</tool_code>\n<tool_output>100</tool_output>\n<think>\nThe volume is 100 cubic cm.\n</think>\n100 cubic cm."
+  },
+  {
+    "doc_id": "sample_111",
+    "question": "How many centimeters in 2 meters?",
+    "injected_solution": "<think>\n1 meter is 100 centimeters. 2 * 100.\n</think>\n<tool_code>calculator(expression=\"2 * 100\")</tool_code>\n<tool_output>200</tool_output>\n<think>\nThere are 200 centimeters.\n</think>\n200 cm."
+  },
+  {
+    "doc_id": "sample_112",
+    "question": "What is the capital of France?",
+    "injected_solution": "<think>\nThis is a geography question, not a math problem. The capital is Paris. No tool needed.\n</think>\nParis."
+  },
+  {
+    "doc_id": "sample_113",
+    "question": "A dozen donuts costs $12. How much is one donut?",
+    "injected_solution": "<think>\nA dozen is 12. Divide total cost by 12.\n</think>\n<tool_code>calculator(expression=\"12 / 12\")</tool_code>\n<tool_output>1.0</tool_output>\n<think>\nOne donut costs $1.\n</think>\n$1."
+  },
+  {
+    "doc_id": "sample_114",
+    "question": "If you walk 3 miles every day, how many miles do you walk in a week?",
+    "injected_solution": "<think>\nMultiply daily miles (3) by days in a week (7).\n</think>\n<tool_code>calculator(expression=\"3 * 7\")</tool_code>\n<tool_output>21</tool_output>\n<think>\nYou walk 21 miles.\n</think>\n21 miles."
+  },
+  {
+    "doc_id": "sample_115",
+    "question": "Calculate 15 squared.",
+    "injected_solution": "<think>\n15 * 15.\n</think>\n<tool_code>calculator(expression=\"15 * 15\")</tool_code>\n<tool_output>225</tool_output>\n<think>\nThe result is 225.\n</think>\n225."
+  },
+  {
+    "doc_id": "sample_116",
+    "question": "Is a triangle a polygon?",
+    "injected_solution": "<think>\nBy definition, a polygon is a plane figure with at least three straight sides and angles. A triangle fits this description. No tool needed.\n</think>\nYes, a triangle is a polygon."
+  },
+  {
+    "doc_id": "sample_117",
+    "question": "Determine the area of a square with side length 9.",
+    "injected_solution": "<think>\nArea of a square is side * side. 9 * 9.\n</think>\n<tool_code>calculator(expression=\"9 * 9\")</tool_code>\n<tool_output>81</tool_output>\n<think>\nThe area is 81.\n</think>\n81."
+  },
+  {
+    "doc_id": "sample_118",
+    "question": "Convert 3000 grams to kilograms.",
+    "injected_solution": "<think>\nThere are 1000 grams in a kilogram. I need to divide 3000 by 1000. 3000 / 1000 is 3. I recall this metric conversion easily.\n</think>\n3 kilograms."
+  },
+  {
+    "doc_id": "sample_119",
+    "question": "Calculate the product of 45 and 22.",
+    "injected_solution": "<think>\nMultiply 45 by 22.\n</think>\n<tool_code>calculator(expression=\"45 * 22\")</tool_code>\n<tool_output>990</tool_output>\n<think>\nThe product is 990.\n</think>\n990."
+  },
+  {
+    "doc_id": "sample_120",
+    "question": "If you have $50 and spend $12.50, how much is left?",
+    "injected_solution": "<think>\nSubtract 12.50 from 50.\n</think>\n<tool_code>calculator(expression=\"50 - 12.50\")</tool_code>\n<tool_output>37.5</tool_output>\n<think>\nYou have $37.50 left.\n</think>\n$37.50."
+  },
+  {
+    "doc_id": "sample_121",
+    "question": "What is the average of 8, 12, and 16?",
+    "injected_solution": "<think>\nSum the numbers: 8 + 12 + 16.\n</think>\n<tool_code>calculator(expression=\"8 + 12 + 16\")</tool_code>\n<tool_output>36</tool_output>\n<think>\nThe sum is 36. Now divide by the count (3).\n</think>\n<tool_code>calculator(expression=\"36 / 3\")</tool_code>\n<tool_output>12.0</tool_output>\n<think>\nThe average is 12.\n</think>\n12."
+  },
+  {
+    "doc_id": "sample_122",
+    "question": "How many hours are in 300 minutes?",
+    "injected_solution": "<think>\nDivide minutes by 60.\n</think>\n<tool_code>calculator(expression=\"300 / 60\")</tool_code>\n<tool_output>5.0</tool_output>\n<think>\nThere are 5 hours.\n</think>\n5 hours."
+  },
+  {
+    "doc_id": "sample_123",
+    "question": "What is 7 times 8?",
+    "injected_solution": "<think>\nThis is a simple multiplication fact. 7 times 8 is 56.\n</think>\n56."
+  },
+  {
+    "doc_id": "sample_124",
+    "question": "A car tank holds 12 gallons. Gas costs $3.50 per gallon. How much to fill the tank?",
+    "injected_solution": "<think>\nMultiply gallons (12) by price per gallon (3.50).\n</think>\n<tool_code>calculator(expression=\"12 * 3.50\")</tool_code>\n<tool_output>42.0</tool_output>\n<think>\nIt costs $42.00.\n</think>\n$42.00."
+  },
+  {
+    "doc_id": "sample_125",
+    "question": "If a triangle has a base of 10 and height of 5, what is the area?",
+    "injected_solution": "<think>\nArea of a triangle is 0.5 * base * height. 0.5 * 10 * 5.\n</think>\n<tool_code>calculator(expression=\"0.5 * 10 * 5\")</tool_code>\n<tool_output>25.0</tool_output>\n<think>\nThe area is 25.\n</think>\n25."
+  },
+  {
+    "doc_id": "sample_126",
+    "question": "How many quarters in $5?",
+    "injected_solution": "<think>\nThere are 4 quarters in a dollar. Multiply 5 by 4.\n</think>\n<tool_code>calculator(expression=\"5 * 4\")</tool_code>\n<tool_output>20</tool_output>\n<think>\nThere are 20 quarters.\n</think>\n20."
+  },
+  {
+    "doc_id": "sample_127",
+    "question": "Subtract 99 from 200.",
+    "injected_solution": "<think>\n200 minus 99.\n</think>\n<tool_code>calculator(expression=\"200 - 99\")</tool_code>\n<tool_output>101</tool_output>\n<think>\nThe answer is 101.\n</think>\n101."
+  },
+  {
+    "doc_id": "sample_128",
+    "question": "Does a circle have corners?",
+    "injected_solution": "<think>\nBy definition, a circle is a round shape with no corners or vertices. No tool needed.\n</think>\nNo, a circle does not have corners."
+  },
+  {
+    "doc_id": "sample_129",
+    "question": "What is 150 divided by 10?",
+    "injected_solution": "<think>\n150 divided by 10 is 15. This is basic division.\n</think>\n15."
+  },
+  {
+    "doc_id": "sample_130",
+    "question": "If you work 5 days a week for 8 hours a day, how many hours a week do you work?",
+    "injected_solution": "<think>\nMultiply 5 days by 8 hours.\n</think>\n<tool_code>calculator(expression=\"5 * 8\")</tool_code>\n<tool_output>40</tool_output>\n<think>\nYou work 40 hours a week.\n</think>\n40 hours."
+  },
+  {
+    "doc_id": "sample_131",
+    "question": "Calculate the sum of angles in a quadrilateral.",
+    "injected_solution": "<think>\nA quadrilateral can be divided into two triangles. 2 * 180 = 360. This is a known geometric fact.\n</think>\n360 degrees."
+  },
+  {
+    "doc_id": "sample_132",
+    "question": "A pack of 5 pens costs $10. How much is 1 pen?",
+    "injected_solution": "<think>\nDivide total cost (10) by number of pens (5).\n</think>\n<tool_code>calculator(expression=\"10 / 5\")</tool_code>\n<tool_output>2.0</tool_output>\n<think>\nOne pen costs $2.\n</think>\n$2."
+  },
+  {
+    "doc_id": "sample_133",
+    "question": "What is the result of 12 * 12?",
+    "injected_solution": "<think>\n12 * 12 is 144. I recall this multiplication table fact.\n</think>\n144."
+  },
+  {
+    "doc_id": "sample_134",
+    "question": "If a bag has 50 candies and you eat 10%, how many did you eat?",
+    "injected_solution": "<think>\nCalculate 10% of 50.\n</think>\n<tool_code>calculator(expression=\"50 * 0.10\")</tool_code>\n<tool_output>5.0</tool_output>\n<think>\nYou ate 5 candies.\n</think>\n5 candies."
+  },
+  {
+    "doc_id": "sample_135",
+    "question": "Convert 6 feet to inches.",
+    "injected_solution": "<think>\nThere are 12 inches in a foot. Multiply 6 by 12.\n</think>\n<tool_code>calculator(expression=\"6 * 12\")</tool_code>\n<tool_output>72</tool_output>\n<think>\nThere are 72 inches.\n</think>\n72 inches."
+  },
+  {
+    "doc_id": "sample_136",
+    "question": "What is 50 plus 75?",
+    "injected_solution": "<think>\n50 + 75.\n</think>\n<tool_code>calculator(expression=\"50 + 75\")</tool_code>\n<tool_output>125</tool_output>\n<think>\nThe sum is 125.\n</think>\n125."
+  },
+  {
+    "doc_id": "sample_137",
+    "question": "Is 100 divisible by 3?",
+    "injected_solution": "<think>\nSum of digits of 100 is 1+0+0=1. 1 is not divisible by 3, so 100 is not. I can verify this with a tool.\n</think>\n<tool_code>calculator(expression=\"100 % 3\")</tool_code>\n<tool_output>1</tool_output>\n<think>\nThe remainder is 1, so it is not evenly divisible.\n</think>\nNo."
+  },
+  {
+    "doc_id": "sample_138",
+    "question": "How many weeks in a year?",
+    "injected_solution": "<think>\nThere are 52 weeks in a year. This is a standard calendar fact.\n</think>\n52 weeks."
+  },
+  {
+    "doc_id": "sample_139",
+    "question": "Calculate the area of a circle with radius 10 (pi=3.14).",
+    "injected_solution": "<think>\nFormula is pi * r^2. 3.14 * 10^2.\n</think>\n<tool_code>calculator(expression=\"3.14 * 10**2\")</tool_code>\n<tool_output>314.0</tool_output>\n<think>\nThe area is 314.\n</think>\n314."
+  },
+  {
+    "doc_id": "sample_140",
+    "question": "A train travels 300 miles in 5 hours. Speed?",
+    "injected_solution": "<think>\nDivide distance (300) by time (5).\n</think>\n<tool_code>calculator(expression=\"300 / 5\")</tool_code>\n<tool_output>60.0</tool_output>\n<think>\nThe speed is 60 mph.\n</think>\n60 mph."
+  },
+  {
+    "doc_id": "sample_141",
+    "question": "Multiply 8 by 12.",
+    "injected_solution": "<think>\n8 * 12.\n</think>\n<tool_code>calculator(expression=\"8 * 12\")</tool_code>\n<tool_output>96</tool_output>\n<think>\nThe answer is 96.\n</think>\n96."
+  },
+  {
+    "doc_id": "sample_142",
+    "question": "If you have 3 dozen eggs, how many eggs is that?",
+    "injected_solution": "<think>\n3 times 12.\n</think>\n<tool_code>calculator(expression=\"3 * 12\")</tool_code>\n<tool_output>36</tool_output>\n<think>\nIt is 36 eggs.\n</think>\n36 eggs."
+  },
+  {
+    "doc_id": "sample_143",
+    "question": "What is the square root of 64?",
+    "injected_solution": "<think>\n8 * 8 is 64. I recall this fact.\n</think>\n8."
+  },
+  {
+    "doc_id": "sample_144",
+    "question": "Subtract 250 from 1000.",
+    "injected_solution": "<think>\n1000 - 250.\n</think>\n<tool_code>calculator(expression=\"1000 - 250\")</tool_code>\n<tool_output>750</tool_output>\n<think>\nThe result is 750.\n</think>\n750."
+  },
+  {
+    "doc_id": "sample_145",
+    "question": "Find the perimeter of a rectangle 8cm by 3cm.",
+    "injected_solution": "<think>\n2 * (8 + 3).\n</think>\n<tool_code>calculator(expression=\"2 * (8 + 3)\")</tool_code>\n<tool_output>22</tool_output>\n<think>\nThe perimeter is 22 cm.\n</think>\n22 cm."
+  },
+  {
+    "doc_id": "sample_146",
+    "question": "What is 5 to the power of 4?",
+    "injected_solution": "<think>\n5 * 5 * 5 * 5.\n</think>\n<tool_code>calculator(expression=\"5**4\")</tool_code>\n<tool_output>625</tool_output>\n<think>\nThe answer is 625.\n</think>\n625."
+  },
+  {
+    "doc_id": "sample_147",
+    "question": "How many zeros in one million?",
+    "injected_solution": "<think>\nOne million is 1,000,000. Counting the zeros... there are 6. No tool needed.\n</think>\n6 zeros."
+  },
+  {
+    "doc_id": "sample_148",
+    "question": "If a shirt is $40 and has a 50% discount, what is the price?",
+    "injected_solution": "<think>\n50% is half. Half of 40 is 20.\n</think>\n$20."
+  },
+  {
+    "doc_id": "sample_149",
+    "question": "Add 1234 and 5678.",
+    "injected_solution": "<think>\nI need to add these two numbers.\n</think>\n<tool_code>calculator(expression=\"1234 + 5678\")</tool_code>\n<tool_output>6912</tool_output>\n<think>\nThe sum is 6912.\n</think>\n6912."
+  },
+  {
+    "doc_id": "sample_150",
+    "question": "What is 1/2 plus 1/4?",
+    "injected_solution": "<think>\nI convert to decimals: 0.5 + 0.25.\n</think>\n<tool_code>calculator(expression=\"0.5 + 0.25\")</tool_code>\n<tool_output>0.75</tool_output>\n<think>\nThe sum is 0.75 or 3/4.\n</think>\n0.75."
+  },
+  {
+    "doc_id": "sample_151",
+    "question": "Is 1 a prime number?",
+    "injected_solution": "<think>\nBy mathematical definition, 1 is not a prime number. Prime numbers must be greater than 1.\n</think>\nNo."
+  },
+  {
+    "doc_id": "sample_152",
+    "question": "Convert 100 degrees Celsius to Fahrenheit.",
+    "injected_solution": "<think>\nFormula: (C * 9/5) + 32.\n</think>\n<tool_code>calculator(expression=\"(100 * 9/5) + 32\")</tool_code>\n<tool_output>212.0</tool_output>\n<think>\nIt is 212 degrees Fahrenheit.\n</think>\n212 F."
+  },
+  {
+    "doc_id": "sample_153",
+    "question": "Calculate 15% of $80.",
+    "injected_solution": "<think>\n0.15 * 80.\n</think>\n<tool_code>calculator(expression=\"80 * 0.15\")</tool_code>\n<tool_output>12.0</tool_output>\n<think>\nIt is $12.\n</think>\n$12."
+  },
+  {
+    "doc_id": "sample_154",
+    "question": "If you buy 4 tickets at $12 each, total cost?",
+    "injected_solution": "<think>\n4 * 12.\n</think>\n<tool_code>calculator(expression=\"4 * 12\")</tool_code>\n<tool_output>48</tool_output>\n<think>\nTotal cost is $48.\n</think>\n$48."
+  },
+  {
+    "doc_id": "sample_155",
+    "question": "How many edges on a cube?",
+    "injected_solution": "<think>\nA cube has 12 edges. I recall this geometry fact.\n</think>\n12 edges."
+  },
+  {
+    "doc_id": "sample_156",
+    "question": "Divide 144 by 12.",
+    "injected_solution": "<think>\n144 / 12 is 12. Basic multiplication fact.\n</think>\n12."
+  },
+  {
+    "doc_id": "sample_157",
+    "question": "What is the speed of light?",
+    "injected_solution": "<think>\nThis is a physics constant. Approximately 299,792,458 meters per second. No calculation.\n</think>\nApproximately 299,792,458 m/s."
+  },
+  {
+    "doc_id": "sample_158",
+    "question": "If 3x = 12, what is x?",
+    "injected_solution": "<think>\nDivide 12 by 3.\n</think>\n<tool_code>calculator(expression=\"12 / 3\")</tool_code>\n<tool_output>4.0</tool_output>\n<think>\nx is 4.\n</think>\n4."
+  },
+  {
+    "doc_id": "sample_159",
+    "question": "A book has 300 pages. You read 10 pages a day. How many days to finish?",
+    "injected_solution": "<think>\nDivide 300 by 10.\n</think>\n<tool_code>calculator(expression=\"300 / 10\")</tool_code>\n<tool_output>30.0</tool_output>\n<think>\nIt takes 30 days.\n</think>\n30 days."
+  },
+  {
+    "doc_id": "sample_160",
+    "question": "Calculate 7 factorial.",
+    "injected_solution": "<think>\n7 * 6 * 5 * 4 * 3 * 2 * 1.\n</think>\n<tool_code>calculator(expression=\"7 * 6 * 5 * 4 * 3 * 2 * 1\")</tool_code>\n<tool_output>5040</tool_output>\n<think>\nThe answer is 5040.\n</think>\n5040."
+  },
+  {
+    "doc_id": "sample_161",
+    "question": "How many players on a soccer team?",
+    "injected_solution": "<think>\nThere are 11 players on a standard soccer team on the field.\n</think>\n11 players."
+  },
+  {
+    "doc_id": "sample_162",
+    "question": "Subtract 88 from 1000.",
+    "injected_solution": "<think>\n1000 - 88.\n</think>\n<tool_code>calculator(expression=\"1000 - 88\")</tool_code>\n<tool_output>912</tool_output>\n<think>\nThe result is 912.\n</think>\n912."
+  },
+  {
+    "doc_id": "sample_163",
+    "question": "If a square has area 100, what is the side length?",
+    "injected_solution": "<think>\nSquare root of 100 is 10. Trivial.\n</think>\n10."
+  },
+  {
+    "doc_id": "sample_164",
+    "question": "Convert 5 kilograms to pounds.",
+    "injected_solution": "<think>\n1 kg is approximately 2.20462 pounds. 5 * 2.20462.\n</think>\n<tool_code>calculator(expression=\"5 * 2.20462\")</tool_code>\n<tool_output>11.0231</tool_output>\n<think>\nIt is about 11.02 pounds.\n</think>\n11.02 pounds."
+  },
+  {
+    "doc_id": "sample_165",
+    "question": "What is 20 divided by 4?",
+    "injected_solution": "<think>\n20 / 4 is 5.\n</think>\n5."
+  },
+  {
+    "doc_id": "sample_166",
+    "question": "Multiply 13 by 13.",
+    "injected_solution": "<think>\n13 * 13.\n</think>\n<tool_code>calculator(expression=\"13 * 13\")</tool_code>\n<tool_output>169</tool_output>\n<think>\nThe answer is 169.\n</think>\n169."
+  },
+  {
+    "doc_id": "sample_167",
+    "question": "How many legs does a spider have?",
+    "injected_solution": "<think>\nSpiders have 8 legs. This is a biological fact.\n</think>\n8 legs."
+  },
+  {
+    "doc_id": "sample_168",
+    "question": "If you buy 2 items for $45 each, total cost?",
+    "injected_solution": "<think>\n2 * 45.\n</think>\n<tool_code>calculator(expression=\"2 * 45\")</tool_code>\n<tool_output>90</tool_output>\n<think>\nThe total is $90.\n</think>\n$90."
+  },
+  {
+    "doc_id": "sample_169",
+    "question": "Calculate the area of a rectangle 12m by 15m.",
+    "injected_solution": "<think>\n12 * 15.\n</think>\n<tool_code>calculator(expression=\"12 * 15\")</tool_code>\n<tool_output>180</tool_output>\n<think>\nThe area is 180 sq meters.\n</think>\n180 sq meters."
+  },
+  {
+    "doc_id": "sample_170",
+    "question": "Is 100 a perfect square?",
+    "injected_solution": "<think>\nYes, 10 * 10 is 100. No tool needed.\n</think>\nYes."
+  },
+  {
+    "doc_id": "sample_171",
+    "question": "What is 10% of 1000?",
+    "injected_solution": "<think>\nMove decimal one place left. 100.\n</think>\n100."
+  },
+  {
+    "doc_id": "sample_172",
+    "question": "How many days in November?",
+    "injected_solution": "<think>\nNovember has 30 days.\n</think>\n30 days."
+  },
+  {
+    "doc_id": "sample_173",
+    "question": "Calculate 25 * 4.",
+    "injected_solution": "<think>\n25 * 4.\n</think>\n<tool_code>calculator(expression=\"25 * 4\")</tool_code>\n<tool_output>100</tool_output>\n<think>\nThe answer is 100.\n</think>\n100."
+  },
+  {
+    "doc_id": "sample_174",
+    "question": "If a dozen apples cost $6, cost of one?",
+    "injected_solution": "<think>\n6 / 12.\n</think>\n<tool_code>calculator(expression=\"6 / 12\")</tool_code>\n<tool_output>0.5</tool_output>\n<think>\n$0.50.\n</think>\n$0.50."
+  },
+  {
+    "doc_id": "sample_175",
+    "question": "Convert 2 hours to seconds.",
+    "injected_solution": "<think>\n2 hours * 60 minutes * 60 seconds.\n</think>\n<tool_code>calculator(expression=\"2 * 60 * 60\")</tool_code>\n<tool_output>7200</tool_output>\n<think>\n7200 seconds.\n</think>\n7200 seconds."
+  },
+  {
+    "doc_id": "sample_176",
+    "question": "What is the square root of 25?",
+    "injected_solution": "<think>\n5 * 5 is 25.\n</think>\n5."
+  },
+  {
+    "doc_id": "sample_177",
+    "question": "Subtract 123 from 321.",
+    "injected_solution": "<think>\n321 - 123.\n</think>\n<tool_code>calculator(expression=\"321 - 123\")</tool_code>\n<tool_output>198</tool_output>\n<think>\nThe result is 198.\n</think>\n198."
+  },
+  {
+    "doc_id": "sample_178",
+    "question": "How many centimeters in a meter?",
+    "injected_solution": "<think>\n100 centimeters in a meter. Definition.\n</think>\n100."
+  },
+  {
+    "doc_id": "sample_179",
+    "question": "Calculate 9 cubed.",
+    "injected_solution": "<think>\n9 * 9 * 9.\n</think>\n<tool_code>calculator(expression=\"9**3\")</tool_code>\n<tool_output>729</tool_output>\n<think>\nThe result is 729.\n</think>\n729."
+  },
+  {
+    "doc_id": "sample_180",
+    "question": "Is the moon a planet?",
+    "injected_solution": "<think>\nNo, the moon is a natural satellite. General knowledge.\n</think>\nNo."
+  },
+  {
+    "doc_id": "sample_181",
+    "question": "If you drive 50 mph for 3 hours, distance?",
+    "injected_solution": "<think>\n50 * 3.\n</think>\n<tool_code>calculator(expression=\"50 * 3\")</tool_code>\n<tool_output>150</tool_output>\n<think>\n150 miles.\n</think>\n150 miles."
+  },
+  {
+    "doc_id": "sample_182",
+    "question": "Add 250 and 750.",
+    "injected_solution": "<think>\n250 + 750.\n</think>\n<tool_code>calculator(expression=\"250 + 750\")</tool_code>\n<tool_output>1000</tool_output>\n<think>\nThe sum is 1000.\n</think>\n1000."
+  },
+  {
+    "doc_id": "sample_183",
+    "question": "What is 1/3 of 90?",
+    "injected_solution": "<think>\n90 / 3.\n</think>\n<tool_code>calculator(expression=\"90 / 3\")</tool_code>\n<tool_output>30.0</tool_output>\n<think>\nThe answer is 30.\n</think>\n30."
+  },
+  {
+    "doc_id": "sample_184",
+    "question": "How many sides in a hexagon?",
+    "injected_solution": "<think>\nA hexagon has 6 sides.\n</think>\n6 sides."
+  },
+  {
+    "doc_id": "sample_185",
+    "question": "Calculate 8% of 200.",
+    "injected_solution": "<think>\n0.08 * 200.\n</think>\n<tool_code>calculator(expression=\"200 * 0.08\")</tool_code>\n<tool_output>16.0</tool_output>\n<think>\nThe answer is 16.\n</think>\n16."
+  },
+  {
+    "doc_id": "sample_186",
+    "question": "If a year is 365 days, how many days in 3 years?",
+    "injected_solution": "<think>\n365 * 3.\n</think>\n<tool_code>calculator(expression=\"365 * 3\")</tool_code>\n<tool_output>1095</tool_output>\n<think>\n1095 days.\n</think>\n1095 days."
+  },
+  {
+    "doc_id": "sample_187",
+    "question": "Divide 81 by 9.",
+    "injected_solution": "<think>\n81 / 9 is 9. Simple division.\n</think>\n9."
+  },
+  {
+    "doc_id": "sample_188",
+    "question": "What is the boiling point of water in Celsius?",
+    "injected_solution": "<think>\n100 degrees Celsius.\n</think>\n100 degrees Celsius."
+  },
+  {
+    "doc_id": "sample_189",
+    "question": "Multiply 50 by 20.",
+    "injected_solution": "<think>\n50 * 20.\n</think>\n<tool_code>calculator(expression=\"50 * 20\")</tool_code>\n<tool_output>1000</tool_output>\n<think>\nThe answer is 1000.\n</think>\n1000."
+  },
+  {
+    "doc_id": "sample_190",
+    "question": "Convert 10 meters to feet (1m = 3.28ft).",
+    "injected_solution": "<think>\n10 * 3.28.\n</think>\n<tool_code>calculator(expression=\"10 * 3.28\")</tool_code>\n<tool_output>32.8</tool_output>\n<think>\n32.8 feet.\n</think>\n32.8 feet."
+  },
+  {
+    "doc_id": "sample_191",
+    "question": "Subtract 55 from 80.",
+    "injected_solution": "<think>\n80 - 55.\n</think>\n<tool_code>calculator(expression=\"80 - 55\")</tool_code>\n<tool_output>25</tool_output>\n<think>\nThe answer is 25.\n</think>\n25."
+  },
+  {
+    "doc_id": "sample_192",
+    "question": "How many aces in a standard deck of cards?",
+    "injected_solution": "<think>\nThere are 4 aces (hearts, diamonds, clubs, spades).\n</think>\n4 aces."
+  },
+  {
+    "doc_id": "sample_193",
+    "question": "Calculate the perimeter of a triangle with sides 3, 4, 5.",
+    "injected_solution": "<think>\n3 + 4 + 5.\n</think>\n<tool_code>calculator(expression=\"3 + 4 + 5\")</tool_code>\n<tool_output>12</tool_output>\n<think>\nThe perimeter is 12.\n</think>\n12."
+  },
+  {
+    "doc_id": "sample_194",
+    "question": "What is 60 divided by 5?",
+    "injected_solution": "<think>\n60 / 5.\n</think>\n<tool_code>calculator(expression=\"60 / 5\")</tool_code>\n<tool_output>12.0</tool_output>\n<think>\nThe answer is 12.\n</think>\n12."
+  },
+  {
+    "doc_id": "sample_195",
+    "question": "If you have 10 apples and eat 3, how many left?",
+    "injected_solution": "<think>\n10 - 3 is 7.\n</think>\n7."
+  },
+  {
+    "doc_id": "sample_196",
+    "question": "Calculate 12.5 plus 12.5.",
+    "injected_solution": "<think>\n12.5 + 12.5.\n</think>\n<tool_code>calculator(expression=\"12.5 + 12.5\")</tool_code>\n<tool_output>25.0</tool_output>\n<think>\nThe sum is 25.\n</think>\n25."
+  },
+  {
+    "doc_id": "sample_197",
+    "question": "How many years in a decade?",
+    "injected_solution": "<think>\nA decade is 10 years.\n</think>\n10 years."
+  },
+  {
+    "doc_id": "sample_198",
+    "question": "Multiply 6 by 7.",
+    "injected_solution": "<think>\n6 * 7 is 42.\n</think>\n42."
+  },
+  {
+    "doc_id": "sample_199",
+    "question": "What is 200 minus 150?",
+    "injected_solution": "<think>\n200 - 150 is 50.\n</think>\n50."
+  },
+  {
+    "doc_id": "sample_200",
+    "question": "A train travels at 80 miles per hour. It travels for 4 hours and 30 minutes. How far does it go?",
+    "injected_solution": "<think>\nFirst convert 4 hours and 30 minutes to decimal hours. 30 minutes is 0.5 hours, so 4.5 hours. Then multiply speed by time: 80 * 4.5.\n</think>\n<tool_code>calculator(expression=\"80 * 4.5\")</tool_code>\n<tool_output>360.0</tool_output>\n<think>\nThe train travels 360 miles.\n</think>\n360 miles."
+  },
+  {
+    "doc_id": "sample_201",
+    "question": "Calculate the square root of 144.",
+    "injected_solution": "<think>\n12 * 12 is 144. I recall this.\n</think>\n12."
+  },
+  {
+    "doc_id": "sample_202",
+    "question": "A box of chocolates costs $15. There is a sales tax of 8%. What is the total price?",
+    "injected_solution": "<think>\nFirst calculate the tax: 15 * 0.08.\n</think>\n<tool_code>calculator(expression=\"15 * 0.08\")</tool_code>\n<tool_output>1.2</tool_output>\n<think>\nThe tax is $1.20. Add to the original price: 15 + 1.20.\n</think>\n<tool_code>calculator(expression=\"15 + 1.2\")</tool_code>\n<tool_output>16.2</tool_output>\n<think>\nThe total price is $16.20.\n</think>\n$16.20."
+  },
+  {
+    "doc_id": "sample_203",
+    "question": "Is 29 a prime number?",
+    "injected_solution": "<think>\n29 has no divisors other than 1 and 29. I can check by dividing by small primes (2, 3, 5). 29 is not even, digits sum to 11 (not div by 3), doesn't end in 5. It is prime.\n</think>\nYes."
+  },
+  {
+    "doc_id": "sample_204",
+    "question": "What is 2 to the power of 5?",
+    "injected_solution": "<think>\n2 * 2 * 2 * 2 * 2. 32.\n</think>\n<tool_code>calculator(expression=\"2**5\")</tool_code>\n<tool_output>32</tool_output>\n<think>\n32.\n</think>\n32."
+  },
+  {
+    "doc_id": "sample_205",
+    "question": "Convert 500 milliliters to liters.",
+    "injected_solution": "<think>\n1000 ml is 1 liter. 500 / 1000 is 0.5.\n</think>\n0.5 liters."
+  },
+  {
+    "doc_id": "sample_206",
+    "question": "Calculate the average of 15, 25, 35, and 45.",
+    "injected_solution": "<think>\nSum: 15 + 25 + 35 + 45.\n</think>\n<tool_code>calculator(expression=\"15 + 25 + 35 + 45\")</tool_code>\n<tool_output>120</tool_output>\n<think>\nDivide by 4: 120 / 4.\n</think>\n<tool_code>calculator(expression=\"120 / 4\")</tool_code>\n<tool_output>30.0</tool_output>\n<think>\nThe average is 30.\n</think>\n30."
+  },
+  {
+    "doc_id": "sample_207",
+    "question": "How many sides does a pentagon have?",
+    "injected_solution": "<think>\nA pentagon has 5 sides.\n</think>\n5 sides."
+  },
+  {
+    "doc_id": "sample_208",
+    "question": "If x + 7 = 15, solve for x.",
+    "injected_solution": "<think>\nSubtract 7 from 15.\n</think>\n<tool_code>calculator(expression=\"15 - 7\")</tool_code>\n<tool_output>8</tool_output>\n<think>\nx is 8.\n</think>\n8."
+  },
+  {
+    "doc_id": "sample_209",
+    "question": "What is 30 multiplied by 40?",
+    "injected_solution": "<think>\n30 * 40.\n</think>\n<tool_code>calculator(expression=\"30 * 40\")</tool_code>\n<tool_output>1200</tool_output>\n<think>\nThe answer is 1200.\n</think>\n1200."
+  },
+  {
+    "doc_id": "sample_210",
+    "question": "A rectangle has a perimeter of 60. The width is 10. What is the length?",
+    "injected_solution": "<think>\nP = 2(l + w). 60 = 2(l + 10). Divide perimeter by 2: 30. Subtract width (10) from 30.\n</think>\n<tool_code>calculator(expression=\"(60 / 2) - 10\")</tool_code>\n<tool_output>20.0</tool_output>\n<think>\nThe length is 20.\n</think>\n20."
+  },
+  {
+    "doc_id": "sample_211",
+    "question": "Is 0.5 greater than 0.25?",
+    "injected_solution": "<think>\nYes, 0.5 (one half) is greater than 0.25 (one quarter). Simple comparison.\n</think>\nYes."
+  },
+  {
+    "doc_id": "sample_212",
+    "question": "Calculate the area of a triangle with base 12 and height 8.",
+    "injected_solution": "<think>\n0.5 * 12 * 8.\n</think>\n<tool_code>calculator(expression=\"0.5 * 12 * 8\")</tool_code>\n<tool_output>48.0</tool_output>\n<think>\nThe area is 48.\n</think>\n48."
+  },
+  {
+    "doc_id": "sample_213",
+    "question": "If you buy 3 books at $15 each and pay with $50, change?",
+    "injected_solution": "<think>\nCost: 3 * 15. Change: 50 - Cost.\n</think>\n<tool_code>calculator(expression=\"50 - (3 * 15)\")</tool_code>\n<tool_output>5</tool_output>\n<think>\nThe change is $5.\n</think>\n$5."
+  },
+  {
+    "doc_id": "sample_214",
+    "question": "How many hours in 2 days?",
+    "injected_solution": "<think>\n2 * 24.\n</think>\n<tool_code>calculator(expression=\"2 * 24\")</tool_code>\n<tool_output>48</tool_output>\n<think>\n48 hours.\n</think>\n48 hours."
+  },
+  {
+    "doc_id": "sample_215",
+    "question": "What is 100 divided by 20?",
+    "injected_solution": "<think>\n100 / 20.\n</think>\n<tool_code>calculator(expression=\"100 / 20\")</tool_code>\n<tool_output>5.0</tool_output>\n<think>\n5.\n</think>\n5."
+  },
+  {
+    "doc_id": "sample_216",
+    "question": "If a shirt costs $30 and is 10% off, price?",
+    "injected_solution": "<think>\nDiscount: 30 * 0.10 = 3. Price: 30 - 3.\n</think>\n<tool_code>calculator(expression=\"30 - (30 * 0.10)\")</tool_code>\n<tool_output>27.0</tool_output>\n<think>\n$27.\n</think>\n$27."
+  },
+  {
+    "doc_id": "sample_217",
+    "question": "How many continents are there?",
+    "injected_solution": "<think>\nThere are 7 continents. Geography fact.\n</think>\n7."
+  },
+  {
+    "doc_id": "sample_218",
+    "question": "Multiply 9 by 6.",
+    "injected_solution": "<think>\n9 * 6 is 54.\n</think>\n54."
+  },
+  {
+    "doc_id": "sample_219",
+    "question": "What is the square of 11?",
+    "injected_solution": "<think>\n11 * 11.\n</think>\n<tool_code>calculator(expression=\"11 * 11\")</tool_code>\n<tool_output>121</tool_output>\n<think>\n121.\n</think>\n121."
+  },
+  {
+    "doc_id": "sample_220",
+    "question": "Convert 1.5 meters to centimeters.",
+    "injected_solution": "<think>\n1.5 * 100.\n</think>\n<tool_code>calculator(expression=\"1.5 * 100\")</tool_code>\n<tool_output>150.0</tool_output>\n<think>\n150 cm.\n</think>\n150 cm."
+  },
+  {
+    "doc_id": "sample_221",
+    "question": "Is 1000 greater than 100?",
+    "injected_solution": "<think>\nYes, obvious comparison.\n</think>\nYes."
+  },
+  {
+    "doc_id": "sample_222",
+    "question": "If you drive 60mph for 2 hours, distance?",
+    "injected_solution": "<think>\n60 * 2.\n</think>\n<tool_code>calculator(expression=\"60 * 2\")</tool_code>\n<tool_output>120</tool_output>\n<think>\n120 miles.\n</think>\n120 miles."
+  },
+  {
+    "doc_id": "sample_223",
+    "question": "Add 45 and 55.",
+    "injected_solution": "<think>\n45 + 55.\n</think>\n<tool_code>calculator(expression=\"45 + 55\")</tool_code>\n<tool_output>100</tool_output>\n<think>\n100.\n</think>\n100."
+  },
+  {
+    "doc_id": "sample_224",
+    "question": "What is 1/4 of 100?",
+    "injected_solution": "<think>\n100 / 4.\n</think>\n<tool_code>calculator(expression=\"100 / 4\")</tool_code>\n<tool_output>25.0</tool_output>\n<think>\n25.\n</think>\n25."
+  },
+  {
+    "doc_id": "sample_225",
+    "question": "How many ounces in a pound?",
+    "injected_solution": "<think>\n16 ounces in a pound.\n</think>\n16."
+  },
+  {
+    "doc_id": "sample_226",
+    "question": "Calculate 3 factorial.",
+    "injected_solution": "<think>\n3 * 2 * 1.\n</think>\n<tool_code>calculator(expression=\"3 * 2 * 1\")</tool_code>\n<tool_output>6</tool_output>\n<think>\n6.\n</think>\n6."
+  },
+  {
+    "doc_id": "sample_227",
+    "question": "What is 50 multiplied by 10?",
+    "injected_solution": "<think>\n50 * 10 is 500.\n</think>\n500."
+  },
+  {
+    "doc_id": "sample_228",
+    "question": "Subtract 20 from 100.",
+    "injected_solution": "<think>\n100 - 20 is 80.\n</think>\n80."
+  },
+  {
+    "doc_id": "sample_229",
+    "question": "A box is 2m x 2m x 2m. Volume?",
+    "injected_solution": "<think>\n2 * 2 * 2.\n</think>\n<tool_code>calculator(expression=\"2 * 2 * 2\")</tool_code>\n<tool_output>8</tool_output>\n<think>\n8 cubic meters.\n</think>\n8 cubic meters."
+  },
+  {
+    "doc_id": "sample_230",
+    "question": "Is 3 a factor of 9?",
+    "injected_solution": "<think>\nYes, 9 divided by 3 is 3. Exact division.\n</think>\nYes."
+  },
+  {
+    "doc_id": "sample_231",
+    "question": "What is 10% of 50?",
+    "injected_solution": "<think>\n0.10 * 50.\n</think>\n<tool_code>calculator(expression=\"50 * 0.10\")</tool_code>\n<tool_output>5.0</tool_output>\n<think>\n5.\n</think>\n5."
+  },
+  {
+    "doc_id": "sample_232",
+    "question": "Convert 1 minute to seconds.",
+    "injected_solution": "<think>\n60 seconds in a minute.\n</think>\n60 seconds."
+  },
+  {
+    "doc_id": "sample_233",
+    "question": "Add 15, 20, 25.",
+    "injected_solution": "<think>\n15 + 20 + 25.\n</think>\n<tool_code>calculator(expression=\"15 + 20 + 25\")</tool_code>\n<tool_output>60</tool_output>\n<think>\n60.\n</think>\n60."
+  },
+  {
+    "doc_id": "sample_234",
+    "question": "What is 8 divided by 2?",
+    "injected_solution": "<think>\n4.\n</think>\n4."
+  },
+  {
+    "doc_id": "sample_235",
+    "question": "Calculate the perimeter of a pentagon with side length 5.",
+    "injected_solution": "<think>\nPentagon has 5 sides. 5 * 5.\n</think>\n<tool_code>calculator(expression=\"5 * 5\")</tool_code>\n<tool_output>25</tool_output>\n<think>\n25.\n</think>\n25."
+  },
+  {
+    "doc_id": "sample_236",
+    "question": "Is 17 odd or even?",
+    "injected_solution": "<think>\nNot divisible by 2. Odd.\n</think>\nOdd."
+  },
+  {
+    "doc_id": "sample_237",
+    "question": "What is 4 squared?",
+    "injected_solution": "<think>\n4 * 4 is 16.\n</think>\n16."
+  },
+  {
+    "doc_id": "sample_238",
+    "question": "Convert 2kg to grams.",
+    "injected_solution": "<think>\n2 * 1000.\n</think>\n<tool_code>calculator(expression=\"2 * 1000\")</tool_code>\n<tool_output>2000</tool_output>\n<think>\n2000 grams.\n</think>\n2000 grams."
+  },
+  {
+    "doc_id": "sample_239",
+    "question": "Multiply 3 by 15.",
+    "injected_solution": "<think>\n3 * 15.\n</think>\n<tool_code>calculator(expression=\"3 * 15\")</tool_code>\n<tool_output>45</tool_output>\n<think>\n45.\n</think>\n45."
+  },
+  {
+    "doc_id": "sample_240",
+    "question": "A pizza costs $12. If you split it with 3 friends (4 people total), cost per person?",
+    "injected_solution": "<think>\n12 / 4.\n</think>\n<tool_code>calculator(expression=\"12 / 4\")</tool_code>\n<tool_output>3.0</tool_output>\n<think>\n$3 per person.\n</think>\n$3."
+  },
+  {
+    "doc_id": "sample_241",
+    "question": "How many days in a week?",
+    "injected_solution": "<think>\n7 days.\n</think>\n7."
+  },
+  {
+    "doc_id": "sample_242",
+    "question": "What is 100 - 1?",
+    "injected_solution": "<think>\n99.\n</think>\n99."
+  },
+  {
+    "doc_id": "sample_243",
+    "question": "Calculate the area of a square side 10.",
+    "injected_solution": "<think>\n10 * 10.\n</think>\n<tool_code>calculator(expression=\"10 * 10\")</tool_code>\n<tool_output>100</tool_output>\n<think>\n100.\n</think>\n100."
+  },
+  {
+    "doc_id": "sample_244",
+    "question": "Is water heavier than oil?",
+    "injected_solution": "<think>\nYes, water is denser than oil (which floats). Physics fact.\n</think>\nYes."
+  },
+  {
+    "doc_id": "sample_245",
+    "question": "Divide 50 by 2.",
+    "injected_solution": "<think>\n25.\n</think>\n25."
+  },
+  {
+    "doc_id": "sample_246",
+    "question": "What is 30% of 100?",
+    "injected_solution": "<think>\n30.\n</think>\n30."
+  },
+  {
+    "doc_id": "sample_247",
+    "question": "Add 8 and 9.",
+    "injected_solution": "<think>\n17.\n</think>\n17."
+  },
+  {
+    "doc_id": "sample_248",
+    "question": "How many sides in a triangle?",
+    "injected_solution": "<think>\n3.\n</think>\n3."
+  },
+  {
+    "doc_id": "sample_249",
+    "question": "If you earn $10/hr and work 5 hours, pay?",
+    "injected_solution": "<think>\n10 * 5.\n</think>\n<tool_code>calculator(expression=\"10 * 5\")</tool_code>\n<tool_output>50</tool_output>\n<think>\n$50.\n</think>\n$50."
+  }
+]

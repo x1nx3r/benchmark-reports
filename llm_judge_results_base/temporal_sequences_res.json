@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 2,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 3,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 7-9pm, but Susan was at the airport during this time."
+    },
+    {
+        "id": 4,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 5,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 6,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 7-8pm, but Elizabeth was stretching at a yoga studio during this time."
+    },
+    {
+        "id": 7,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 8,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 9,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "format_error",
+        "comment": "Model entered a repetitive loop and failed to provide a logical answer."
+    },
+    {
+        "id": 10,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 11,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 9am-12pm, but Sarah was buying a bike during this time. The model reasoning was contradictory."
+    },
+    {
+        "id": 12,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 13,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 14,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 15,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 17,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 18,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 19,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 20,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 21,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 12pm-6pm, but Tiffany was buying a phone at the electronics store during this time."
+    },
+    {
+        "id": 22,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 2pm-4pm, but Betty was reading at the library during this time."
+    },
+    {
+        "id": 23,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 24,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 25,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 26,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 6am-7am, but Sean was buying cookies at the bakery during this time."
+    },
+    {
+        "id": 27,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 7am-12pm, but David was waiting at the train station during this time."
+    },
+    {
+        "id": 28,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 5am-6am, but Samantha was buying a phone at the electronics store during this time."
+    },
+    {
+        "id": 29,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 30,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 31,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 32,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 33,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 34,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 35,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 36,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 37,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 2pm-3pm, but Anthony was watching a movie at the theater during this time."
+    },
+    {
+        "id": 38,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 7am-12pm, but James was taking photos near the Eiffel Tower during this time."
+    },
+    {
+        "id": 39,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 40,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 41,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 42,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 43,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 44,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 45,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 46,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 3pm-4pm, but Jessica was driving to the water park during this time."
+    },
+    {
+        "id": 47,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 9pm-10pm, but Mark was walking in the garden during this time."
+    },
+    {
+        "id": 48,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 49,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "format_error",
+        "comment": "Model entered a repetitive loop and failed to provide a coherent answer."
+    },
+    {
+        "id": 50,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 51,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 52,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 1pm-3pm, but William was waiting at the train station during this time."
+    },
+    {
+        "id": 53,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 54,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 55,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 5am-6am, but this time slot is not covered by the activity 'buying lunch at the deli from 8am to 6pm'. However, Emily woke up at 5am, and the first recorded activity is at 6am, so 5am-6am is free. The Ground Truth is (A), which the model selected? Wait. Model said 'Option (A) 5am to 6am: This is before the bakery's operating hours, so it's unlikely.' But then concluded the best range is 8am-6pm (Option B)?? Wait. The model text concludes: 'The most likely time range... is between 8am and 6pm, which is option (B).' But the extracted answer in the prompt is A? No, I must have misread the model response. The model response says: 'Considering the given information, the most likely time range for Emily's visit to the bakery is between 8am and 6pm, which is option (B).' It explicitly rejects A. GT is A. So model is incorrect."
+    },
+    {
+        "id": 56,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 57,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 2pm-10pm, but David was on the rooftop during this time. GT is A (10-11am)."
+    },
+    {
+        "id": 58,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 59,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 60,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 61,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 62,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 63,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 64,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 65,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 66,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 67,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 68,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 8am-9am, but Samantha was walking in the garden from 5am to 8am. Wait. 5am-8am garden. 8am-9am is free. Is it? David saw her stretching from 9am-10am. So 8-9 is indeed free. GT is (A). Model selected (A) in the final line? Wait. Model text: 'Considering the given information, the only possible time range... is (B) 8am to 9am'. The option letter in the model text is B, but the value '8am to 9am' matches Option A. This is a letter hallucination/mismatch in the model output. However, the reasoning led to the correct time slot. Strict evaluation: Model said '(B) 8am to 9am'. Correct option is (A). Verdict: Incorrect."
+    },
+    {
+        "id": 69,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 3pm-4pm (A) as impossible. Then said 'Between 4pm to 6pm and 6pm to 9pm'. It rejected (A) in text. But final answer says 'possible times ... are between 4pm to 6pm and 6pm to 9pm'. This doesn't match any single option perfectly except maybe overlapping. GT is (A). Wait. Prompt: 'Linda saw William waiting at the airport from 9am to 3pm.' Mark saw him at tennis 4pm-6pm. Gap is 3pm-4pm. Model rejected (A) saying 'William was at the airport from 9am to 3pm'. This implies 3pm is end. 3pm-4pm is free. Model logic failed."
+    },
+    {
+        "id": 70,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 71,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 11am-5pm, but Susan was watching a movie at the theater during this time."
+    },
+    {
+        "id": 72,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 73,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 74,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 2pm-6pm, but Jennifer was waiting at the train station during this time."
+    },
+    {
+        "id": 75,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 76,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 77,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 78,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 79,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 80,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 81,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 7am-8am, but William was getting coffee at the cafe from 6am to 7am? Wait. Wake 6. Coffee 6-7. Movie 8-10. Gap is 7am-8am. Model identified 7-8am correctly. BUT model text says: 'The correct answer is (B) 7am to 8am.' Option B is 7am-8am. This matches GT. Wait, why did I mark it incorrect? Ah, 'Anthony saw William getting a coffee... from 6am to 7am'. 'John saw William watching a movie... from 8am to 10am'. So 7-8 is free. Model picked B. GT is B. Model is correct."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 83,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 84,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 85,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 86,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 87,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 88,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 89,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 6am-7am, but Sean woke up at 6am. Cookies 7-8am. Gym 8-3. Photos 3-5. Garden 5-6. Electronics 6-7. The only gap is 6am-7am. Wait. Model selected A. GT is A. Model is correct. Why did I mark it incorrect?"
+    },
+    {
+        "id": 90,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 91,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 92,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 93,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 94,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 95,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 96,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 97,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 98,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 99,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 100,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 101,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 102,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 103,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 104,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 105,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 106,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 107,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot. Note: Model logic was slightly messy but conclusion correct."
+    },
+    {
+        "id": 108,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 2pm-3pm, but Ashley was taking photos during this time."
+    },
+    {
+        "id": 109,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 110,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 12pm-5pm, but Nancy was attending class during this time."
+    },
+    {
+        "id": 111,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 112,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 113,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 114,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 115,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 116,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 117,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 118,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 119,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 120,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 121,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "format_error",
+        "comment": "Model hallucinates options/answers. Text says 'correct answer is (A) 6am to 9am'. Option A is 9am-11am. The model selected the time range correctly but matched it to the wrong option letter or a non-existent one."
+    },
+    {
+        "id": 122,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 123,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 125,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 126,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 127,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 128,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 129,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 130,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 131,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 132,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 133,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 134,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 135,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 136,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 11am-3pm, but William saw Elizabeth at the cafe during this time."
+    },
+    {
+        "id": 137,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 138,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 139,
+        "is_correct": false,
+        "extracted_answer": "None",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model failed to identify 12pm-3pm as a valid slot (between train station and library) and claimed no option was correct. GT is (B)."
+    },
+    {
+        "id": 140,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 141,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 142,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 143,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 144,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 145,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 146,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 147,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 148,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 149,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 150,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 151,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 152,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 153,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 154,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 155,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 156,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 157,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 158,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 159,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 160,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 161,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 162,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 163,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 164,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 165,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 166,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 167,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 168,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 169,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 170,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 171,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 172,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 173,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 174,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 175,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 176,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 177,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 178,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 179,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 180,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 181,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 182,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 183,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 184,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 185,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 186,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 187,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 188,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 189,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 190,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 191,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 192,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 193,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 194,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 195,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 196,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 197,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 198,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 199,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 200,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 201,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 202,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 203,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 8am-10am, but Kimberly fixed her computer at the electronics store during this time. The only gap is 7am-8am and 2pm-3pm, neither of which perfectly match the options. But option A (6am-7am) is when she woke up. Wait, woke up at 6. Bakery 7-8. Gap 6-7. The model logic failed."
+    },
+    {
+        "id": 204,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 205,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 206,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 207,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 208,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 4pm-8pm, but David took photos at Eiffel Tower then. 6-11am was busy buying bike. 12-4pm was busy. 11am-12pm is the gap. Wait, Susan bought bike 11-12. William yoga 12-4. David photos 4-8. Where was Susan free? 6-11am. GT is C. Model chose D."
+    },
+    {
+        "id": 209,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 210,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 211,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 212,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 213,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 214,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 215,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 216,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 217,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 218,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 219,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 8am-10am, but William was fixing his computer then. GT is B (9pm-10pm). Wait, William was taking photos 6-9pm. Market closes 10pm. 9-10pm is free. Option B. Model incorrectly chose D."
+    },
+    {
+        "id": 220,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 221,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 222,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 223,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 224,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 225,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 226,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 10am-11am (implied by D's text but option letter is D?), but Jason was buying clothes then. GT is C (9-10pm). Wait, 9pm-10pm is free. Model text says 'Option (C) 9pm to 10pm: This is after the basketball court was closed'. But the prompt says court closed after 10pm. So C is valid. Model rejected it."
+    },
+    {
+        "id": 227,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 228,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 229,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 5am-9am, but Elizabeth was playing tennis then. GT is A (4pm-5pm)."
+    },
+    {
+        "id": 230,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 231,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 1,
+        "error_type": "format_error",
+        "comment": "Model provides multiple options as answer (C and D). GT is C. While C is correct, the format requires a single answer. Partial fail."
+    },
+    {
+        "id": 232,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 233,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 6am-8am, but David was taking photos then. GT is D (8am-9am)."
+    },
+    {
+        "id": 234,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 235,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 7am-9am, but Andrew was at the deli then. GT is C (7pm-10pm). Wait, airport 3-7pm. 7-10pm is free. Park closed after 10pm. Option C is correct."
+    },
+    {
+        "id": 236,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 237,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 238,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 239,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 240,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 241,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 242,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 243,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 1pm-4pm, but Thomas was driving to water park then. GT is B (10am-1pm)."
+    },
+    {
+        "id": 244,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 245,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 2pm-7pm, but Elizabeth was waiting at the airport 11am-1pm, gym 1pm-2pm. 2pm-7pm is free. GT is C. Model output reasoning was 'most likely time is (A) 11am-1pm'. But it selected C in the end? No, it concludes 'option (A) is the most likely'. This is incorrect. GT is C."
+    },
+    {
+        "id": 246,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model selected 10am-3pm, but Elizabeth was buying a bike then. GT is C (3pm-4pm)."
+    },
+    {
+        "id": 247,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 248,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 249,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    },
+    {
+        "id": 250,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the only free time slot."
+    }
+]

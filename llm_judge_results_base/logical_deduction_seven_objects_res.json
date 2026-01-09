@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": false,
+        "extracted_answer": "none",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model correctly analyzes most steps but fails to align the final order with the options, concluding that none match, whereas one (D) does match the deduced order if interpreted correctly or if the model made a minor ordering error."
+    },
+    {
+        "id": 2,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model reasoning fails to correctly order the vehicles based on the 'older/newer' constraints, leading to the wrong third-oldest vehicle."
+    },
+    {
+        "id": 3,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model misinterprets the positional constraints (left/right) leading to an incorrect arrangement."
+    },
+    {
+        "id": 4,
+        "is_correct": false,
+        "extracted_answer": null,
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "The model output consists of a repetitive loop of text without reaching a conclusion."
+    },
+    {
+        "id": 5,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the statement directly providing the answer."
+    },
+    {
+        "id": 6,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model struggles to integrate all constraints into a coherent order, resulting in an incorrect deduction."
+    },
+    {
+        "id": 7,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('Dan finished last'), which the model correctly identifies."
+    },
+    {
+        "id": 8,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the statement directly providing the answer."
+    },
+    {
+        "id": 9,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ordering of the ages of the vehicles."
+    },
+    {
+        "id": 10,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The yellow book is the leftmost'), which the model correctly identifies."
+    },
+    {
+        "id": 11,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed to correctly calculate the 'third-most expensive' fruit based on the constraints."
+    },
+    {
+        "id": 12,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The black book is the fourth from the left')."
+    },
+    {
+        "id": 13,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model contradicts the prompt statement 'Eve finished above Amy' by concluding Amy finished last, whereas statement 3 says 'Ana finished third-to-last' and statement 6 says 'Amy finished third'. The prompt contains contradictory statements which confused the model."
+    },
+    {
+        "id": 14,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the statement directly providing the answer."
+    },
+    {
+        "id": 15,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the bird positions."
+    },
+    {
+        "id": 16,
+        "is_correct": false,
+        "extracted_answer": "none",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model correctly orders most items but fails to match the derived order to the specific option requested, concluding 'none are correct'."
+    },
+    {
+        "id": 17,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect reasoning regarding the 'most expensive' fruit."
+    },
+    {
+        "id": 18,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 19,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ordering of vehicle ages."
+    },
+    {
+        "id": 20,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position deduction."
+    },
+    {
+        "id": 21,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model makes contradictory placement decisions regarding the owl."
+    },
+    {
+        "id": 22,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Model reasoning is messy and repetitive but arrives at the correct option via elimination/partial logic."
+    },
+    {
+        "id": 23,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ordering of birds."
+    },
+    {
+        "id": 24,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ranking of fruit prices."
+    },
+    {
+        "id": 25,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "The model claims the correct answer is not among options, but then effectively selects D by eliminating others or through context."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 27,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect age ordering."
+    },
+    {
+        "id": 28,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 29,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect age ordering."
+    },
+    {
+        "id": 30,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 31,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Reasoning is a bit repetitive, but the deduction is correct."
+    },
+    {
+        "id": 32,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Contradictory reasoning; statement says Amy finished third, model selects Mel."
+    },
+    {
+        "id": 33,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "The model gets caught in loops and contradictions but eventually selects the correct option (C) based on the simple statement 'Amy finished last'."
+    },
+    {
+        "id": 34,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('Ada finished third')."
+    },
+    {
+        "id": 35,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ranking."
+    },
+    {
+        "id": 36,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect positioning."
+    },
+    {
+        "id": 37,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 38,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 39,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The station wagon is the oldest')."
+    },
+    {
+        "id": 40,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('Ada finished third-to-last')."
+    },
+    {
+        "id": 41,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The mangoes are the third-most expensive')."
+    },
+    {
+        "id": 42,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect positioning."
+    },
+    {
+        "id": 43,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The apples are the cheapest')."
+    },
+    {
+        "id": 44,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect positioning."
+    },
+    {
+        "id": 45,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 46,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 47,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 48,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The blue book is the third from the right')."
+    },
+    {
+        "id": 49,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 50,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The kiwis are the third-cheapest')."
+    },
+    {
+        "id": 51,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The answer is provided by the logic 'The mangoes are the fourth-most expensive' in a 7-item set, which equates to the third-cheapest if ordered correctly, though the model's intermediate steps were a bit shaky."
+    },
+    {
+        "id": 52,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ranking."
+    },
+    {
+        "id": 53,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "The reasoning is circular/repetitive but arrives at the correct conclusion."
+    },
+    {
+        "id": 54,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 55,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ranking."
+    },
+    {
+        "id": 56,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 57,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Repetitive reasoning loop but correct final conclusion."
+    },
+    {
+        "id": 58,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect positioning."
+    },
+    {
+        "id": 59,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 60,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The black book is the fourth from the left')."
+    },
+    {
+        "id": 61,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt, which the model catches despite repetitive reasoning."
+    },
+    {
+        "id": 62,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The answer is directly stated in the prompt ('The blue book is the fourth from the left'), which the model identifies, but the ground truth expects 'The red book is the fourth from the left', implying a contradiction in the prompt or ground truth. However, based on the prompt text, the model is correct to extract what is stated."
+    },
+    {
+        "id": 63,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 64,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The convertible is the second-oldest')."
+    },
+    {
+        "id": 65,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 66,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ranking."
+    },
+    {
+        "id": 67,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('Ana finished third')."
+    },
+    {
+        "id": 68,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('Ana finished first')."
+    },
+    {
+        "id": 69,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The peaches are the cheapest')."
+    },
+    {
+        "id": 70,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The prompt states 'The black book is the third from the left', model concludes it's the second."
+    },
+    {
+        "id": 71,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The owl is the second from the left')."
+    },
+    {
+        "id": 72,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect positioning."
+    },
+    {
+        "id": 73,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect logic regarding the oldest vehicle."
+    },
+    {
+        "id": 74,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 75,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the newest vehicle."
+    },
+    {
+        "id": 76,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect positioning."
+    },
+    {
+        "id": 77,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 78,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The purple book is the rightmost')."
+    },
+    {
+        "id": 79,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect positioning."
+    },
+    {
+        "id": 80,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Model reasoning was extremely repetitive but arrived at the correct answer based on the statement 'The orange book is the leftmost'."
+    },
+    {
+        "id": 81,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The gray book is the third from the left')."
+    },
+    {
+        "id": 83,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect price ranking."
+    },
+    {
+        "id": 84,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 85,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ranking."
+    },
+    {
+        "id": 86,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 87,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The station wagon is the fourth-newest')."
+    },
+    {
+        "id": 88,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The minivan is the oldest')."
+    },
+    {
+        "id": 89,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position deduction."
+    },
+    {
+        "id": 90,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 91,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning based on elimination."
+    },
+    {
+        "id": 92,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Model reasoning loop but concludes correctly."
+    },
+    {
+        "id": 93,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The yellow book is the rightmost')."
+    },
+    {
+        "id": 94,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 95,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ranking."
+    },
+    {
+        "id": 96,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Reasoning loop but correct conclusion."
+    },
+    {
+        "id": 97,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 98,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ranking."
+    },
+    {
+        "id": 99,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Reasoning loop but correct final answer selection based on statement 'Amy finished last'."
+    },
+    {
+        "id": 100,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The prompt says the station wagon is the third-newest, but the model concludes the minivan is the third-oldest based on flawed logic."
+    },
+    {
+        "id": 101,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 102,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book positioning."
+    },
+    {
+        "id": 103,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 104,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 105,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The robin is the third from the left')."
+    },
+    {
+        "id": 106,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The blue book is the second from the right')."
+    },
+    {
+        "id": 107,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book positioning."
+    },
+    {
+        "id": 108,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The robin is the second from the left')."
+    },
+    {
+        "id": 109,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Reasoning loop but correct answer selected."
+    },
+    {
+        "id": 110,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Reasoning loop but correct answer selected based on statement 'The sedan is the third-newest'."
+    },
+    {
+        "id": 111,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 112,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 113,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Reasoning loop but correct answer selected."
+    },
+    {
+        "id": 114,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position deduction."
+    },
+    {
+        "id": 115,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The purple book is the third from the left')."
+    },
+    {
+        "id": 116,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The prompt says the red book is the second from the left, but the model deduces the yellow book is second."
+    },
+    {
+        "id": 117,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The motorcyle is the fourth-newest')."
+    },
+    {
+        "id": 118,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect price ranking."
+    },
+    {
+        "id": 119,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The raven is the fourth from the left')."
+    },
+    {
+        "id": 120,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The station wagon is the fourth-newest')."
+    },
+    {
+        "id": 121,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position deduction."
+    },
+    {
+        "id": 122,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('Mel finished third-to-last')."
+    },
+    {
+        "id": 123,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect price ranking."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('Ana finished third-to-last')."
+    },
+    {
+        "id": 125,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ranking logic."
+    },
+    {
+        "id": 126,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The prompt says the blue jay is the third from the right, but the model concludes it is the rightmost."
+    },
+    {
+        "id": 127,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ranking logic."
+    },
+    {
+        "id": 128,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The purple book is the third from the left')."
+    },
+    {
+        "id": 129,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The sedan is the third-oldest')."
+    },
+    {
+        "id": 130,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The kiwis are the second-most expensive')."
+    },
+    {
+        "id": 131,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ranking logic."
+    },
+    {
+        "id": 132,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Reasoning loop but correct answer selected."
+    },
+    {
+        "id": 133,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Reasoning loop leading to incorrect deduction."
+    },
+    {
+        "id": 134,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The cardinal is the fourth from the left')."
+    },
+    {
+        "id": 135,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies two contradictory statements about Ana but chooses the one that fits its internal logic, which is actually the one stated in the prompt ('Ana finished third'). However, the ground truth is likely based on the 'third-to-last' statement or there is an ambiguity."
+    },
+    {
+        "id": 136,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The kiwis are the most expensive')."
+    },
+    {
+        "id": 137,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The prompt states Rob finished second, but the model concludes Rob finished first."
+    },
+    {
+        "id": 138,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect positioning."
+    },
+    {
+        "id": 139,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect positioning."
+    },
+    {
+        "id": 140,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Reasoning loop but correct answer selected."
+    },
+    {
+        "id": 141,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect positioning."
+    },
+    {
+        "id": 142,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect positioning."
+    },
+    {
+        "id": 143,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 144,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Reasoning loop but correct answer selected."
+    },
+    {
+        "id": 145,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 146,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect pricing deduction."
+    },
+    {
+        "id": 147,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('Dan finished fourth')."
+    },
+    {
+        "id": 148,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect age reasoning."
+    },
+    {
+        "id": 149,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect pricing deduction."
+    },
+    {
+        "id": 150,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The prompt states the gray book is the third from the right, but the model deduces it is the third from the left."
+    },
+    {
+        "id": 151,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Reasoning loop but correct answer selected."
+    },
+    {
+        "id": 152,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The station wagon is the third-newest')."
+    },
+    {
+        "id": 153,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The minivan is the third-newest')."
+    },
+    {
+        "id": 154,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect reasoning."
+    },
+    {
+        "id": 155,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 156,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect age deduction."
+    },
+    {
+        "id": 157,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position deduction."
+    },
+    {
+        "id": 158,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ranking."
+    },
+    {
+        "id": 159,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position deduction."
+    },
+    {
+        "id": 160,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 161,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 162,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ranking."
+    },
+    {
+        "id": 163,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The tractor is the second-oldest')."
+    },
+    {
+        "id": 164,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 165,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect reasoning about vehicle ages."
+    },
+    {
+        "id": 166,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('Eve finished first')."
+    },
+    {
+        "id": 167,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 168,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 169,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The cantaloupes are the second-most expensive')."
+    },
+    {
+        "id": 170,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 171,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position deduction."
+    },
+    {
+        "id": 172,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Reasoning loop but correct answer selected."
+    },
+    {
+        "id": 173,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('Joe finished fourth')."
+    },
+    {
+        "id": 174,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic regarding the last place finisher."
+    },
+    {
+        "id": 175,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 176,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position deduction."
+    },
+    {
+        "id": 177,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Reasoning loop but correct answer selected."
+    },
+    {
+        "id": 178,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The cardinal is the second from the right')."
+    },
+    {
+        "id": 179,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The prompt says Amy finished third, but the model misinterprets the ranking."
+    },
+    {
+        "id": 180,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The prompt says the watermelons are the second-most expensive, but the model concludes the kiwis are."
+    },
+    {
+        "id": 181,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect pricing reasoning."
+    },
+    {
+        "id": 182,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 183,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logic."
+    },
+    {
+        "id": 184,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 185,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 186,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The prompt says the watermelons are the second-most expensive, but the model concludes the kiwis are."
+    },
+    {
+        "id": 187,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('Ana finished second-to-last')."
+    },
+    {
+        "id": 188,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect age deduction."
+    },
+    {
+        "id": 189,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('Eli finished third-to-last')."
+    },
+    {
+        "id": 190,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect positioning."
+    },
+    {
+        "id": 191,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The minivan is the third-newest')."
+    },
+    {
+        "id": 192,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect pricing deduction."
+    },
+    {
+        "id": 193,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The prompt states Ada finished second, but the model concludes she finished fourth."
+    },
+    {
+        "id": 194,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect age deduction."
+    },
+    {
+        "id": 195,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Reasoning loop but correct answer selected."
+    },
+    {
+        "id": 196,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 197,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position deduction."
+    },
+    {
+        "id": 198,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The station wagon is the newest')."
+    },
+    {
+        "id": 199,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position deduction."
+    },
+    {
+        "id": 200,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The orange book is the second from the right')."
+    },
+    {
+        "id": 201,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The tractor is the newest')."
+    },
+    {
+        "id": 202,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect age deduction."
+    },
+    {
+        "id": 203,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The prompt says the hummingbird is the fourth from the left, but the model gets confused with repetitions."
+    },
+    {
+        "id": 204,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Reasoning loop but correct answer selected."
+    },
+    {
+        "id": 205,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The prompt says the limousine is the fourth-newest, but the model concludes the minivan is."
+    },
+    {
+        "id": 206,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Reasoning loop but correct answer selected."
+    },
+    {
+        "id": 207,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the cheapest fruit."
+    },
+    {
+        "id": 208,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The plums are the cheapest')."
+    },
+    {
+        "id": 209,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ranking deduction."
+    },
+    {
+        "id": 210,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 211,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect price ranking."
+    },
+    {
+        "id": 212,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The loquats are the fourth-most expensive')."
+    },
+    {
+        "id": 213,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 214,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect price deduction."
+    },
+    {
+        "id": 215,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Reasoning loop but correct answer selected."
+    },
+    {
+        "id": 216,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The prompt says the convertible is the second-newest, but the question asks for the second-oldest (implied by options), model answers with second-newest."
+    },
+    {
+        "id": 217,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect position deduction."
+    },
+    {
+        "id": 218,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The truck is the oldest')."
+    },
+    {
+        "id": 219,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 220,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The prompt says the convertible is the second-newest, but the question asks for the second-oldest, model incorrectly identifies it."
+    },
+    {
+        "id": 221,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The prompt says the hummingbird is the second from the left, but the model concludes the owl is."
+    },
+    {
+        "id": 222,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('Mya finished second')."
+    },
+    {
+        "id": 223,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 224,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The cardinal is the second from the right')."
+    },
+    {
+        "id": 225,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('Amy finished second-to-last')."
+    },
+    {
+        "id": 226,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book positioning."
+    },
+    {
+        "id": 227,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 228,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The falcon is the second from the right')."
+    },
+    {
+        "id": 229,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect age deduction."
+    },
+    {
+        "id": 230,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The black book is the third from the left')."
+    },
+    {
+        "id": 231,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect ranking."
+    },
+    {
+        "id": 232,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The prompt says the owl is the third from the left, but the model incorrectly deduces positions."
+    },
+    {
+        "id": 233,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 234,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect age deduction."
+    },
+    {
+        "id": 235,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 236,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Reasoning loop but correct answer selected."
+    },
+    {
+        "id": 237,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect age deduction."
+    },
+    {
+        "id": 238,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt (by deduction of order)."
+    },
+    {
+        "id": 239,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The blue book is the third from the right')."
+    },
+    {
+        "id": 240,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The prompt says the robin is the second from the right, but the model concludes the blue jay is."
+    },
+    {
+        "id": 241,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Reasoning loop but correct answer selected."
+    },
+    {
+        "id": 242,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of the rightmost bird."
+    },
+    {
+        "id": 243,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect book positioning."
+    },
+    {
+        "id": 244,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Reasoning loop but correct answer selected."
+    },
+    {
+        "id": 245,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('The kiwis are the third-cheapest')."
+    },
+    {
+        "id": 246,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The answer is directly stated in the prompt ('Joe finished second-to-last')."
+    },
+    {
+        "id": 247,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 248,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The prompt says the white book is the fourth from the left, but the model concludes the gray book is."
+    },
+    {
+        "id": 249,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect deduction of bird positions."
+    },
+    {
+        "id": 250,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The prompt says the station wagon is the third-newest, but the model concludes the bus is."
+    }
+]

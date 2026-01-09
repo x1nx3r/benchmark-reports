@@ -53,16 +53,16 @@
 
 ### All Tasks (Sorted by Accuracy)
 
-| Rank | Task                                    | Total | Correct | Accuracy | Avg Score |
-| ---- | --------------------------------------- | ----- | ------- | -------- | --------- |
-| 1    | Boolean Expressions                     | 250   | 214     | [HIGH] 85.6%  | 4.57      |
-| 2    | Movie Recommendation                    | 250   | 202     | [HIGH] 80.8%  | 4.44      |
-| 3    | Penguin In A Table                      | 146   | 110     | [HIGH] 75.3%  | 4.13      |
-| 4    | Object Counting                         | 250   | 188     | [HIGH] 75.2%  | 4.28      |
-| 5    | Navigate                                | 250   | 185     | [HIGH] 74.0%  | 4.18      |
-| 6    | Date Understanding                      | 250   | 180     | [HIGH] 72.0%  | 4.00      |
-| 7    | Sports Understanding                    | 250   | 178     | [HIGH] 71.2%  | 4.21      |
-| 8    | Reasoning About Colored Objects         | 250   | 175     | [HIGH] 70.0%  | 4.16      |
+| Rank | Task                                    | Total | Correct | Accuracy     | Avg Score |
+| ---- | --------------------------------------- | ----- | ------- | ------------ | --------- |
+| 1    | Boolean Expressions                     | 250   | 214     | [HIGH] 85.6% | 4.57      |
+| 2    | Movie Recommendation                    | 250   | 202     | [HIGH] 80.8% | 4.44      |
+| 3    | Penguin In A Table                      | 146   | 110     | [HIGH] 75.3% | 4.13      |
+| 4    | Object Counting                         | 250   | 188     | [HIGH] 75.2% | 4.28      |
+| 5    | Navigate                                | 250   | 185     | [HIGH] 74.0% | 4.18      |
+| 6    | Date Understanding                      | 250   | 180     | [HIGH] 72.0% | 4.00      |
+| 7    | Sports Understanding                    | 250   | 178     | [HIGH] 71.2% | 4.21      |
+| 8    | Reasoning About Colored Objects         | 250   | 175     | [HIGH] 70.0% | 4.16      |
 | 9    | Logical Deduction Three Objact          | 250   | 174     | [MED] 69.6%  | 4.19      |
 | 10   | Logical Deduction Seven Objects         | 250   | 163     | [MED] 65.2%  | 3.96      |
 | 11   | Web Of Lies                             | 250   | 163     | [MED] 65.2%  | 3.72      |

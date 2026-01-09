@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model incorrectly identifies the phrase 'beat the buzzer' as a standard hockey term or a plausible event for a hockey player in the context of the dataset's logic (which separates sports terminology strictly). Ground truth is 'no'."
+    },
+    {
+        "id": 2,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the player's sport (hockey) and the terminology (third period)."
+    },
+    {
+        "id": 3,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the player (soccer) and the terminology."
+    },
+    {
+        "id": 4,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the sport mismatch (Football vs Basketball/Hockey terms)."
+    },
+    {
+        "id": 5,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the sport mismatch (Baseball vs Hockey term)."
+    },
+    {
+        "id": 6,
+        "is_correct": false,
+        "extracted_answer": "no",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model argues the sentence is incomplete/unclear and thus 'not entirely plausible', whereas the ground truth accepts the premise as plausible (Hockey player in a Hockey context)."
+    },
+    {
+        "id": 7,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the player and sport action."
+    },
+    {
+        "id": 8,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model hallucinates that 'back shoulder fade' is a baseball pitch type (it is an American Football pass type). Ground truth is 'no'."
+    },
+    {
+        "id": 9,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly interprets the sports slang within the correct sport."
+    },
+    {
+        "id": 10,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly claims 'desperation heave' is a common ice hockey term (it is a basketball/football term). Ground truth is 'no'."
+    },
+    {
+        "id": 11,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the sport mismatch."
+    },
+    {
+        "id": 12,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model interprets 'flagged' as a general sports term applicable to soccer (referencing referees 'flagging' with a flag), but the specific phrasing 'flagged on the play' is distinctively American Football. Ground truth is 'no'."
+    },
+    {
+        "id": 13,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the baseball context."
+    },
+    {
+        "id": 14,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model incorrectly claims 'nutmegged' is a basketball term (it is a soccer term). Ground truth is 'no'."
+    },
+    {
+        "id": 15,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model accepts 'buzzer beater' as common hockey terminology. While ends of periods have buzzers/horns, the specific phrase is Basketball-specific in this dataset context. Ground truth is 'no'."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies hockey player and context."
+    },
+    {
+        "id": 17,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies baseball player and context."
+    },
+    {
+        "id": 18,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model incorrectly applies the soccer term 'added time' to American Football (which uses 'overtime'). Ground truth is 'no'."
+    },
+    {
+        "id": 19,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 20,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 21,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 22,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies the sport mismatch."
+    },
+    {
+        "id": 23,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 24,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 25,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 27,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 28,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 29,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 30,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 31,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 32,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 33,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies the player as a baseball player but incorrectly concludes the sentence is plausible by trying to fit 'three second violation' (basketball) into baseball or by assuming the player plays other sports. Ground truth is 'no'."
+    },
+    {
+        "id": 34,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "The model does not know who Jakub Vrana is (Hockey player) and assumes he is a baseball player because of the terminology. Ground truth is 'no'."
+    },
+    {
+        "id": 35,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model correctly identifies Tom Wilson as a hockey player, but incorrectly claims that 'penalty kick' is a legitimate scoring play in hockey (confusing it with penalty shot or soccer). Ground truth is 'no'."
+    },
+    {
+        "id": 36,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 37,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 38,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 39,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 40,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 41,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 42,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 43,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 44,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 45,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model claims 'screen' is a plausible soccer term. While screening exists, 'called for the screen' is distinctively basketball terminology. Ground truth is 'no'."
+    },
+    {
+        "id": 46,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model hallucinates that 'screen pass' is a soccer term. It is an American Football term. Ground truth is 'no'."
+    },
+    {
+        "id": 47,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 48,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 49,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 50,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 51,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 52,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 53,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 54,
+        "is_correct": false,
+        "extracted_answer": "no",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model correctly identifies the player and sport, but rejects the plausibility based on whether the specific player *actually* played in that specific game historically, rather than if the sentence is semantically plausible (player playing his own sport in a major tournament). Ground truth is 'yes'."
+    },
+    {
+        "id": 55,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 56,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 57,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 58,
+        "is_correct": false,
+        "extracted_answer": "no",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model considers the sentence implausible because it's 'not a decision a player would typically make', but the sentence is syntactically and contextually plausible in sports writing (describing the team's action via the player or the player's execution). Ground truth is 'yes'."
+    },
+    {
+        "id": 59,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 60,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 61,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 62,
+        "is_correct": false,
+        "extracted_answer": "no",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies the player correctly but claims the sentence is not plausible because the player plays in the AFC, not NFC. While factually true regarding the team, the question asks for plausibility of the sentence structure/action. Ground truth is 'yes' (implying the action is plausible for the player type, or perhaps overlooking the conference error). However, strictly speaking, a player cannot play in the wrong conference playoffs. But usually 'plausible' allows for hypothetical scenarios. Ground truth 'yes' suggests tolerance for the conference error or focus on the action."
+    },
+    {
+        "id": 63,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 64,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 65,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model incorrectly identifies 'three second violation' as plausible for a soccer player because it exists in basketball, assuming the player might be playing basketball. Ground truth is 'no'."
+    },
+    {
+        "id": 66,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 67,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 68,
+        "is_correct": false,
+        "extracted_answer": "no",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model argues that goalies cannot score, which is incorrect (though rare, it happens and is plausible). Ground truth is 'yes'."
+    },
+    {
+        "id": 69,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 70,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 71,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "The model identifies Mike Hoffman as a professional basketball player. Mike Hoffman is a professional ice hockey player. Ground truth is 'no'."
+    },
+    {
+        "id": 72,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 'Pedro' as just a name. 'Pedro' typically refers to Pedro Martinez in sports contexts, or just a baseball player. However, the ground truth is 'no'. This might be due to the specific phrasing or lack of specific identity, but 'struck out the side' is a baseball term. If the ground truth is 'no', it might imply Pedro is known as something else or the sentence is flawed. Given Pedro Martinez is a pitcher, he *can* strike out the side. This ground truth is questionable, but I must grade based on it."
+    },
+    {
+        "id": 73,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 74,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 75,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 76,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 77,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 78,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 79,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 80,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 81,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 83,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 84,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 85,
+        "is_correct": false,
+        "extracted_answer": "no",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model correctly identifies the player and position but incorrectly claims that being out at second is unlikely because he's an outfielder. In baseball, any baserunner can be out at second. Ground truth is 'yes'."
+    },
+    {
+        "id": 86,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 87,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 88,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 89,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 90,
+        "is_correct": false,
+        "extracted_answer": "no",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model doubts the term 'side-step three' despite acknowledging side steps and threes are basketball terms. Ground truth is 'yes'."
+    },
+    {
+        "id": 91,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 92,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 93,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 94,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 95,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 96,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 97,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 98,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 99,
+        "is_correct": false,
+        "extracted_answer": "no",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model incorrectly identifies 'goal tend' as a hockey term (it is goaltending in basketball) and claims Ben Simmons (NBA) wouldn't be called for it. Ground truth is 'yes'."
+    },
+    {
+        "id": 100,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 101,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 102,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 103,
+        "is_correct": false,
+        "extracted_answer": "no",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model states it's unlikely for a QB to catch a pass. Ground truth is 'yes' (referring to trick plays like the Buffalo Special or similar). Model's logic is sound for general play, but factual plausibility includes trick plays."
+    },
+    {
+        "id": 104,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 105,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 106,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 107,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "The model hallucinates that Willian (famous soccer player) is a hockey player to justify 'killed the powerplay'. Ground truth is 'no'."
+    },
+    {
+        "id": 108,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 109,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 110,
+        "is_correct": false,
+        "extracted_answer": "no",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model incorrectly argues that because the Stanley Cup is a team award, a player cannot 'pass the puck in the Stanley Cup' (meaning the finals). Ground truth is 'yes'."
+    },
+    {
+        "id": 111,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 112,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct. Model identifies 'slashing' as a baseball pitch (incorrect hallucination of definition, slashing is a hockey penalty, but conclusion aligns with GT 'no'). Actually, wait, model claims 'slashing is a term in baseball'. That is wrong reasoning. But the verdict 'no' matches GT. I will give it a 0 match score but the logic is flawed."
+    },
+    {
+        "id": 113,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 114,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 115,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 116,
+        "is_correct": false,
+        "extracted_answer": "no",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model argues QBs don't catch passes. Ground truth 'yes' likely refers to trick plays."
+    },
+    {
+        "id": 117,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 118,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 119,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 120,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct. Model correctly identifies that 'eighteen' is likely '18 feet' but concludes 'no' as it's not standard. GT is 'no' because 'outside the eighteen' usually refers to the 18-yard box in soccer."
+    },
+    {
+        "id": 121,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 122,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model argues 'Eurostepped' is unlikely in NBA because it's 'EuroLeague' terminology (incorrect, it's a standard move). Then concludes yes? Wait, the model concludes 'slightly less plausible' but the text says 'yes' or 'plausible'. Actually, looking at the model response, it ends with 'slightly less plausible'. I extracted 'yes'. GT is 'yes'. Model reasoning about Eurostep being EuroLeague specific is weird, but conclusion matches."
+    },
+    {
+        "id": 123,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Model doesn't know James Karinchak is a Baseball pitcher and assumes he's a hockey player. Ground truth is 'no'."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 125,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "Model claims 'slant pass' is a hockey term. It is a football term. Ground truth is 'no'."
+    },
+    {
+        "id": 126,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 127,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 128,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 129,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 130,
+        "is_correct": false,
+        "extracted_answer": "no",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model reasons that a pitcher wouldn't play first base, so he can't be 'safe at first'. Being 'safe at first' means reaching base as a batter/runner. Pitchers bat in the NL (historically). Ground truth is 'yes'."
+    },
+    {
+        "id": 131,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model stretches definition of buzzer beater to soccer. Ground truth is 'no'."
+    },
+    {
+        "id": 132,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 133,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 134,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Correct conclusion, but reasoning about 'safe' meaning physical safety is odd."
+    },
+    {
+        "id": 135,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model applies basketball term 'nothing but net' to soccer. Ground truth is 'no'."
+    },
+    {
+        "id": 136,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Model claims plausible despite not knowing the player. Khyri Thomas is a Basketball player (NBA). The sentence puts him in the NFC championship (Football). Ground truth is 'no'. Model got it wrong in analysis but conclusion said 'plausible' (TRUE). Wait. The model said 'plausible, but...'. I extracted 'yes'. GT is 'no'. So model is incorrect."
+    },
+    {
+        "id": 137,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 138,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 139,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 140,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 141,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly claims 'maradona'd' is plausible for a hockey player. Ground truth is 'no'."
+    },
+    {
+        "id": 142,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 143,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 144,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 145,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 146,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 147,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 148,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 149,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model interprets 'icing' as a football timeout tactic (icing the kicker). While true, the phrasing 'called for icing' usually refers to the hockey penalty. Ground truth is 'no'."
+    },
+    {
+        "id": 150,
+        "is_correct": false,
+        "extracted_answer": "no",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly states 'goal tend' is only hockey (it is goaltending in basketball). Ground truth is 'yes'."
+    },
+    {
+        "id": 151,
+        "is_correct": false,
+        "extracted_answer": "no",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model argues QBs don't catch passes. Ground truth 'yes' (trick plays)."
+    },
+    {
+        "id": 152,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 153,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 154,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 155,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identifies Woodruff as a baseball player, but says the sentence is plausible because 'hard screen' is a basketball term. Contradictory logic leading to incorrect classification. Ground truth is 'no'."
+    },
+    {
+        "id": 156,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 157,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model tries to interpret 'out at home' as being at his house. Ground truth is 'no'."
+    },
+    {
+        "id": 158,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 159,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 160,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 161,
+        "is_correct": false,
+        "extracted_answer": "no",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model argues QBs don't catch passes. Ground truth 'yes'."
+    },
+    {
+        "id": 162,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 163,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model reinterprets 'hard screen' as 'hard pitch' to make it plausible. Ground truth is 'no'."
+    },
+    {
+        "id": 164,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 165,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 166,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 167,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 168,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 169,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 170,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 171,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 172,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 173,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 174,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 175,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 176,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 177,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 178,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 179,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 180,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 181,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 182,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 183,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 184,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 185,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 186,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 187,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct. But wait, ground truth is 'no'. 'Blocking foul' is baseball? No, it's basketball. Springer is Baseball. Model says 'yes' because blocking foul exists in baseball (home plate collisions). However, blocking foul is distinctively basketball terminology. GT says 'no'. Model says 'yes'. Incorrect."
+    },
+    {
+        "id": 188,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Model identifies Robben as a hockey player (hallucination), concludes plausible. Ground truth is 'no'. Model is incorrect."
+    },
+    {
+        "id": 189,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 190,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct. Wait, GT is 'no'. 'Desperation heave' is usually basketball/football. In hockey, it's 'dumping the puck' or 'clearing'. Landeskog is hockey. Model says plausible. GT says no. Incorrect."
+    },
+    {
+        "id": 191,
+        "is_correct": false,
+        "extracted_answer": "no",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model argues Kompany (a defender) wouldn't score a bicycle kick. GT says 'yes' (it's physically plausible for a soccer player). Model is incorrect."
+    },
+    {
+        "id": 192,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model claims 'calling for a screen' is common in hockey (screening the goalie). GT is 'no' (screen is basketball term primarily). Model is incorrect."
+    },
+    {
+        "id": 193,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Model hallucinates that 'back shoulder fade' is a hockey shot. It is a football pass. GT is 'no'."
+    },
+    {
+        "id": 194,
+        "is_correct": false,
+        "extracted_answer": "no",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model misinterprets 'took a backhand shot' as shooting with hands (illegal) rather than a backhand stick shot. GT is 'yes'."
+    },
+    {
+        "id": 195,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 196,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 197,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 198,
+        "is_correct": false,
+        "extracted_answer": "no",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model argues 'killing' a powerplay is defending, not 'Nugent-Hopkins killed the powerplay' (active voice implied he did the killing/defending). Sentence is plausible. Model says 'no'. GT is 'yes'."
+    },
+    {
+        "id": 199,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly applies basketball terms (eurostep, basket) to hockey. GT is 'no'."
+    },
+    {
+        "id": 200,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 201,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 202,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 203,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 204,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 205,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 206,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 207,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 208,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 209,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 210,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 211,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 212,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 213,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identifies Larkin as hockey player, but claims 'walked on ball four' is plausible in hockey? No, logic says it is plausible because it describes baseball, despite Larkin being hockey. Wait. Model says: 'Indeed plausible, as it correctly describes a situation in baseball'. It ignores the subject mismatch. GT is 'no'."
+    },
+    {
+        "id": 214,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identifies player as baseball player, says 'left footed shot' is rare/unusual but 'somewhat plausible'. GT is 'no' (baseball players don't kick/shoot the ball)."
+    },
+    {
+        "id": 215,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 216,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 217,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model claims 'killed the powerplay' is plausible despite Woods being a football player. GT is 'no'."
+    },
+    {
+        "id": 218,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 219,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct. (Though it identified Jarry as Tennis player? He's a Hockey goalie. Still, dunking is wrong)."
+    },
+    {
+        "id": 220,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct. Model says plausible. GT is 'no'. Wait. 'Watched the pitch go by' is Baseball idiom (not swinging). In soccer, you don't watch the pitch go by. Model argued it could mean watching the field. But GT is strict. Model is incorrect."
+    },
+    {
+        "id": 221,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 222,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 223,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 224,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Model stretches 'double' to mean double overtime. GT is 'no'."
+    },
+    {
+        "id": 225,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 226,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 227,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 228,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 229,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 230,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 231,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Model assumes a Mike Williams footballer exists. GT is 'no' (probably referring to Mike Williams the NFL player)."
+    },
+    {
+        "id": 232,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model interprets 'safe at first' as being safe in the early stages of a game. GT is 'no' (Baseball term applied to Soccer player)."
+    },
+    {
+        "id": 233,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 234,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 235,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 236,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model tries to interpret 'killed the powerplay' metaphorically for football. GT is 'no'."
+    },
+    {
+        "id": 237,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 238,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 239,
+        "is_correct": false,
+        "extracted_answer": "no",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model argues QBs don't score touchdowns (they run them in occasionally). GT is 'yes'."
+    },
+    {
+        "id": 240,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 241,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 242,
+        "is_correct": true,
+        "extracted_answer": "no",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 243,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model interprets 'maradona'd' figuratively for football. GT is 'no'."
+    },
+    {
+        "id": 244,
+        "is_correct": false,
+        "extracted_answer": "no",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says pitchers don't hit singles (they did in NL, and Ohtani exists). GT is 'yes'."
+    },
+    {
+        "id": 245,
+        "is_correct": false,
+        "extracted_answer": "no",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model argues players don't play in wrong conference playoffs. GT is 'yes' (perhaps accepting the hypothetical)."
+    },
+    {
+        "id": 246,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 247,
+        "is_correct": false,
+        "extracted_answer": "yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly applies 'converted first down' to Pepe (soccer player). GT is 'no'."
+    },
+    {
+        "id": 248,
+        "is_correct": false,
+        "extracted_answer": "no",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model claims pitchers don't throw to first (they do for pickoffs/grounders). GT is 'yes'."
+    },
+    {
+        "id": 249,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct. Wait. GT is 'no'. Wheel route is football. Model reasoned it is plausible in hockey. Incorrect."
+    },
+    {
+        "id": 250,
+        "is_correct": true,
+        "extracted_answer": "yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    }
+]

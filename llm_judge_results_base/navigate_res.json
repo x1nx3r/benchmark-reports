@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly calculated the net movement (1 step forward from start) and concluded No."
+    },
+    {
+        "id": 2,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly tracked the cumulative steps to the left and determined the final position was not the starting point."
+    },
+    {
+        "id": 3,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly summed the forward steps and determined the final position."
+    },
+    {
+        "id": 4,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model incorrectly calculated the net position. 1 Right - 3 Left + 2 Right = 0. The model claimed 1 - 3 = 0 (reset to start) then +2, which is an arithmetic/logic error."
+    },
+    {
+        "id": 5,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly calculated the net movement vector and concluded No."
+    },
+    {
+        "id": 6,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model hallucinated an extra 'Take 8 steps' or misinterpreted the sequence. The prompt has 3 instructions: 8 steps, Turn around, 8 steps. 8 - 8 = 0. The model found net movement away."
+    },
+    {
+        "id": 7,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model tracked the Y-axis correctly (net 0) but failed on the X-axis (6R - 10L + 4R = 0). It calculated 6 - 10 + 4 as 4 steps East, which is an arithmetic error."
+    },
+    {
+        "id": 8,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly summed the forward and backward steps to find a net position of 0."
+    },
+    {
+        "id": 9,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "The model interpreted the sequence 'Take X steps' as alternating directions or resetting distance, which is odd logic ('5-4=1'), but arrived at the correct conclusion (No)."
+    },
+    {
+        "id": 10,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "none",
+        "comment": "The model misinterpreted 'Always face forward' combined with 'Take steps left' as turning, but correctly concluded No due to net forward movement."
+    },
+    {
+        "id": 11,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 12,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "none",
+        "comment": "The model arbitrarily subtracted one of the steps ('move 5 steps backward') despite no instruction to do so, but correctly concluded No."
+    },
+    {
+        "id": 13,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The reasoning logic is flawless (net 3 steps away), but the Ground Truth is Yes? Wait. 3 Fwd, Turn around, 3 Fwd (Back to start), Turn right. Final pos (0,0). Model said '3 steps away'. Model logic: 3 Fwd -> 3 away. Turn Around -> 3 Back -> At Start. Take 3 steps -> 3 Away. Model read 'Take 3 steps' a third time? The prompt is 'Take 3 steps. Turn around. Take 3 steps. Turn right.' (4 instructions). The model's trace includes 3 movement steps. It hallucinated an extra 'Take 3 steps' at step 3."
+    },
+    {
+        "id": 14,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "none",
+        "comment": "The model's interpretation of 'facing' relative to 'taking steps left/right' is inconsistent (strafe vs turn), but the math worked out to (0,0)."
+    },
+    {
+        "id": 15,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "3 Left + 7 Left = 10 Left. 10 Right. Net 0. The model calculated 10 - 7 = 3 (ignoring the first 3). Arithmetic/Logic error."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "none",
+        "comment": "The model's tracking of absolute direction after turns was flawed (e.g., Turn left -> Turn right -> Turn around = Facing back? No, L+R cancel, Around is Back. It got facing right). But conclusion No is correct."
+    },
+    {
+        "id": 17,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning (9 - 1 - 4 - 4 = 0)."
+    },
+    {
+        "id": 18,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "The model hallucinated '3 steps backward' for step 2. The instruction was 'Turn around'. It then hallucinated 'Take 5 steps' was from start? The reasoning is a mess but arrived at Yes."
+    },
+    {
+        "id": 19,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct addition of steps."
+    },
+    {
+        "id": 20,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 21,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 22,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 23,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model claims 'taking 10 steps left... means turning around and moving backward'. Fundamental misunderstanding of directions."
+    },
+    {
+        "id": 24,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model tracked the path correctly: 7 Fwd, R, R (Back), 6 Fwd (Back). Net 1 unit away. Conclusion No. GT Yes? Let's check GT. 7 Fwd. Turn R (E). Turn R (S). 6 S. Turn R (W). It does not return. The model is correct, Ground Truth 'Yes' seems incorrect for these steps? 7N, Face S, 6S (pos 1N). It's not at start. Wait. Turn Right, Turn Right is 180 degrees. 7 North. Turn 180. 6 South. Pos = 1 North. Not start. Model correct, GT likely wrong or 'Turn Right' implies something else. Wait, 'Take 1 step' is missing from my check? Prompt: 7 steps, R, R, 6 steps, R. No '1 step'. Ah, Prompt 24 has 5 instructions. Model processed them. Wait. GT is No? No, GT is No in my manual check. Ground Truth says No. Model says No. Correct."
+    },
+    {
+        "id": 25,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model hallucinates step logic ('9-6=3' for forward steps?)."
+    },
+    {
+        "id": 27,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "Model hallucinated 'move 10 steps backward' after 'turn around'. The prompt says 'Turn around', then 'Take 4 steps'."
+    },
+    {
+        "id": 28,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Model has some confusion about 'left' (strafing vs turning) but correctly sums the forward/backward vector to be non-zero."
+    },
+    {
+        "id": 29,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "Complete logical failure. Turning left and right and around does not cancel out linear displacement of 5 steps if only one translation occurred. Wait, L -> 5 -> Around -> R. Path: Face W, 5W. Face E. Turn R (Face S). Pos (-5, 0). Not start. Model logic is nonsense."
+    },
+    {
+        "id": 30,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 31,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 32,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Confused strafing with diagonals, but correctly identified non-zero net movement."
+    },
+    {
+        "id": 33,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "Model hallucinated/skipped instructions. Prompt: 10, L, L, 10. (10 Fwd, 180 turn, 10 Fwd). Should be Yes. Model read: 10, L, 10. Concluded No."
+    },
+    {
+        "id": 34,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed to track orientation correctly through the turns."
+    },
+    {
+        "id": 35,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed to track the 180 degree turn correctly."
+    },
+    {
+        "id": 36,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning (7-4-4+5+7-10-1 = 0)."
+    },
+    {
+        "id": 37,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Confused 'steps left' with 'turn left' and mixed coordinate math."
+    },
+    {
+        "id": 38,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning (6R+5R-7L-3L-7L+6R = 17R - 17L = 0)."
+    },
+    {
+        "id": 39,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Hallucinated 'move 6 steps backward' from 'Turn around'. Flawed logic led to correct answer by chance."
+    },
+    {
+        "id": 40,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 1,
+        "error_type": "wrong_logic",
+        "comment": "2 steps forward, 2 steps backward = 0. Model says '2 steps away'. Arithmetic failure."
+    },
+    {
+        "id": 41,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "8L + 6R + 10R + 2L + 5L + 1L = 16R + 16L = 0. Model logic failed to sum correctly."
+    },
+    {
+        "id": 42,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model reasoning is correct (39 steps out, turn around, not back yet), but Ground Truth 'No' matches Model 'No'. Wait. Prompt ID 42 Ground Truth is 'Yes'?? 6+10+10+1+7+5 = 39. Turn around. End. You are 39 steps away. Answer is No. GT is No. Model is Correct. (My review data might have typo in GT column or I misread? ID 42 GT is No in my viewer? No, I see GT 'No' in example block. Model says 'No'. Matches.)"
+    },
+    {
+        "id": 43,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Model interpreted Left as Backward, but since all steps were Left/Back except last 3 Forward, the net was non-zero regardless of axis. Correct conclusion."
+    },
+    {
+        "id": 44,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 45,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "17 back - 10 forward = 7 back. Model says 7 back. Answer No. GT is Yes? 7 Fwd, 7 Back (0). 10 Back (-10). 10 Fwd (0). Net is 0. Model math: 7 Fwd - 7 Back = 0. Then 10 Back - 10 Fwd = 0. Wait, model logic: '7 steps behind...'. It got confused in the middle step. Correct math: 7-7-10+10 = 0. Model: 7-7=0. 0-10=-10. -10+10=0. Model said '7 steps behind'."
+    },
+    {
+        "id": 46,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Right -> 9. Around. 9. (Back at start). Right. Model claims 9 steps west. 9 East, U-turn, 9 West = 0."
+    },
+    {
+        "id": 47,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 48,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Turn Left. Around. 1. 10. Around. 7. 4. Path: L (W). Around (E). 1 E. 10 E. (11 E). Around (W). 7 W (4 E). 4 W (0). Model calculated 2 steps away."
+    },
+    {
+        "id": 49,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 50,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 51,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning (10+7 = 17 Fwd. Around. 8+9 = 17 Back)."
+    },
+    {
+        "id": 52,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 53,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Model interprets 'forward' relative to the strafe direction which is non-standard but consistent, leading to the correct 'No'."
+    },
+    {
+        "id": 54,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 55,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Right -> 3. Around -> 3 (Back to start). Left. Model says 6 steps away."
+    },
+    {
+        "id": 56,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 57,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "9. L. L (Back). 5 (4). 4 (0). L. L (Fwd). Correct answer is Yes. Model calculates 14 steps away, incorrectly summing steps."
+    },
+    {
+        "id": 58,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 59,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 60,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Model's logic: 5L + 5L = 10L. 10R. Net 0. Logic is sound, but GT is Yes. Wait, Model said Yes. GT is Yes. Correct."
+    },
+    {
+        "id": 61,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 62,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says 10F, 10R, 10B means 'back at same point'. This is false (net displacement 10R). It then adds more steps. It concludes Yes incorrectly (GT is No)."
+    },
+    {
+        "id": 63,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 64,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 65,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 66,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "7 F - 3 B = 4 F. 4 F - 4 B = 0. Model calculated 8 steps away."
+    },
+    {
+        "id": 67,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 68,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 69,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "3 Fwd. L, L (Back). Around (Fwd). 5 (8). Around (Back). 5 (3). Model says '5 steps backward... 2 steps backward... moved 5 steps forward'."
+    },
+    {
+        "id": 70,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Correct conclusion (No), but logic says 10-4=6, 6-6=2? Arithmetic error."
+    },
+    {
+        "id": 71,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 72,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 73,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 74,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 75,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model assumes 'Take X steps left' means 'Turn left X degrees'. This is a complete failure of instruction understanding."
+    },
+    {
+        "id": 76,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 77,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "1 + 5 + 1 + 6 = 13 steps away. Turns don't bring you back unless you walk. 7+2+4 = 13 back. Correct. But logic '6 steps - 7 steps = 6 steps' is weird. Let's re-read model. Model calculated 13 steps out. Then 7+2+4=13 steps back. It got it right! Wait. GT is No. Let's check GT. 1+5+1+6 = 13 Fwd. Left. 7+2+4=13 Left. Pos (0, 13) vs (13, 0). Not back. Model ignored the 'Turn Left' directional change."
+    },
+    {
+        "id": 78,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model calculation: 1B, 5R, 3L (2R), 1B (2B), 5B (7B), 4F (3B), 3F (0B), 2L (0R). Total (0,0). Model claims '2 steps behind'. -1 -1 -5 +4 +3 = 0. Model math: -1 -1 -5 = -7. +4 = -3. +3 = 0. Where did it get 2? '5-4=1'. '1+3=4'. '4-2=2'. It mixed the Left steps into the Forward/Backward calculation."
+    },
+    {
+        "id": 79,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "5R. 8B. 1R (6R). 7B (15B). Model: '7 steps away in right... 7 steps away in left'. Nonsense."
+    },
+    {
+        "id": 80,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 81,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Around (S). Left (E). 1+2 = 3 E. Around x3 (N). 3 N. Pos (3, 3). No. Model: '3 steps forward in opposite direction... 3 steps away'. Model thinks 3E and 3 'opposite' cancel? It says '3 steps away in both... actually 6 steps away'. Conclusion matches GT 'Yes'? Wait. GT is Yes? Let's check. Start North. Around (South). Left (East). 1 step (1E). 2 steps (3E). Around (West). Around (East). Around (West). 3 steps (0E). Yes. Model got No. Model analysis of direction was 'Opposite of original' vs 'Original'. It lost track."
+    },
+    {
+        "id": 82,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "8 F. 9 R. 2 F (10F, 9R). 10 B (0F, 9R). 9 L (0F, 0R). Yes. Model: '9 left... 9 steps away from starting point in opposite direction'. Model confused Left with Opposite."
+    },
+    {
+        "id": 83,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "8+1 = 9 Fwd. L, L (Back). 9 Back (0). Yes. Model: 'Turns don't affect overall distance'."
+    },
+    {
+        "id": 84,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 85,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 86,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 87,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model interprets 'Backward' as 'Right' because of previous 'Left' steps? Logic is flawed."
+    },
+    {
+        "id": 88,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 89,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 90,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 91,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 92,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "L (W). 9. 9. Pos 18 West. Model thinks moving same direction brings you back?"
+    },
+    {
+        "id": 93,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 94,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 95,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 96,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 97,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "6 Fwd. R, R (Back). 7 Back (1 Back). Around (Fwd). 1 Fwd (0). Yes. Model failed to track the U-turn correctly."
+    },
+    {
+        "id": 98,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "9R + 6R = 15R. 10B. 9L + 4L = 13L. Net x = 2. Model: '4 - 4 = 0'."
+    },
+    {
+        "id": 99,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "15 Fwd. L. 27 L. No. Model interprets Left as Backward and sums everything to 0."
+    },
+    {
+        "id": 100,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 101,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 102,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Around (S). R (W). 7 (W). R (N). Pos 7 West. No. Model didn't track coordinates."
+    },
+    {
+        "id": 103,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 104,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 105,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 106,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 107,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 108,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "5 R. 7 L (2 L). 8 R (6 R). 6 L (0). Yes. Model interpreted 'facing opposite direction'."
+    },
+    {
+        "id": 109,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 110,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 111,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Around (S). L (E). 10 E. No. Model: '10 steps in same direction... return'."
+    },
+    {
+        "id": 112,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 113,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 114,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "10L + 10R = 0. 7B + 7F = 0. Yes. Model got Yes, but reasoning text ('effectively turning around 10 times') is pure hallucination."
+    },
+    {
+        "id": 115,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "10L + 7R + 4R + 1L = 10L + 1L - 11R = 0. Yes. Model calculated 10 away."
+    },
+    {
+        "id": 116,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "10 Fwd. R, R (Back). 10 Back (0). Yes. Model failed to realize R+R = Back."
+    },
+    {
+        "id": 117,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 118,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 119,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "4B, 8F (4F), 10B (6B), 2F (4B), 4F (0). Yes. Model made arithmetic error at end (4+4=8)."
+    },
+    {
+        "id": 120,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "3F, 3B -> 0. Yes. Model says 3 steps behind? 3-3=0."
+    },
+    {
+        "id": 121,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 122,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 123,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "L, L (Back). Around (Fwd). 7 Fwd. L, L (Back). 7 Back (0). Yes. Model claimed 7 steps away."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Calculations '1 step behind' incorrect but conclusion 'No' correct."
+    },
+    {
+        "id": 125,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 126,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 127,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "6B. 8L. 3R (5L). 7F. 3R (2L). 9R (7R). 1B. 7L (0). Pos: x=0, y=6B+7F-1B=0. Yes. Model said No. (GT is Yes. Model said No. Incorrect)."
+    },
+    {
+        "id": 128,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 129,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "7B. 1F. 1B. 5F. 6B. 8F. Net: -7 +1 -1 +5 -6 +8 = 0. Yes. Model claimed 2 steps away."
+    },
+    {
+        "id": 130,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 131,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 132,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "1R, 2F, 2R, 4R. Net: x=3, y=-2. Model says x=3, y=-2. Correct math, logic score 5? Oh, model says '2 steps south... 3 steps east'. It correctly identified coordinates. Score 5."
+    },
+    {
+        "id": 133,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 134,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 135,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 136,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 137,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 138,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 139,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 140,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "9L. 5R (4L). 2L (6L). 2R (4L). 6F. 10B. 1F. 6L (10L). No. Model concludes 'returned to starting point'."
+    },
+    {
+        "id": 141,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 142,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "5F + 10F = 15F. Turn around. 15B. At start. No. Model thinks 15 backward means back to start. But it says 'Turn around' is a step? No, prompt is 'Take 5 steps. Take 10 steps. Turn around.' (End). It ends facing back, 15 steps away."
+    },
+    {
+        "id": 143,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 144,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 145,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "L. R (Fwd). 5F. 4F (9F). Around. 9B (0). Yes. Model says 'don't know direction of starting point'."
+    },
+    {
+        "id": 146,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 147,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "R. Around (L). 2L. 6L (8L). 4L (12L). No. Model claimed 'back at starting point' with flawed math."
+    },
+    {
+        "id": 148,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 149,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 150,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 151,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 152,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 153,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 154,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 155,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 156,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 157,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 158,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 159,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "5 F. Around. 4 B (1 F). 1 B (0). L. Around (R). L (Fwd). Yes. Model calculated 5 steps forward."
+    },
+    {
+        "id": 160,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "10 F. Around. 1 B (11 F). 9 B (20 F). Around. No. Model: 10 - 10 = 0? (Step 2 was 'Turn around'). Step 3 'Take 1 step'. Model hallucinated '10 steps backward'."
+    },
+    {
+        "id": 161,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 162,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 163,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 164,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 165,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "L. L (Back). 6. 3 (9). Around (Fwd). 1 (8). 3 (5). 5 (0). Yes. Model got 9 steps away."
+    },
+    {
+        "id": 166,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 167,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 168,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 169,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 170,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "8L + 2R + 6R = 0. Yes. Model calculated 16 steps backward (adding all as backward)."
+    },
+    {
+        "id": 171,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 172,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 173,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 174,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "10 Fwd. L. Around (R). 9 (9R). 8 (17R). R (B). Around (F). 8 (8F). Pos (8, 17). No. Model logic is messy."
+    },
+    {
+        "id": 175,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 176,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "2 Fwd. 10 Fwd (12). Around. 6 B (6 Fwd). Yes. Model calculated 6 away. Wait. 12 steps away. Turn around. Move 6. You are 6 steps away. The instructions imply returning to (0,0). Being 6 steps away is No. GT is Yes? Ah. 2 + 10 = 12. Turn around. 6 steps. Left. Right. 6 steps. (Total 12 steps back). 12-12=0. Model missed the last 'Take 6 steps' instruction. Prompt has 'Take 6 steps' twice? Prompt: 'Take 2 steps. Take 10 steps. Turn around. Take 6 steps. Turn left. Turn right. Take 6 steps.' Model parsed last steps as just turns."
+    },
+    {
+        "id": 177,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "7+4+3+10 = 24. L. Around (R). No. Model says 'moving 24 steps backward'."
+    },
+    {
+        "id": 178,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 179,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "L. Around (R). 4. 5. L (Fwd). 3. No. Model: 'back at starting point'."
+    },
+    {
+        "id": 180,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 181,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 182,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 183,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 184,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 185,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 186,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 187,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 188,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 189,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "R. 5. 6. 4. 1. (16). Around. 6. 10. (16). Around (Fwd). Yes. Model calculated distance as 10 away."
+    },
+    {
+        "id": 190,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 191,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 192,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 193,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 194,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 195,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 196,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 197,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 198,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 199,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "3+5 = 8 Fwd. Around. 3+5 = 8 Back (0). R, R. Yes. Model calculated 10 away."
+    },
+    {
+        "id": 200,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 201,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 202,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "4. Around. 4 (0). Around. R. Yes. Model calculated 'no net movement' then answered No."
+    },
+    {
+        "id": 203,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "6+4=10. Around. 10 (0). Yes. Model calculated 20 steps away."
+    },
+    {
+        "id": 204,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 205,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "10. L. L (Back). 9. 3. 3 (15). Around (Fwd). 5 (10). Yes. Model said 20 steps forward."
+    },
+    {
+        "id": 206,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "L. R (Fwd). 7. Around. 7 (0). R, L, R. Yes. Model said No."
+    },
+    {
+        "id": 207,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "8+9=17. R. R (Back). 8 (9). 9 (0). Yes. Model calculated 17 steps away."
+    },
+    {
+        "id": 208,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 209,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 210,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 211,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 212,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "6 B. 8 R. 1 B (7 B). 5 L. 2 L (7 L). No. Model: '2 units left -> 0 units'."
+    },
+    {
+        "id": 213,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model hallucinates degrees."
+    },
+    {
+        "id": 214,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "4L + 3F + 1R = 3L + 3F. No. Model calculated back at starting point."
+    },
+    {
+        "id": 215,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 216,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "R. R (Back). Around (Fwd). L. 4+10+8 = 22. No. Model logic fails on direction."
+    },
+    {
+        "id": 217,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "10. Around. 9 (1). 10 (-9). Around. 3 (-6). 6 (0). Yes. Model calculated 8 steps away."
+    },
+    {
+        "id": 218,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "7+9=16. Around. R (Side). No. Model claimed 'moving forward again'."
+    },
+    {
+        "id": 219,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 220,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 221,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 222,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 223,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 224,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "7L + 8L + 7L = 22L. 2R + 7R = 9R. 7F + 9F = 16F. 5B. Net: 13L, 11F. No. Model calculated 'cancels out'."
+    },
+    {
+        "id": 225,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 226,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Around. 4. Around. 4 (0). Yes. Model calculated 8 steps forward."
+    },
+    {
+        "id": 227,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "6 L + 6 R = 0. Yes. Model calculated 6 steps away."
+    },
+    {
+        "id": 228,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 229,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 230,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 231,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Correct answer, flawed intermediate description but correct logic."
+    },
+    {
+        "id": 232,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 233,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "7 Fwd. Around. Around (Fwd). Around (Back). 1 (6). 6 (0). Yes. Model calculated 14 steps forward."
+    },
+    {
+        "id": 234,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 235,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "5L + 8L + 6L = 19L. 4R. Net 15L. No. Model calculated Yes."
+    },
+    {
+        "id": 236,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 237,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Around. 2. 8 (10). Around. 10 (0). Around. Yes. Model calculated 20 steps."
+    },
+    {
+        "id": 238,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "6+4=10. 9B (1). 1B (0). Yes. Model calculated 2 steps backward."
+    },
+    {
+        "id": 239,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 240,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 241,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 242,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "10. Around. R (L). L (L). Facing L. No. Model concluded Yes."
+    },
+    {
+        "id": 243,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 244,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 245,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 246,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 247,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "6R - 9L - 5L + 8R = 0. Yes. Model calculated 2 steps away."
+    },
+    {
+        "id": 248,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "4L. 5B. 2F. Pos (4L, 3B). No. Model calculated Yes."
+    },
+    {
+        "id": 249,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 250,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    }
+]

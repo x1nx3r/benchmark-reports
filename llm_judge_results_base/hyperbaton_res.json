@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model incorrectly classifies 'grey' as size and 'old' as opinion, leading to the wrong order. The standard order is Opinion-Size-Age-Shape-Color-Origin-Material. Here: Size (midsize) - Age (old) - Color (grey) - Origin (Brazilian)."
+    },
+    {
+        "id": 2,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model incorrectly classifies the adjectives. It calls 'rubber' color and 'Mexican' emotion. The correct order is Size (midsize) - Color (gray) - Origin (Mexican) - Material (rubber) - Purpose (walking)."
+    },
+    {
+        "id": 3,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "The model selects the correct answer, although its classification of specific adjectives (calling 'mysterious' origin/material) is confused."
+    },
+    {
+        "id": 4,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Shape (rectangular) - Material (cloth) - Purpose (smoking)."
+    },
+    {
+        "id": 5,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "The model hallucinates grammatical categories completely (e.g., claiming 'American' is a possessive adjective and 'glass' is quantitative)."
+    },
+    {
+        "id": 6,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "The answer is correct, but the reasoning misclassifies 'midsize' as a comparative adjective."
+    },
+    {
+        "id": 7,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model incorrectly claims 'tan' is a quality/opinion adjective and places it first. Tan is a color and should come later."
+    },
+    {
+        "id": 8,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model incorrectly identifies the order. 'Repulsive' is an opinion and should come first. 'Wool' is material and should be near the end."
+    },
+    {
+        "id": 9,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Size - Age - Shape - Color - Origin."
+    },
+    {
+        "id": 10,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Size (enormous) - Shape (rectangular) - Color (blue)."
+    },
+    {
+        "id": 11,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Shape - Color - Origin - Material."
+    },
+    {
+        "id": 12,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model misapplies the rules. 'Terrible' is an opinion and should come first. The model incorrectly places it last."
+    },
+    {
+        "id": 13,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the standard order: Opinion - Size - Color - Origin - Material/Type."
+    },
+    {
+        "id": 14,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model incorrectly claims 'silver' is shape/color and 'square' is size/quantity. Square is shape, silver is color/material. Size (if present) -> Shape -> Color. Ground truth is B (Square [Shape] Red [Color] Silver [Material/Color])."
+    },
+    {
+        "id": 15,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies that 'nice' (opinion) comes before 'American' (origin)."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion (enormous) - Color (yellow) - Origin (Egyptian) - Purpose (driving)."
+    },
+    {
+        "id": 17,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model incorrectly places Origin (Egyptian) before Color (yellow). Standard order places Color before Origin."
+    },
+    {
+        "id": 18,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Size - Color - Origin."
+    },
+    {
+        "id": 19,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Size - Color - Origin - Material."
+    },
+    {
+        "id": 20,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Size - Shape - Color - Material - Purpose."
+    },
+    {
+        "id": 21,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Size - Shape - Color - Origin - Purpose."
+    },
+    {
+        "id": 22,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Size - Shape - Color - Material."
+    },
+    {
+        "id": 23,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Age (new) - Color (white) - Material (lead) - Purpose (walking)."
+    },
+    {
+        "id": 24,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model incorrectly claims 'ancient' describes age and 'mysterious' describes nature, but places Age before Opinion. Standard order is Opinion before Age."
+    },
+    {
+        "id": 25,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies the categories correctly (Quality, Material, Size...) but fails to apply the standard order: Size - Age/Quality - Shape - Origin - Material. Wait, standard is Opinion-Size-Age-Shape-Color-Origin-Material. Option B is Size (big) - Age (new) - Shape (triangular) - Origin (American) - Material (leather). This is the correct standard order. The model chose A."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion (ridiculous) - Size (big) - Age (ancient) - Shape (rectangular) - Color (green) - Material (silver)."
+    },
+    {
+        "id": 27,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly places opinion/quality (silly) before size (midsize)."
+    },
+    {
+        "id": 28,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion (ridiculous) - Color (grey) - Material (cardboard) - Purpose (whittling)."
+    },
+    {
+        "id": 29,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model hallucinates that 'brand-new' is quality (it is age) and 'enormous' is size. It places age before size. Standard order is Size - Age. Correct is A (Enormous brand-new)."
+    },
+    {
+        "id": 30,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly places opinion/quality (old-fashioned) before shape (square) and origin (Congolese)."
+    },
+    {
+        "id": 31,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model chose A: Size-Color-Shape-Material-Origin. Correct order: Size-Shape-Color-Origin-Material. Option B is correct (Small Square Grey Japanese Cloth)."
+    },
+    {
+        "id": 32,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Size - Age - Shape - Origin."
+    },
+    {
+        "id": 33,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly places Shape before Origin."
+    },
+    {
+        "id": 34,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Size - Color - Origin - Material - Purpose."
+    },
+    {
+        "id": 35,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model incorrectly prioritizes Origin/Purpose first. The correct order is Size (midsize) - Shape (prismlike) - Color (orange) - Material (iron) - Purpose (snorkeling)."
+    },
+    {
+        "id": 36,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Age - Color - Origin - Material - Purpose."
+    },
+    {
+        "id": 37,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Shape - Color - Origin - Material."
+    },
+    {
+        "id": 38,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model incorrectly classifies 'cloth' as a possessive adjective and places it first. Standard order is Opinion - Age - Color - Material. Correct is A."
+    },
+    {
+        "id": 39,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model incorrectly classifies 'midsize' as a quantifier and places it before opinion 'nice'. Standard order is Opinion - Size."
+    },
+    {
+        "id": 40,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly places Age (new) before Color (green)."
+    },
+    {
+        "id": 41,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Size - Age - Shape - Origin."
+    },
+    {
+        "id": 42,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies that Origin (Vietnamese) usually precedes Material (wood)."
+    },
+    {
+        "id": 43,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly places Opinion (awful) before Origin (Russian) and Material (steel)."
+    },
+    {
+        "id": 44,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model missed the opinion adjective 'awful' in option A's analysis (it wasn't in option A) but then selected A. Ground truth is B which correctly places awful (opinion) first."
+    },
+    {
+        "id": 45,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Size - Shape - Color - Purpose."
+    },
+    {
+        "id": 46,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Size - Age - Color/Material - Purpose."
+    },
+    {
+        "id": 47,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model claims 'triangular yellow old awful' is correct order (Shape-Color-Age-Opinion). This is the reverse of standard order (Opinion-Age-Shape-Color). Correct is B."
+    },
+    {
+        "id": 48,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model provides a very confused categorization for option A (calling 'new' origin/material, 'whittling' origin/material) and selects the incorrect option."
+    },
+    {
+        "id": 49,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model states Opinion comes before Size, which is correct, but then selects option B where Opinion comes before Size? Wait. A: Terrible (Opinion) Midsize (Size). B: Terrible Snorkeling Midsize. The model selects B. Ground Truth is A. The model failed to recognize 'Snorkeling' as Purpose (last)."
+    },
+    {
+        "id": 50,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model completely miscategorizes adjectives (calling 'Nigerian' possessive and 'enormous' superlative to come last). Standard order: Size - Age - Shape - Origin - Material."
+    },
+    {
+        "id": 51,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Shape - Origin - Purpose."
+    },
+    {
+        "id": 52,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Color before Material."
+    },
+    {
+        "id": 53,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Size - Shape - Origin - Purpose."
+    },
+    {
+        "id": 54,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model hallucinates the 'correct order' in its explanation, claiming Red comes before Rubber (true) but Repulsive comes before New (true). It selects B, but B starts with Red Rubber. A starts with Repulsive. Standard: Opinion-Size-Age-Shape-Color-Material-Purpose. A is correct."
+    },
+    {
+        "id": 55,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion (terrible) - Age/Type (old-fashioned) - Origin (Turkish)."
+    },
+    {
+        "id": 56,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Size - Age - Shape - Color - Origin."
+    },
+    {
+        "id": 57,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Size - Age/Opinion - Material - Purpose."
+    },
+    {
+        "id": 58,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Size - Opinion - Origin - Material - Purpose."
+    },
+    {
+        "id": 59,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Size - Age - Shape - Color."
+    },
+    {
+        "id": 60,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model claims Origin comes before Opinion. Standard order is Opinion - Origin. Correct is B."
+    },
+    {
+        "id": 61,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Age/Type - Color - Origin - Material."
+    },
+    {
+        "id": 62,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Size - Shape - Color - Material - Purpose."
+    },
+    {
+        "id": 63,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model misidentifies 'fiberglass' as a descriptive adjective that should come first. It is material, should come last. Size and Color come before Material."
+    },
+    {
+        "id": 64,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly places Opinion (lovely) before Age (old) and Color (silver)."
+    },
+    {
+        "id": 65,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Size - Age - Color."
+    },
+    {
+        "id": 66,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly places Color (grey) before Origin (Chinese) and Purpose (drinking)."
+    },
+    {
+        "id": 67,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model claims option B is correct but fails to justify the random order in B vs A. Standard: Size - Shape - Color - Origin - Material - Purpose. Option A follows this almost perfectly (Big Circular Pink Thai Silver Driving)."
+    },
+    {
+        "id": 68,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Size - Age - Shape - Color - Origin - Material - Purpose."
+    },
+    {
+        "id": 69,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Size - Shape - Color - Material."
+    },
+    {
+        "id": 70,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Size - Age - Shape - Color - Material - Purpose."
+    },
+    {
+        "id": 71,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model incorrectly claims Origin comes before Opinion/Shape. Correct order: Opinion - Shape - Origin."
+    },
+    {
+        "id": 72,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Origin before Purpose."
+    },
+    {
+        "id": 73,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly places Color before Purpose."
+    },
+    {
+        "id": 74,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Age before Purpose."
+    },
+    {
+        "id": 75,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model selects A which has 'Circular Pakistani Exercise Steel Mysterious...'. This violates the Opinion-first rule. Option B puts Opinion 'Mysterious' first."
+    },
+    {
+        "id": 76,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model claims A is correct, putting Purpose 'Snorkeling' first. Standard order puts Opinion 'Awful' first."
+    },
+    {
+        "id": 77,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Size - Color - Origin."
+    },
+    {
+        "id": 78,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Age - Shape - Color - Origin."
+    },
+    {
+        "id": 79,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model claims 'Congolese' (Origin) comes before 'Rectangular' (Shape). Standard order is Age - Shape - Color - Origin."
+    },
+    {
+        "id": 80,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model claims 'gold' is a color that should come first, then 'Russian' (Origin), then Size. Standard order: Size - Color - Origin - Material/Purpose. Correct is A."
+    },
+    {
+        "id": 81,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Size - Shape - Origin - Purpose."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Size - Shape - Origin - Purpose."
+    },
+    {
+        "id": 83,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Age - Shape - Color - Origin - Material - Purpose."
+    },
+    {
+        "id": 84,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Size - Age - Shape - Purpose."
+    },
+    {
+        "id": 85,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Age - Origin - Purpose."
+    },
+    {
+        "id": 86,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Size - Age - Color - Material."
+    },
+    {
+        "id": 87,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Size - Shape - Color - Origin - Material - Purpose."
+    },
+    {
+        "id": 88,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Size - Color - Origin - Purpose."
+    },
+    {
+        "id": 89,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Size - Age - Shape - Origin - Purpose."
+    },
+    {
+        "id": 90,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Size - Shape - Color."
+    },
+    {
+        "id": 91,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places the Purpose adjective 'Drinking' first. Standard order places Purpose last."
+    },
+    {
+        "id": 92,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Size - Shape - Color - Origin - Material."
+    },
+    {
+        "id": 93,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model claims Nationality comes before Style/Age. Standard order is Size - Age - Origin. Correct is B (Midsize Old-fashioned Filipino)."
+    },
+    {
+        "id": 94,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Size - Shape - Color - Material - Purpose."
+    },
+    {
+        "id": 95,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Size - Shape - Purpose."
+    },
+    {
+        "id": 96,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Size - Age - Shape - Color - Material."
+    },
+    {
+        "id": 97,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model claims 'Archaic' (age) comes before 'Nice' (opinion). Standard order is Opinion - Age."
+    },
+    {
+        "id": 98,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly places Opinion first and Purpose last."
+    },
+    {
+        "id": 99,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly places Size before Shape."
+    },
+    {
+        "id": 100,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Size - Color - Origin."
+    },
+    {
+        "id": 101,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Shape - Color - Material."
+    },
+    {
+        "id": 102,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Age - Shape - Origin."
+    },
+    {
+        "id": 103,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model claims 'New' (Age) should come last, which is incorrect. Standard order: Opinion - Age - Shape - Color - Origin. Correct is B."
+    },
+    {
+        "id": 104,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Age - Shape - Color - Material."
+    },
+    {
+        "id": 105,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model correctly states the rule (Opinion before Size) but selects A where Opinion (Repulsive) is first, matching its reasoning. However, Ground Truth is B. Ground Truth B places Repulsive (Opinion) first. Wait. A: Repulsive Normal-size Old-fashioned Green... B: Repulsive Normal-size Old-fashioned Green... Wait, both options in the model input are identical? No, looking closely... Actually, the options in the prompt for 105 look identical in the model output text. Let me check the prompt text. Options: (A) repulsive normal-size green old-fashioned... (B) repulsive normal-size old-fashioned green... Ah, the difference is green/old-fashioned. A is Color-Age. B is Age-Color. Standard is Age-Color. So B is correct. Model selected A."
+    },
+    {
+        "id": 106,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Size - Shape - Origin - Material - Purpose."
+    },
+    {
+        "id": 107,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Age - Shape - Color - Origin - Purpose."
+    },
+    {
+        "id": 108,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Material (Rubber) before Age (Archaic). Standard order is Size - Age - Material - Purpose. Correct is B."
+    },
+    {
+        "id": 109,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Size before Quality/Opinion. Standard order is Opinion - Size. Correct is B."
+    },
+    {
+        "id": 110,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Age - Color - Origin - Purpose."
+    },
+    {
+        "id": 111,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Color - Purpose."
+    },
+    {
+        "id": 112,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Age - Material."
+    },
+    {
+        "id": 113,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model classifies 'brand-new' as comparative and places it first. Standard order: Opinion (Terrible) - Size (Large) - Age (Brand-new). Correct is B."
+    },
+    {
+        "id": 114,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Shape - Color - Origin."
+    },
+    {
+        "id": 115,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Color before Opinion. Standard order is Opinion - Color. Correct is B."
+    },
+    {
+        "id": 116,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model fails to correctly order Age-Shape-Color-Origin-Material. It places Material (Paper) first. Correct is B."
+    },
+    {
+        "id": 117,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Age - Origin - Material."
+    },
+    {
+        "id": 118,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Size - Age - Color - Material - Purpose."
+    },
+    {
+        "id": 119,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Material."
+    },
+    {
+        "id": 120,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Origin - Material."
+    },
+    {
+        "id": 121,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Material (Fiberglass) before Age (Old). Standard order is Age - Material. Correct is B."
+    },
+    {
+        "id": 122,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Size before Opinion. Standard order is Opinion - Size. Correct is B."
+    },
+    {
+        "id": 123,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model selects B, placing Size (Tiny) before Origin (Thai), which is correct. However, B places Purpose (Eating) last. A places Origin first. Wait, A is Thai Tiny Fiberglass Eating. B is Tiny Thai Fiberglass Eating. Standard: Size - Origin - Material - Purpose. B is the correct order. Model is Correct. Ground Truth says B."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the order: Opinion - Size - Shape - Color - Origin - Purpose."
+    },
+    {
+        "id": 125,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Age - Color - Origin."
+    },
+    {
+        "id": 126,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion before Material."
+    },
+    {
+        "id": 127,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Age - Shape - Color - Material."
+    },
+    {
+        "id": 128,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Age - Shape - Color - Material - Purpose."
+    },
+    {
+        "id": 129,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Shape before Size. Standard order is Size - Shape. Correct is B."
+    },
+    {
+        "id": 130,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Origin before Material."
+    },
+    {
+        "id": 131,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Shape - Origin - Material."
+    },
+    {
+        "id": 132,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Shape - Origin - Purpose."
+    },
+    {
+        "id": 133,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Age - Shape - Origin."
+    },
+    {
+        "id": 134,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Color before Size. Standard order is Size - Color. Correct is B."
+    },
+    {
+        "id": 135,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Material (Fiberglass) before Age and Shape. Standard order is Opinion - Age - Shape - Color - Origin - Material. Correct is B."
+    },
+    {
+        "id": 136,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly places Size before Material."
+    },
+    {
+        "id": 137,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Age - Origin - Purpose."
+    },
+    {
+        "id": 138,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Age - Color - Origin - Material - Purpose."
+    },
+    {
+        "id": 139,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Origin (Nigerian) before Opinion (Silly). Standard order is Opinion - Age - Shape - Origin - Purpose. Correct is B."
+    },
+    {
+        "id": 140,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Age - Shape - Origin - Material."
+    },
+    {
+        "id": 141,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Age before Color/Material."
+    },
+    {
+        "id": 142,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Age - Shape - Color - Origin - Material."
+    },
+    {
+        "id": 143,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Age - Color - Material - Purpose."
+    },
+    {
+        "id": 144,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Age - Color - Purpose."
+    },
+    {
+        "id": 145,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Age - Shape - Material."
+    },
+    {
+        "id": 146,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Age - Shape - Origin - Purpose."
+    },
+    {
+        "id": 147,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Color."
+    },
+    {
+        "id": 148,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Origin - Purpose."
+    },
+    {
+        "id": 149,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Material (Cardboard) first. Standard order is Opinion - Age - Material. Correct is B."
+    },
+    {
+        "id": 150,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Shape - Purpose."
+    },
+    {
+        "id": 151,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Origin (Bangladeshi) before Color (Red). Standard order is Age - Color - Origin. Correct is B."
+    },
+    {
+        "id": 152,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Origin (Congolese) before Shape and Size. Standard order is Size - Shape - Origin - Purpose. Correct is A."
+    },
+    {
+        "id": 153,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Age - Purpose."
+    },
+    {
+        "id": 154,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Color - Purpose."
+    },
+    {
+        "id": 155,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Age - Shape - Color - Purpose."
+    },
+    {
+        "id": 156,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Shape, Material and Origin before Opinion/Age. Standard order is Opinion - Age - Shape - Color - Origin - Material - Purpose. Correct is B."
+    },
+    {
+        "id": 157,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Origin (Indian) before Shape (Pyramidal). Standard order is Opinion - Shape - Origin. Correct is B."
+    },
+    {
+        "id": 158,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Age - Material - Purpose."
+    },
+    {
+        "id": 159,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Age - Shape - Color - Origin - Material - Purpose."
+    },
+    {
+        "id": 160,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Color."
+    },
+    {
+        "id": 161,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Size before Opinion. Standard order is Opinion - Size. Correct is B."
+    },
+    {
+        "id": 162,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Age - Shape - Color - Origin."
+    },
+    {
+        "id": 163,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Age - Shape - Purpose."
+    },
+    {
+        "id": 164,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Shape - Origin."
+    },
+    {
+        "id": 165,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Age - Shape - Color - Material - Purpose."
+    },
+    {
+        "id": 166,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Origin before Color. Standard order is Color - Origin. Correct is A."
+    },
+    {
+        "id": 167,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Shape - Color - Origin - Material."
+    },
+    {
+        "id": 168,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Origin before Shape. Standard order is Opinion - Shape - Origin - Purpose. Correct is A."
+    },
+    {
+        "id": 169,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Shape - Purpose."
+    },
+    {
+        "id": 170,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Age - Origin."
+    },
+    {
+        "id": 171,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Material (lead) before Color (orange). Standard order is Opinion - Color - Material - Purpose. Correct is B."
+    },
+    {
+        "id": 172,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Material - Purpose."
+    },
+    {
+        "id": 173,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Origin - Material - Purpose."
+    },
+    {
+        "id": 174,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Purpose (Snorkeling) first. Standard order is Age - Origin - Material - Purpose. Correct is A."
+    },
+    {
+        "id": 175,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Age - Shape - Material."
+    },
+    {
+        "id": 176,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Color - Origin - Material - Purpose."
+    },
+    {
+        "id": 177,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Color and Material before Size and Opinion. Standard order is Opinion - Size - Color - Material. Correct is B."
+    },
+    {
+        "id": 178,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Age - Shape - Origin - Material."
+    },
+    {
+        "id": 179,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Age - Shape - Purpose."
+    },
+    {
+        "id": 180,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Purpose (Smoking) before Material (Plastic) and Color (Blue). Standard order is Color - Material - Purpose. Correct is B."
+    },
+    {
+        "id": 181,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Age - Shape."
+    },
+    {
+        "id": 182,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model incorrectly prioritizes Size over Color and Nationality. Wait, A starts with Green (Color). B starts with Normal-size (Size). Standard: Size - Age - Color - Origin - Purpose. B has Age (Archaic) after Size. A has Green before Typing/Brazilian. A: Green Typing Brazilian Archaic Normal-size. That's a mess. B: Normal-size Archaic Green Brazilian Typing. This follows Size - Age - Color - Origin - Purpose. Model selected B. Ground Truth is B. Model is Correct."
+    },
+    {
+        "id": 183,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Age - Color - Purpose."
+    },
+    {
+        "id": 184,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Shape - Color - Material."
+    },
+    {
+        "id": 185,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model incorrectly identifies 'rectangular' before 'black'. Wait, A is Repulsive Huge Rectangular Black Lead. B is Repulsive Huge Rectangular Black Lead. The model says both are correct (same text?). Looking at prompt: A: repulsive rectangular black huge... B: repulsive huge rectangular black... Model misread option A text in reasoning? Model reasoning shows A has huge before rectangular. The actual option A has rectangular before huge. Standard order: Opinion - Size - Shape - Color - Material. B is correct. Model selected A."
+    },
+    {
+        "id": 186,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Shape - Material."
+    },
+    {
+        "id": 187,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Shape - Color - Origin - Material/Purpose."
+    },
+    {
+        "id": 188,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Origin (Nigerian) first. Standard order is Age - Shape - Origin - Material - Purpose. Correct is A."
+    },
+    {
+        "id": 189,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Shape - Material."
+    },
+    {
+        "id": 190,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Origin."
+    },
+    {
+        "id": 191,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Material."
+    },
+    {
+        "id": 192,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Color."
+    },
+    {
+        "id": 193,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Age - Shape."
+    },
+    {
+        "id": 194,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Shape before Opinion. Standard order is Opinion - Shape - Color - Purpose. Correct is B."
+    },
+    {
+        "id": 195,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Color - Origin."
+    },
+    {
+        "id": 196,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Shape (triangular) and Color before Opinion (silly). Standard order is Opinion - Shape - Color - Material - Purpose. Correct is B."
+    },
+    {
+        "id": 197,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Shape (pyramidal) before Size (big). Standard order is Opinion - Size - Shape - Material. Correct is B."
+    },
+    {
+        "id": 198,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Shape before Opinion and Material before Size. Standard order is Opinion - Size - Shape - Material. Correct is A."
+    },
+    {
+        "id": 199,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Age - Shape - Color - Origin - Material."
+    },
+    {
+        "id": 200,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Color - Origin - Material."
+    },
+    {
+        "id": 201,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Shape - Origin - Material."
+    },
+    {
+        "id": 202,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Shape."
+    },
+    {
+        "id": 203,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Age - Shape - Color - Origin - Material."
+    },
+    {
+        "id": 204,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Age - Shape - Origin - Material - Purpose."
+    },
+    {
+        "id": 205,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Age - Color - Purpose."
+    },
+    {
+        "id": 206,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Age - Color - Material."
+    },
+    {
+        "id": 207,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Age - Shape - Color - Purpose."
+    },
+    {
+        "id": 208,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Age - Shape - Material - Purpose."
+    },
+    {
+        "id": 209,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Color before Size. Standard order is Opinion - Size - Color - Purpose. Correct is B."
+    },
+    {
+        "id": 210,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model claims Pink is more descriptive/specific and should come first. Standard order is Opinion - Color. Correct is A."
+    },
+    {
+        "id": 211,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Age - Color - Origin - Material - Purpose."
+    },
+    {
+        "id": 212,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Age - Material."
+    },
+    {
+        "id": 213,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Shape - Material."
+    },
+    {
+        "id": 214,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Purpose (Driving) first. Standard order is Size - Shape - Origin - Material - Purpose. Correct is B."
+    },
+    {
+        "id": 215,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Age - Shape - Color - Material - Purpose."
+    },
+    {
+        "id": 216,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Color (silver) before Shape (prismlike) and Origin (brown - wait, brown is color). Standard: Shape - Color - Purpose. Prismlike Brown Silver Hiking? Or Silver Prismlike. Shape comes before Color. Prismlike Brown Silver. B is Correct. Model chose A."
+    },
+    {
+        "id": 217,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Age - Origin - Material."
+    },
+    {
+        "id": 218,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Purpose/Modifier (Smoking) before Age (New). Standard order is Size - Shape - Color - Age - Purpose. Wait. Age comes before Shape/Color usually. Opinion-Size-Age-Shape-Color. Large New Spherical Purple Smoking. B is Correct. Model selected A."
+    },
+    {
+        "id": 219,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Opinion (Lovely) after Nationality. Standard order is Opinion - Size - Shape - Color - Origin - Purpose. Correct is B."
+    },
+    {
+        "id": 220,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Age - Shape - Color - Material - Purpose."
+    },
+    {
+        "id": 221,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Color."
+    },
+    {
+        "id": 222,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Material."
+    },
+    {
+        "id": 223,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Origin - Color - Age - Shape. (Note: GT is A [Age-Shape-Color-Origin], Model picked B [Origin-Color-Age-Shape]. Wait. Standard is Age-Shape-Color-Origin. A is correct. Model selected B.)"
+    },
+    {
+        "id": 224,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Age - Shape - Color - Origin - Material."
+    },
+    {
+        "id": 225,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Shape - Color - Origin - Purpose."
+    },
+    {
+        "id": 226,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Age - Size - Color - Origin - Material. (Wait. Size usually before Age. Midsize Brand-new vs Brand-new Midsize. GT is A. Model picked A.)"
+    },
+    {
+        "id": 227,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Shape - Color - Material - Purpose."
+    },
+    {
+        "id": 228,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Material (Lead) first. Standard order is Opinion - Size - Shape - Material. Correct is B."
+    },
+    {
+        "id": 229,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Color (Pink) and Purpose (Driving) before Size. Standard order is Size - Shape - Color - Purpose. Correct is A."
+    },
+    {
+        "id": 230,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Purpose (Drinking) first. Standard order is Opinion - Color - Origin - Material - Purpose. Correct is B."
+    },
+    {
+        "id": 231,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Purpose (Drinking) before Shape and Color. Standard order is Age - Shape - Color - Purpose. Correct is B."
+    },
+    {
+        "id": 232,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Shape - Color - Material."
+    },
+    {
+        "id": 233,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Age - Origin - Material."
+    },
+    {
+        "id": 234,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Age - Color."
+    },
+    {
+        "id": 235,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Shape - Color."
+    },
+    {
+        "id": 236,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Origin and Material before Color. Standard order is Opinion - Color - Origin - Material. Correct is B."
+    },
+    {
+        "id": 237,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Color."
+    },
+    {
+        "id": 238,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Age (Archaic) and Size (Enormous) before Opinion (Awful). Wait. Opinion comes first. Awful Enormous Archaic. B is correct. Model selected A."
+    },
+    {
+        "id": 239,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Shape - Origin."
+    },
+    {
+        "id": 240,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Age - Shape - Color - Purpose."
+    },
+    {
+        "id": 241,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Color before Size. Standard order is Opinion - Size - Shape - Color - Material - Purpose. Correct is B (Silly Little Rectangular Red Cloth Eating)."
+    },
+    {
+        "id": 242,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Age - Shape - Origin."
+    },
+    {
+        "id": 243,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Purpose (Exercise) first. Standard order is Opinion - Shape - Origin - Purpose. Correct is A."
+    },
+    {
+        "id": 244,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Size - Age - Origin - Material - Purpose."
+    },
+    {
+        "id": 245,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Age - Shape - Color - Origin - Material."
+    },
+    {
+        "id": 246,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Size - Material."
+    },
+    {
+        "id": 247,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Size before Opinion. Standard order is Opinion - Size. Correct is B."
+    },
+    {
+        "id": 248,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Age - Origin - Purpose."
+    },
+    {
+        "id": 249,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies Opinion - Age - Shape - Origin."
+    },
+    {
+        "id": 250,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model places Origin (Egyptian) and Color (Tan) first. Standard order is Size - Age - Shape - Color - Origin - Purpose. Correct is B."
+    }
+]

@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": false,
+        "extracted_answer": "7",
+        "reasoning_score": 3,
+        "error_type": "hallucination",
+        "comment": "Model incorrectly classified 'drum' as not a musical instrument."
+    },
+    {
+        "id": 2,
+        "is_correct": false,
+        "extracted_answer": "14",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model set up the addition correctly (summing to 15) but calculated the final result as 14."
+    },
+    {
+        "id": 3,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly counted 1+1+1."
+    },
+    {
+        "id": 4,
+        "is_correct": true,
+        "extracted_answer": "14",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct addition of fruits."
+    },
+    {
+        "id": 5,
+        "is_correct": true,
+        "extracted_answer": "5",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct addition."
+    },
+    {
+        "id": 6,
+        "is_correct": false,
+        "extracted_answer": "6",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model summed the indices (1+2+3) instead of the quantities (1+1+1)."
+    },
+    {
+        "id": 7,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 8,
+        "is_correct": false,
+        "extracted_answer": "13",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error; the sum expression was correct but the result was wrong."
+    },
+    {
+        "id": 9,
+        "is_correct": true,
+        "extracted_answer": "9",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 10,
+        "is_correct": true,
+        "extracted_answer": "10",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 11,
+        "is_correct": true,
+        "extracted_answer": "10",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 12,
+        "is_correct": true,
+        "extracted_answer": "12",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 13,
+        "is_correct": true,
+        "extracted_answer": "6",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 14,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 15,
+        "is_correct": true,
+        "extracted_answer": "11",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "5",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct; correctly identified animals vs fruits."
+    },
+    {
+        "id": 17,
+        "is_correct": true,
+        "extracted_answer": "11",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 18,
+        "is_correct": true,
+        "extracted_answer": "9",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 19,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 20,
+        "is_correct": true,
+        "extracted_answer": "5",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 21,
+        "is_correct": true,
+        "extracted_answer": "6",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 22,
+        "is_correct": false,
+        "extracted_answer": "12",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error; the sum expression calculates to 13, model says 12."
+    },
+    {
+        "id": 23,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 24,
+        "is_correct": true,
+        "extracted_answer": "10",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 25,
+        "is_correct": true,
+        "extracted_answer": "5",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "5",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 27,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 28,
+        "is_correct": true,
+        "extracted_answer": "7",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 29,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 30,
+        "is_correct": true,
+        "extracted_answer": "16",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 31,
+        "is_correct": true,
+        "extracted_answer": "17",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 32,
+        "is_correct": false,
+        "extracted_answer": "6",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model counted the number of list items (categories) rather than the total quantity of objects (missed the '4' cars)."
+    },
+    {
+        "id": 33,
+        "is_correct": true,
+        "extracted_answer": "11",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 34,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 35,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 36,
+        "is_correct": true,
+        "extracted_answer": "6",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 37,
+        "is_correct": true,
+        "extracted_answer": "9",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 38,
+        "is_correct": true,
+        "extracted_answer": "6",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 39,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 40,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 41,
+        "is_correct": true,
+        "extracted_answer": "12",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 42,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 43,
+        "is_correct": false,
+        "extracted_answer": "18",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Illogical derivation: summed indices (1+2+3...) mixed with quantities."
+    },
+    {
+        "id": 44,
+        "is_correct": true,
+        "extracted_answer": "11",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 45,
+        "is_correct": true,
+        "extracted_answer": "7",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 46,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 47,
+        "is_correct": false,
+        "extracted_answer": "6",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model counted list items instead of total quantity (missed '4' trombones)."
+    },
+    {
+        "id": 48,
+        "is_correct": false,
+        "extracted_answer": "7",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model counted list items instead of quantities (missed '3' yams)."
+    },
+    {
+        "id": 49,
+        "is_correct": true,
+        "extracted_answer": "13",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 50,
+        "is_correct": false,
+        "extracted_answer": "9",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model explicitly decided to count multiple bananas as one fruit."
+    },
+    {
+        "id": 51,
+        "is_correct": true,
+        "extracted_answer": "10",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 52,
+        "is_correct": true,
+        "extracted_answer": "14",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 53,
+        "is_correct": false,
+        "extracted_answer": "7",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model counted list types instead of total quantities."
+    },
+    {
+        "id": 54,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 55,
+        "is_correct": true,
+        "extracted_answer": "11",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 56,
+        "is_correct": true,
+        "extracted_answer": "7",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 57,
+        "is_correct": true,
+        "extracted_answer": "16",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 58,
+        "is_correct": true,
+        "extracted_answer": "13",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 59,
+        "is_correct": false,
+        "extracted_answer": "12",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error; listed correct counts but summed 11 as 12."
+    },
+    {
+        "id": 60,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 61,
+        "is_correct": true,
+        "extracted_answer": "18",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 62,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 63,
+        "is_correct": true,
+        "extracted_answer": "9",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 64,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 65,
+        "is_correct": true,
+        "extracted_answer": "11",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 66,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 67,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 68,
+        "is_correct": false,
+        "extracted_answer": "6",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model counted list items instead of quantities (missed '4' lamps)."
+    },
+    {
+        "id": 69,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 70,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 71,
+        "is_correct": true,
+        "extracted_answer": "18",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 72,
+        "is_correct": false,
+        "extracted_answer": "3",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Correct final answer by coincidence, but derivation was '1+1+1=3' while claiming 'pig is 2 animals, snail is 3 animals' (sum of indices logic)."
+    },
+    {
+        "id": 73,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 74,
+        "is_correct": false,
+        "extracted_answer": "10",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error (sum is 11, model calculated 10)."
+    },
+    {
+        "id": 75,
+        "is_correct": false,
+        "extracted_answer": "16",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error (sum is 17, model calculated 16)."
+    },
+    {
+        "id": 76,
+        "is_correct": true,
+        "extracted_answer": "18",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 77,
+        "is_correct": true,
+        "extracted_answer": "7",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 78,
+        "is_correct": true,
+        "extracted_answer": "7",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 79,
+        "is_correct": true,
+        "extracted_answer": "12",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 80,
+        "is_correct": false,
+        "extracted_answer": "11",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error (sum is 12, model calculated 11)."
+    },
+    {
+        "id": 81,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "7",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 83,
+        "is_correct": false,
+        "extracted_answer": "13",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error (sum is 14, model calculated 13)."
+    },
+    {
+        "id": 84,
+        "is_correct": true,
+        "extracted_answer": "12",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 85,
+        "is_correct": true,
+        "extracted_answer": "6",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 86,
+        "is_correct": true,
+        "extracted_answer": "17",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 87,
+        "is_correct": true,
+        "extracted_answer": "9",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 88,
+        "is_correct": true,
+        "extracted_answer": "12",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 89,
+        "is_correct": false,
+        "extracted_answer": "12",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error (sum is 13, model calculated 12)."
+    },
+    {
+        "id": 90,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 91,
+        "is_correct": false,
+        "extracted_answer": "4",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model counted list items instead of quantities (missed '2' grapes)."
+    },
+    {
+        "id": 92,
+        "is_correct": false,
+        "extracted_answer": "12",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error (sum is 13, model calculated 12)."
+    },
+    {
+        "id": 93,
+        "is_correct": true,
+        "extracted_answer": "15",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 94,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 95,
+        "is_correct": false,
+        "extracted_answer": "10",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error (sum is 11, model calculated 10)."
+    },
+    {
+        "id": 96,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 97,
+        "is_correct": true,
+        "extracted_answer": "5",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 98,
+        "is_correct": false,
+        "extracted_answer": "12",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error (sum is 14, model calculated 12)."
+    },
+    {
+        "id": 99,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 100,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 101,
+        "is_correct": true,
+        "extracted_answer": "11",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 102,
+        "is_correct": true,
+        "extracted_answer": "11",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 103,
+        "is_correct": true,
+        "extracted_answer": "7",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 104,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 105,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 106,
+        "is_correct": false,
+        "extracted_answer": "6",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Illogical derivation: summed indices (1+2+3) instead of quantities."
+    },
+    {
+        "id": 107,
+        "is_correct": false,
+        "extracted_answer": "6",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Illogical derivation: summed indices (1+2+3) instead of quantities."
+    },
+    {
+        "id": 108,
+        "is_correct": true,
+        "extracted_answer": "9",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 109,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 110,
+        "is_correct": false,
+        "extracted_answer": "5",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error (sum is 6, model calculated 5 - 3+1+1=5)."
+    },
+    {
+        "id": 111,
+        "is_correct": false,
+        "extracted_answer": "6",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Illogical derivation: summed indices mixed with quantities."
+    },
+    {
+        "id": 112,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 113,
+        "is_correct": true,
+        "extracted_answer": "12",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 114,
+        "is_correct": true,
+        "extracted_answer": "9",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 115,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 116,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 117,
+        "is_correct": false,
+        "extracted_answer": "10",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error (sum is 11, model calculated 10)."
+    },
+    {
+        "id": 118,
+        "is_correct": true,
+        "extracted_answer": "7",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 119,
+        "is_correct": true,
+        "extracted_answer": "12",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 120,
+        "is_correct": false,
+        "extracted_answer": "10",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error (sum is 9, model calculated 10)."
+    },
+    {
+        "id": 121,
+        "is_correct": true,
+        "extracted_answer": "15",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 122,
+        "is_correct": true,
+        "extracted_answer": "5",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 123,
+        "is_correct": true,
+        "extracted_answer": "10",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "9",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 125,
+        "is_correct": false,
+        "extracted_answer": "14",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error (sum is 13, model calculated 14)."
+    },
+    {
+        "id": 126,
+        "is_correct": true,
+        "extracted_answer": "7",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 127,
+        "is_correct": true,
+        "extracted_answer": "7",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 128,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 129,
+        "is_correct": true,
+        "extracted_answer": "7",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 130,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 131,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 132,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 133,
+        "is_correct": true,
+        "extracted_answer": "16",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 134,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 135,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 136,
+        "is_correct": false,
+        "extracted_answer": "9",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model failed to correctly sum the quantities, seemingly mixing up count of list items."
+    },
+    {
+        "id": 137,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 138,
+        "is_correct": false,
+        "extracted_answer": "5",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model counted list items instead of quantities (missed '2' accordions)."
+    },
+    {
+        "id": 139,
+        "is_correct": true,
+        "extracted_answer": "5",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 140,
+        "is_correct": true,
+        "extracted_answer": "9",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 141,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 142,
+        "is_correct": true,
+        "extracted_answer": "16",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 143,
+        "is_correct": true,
+        "extracted_answer": "6",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 144,
+        "is_correct": true,
+        "extracted_answer": "10",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 145,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 146,
+        "is_correct": true,
+        "extracted_answer": "11",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 147,
+        "is_correct": true,
+        "extracted_answer": "9",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 148,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 149,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 150,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 151,
+        "is_correct": true,
+        "extracted_answer": "9",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 152,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 153,
+        "is_correct": true,
+        "extracted_answer": "5",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 154,
+        "is_correct": true,
+        "extracted_answer": "9",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 155,
+        "is_correct": true,
+        "extracted_answer": "5",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 156,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 157,
+        "is_correct": true,
+        "extracted_answer": "10",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 158,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 159,
+        "is_correct": true,
+        "extracted_answer": "11",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 160,
+        "is_correct": false,
+        "extracted_answer": "5",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model counted list items instead of quantities (missed '3' potatoes) and missed counting yams."
+    },
+    {
+        "id": 161,
+        "is_correct": true,
+        "extracted_answer": "6",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 162,
+        "is_correct": false,
+        "extracted_answer": "4",
+        "reasoning_score": 3,
+        "error_type": "no_answer",
+        "comment": "Model missed one nectarine in the count (stated 1, input says 'two nectarines')."
+    },
+    {
+        "id": 163,
+        "is_correct": true,
+        "extracted_answer": "7",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 164,
+        "is_correct": false,
+        "extracted_answer": "12",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error (sum is 13, model calculated 12)."
+    },
+    {
+        "id": 165,
+        "is_correct": true,
+        "extracted_answer": "9",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 166,
+        "is_correct": false,
+        "extracted_answer": "15",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error (sum is 16, model calculated 15)."
+    },
+    {
+        "id": 167,
+        "is_correct": true,
+        "extracted_answer": "6",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 168,
+        "is_correct": false,
+        "extracted_answer": "11",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model missed counting yams completely in the summation."
+    },
+    {
+        "id": 169,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 170,
+        "is_correct": false,
+        "extracted_answer": "5",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model counted list items instead of quantities (missed '2' chairs)."
+    },
+    {
+        "id": 171,
+        "is_correct": true,
+        "extracted_answer": "11",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 172,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 173,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 174,
+        "is_correct": true,
+        "extracted_answer": "10",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 175,
+        "is_correct": false,
+        "extracted_answer": "18",
+        "reasoning_score": 3,
+        "error_type": "hallucination",
+        "comment": "Model counted 'lettuce head' as an animal in the summation steps (although list omitted it, calculation included +1)."
+    },
+    {
+        "id": 176,
+        "is_correct": false,
+        "extracted_answer": "11",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error (sum is 12, model calculated 11)."
+    },
+    {
+        "id": 177,
+        "is_correct": true,
+        "extracted_answer": "7",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 178,
+        "is_correct": true,
+        "extracted_answer": "10",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 179,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 180,
+        "is_correct": false,
+        "extracted_answer": "9",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model excluded snails (calling them not animals) and counted ducks incorrectly as one item in list."
+    },
+    {
+        "id": 181,
+        "is_correct": true,
+        "extracted_answer": "7",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 182,
+        "is_correct": true,
+        "extracted_answer": "5",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 183,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 184,
+        "is_correct": true,
+        "extracted_answer": "6",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 185,
+        "is_correct": false,
+        "extracted_answer": "5",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model counted list items instead of quantities (missed '2' violins)."
+    },
+    {
+        "id": 186,
+        "is_correct": true,
+        "extracted_answer": "10",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 187,
+        "is_correct": true,
+        "extracted_answer": "16",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 188,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 189,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 190,
+        "is_correct": true,
+        "extracted_answer": "7",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 191,
+        "is_correct": true,
+        "extracted_answer": "5",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 192,
+        "is_correct": false,
+        "extracted_answer": "6",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model missed counting potatoes in the final count."
+    },
+    {
+        "id": 193,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 194,
+        "is_correct": true,
+        "extracted_answer": "6",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 195,
+        "is_correct": true,
+        "extracted_answer": "13",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 196,
+        "is_correct": true,
+        "extracted_answer": "15",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 197,
+        "is_correct": true,
+        "extracted_answer": "5",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 198,
+        "is_correct": false,
+        "extracted_answer": "14",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error (sum is 15, model calculated 14)."
+    },
+    {
+        "id": 199,
+        "is_correct": true,
+        "extracted_answer": "14",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 200,
+        "is_correct": false,
+        "extracted_answer": "8",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model missed counting the rabbit in the final summation list."
+    },
+    {
+        "id": 201,
+        "is_correct": true,
+        "extracted_answer": "7",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 202,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 203,
+        "is_correct": true,
+        "extracted_answer": "5",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 204,
+        "is_correct": true,
+        "extracted_answer": "10",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 205,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 206,
+        "is_correct": true,
+        "extracted_answer": "6",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 207,
+        "is_correct": true,
+        "extracted_answer": "11",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 208,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 209,
+        "is_correct": true,
+        "extracted_answer": "10",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 210,
+        "is_correct": false,
+        "extracted_answer": "12",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error (sum is 13, model calculated 12)."
+    },
+    {
+        "id": 211,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 212,
+        "is_correct": false,
+        "extracted_answer": "16",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error (sum is 17, model calculated 16)."
+    },
+    {
+        "id": 213,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 214,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 215,
+        "is_correct": true,
+        "extracted_answer": "10",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 216,
+        "is_correct": false,
+        "extracted_answer": "10",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error (sum is 9, model calculated 10)."
+    },
+    {
+        "id": 217,
+        "is_correct": false,
+        "extracted_answer": "10",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error (sum is 11, model calculated 10)."
+    },
+    {
+        "id": 218,
+        "is_correct": false,
+        "extracted_answer": "6",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Illogical derivation: summed indices (1+2+3) instead of quantities."
+    },
+    {
+        "id": 219,
+        "is_correct": false,
+        "extracted_answer": "8",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model counted list items instead of quantities (missed '3' yams)."
+    },
+    {
+        "id": 220,
+        "is_correct": true,
+        "extracted_answer": "12",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 221,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 222,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 223,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 224,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 225,
+        "is_correct": false,
+        "extracted_answer": "13",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error (sum is 14, model calculated 13)."
+    },
+    {
+        "id": 226,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 227,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 228,
+        "is_correct": true,
+        "extracted_answer": "11",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 229,
+        "is_correct": false,
+        "extracted_answer": "7",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model counted list items instead of quantities (missed '2' broccoli)."
+    },
+    {
+        "id": 230,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 231,
+        "is_correct": false,
+        "extracted_answer": "11",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error (sum is 12, model calculated 11)."
+    },
+    {
+        "id": 232,
+        "is_correct": false,
+        "extracted_answer": "6",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model counted list items instead of quantities (missed '5' trombones)."
+    },
+    {
+        "id": 233,
+        "is_correct": true,
+        "extracted_answer": "14",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 234,
+        "is_correct": false,
+        "extracted_answer": "14",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error (sum is 15, model calculated 14)."
+    },
+    {
+        "id": 235,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 236,
+        "is_correct": true,
+        "extracted_answer": "11",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 237,
+        "is_correct": true,
+        "extracted_answer": "6",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 238,
+        "is_correct": true,
+        "extracted_answer": "12",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 239,
+        "is_correct": true,
+        "extracted_answer": "9",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 240,
+        "is_correct": false,
+        "extracted_answer": "11",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error (sum is 12, model calculated 11)."
+    },
+    {
+        "id": 241,
+        "is_correct": false,
+        "extracted_answer": "12",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Arithmetic error (sum is 14, model calculated 12)."
+    },
+    {
+        "id": 242,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 243,
+        "is_correct": false,
+        "extracted_answer": "6",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model counted list items instead of quantities (missed '3' couches)."
+    },
+    {
+        "id": 244,
+        "is_correct": true,
+        "extracted_answer": "10",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 245,
+        "is_correct": true,
+        "extracted_answer": "10",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 246,
+        "is_correct": true,
+        "extracted_answer": "9",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 247,
+        "is_correct": true,
+        "extracted_answer": "7",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 248,
+        "is_correct": false,
+        "extracted_answer": "6",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "Hallucinated mathematical operation: 'Two rabbits (that's 2 x 2 = 4 rabbits)'."
+    },
+    {
+        "id": 249,
+        "is_correct": false,
+        "extracted_answer": "6",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model counted list items instead of quantities (missed '2' beds)."
+    },
+    {
+        "id": 250,
+        "is_correct": true,
+        "extracted_answer": "16",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    }
+]

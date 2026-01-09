@@ -1,0 +1,402 @@
+[
+    {
+        "id": 1,
+        "is_correct": false,
+        "extracted_answer": "valid",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly identified the converse as valid, contradicting the ground truth."
+    },
+    {
+        "id": 2,
+        "is_correct": true,
+        "extracted_answer": "invalid",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Model correctly identified the invalidity, though the reasoning about 'circularity' was slightly off (it's a converse error)."
+    },
+    {
+        "id": 3,
+        "is_correct": false,
+        "extracted_answer": "valid",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model failed to handle the disjunction correctly (A or B is true does not imply not B if A is true)."
+    },
+    {
+        "id": 4,
+        "is_correct": true,
+        "extracted_answer": "valid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct deductive reasoning."
+    },
+    {
+        "id": 5,
+        "is_correct": true,
+        "extracted_answer": "invalid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified that the conclusion does not follow from the premises."
+    },
+    {
+        "id": 6,
+        "is_correct": true,
+        "extracted_answer": "invalid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified that the conclusion is not entailed by the premise."
+    },
+    {
+        "id": 7,
+        "is_correct": false,
+        "extracted_answer": "valid",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Committed the fallacy of affirming the consequent regarding set membership."
+    },
+    {
+        "id": 8,
+        "is_correct": true,
+        "extracted_answer": "valid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct application of transitivity."
+    },
+    {
+        "id": 9,
+        "is_correct": false,
+        "extracted_answer": "invalid",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed to recognize a valid contrapositive argument."
+    },
+    {
+        "id": 10,
+        "is_correct": true,
+        "extracted_answer": "valid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 11,
+        "is_correct": false,
+        "extracted_answer": "invalid",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed to handle existential quantification correctly."
+    },
+    {
+        "id": 12,
+        "is_correct": false,
+        "extracted_answer": "valid",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Misinterpreted 'necessary' condition direction."
+    },
+    {
+        "id": 13,
+        "is_correct": true,
+        "extracted_answer": "valid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct application of disjunctive syllogism logic."
+    },
+    {
+        "id": 14,
+        "is_correct": true,
+        "extracted_answer": "invalid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified lack of connection between terms."
+    },
+    {
+        "id": 15,
+        "is_correct": true,
+        "extracted_answer": "invalid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the lack of logical link in the conclusion."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "invalid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 17,
+        "is_correct": false,
+        "extracted_answer": "valid",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Committed fallacy of denying the antecedent (or similar invalid chaining)."
+    },
+    {
+        "id": 18,
+        "is_correct": true,
+        "extracted_answer": "valid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 19,
+        "is_correct": false,
+        "extracted_answer": "valid",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Flawed derivation of sufficiency."
+    },
+    {
+        "id": 20,
+        "is_correct": true,
+        "extracted_answer": "valid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 21,
+        "is_correct": true,
+        "extracted_answer": "invalid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 22,
+        "is_correct": true,
+        "extracted_answer": "invalid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified missing connection."
+    },
+    {
+        "id": 23,
+        "is_correct": false,
+        "extracted_answer": "invalid",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed to correctly process the logical implications (De Morgan/Contrapositive)."
+    },
+    {
+        "id": 24,
+        "is_correct": false,
+        "extracted_answer": "invalid",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed to construct the valid proof by cases."
+    },
+    {
+        "id": 25,
+        "is_correct": true,
+        "extracted_answer": "invalid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified invalidity via analysis."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "valid",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Reasoning slightly confused on translation but arrived at correct conclusion."
+    },
+    {
+        "id": 27,
+        "is_correct": true,
+        "extracted_answer": "valid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 28,
+        "is_correct": false,
+        "extracted_answer": "valid",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Fallacy: Just because C is true in (A or B or C), doesn't mean B is true."
+    },
+    {
+        "id": 29,
+        "is_correct": true,
+        "extracted_answer": "valid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 30,
+        "is_correct": false,
+        "extracted_answer": "valid",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Fallacy of inverse logic."
+    },
+    {
+        "id": 31,
+        "is_correct": true,
+        "extracted_answer": "invalid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 32,
+        "is_correct": false,
+        "extracted_answer": "invalid",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed to perform proof by cases."
+    },
+    {
+        "id": 33,
+        "is_correct": false,
+        "extracted_answer": "valid",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Logical fallacy in combining conditional premises."
+    },
+    {
+        "id": 34,
+        "is_correct": true,
+        "extracted_answer": "valid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 35,
+        "is_correct": false,
+        "extracted_answer": "invalid",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed to correctly interpret 'necessary' condition in P2, leading to invalid verdict."
+    },
+    {
+        "id": 36,
+        "is_correct": false,
+        "extracted_answer": "invalid",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Mapped chain correctly but failed to accept the final step."
+    },
+    {
+        "id": 37,
+        "is_correct": false,
+        "extracted_answer": "valid",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed to recognize invalid inference from implication P1 and existential P2."
+    },
+    {
+        "id": 38,
+        "is_correct": true,
+        "extracted_answer": "invalid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 39,
+        "is_correct": true,
+        "extracted_answer": "invalid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 40,
+        "is_correct": true,
+        "extracted_answer": "invalid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 41,
+        "is_correct": false,
+        "extracted_answer": "valid",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect logic regarding disjunction."
+    },
+    {
+        "id": 42,
+        "is_correct": true,
+        "extracted_answer": "valid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 43,
+        "is_correct": false,
+        "extracted_answer": "valid",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Accepted converse as valid."
+    },
+    {
+        "id": 44,
+        "is_correct": false,
+        "extracted_answer": "invalid",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Failed to perform disjunctive syllogism logic."
+    },
+    {
+        "id": 45,
+        "is_correct": true,
+        "extracted_answer": "valid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 46,
+        "is_correct": true,
+        "extracted_answer": "valid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 47,
+        "is_correct": false,
+        "extracted_answer": "valid",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Fallacy of affirming the consequent/denying hypothesis."
+    },
+    {
+        "id": 48,
+        "is_correct": false,
+        "extracted_answer": "invalid",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Misinterpreted the conclusion structure."
+    },
+    {
+        "id": 49,
+        "is_correct": true,
+        "extracted_answer": "valid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 50,
+        "is_correct": true,
+        "extracted_answer": "invalid",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    }
+]

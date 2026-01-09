@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": true,
+        "extracted_answer": "24",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model followed the correct order of operations and arrived at the correct answer."
+    },
+    {
+        "id": 2,
+        "is_correct": true,
+        "extracted_answer": "63",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly calculated the expression step-by-step."
+    },
+    {
+        "id": 3,
+        "is_correct": false,
+        "extracted_answer": "-36",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model calculated -2 + -7 as -9 correctly, then -9 - 7 = -16, then -16 - (-7) = -9. The model made an arithmetic error in step 4 (-16 + -7 vs -16 - -7) or order of operations within the linear addition/subtraction. Actually, (-2 + -7 - 7 - -7) -> (-9 - 7 - -7) -> (-16 - -7) -> -9. The model got -23. First part (-59) + 9 = -50. The model's first part was correct (-59). Second part was incorrect."
+    },
+    {
+        "id": 4,
+        "is_correct": true,
+        "extracted_answer": "-11520",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly computed the multiplication of the first group (-288) and the second group (40), resulting in the correct product."
+    },
+    {
+        "id": 5,
+        "is_correct": true,
+        "extracted_answer": "58",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly applied order of operations."
+    },
+    {
+        "id": 6,
+        "is_correct": true,
+        "extracted_answer": "-33",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly calculated both parts of the expression and summed them."
+    },
+    {
+        "id": 7,
+        "is_correct": true,
+        "extracted_answer": "49",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 8,
+        "is_correct": true,
+        "extracted_answer": "-80",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly followed PEMDAS."
+    },
+    {
+        "id": 9,
+        "is_correct": true,
+        "extracted_answer": "702",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly computed the values inside the parentheses and multiplied them."
+    },
+    {
+        "id": 10,
+        "is_correct": false,
+        "extracted_answer": "-47",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Step 1: -9 - (1*5*-5) = -9 - (-25) = -9 + 25 = 16. The model calculated -9 - 25 = -34. It treated 1*5*-5 as positive 25 then subtracted, but -5 makes it negative. Wait, 1*5 is 5. 5*-5 is -25. -9 - (-25) is 16. The model did -9 - 25 = -34. Error in sign handling."
+    },
+    {
+        "id": 11,
+        "is_correct": true,
+        "extracted_answer": "54",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 12,
+        "is_correct": false,
+        "extracted_answer": "-9520",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model calculated the first part as (2 - -2 + -56) = (4 - 56) = -52. The model calculated -2 - (-2) = 0 then subtracted 56, ignoring the leading 2 or misinterpreting the string of operations. 2 - (-2) is 4. 4 + (-56) is -52. Model got -56. The second part (-7*-8*3 - -2) = (168 + 2) = 170 is correct. -52 * 170 = -8840. Model got -9520."
+    },
+    {
+        "id": 13,
+        "is_correct": true,
+        "extracted_answer": "42",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly calculated (8 - 2 - 12) = -6 and (8 - 6 - 8 - 1) = -7, then -6 * -7 = 42."
+    },
+    {
+        "id": 14,
+        "is_correct": true,
+        "extracted_answer": "26",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 15,
+        "is_correct": false,
+        "extracted_answer": "406",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -5 - (4 * -8) + 8 = -5 - (-32) + 8 = -5 + 32 + 8 = 35. The model calculated -37 + 8 = -29 (incorrect sign application on the subtraction). Second part: 4 + 3 - 63 = -56. Model calculated 7 - 21 = -14. It seems the model ignored the multiplication in the second part or calculated it wrong. 3*7=21? No, 9*7=63. Model saw 3*7."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "1608",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly calculated the expression."
+    },
+    {
+        "id": 17,
+        "is_correct": true,
+        "extracted_answer": "31",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 18,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 19,
+        "is_correct": true,
+        "extracted_answer": "-92",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 20,
+        "is_correct": true,
+        "extracted_answer": "5",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 21,
+        "is_correct": false,
+        "extracted_answer": "3",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -6*-1 - 2 + -2 = 6 - 2 - 2 = 2. Model got 6+2=8-2=6 (incorrect). Second part: 9-4-1-7 = -3. Total: 2 + -3 = -1. Model got 3."
+    },
+    {
+        "id": 22,
+        "is_correct": false,
+        "extracted_answer": "-28",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 8*-6 + 6*1 = -48 + 6 = -42. Second part: -3*7*0 - 7 = 0 - 7 = -7. Total: -42 - (-7) = -35. The model calculated -21 + 7 = -14 in the second part, failing to multiply by zero correctly in context or misunderstanding the structure."
+    },
+    {
+        "id": 23,
+        "is_correct": false,
+        "extracted_answer": "-34",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -6 - 8 - (-7*-2) = -14 - 14 = -28. Second part: -9 - 5 + 7 + 1 = -6. Total: -28 - (-6) = -22. The model calculated -(-6) as 6, but then subtracted it: -28 - 6. Subtracting a negative is adding."
+    },
+    {
+        "id": 24,
+        "is_correct": true,
+        "extracted_answer": "-5",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 25,
+        "is_correct": false,
+        "extracted_answer": "170",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "First part: 5*-8 - (-5*-9) = -40 - 45 = -85. Second part: 2 - (-7*6) - 4 = 2 - (-42) - 4 = 2 + 42 - 4 = 40. Total: -85 * 40 = -3400. The model calculated second part as -2."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "71",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 27,
+        "is_correct": true,
+        "extracted_answer": "-3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 28,
+        "is_correct": true,
+        "extracted_answer": "25",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 29,
+        "is_correct": true,
+        "extracted_answer": "416",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 30,
+        "is_correct": false,
+        "extracted_answer": "46",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 3 + (-1*7*-6) = 3 + 42 = 45. Second part: -7*-1 + -5 - -3 = 7 - 5 + 3 = 5. Total: 45 - 5 = 40. The model calculated the second part as -1 (7 + -8). 7 - 5 + 3 = 5."
+    },
+    {
+        "id": 31,
+        "is_correct": false,
+        "extracted_answer": "-13",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 3 - 3 - -3 + -2 = 0 + 3 - 2 = 1. Model calculated -3. Second part: 8 - 2 + -8 - -6 = 6 - 8 + 6 = 4. Model calculated -8."
+    },
+    {
+        "id": 32,
+        "is_correct": false,
+        "extracted_answer": "-23",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -2 + -9 - (-2*2) = -11 - (-4) = -11 + 4 = -7. Model calculated -11."
+    },
+    {
+        "id": 33,
+        "is_correct": true,
+        "extracted_answer": "44",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 34,
+        "is_correct": false,
+        "extracted_answer": "2",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "First part: 4 + 28 + 5 = 37. Model calculated 11 - 5 = 6. Second part: -4 - 1 + 4 - 4 = -5. Total: 37 - (-5) = 42. Model got 2."
+    },
+    {
+        "id": 35,
+        "is_correct": true,
+        "extracted_answer": "72",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 36,
+        "is_correct": true,
+        "extracted_answer": "-170",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 37,
+        "is_correct": false,
+        "extracted_answer": "-32",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -5 + 6 - -5 + -6 = 1 + 5 - 6 = 0. Model calculated -12. Second part: -4 - 6 - 3 - 7 = -20. Correct. 0 + (-20) = -20. Model got -32."
+    },
+    {
+        "id": 38,
+        "is_correct": true,
+        "extracted_answer": "-9",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 39,
+        "is_correct": true,
+        "extracted_answer": "65",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 40,
+        "is_correct": false,
+        "extracted_answer": "91",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -3*0*4 - -7 = 7. Second part: -9*-6 - -8 + 1 = 54 + 8 + 1 = 63. Total: 7 + 63 = 70. The model calculated 28 + 63 = 91. It somehow multiplied the 7 from the first part by 4?"
+    },
+    {
+        "id": 41,
+        "is_correct": true,
+        "extracted_answer": "976",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 42,
+        "is_correct": true,
+        "extracted_answer": "2240",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 43,
+        "is_correct": true,
+        "extracted_answer": "57",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 44,
+        "is_correct": true,
+        "extracted_answer": "150",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 45,
+        "is_correct": false,
+        "extracted_answer": "-13",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -2 - (5*-5) - 6 = -2 - (-25) - 6 = 23 - 6 = 17. The model calculated -2 - 25 - 6 = -33. Second part: (-5*-4) + 2 + -2 = 20. Total: 17 + 20 = 37. Model got -13."
+    },
+    {
+        "id": 46,
+        "is_correct": false,
+        "extracted_answer": "-59",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -5 - (6*5) + -9 = -5 - 30 - 9 = -44. Correct. Second part: 1 + -4 - (-2*6) = -3 - (-12) = -3 + 12 = 9. The model calculated -3 + (-12) = -15 (subtracted instead of subtracted a negative)."
+    },
+    {
+        "id": 47,
+        "is_correct": true,
+        "extracted_answer": "-20",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 48,
+        "is_correct": false,
+        "extracted_answer": "0",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -9 - (-3*1) - -3 = -9 + 3 + 3 = -3. Correct. Second part: -9 - 5 - (-2*-7) = -14 - 14 = -28. Total: -3 * -28 = 84. The model calculated second part as 0 (-14 + 14)."
+    },
+    {
+        "id": 49,
+        "is_correct": false,
+        "extracted_answer": "-56",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 5*-2 + 8*1 = -10 + 8 = -2. Correct. Second part: 9 + (-3*-8) - -5 = 9 + 24 + 5 = 38. The model calculated 33 - 5 = 28 (subtracted instead of added)."
+    },
+    {
+        "id": 50,
+        "is_correct": true,
+        "extracted_answer": "-1343",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 51,
+        "is_correct": true,
+        "extracted_answer": "65",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 52,
+        "is_correct": false,
+        "extracted_answer": "-33",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -3 - 40 + 5 = -38. Correct. Second part: (-1*-3) - -2 - 6 = 3 + 2 - 6 = -1. Total: -38 - (-1) = -37. The model calculated the second part as -5."
+    },
+    {
+        "id": 53,
+        "is_correct": true,
+        "extracted_answer": "59",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 54,
+        "is_correct": true,
+        "extracted_answer": "36",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 55,
+        "is_correct": false,
+        "extracted_answer": "38,596",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Calculation error in final multiplication. 1134 * 34 = 38556. Model got 38596."
+    },
+    {
+        "id": 56,
+        "is_correct": true,
+        "extracted_answer": "89",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 57,
+        "is_correct": true,
+        "extracted_answer": "-48",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 58,
+        "is_correct": true,
+        "extracted_answer": "211",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 59,
+        "is_correct": true,
+        "extracted_answer": "83",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 60,
+        "is_correct": false,
+        "extracted_answer": "-28",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -1 - 6 - -4 + -6 = -7 + 4 - 6 = -9. The model calculated -17. Second part: (-2*-5) - (-1*1) = 10 - (-1) = 11. Total: -9 - 11 = -20. Model got -28."
+    },
+    {
+        "id": 61,
+        "is_correct": true,
+        "extracted_answer": "-51",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 62,
+        "is_correct": false,
+        "extracted_answer": "68",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 3 - -6 - 7 + 3 = 3 + 6 - 7 + 3 = 5. The model calculated 13. Second part: -7 + 54 + 8 = 55. Total: 5 + 55 = 60. Model got 68."
+    },
+    {
+        "id": 63,
+        "is_correct": false,
+        "extracted_answer": "65",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -1 - (-72) - -9 = -1 + 72 + 9 = 80. Correct. Second part: -9 - (2*-6) + -6 = -9 - (-12) - 6 = -9 + 12 - 6 = -3. Total: 80 + -3 = 77. The model calculated the second part as -15."
+    },
+    {
+        "id": 64,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 65,
+        "is_correct": true,
+        "extracted_answer": "-46",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 66,
+        "is_correct": false,
+        "extracted_answer": "7",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 0 - -1 = 1. Correct. Second part: -9 - -7 + -4 - 8 = -2 - 4 - 8 = -14. Total: 1 - -14 = 15. The model calculated the second part as -6."
+    },
+    {
+        "id": 67,
+        "is_correct": false,
+        "extracted_answer": "395",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 4 + 360 = 364. Correct. Second part: -9 + -7 - -6 - -9 = -16 + 6 + 9 = -1. Total: 364 - (-1) = 365. The model calculated the second part as -31."
+    },
+    {
+        "id": 68,
+        "is_correct": true,
+        "extracted_answer": "-99",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 69,
+        "is_correct": false,
+        "extracted_answer": "-11",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -4 + -35 + 7 = -32. The model calculated -2. Second part: -9 - -4 + 4 = -9 + 4 + 4 = -1. The model calculated -9. Total: -32 + -1 = -33."
+    },
+    {
+        "id": 70,
+        "is_correct": true,
+        "extracted_answer": "88",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 71,
+        "is_correct": true,
+        "extracted_answer": "-55",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 72,
+        "is_correct": true,
+        "extracted_answer": "48",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 73,
+        "is_correct": false,
+        "extracted_answer": "42",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 6 - 1 - -3 + -2 = 5 + 3 - 2 = 6. The model calculated 10. Second part: 25 + -1 - -8 = 24 + 8 = 32. Total: 6 + 32 = 38."
+    },
+    {
+        "id": 74,
+        "is_correct": true,
+        "extracted_answer": "20",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 75,
+        "is_correct": false,
+        "extracted_answer": "35",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -3 - -6 - -7 + 3 = -3 + 6 + 7 + 3 = 13. The model calculated 7. Second part: 25 - -3 = 28. Total: 13 + 28 = 41."
+    },
+    {
+        "id": 76,
+        "is_correct": false,
+        "extracted_answer": "-46",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -32 + 7 - 5 = -30. Correct. Second part: 9 + -6 + -10 = -7. The model calculated -16. Total: -30 + -7 = -37."
+    },
+    {
+        "id": 77,
+        "is_correct": true,
+        "extracted_answer": "-320",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 78,
+        "is_correct": false,
+        "extracted_answer": "108",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 6. Correct. Second part: -7 + 4 - (-7*-3) = -3 - 21 = -24. The model calculated 18. Total: 6 * -24 = -144."
+    },
+    {
+        "id": 79,
+        "is_correct": true,
+        "extracted_answer": "-26",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 80,
+        "is_correct": true,
+        "extracted_answer": "30",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 81,
+        "is_correct": false,
+        "extracted_answer": "-16",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -6. Correct. Second part: 3 + -4 - 7 - -4 = -1 - 7 + 4 = -4. The model calculated -10. Total: -6 + -4 = -10."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "-35",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 83,
+        "is_correct": false,
+        "extracted_answer": "84",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -8 + 6 - (-72) = -2 + 72 = 70. The model calculated 74 (added 6 and -8 to get 2). Second part: 9 - (-18) + -1 = 27 - 1 = 26. The model calculated -10. Total: 70 - 26 = 44."
+    },
+    {
+        "id": 84,
+        "is_correct": false,
+        "extracted_answer": "-217",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 9 - (-216) = 225. Correct. Second part: 6 - (4 * -8 * -7) = 6 - (224) = -218. The model calculated -442 (4*8=32, 32*7=224? no, model got 448). 4 * -8 = -32. -32 * -7 = 224."
+    },
+    {
+        "id": 85,
+        "is_correct": false,
+        "extracted_answer": "36",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 8 + -24 - -8 = -16 + 8 = -8. The model calculated 24. Second part: 2 + -18 - 6 = -22. The model calculated -12. Total: -8 - (-22) = 14."
+    },
+    {
+        "id": 86,
+        "is_correct": true,
+        "extracted_answer": "33",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 87,
+        "is_correct": false,
+        "extracted_answer": "-219",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 6 - -1 - -8 = 6 + 1 + 8 = 15. The model calculated 13. Second part: 8 + (-7 * 8 * -4) = 8 + 224 = 232. Correct. Total: 15 - 232 = -217."
+    },
+    {
+        "id": 88,
+        "is_correct": false,
+        "extracted_answer": "-206",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -18 - 0 = -18. Correct. Second part: -6 * -6 * 7 + -8 = 36 * 7 - 8 = 252 - 8 = 244. The model calculated 188. Total: -18 - 244 = -262."
+    },
+    {
+        "id": 89,
+        "is_correct": false,
+        "extracted_answer": "-90",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -6 - -1 - 25 = -5 - 25 = -30. Correct. Second part: 8 + -5 - (9*-7) = 3 - (-63) = 66. The model calculated -60. Total: -30 + 66 = 36."
+    },
+    {
+        "id": 90,
+        "is_correct": true,
+        "extracted_answer": "-1300",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 91,
+        "is_correct": false,
+        "extracted_answer": "2",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -2 - 4 + 0 = -6. Correct. Second part: 7 - 6 - -7 - -1 = 1 + 7 + 1 = 9. The model calculated -6? Wait, it got 1 then 2? Calculation error. Total: -6 - 9 = -15."
+    },
+    {
+        "id": 92,
+        "is_correct": true,
+        "extracted_answer": "16",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 93,
+        "is_correct": false,
+        "extracted_answer": "-19980",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "First part: -9 * 4 * -9 - -9 = 324 + 9 = 333. Correct. Second part: 5 * 2 * 6 * -2 = 10 * 6 * -2 = 60 * -2 = -120. The model calculated -60. Total: 333 * -120 = -39960."
+    },
+    {
+        "id": 94,
+        "is_correct": true,
+        "extracted_answer": "76",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 95,
+        "is_correct": false,
+        "extracted_answer": "-8294",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "First part: -7 + 180 = 173. Correct. Second part: -35 + -6 - 7 = -48. Correct. Total: 173 * -48 = -8304. Model got -8294."
+    },
+    {
+        "id": 96,
+        "is_correct": true,
+        "extracted_answer": "72",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 97,
+        "is_correct": false,
+        "extracted_answer": "15",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 17. Correct. Second part: -5 + 6 - -6 - -9 = 1 + 6 + 9 = 16. The model calculated -2. Total: 17 + 16 = 33."
+    },
+    {
+        "id": 98,
+        "is_correct": true,
+        "extracted_answer": "-17",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 99,
+        "is_correct": false,
+        "extracted_answer": "-15",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -9 - -7 + 2 + 2 = -2 + 2 + 2 = 2. The model calculated 0. Second part: -7 - 9 - -1 - 0 = -16 + 1 = -15. Correct. Total: 2 + -15 = -13."
+    },
+    {
+        "id": 100,
+        "is_correct": true,
+        "extracted_answer": "94",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 101,
+        "is_correct": true,
+        "extracted_answer": "-21",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 102,
+        "is_correct": true,
+        "extracted_answer": "-3850",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 103,
+        "is_correct": true,
+        "extracted_answer": "-8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 104,
+        "is_correct": false,
+        "extracted_answer": "18",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -6 + 1 - 8 = -13. The model calculated 3. Second part: 4 - -8 - -1 - -2 = 4 + 8 + 1 + 2 = 15. Correct. Total: -13 + 15 = 2."
+    },
+    {
+        "id": 105,
+        "is_correct": true,
+        "extracted_answer": "-3136",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 106,
+        "is_correct": true,
+        "extracted_answer": "12",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 107,
+        "is_correct": true,
+        "extracted_answer": "34",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 108,
+        "is_correct": true,
+        "extracted_answer": "140",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 109,
+        "is_correct": true,
+        "extracted_answer": "-168",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 110,
+        "is_correct": false,
+        "extracted_answer": "12",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -4 - -6 - -5 - 5 = -4 + 6 + 5 - 5 = 2. The model calculated 12. Second part: -2 + -4 - -8 + 6 = -6 + 8 + 6 = 8. The model calculated 0. Total: 2 - 8 = -6."
+    },
+    {
+        "id": 111,
+        "is_correct": false,
+        "extracted_answer": "-21",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -3 + -12 - -8 = -15 + 8 = -7. Model calculated -23. Second part: 8 - 1 - -4 - -1 = 7 + 4 + 1 = 12. Model calculated 2. Total: -7 + 12 = 5."
+    },
+    {
+        "id": 112,
+        "is_correct": true,
+        "extracted_answer": "-57",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 113,
+        "is_correct": false,
+        "extracted_answer": "29",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 21. Correct. Second part: 7 - -7 - 9 - -8 = 14 - 9 + 8 = 13. The model calculated -8. Total: 21 - 13 = 8."
+    },
+    {
+        "id": 114,
+        "is_correct": false,
+        "extracted_answer": "41",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 45 - 5 + 7 = 47. Correct. Second part: -3 - 8 - 18 = -29. The model calculated 6 (-3 - 8 + -18? No, model added 24?). Total: 47 - (-29) = 76."
+    },
+    {
+        "id": 115,
+        "is_correct": false,
+        "extracted_answer": "660",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 0 + 1 - -54 = 55. Correct. Second part: 4 + 7 + -9 - 8 = 2 - 8 = -6. The model calculated 12. Total: 55 * -6 = -330."
+    },
+    {
+        "id": 116,
+        "is_correct": false,
+        "extracted_answer": "0",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -1 + -6 + 6 = -1. Model calculated 0. Second part: 9 + 2 - 3 = 8. Correct. Total: -1 * 8 = -8."
+    },
+    {
+        "id": 117,
+        "is_correct": true,
+        "extracted_answer": "1980",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 118,
+        "is_correct": true,
+        "extracted_answer": "78",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 119,
+        "is_correct": true,
+        "extracted_answer": "11",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 120,
+        "is_correct": false,
+        "extracted_answer": "-56",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -2. Correct. Second part: -7 + -32 - -3 = -39 + 3 = -36. The model calculated 28. Total: -2 * -36 = 72."
+    },
+    {
+        "id": 121,
+        "is_correct": true,
+        "extracted_answer": "-35",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 122,
+        "is_correct": false,
+        "extracted_answer": "-4",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 3 + 3 - -4 - 2 = 6 + 4 - 2 = 8. The model calculated 12. Second part: -2 - 14 = -16. Correct. Total: 8 + -16 = -8."
+    },
+    {
+        "id": 123,
+        "is_correct": true,
+        "extracted_answer": "-264",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 124,
+        "is_correct": false,
+        "extracted_answer": "832",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -1 - 54 + 3 = -52. Correct. Second part: 0 - 8 - -4 - -4 = -8 + 4 + 4 = 0. The model calculated -16."
+    },
+    {
+        "id": 125,
+        "is_correct": false,
+        "extracted_answer": "-75",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -9 - 72 - 0 = -81. Correct. Second part: -4 + 4 + -2 - 0 = -2. The model calculated 6. Total: -81 + -2 = -83."
+    },
+    {
+        "id": 126,
+        "is_correct": false,
+        "extracted_answer": "-184",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -6 - -5 - -9 - -9 = -6 + 5 + 9 + 9 = 17. The model calculated 8. Second part: -24 - 8 - -9 = -32 + 9 = -23. Correct. Total: 17 * -23 = -391."
+    },
+    {
+        "id": 127,
+        "is_correct": false,
+        "extracted_answer": "-6",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 1 - 2 - -8 = -1 + 8 = 7. The model calculated -9. Second part: -8 - 2 - -1 + 6 = -10 + 1 + 6 = -3. Correct. Total: 7 - -3 = 10."
+    },
+    {
+        "id": 128,
+        "is_correct": false,
+        "extracted_answer": "27",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 12 + -2 - -9 = 10 + 9 = 19. The model calculated 1. Second part: 27 + -1 = 26. Correct. Total: 19 + 26 = 45."
+    },
+    {
+        "id": 129,
+        "is_correct": false,
+        "extracted_answer": "-200",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 3 - 2 + -7 = 1 - 7 = -6. Correct. Second part: 192 - -2 = 194. The model calculated -192. -6 * 8 * -6 = -192. Oh wait 4 * 8 * -6 = -192. Correct. -192 - -2 = -190. Total: -6 + -190 = -196."
+    },
+    {
+        "id": 130,
+        "is_correct": true,
+        "extracted_answer": "35",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 131,
+        "is_correct": true,
+        "extracted_answer": "3420",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 132,
+        "is_correct": false,
+        "extracted_answer": "-216",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 4 - 8 - -63 = -4 + 63 = 59. The model calculated -67. Second part: 5 + 144 = 149. Correct. Total: 59 - 149 = -90."
+    },
+    {
+        "id": 133,
+        "is_correct": false,
+        "extracted_answer": "-27",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -7 - -8 + 5 - -4 = 1 + 5 + 4 = 10. The model calculated -21. Second part: 6 - -24 - 3 = 27. Correct. Total: 10 + 27 = 37."
+    },
+    {
+        "id": 134,
+        "is_correct": false,
+        "extracted_answer": "-13",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -36 + -5 = -41. Correct. Second part: -7 - 5 + -28 = -12 - 28 = -40. The model calculated 28. Total: -41 + -40 = -81."
+    },
+    {
+        "id": 135,
+        "is_correct": true,
+        "extracted_answer": "2",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 136,
+        "is_correct": true,
+        "extracted_answer": "-89",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 137,
+        "is_correct": true,
+        "extracted_answer": "343",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 138,
+        "is_correct": true,
+        "extracted_answer": "-24",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 139,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 140,
+        "is_correct": true,
+        "extracted_answer": "-39",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 141,
+        "is_correct": false,
+        "extracted_answer": "-21",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 0 + 9 - 1 = 8. The model calculated -21? Wait model calculation: 0 + 10 - 1 = 9?? Wait. 0*3 = 0. -9+-1 = -10. 0 - -10 = 10. 10 - -1 = 11?? Second part: 30 - 6 + 8 = 32. 8 - 32 = -24."
+    },
+    {
+        "id": 142,
+        "is_correct": true,
+        "extracted_answer": "-60",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 143,
+        "is_correct": false,
+        "extracted_answer": "-316",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 7 + -315 = -308. Correct. Second part: -2 + -6 - 16 = -24. The model calculated 8. Total: -308 - (-24) = -284."
+    },
+    {
+        "id": 144,
+        "is_correct": true,
+        "extracted_answer": "-8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 145,
+        "is_correct": false,
+        "extracted_answer": "-2",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 3 - 9 - 3 - 4 = -13. The model calculated -11. Second part: 6 - -3 = 9. Correct. Total: -13 + 9 = -4."
+    },
+    {
+        "id": 146,
+        "is_correct": true,
+        "extracted_answer": "360",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 147,
+        "is_correct": false,
+        "extracted_answer": "-8",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 27 - 8 - 5 = 14. Correct. Second part: -2 - -20 = 18. The model calculated -22. Total: 14 + 18 = 32."
+    },
+    {
+        "id": 148,
+        "is_correct": false,
+        "extracted_answer": "200",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 3 + 12 + 7 = 22. The model calculated 20. Second part: -6 - -4 - -6 + 6 = -6 + 4 + 6 + 6 = 10. Correct. Total: 22 * 10 = 220."
+    },
+    {
+        "id": 149,
+        "is_correct": true,
+        "extracted_answer": "18",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 150,
+        "is_correct": false,
+        "extracted_answer": "-2",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -16 + -5 = -21. Correct. Second part: -6 + 1 - -8 - 6 = -5 + 8 - 6 = -3. The model calculated -19. Total: -21 - -3 = -18."
+    },
+    {
+        "id": 151,
+        "is_correct": false,
+        "extracted_answer": "21",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 7 - -9 = 16. Correct. Second part: -9 + 5 - 9 = -13. The model calculated 5. Total: 16 + -13 = 3."
+    },
+    {
+        "id": 152,
+        "is_correct": true,
+        "extracted_answer": "-84",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 153,
+        "is_correct": true,
+        "extracted_answer": "-71",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 154,
+        "is_correct": true,
+        "extracted_answer": "-343",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 155,
+        "is_correct": true,
+        "extracted_answer": "-5453",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 156,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 157,
+        "is_correct": false,
+        "extracted_answer": "-39",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 1 - -3 - 9 = -5. The model calculated 13. Second part: 36 + 16 = 52. Correct. Total: -5 - 52 = -57."
+    },
+    {
+        "id": 158,
+        "is_correct": true,
+        "extracted_answer": "101",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 159,
+        "is_correct": true,
+        "extracted_answer": "-43",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 160,
+        "is_correct": false,
+        "extracted_answer": "7",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -1 + 20 + 9 = 28. Correct. Second part: -7 - -48 - 0 = 41. The model calculated 55. Total: 28 - 41 = -13."
+    },
+    {
+        "id": 161,
+        "is_correct": true,
+        "extracted_answer": "-61",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 162,
+        "is_correct": true,
+        "extracted_answer": "-25",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 163,
+        "is_correct": true,
+        "extracted_answer": "11",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 164,
+        "is_correct": false,
+        "extracted_answer": "15",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 7 + 21 - 3 = 25. Correct. Second part: -3 + 4 - -6 + -3 = 1 + 6 - 3 = 4. The model calculated 10. Total: 25 - 4 = 21."
+    },
+    {
+        "id": 165,
+        "is_correct": true,
+        "extracted_answer": "30",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 166,
+        "is_correct": false,
+        "extracted_answer": "29",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 2 + 7 - -5 - 1 = 9 + 5 - 1 = 13. The model calculated 15. Second part: -14. Correct. Total: 13 - -14 = 27."
+    },
+    {
+        "id": 167,
+        "is_correct": true,
+        "extracted_answer": "26",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 168,
+        "is_correct": false,
+        "extracted_answer": "-215",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 3 - 2 - 9 = -8. The model calculated 1 + (-9) = -8 (correct result, messy reasoning). Second part: -8*-1*-9*3 = -216. Correct. Total: -8 + -216 = -224. Model used 1 from reasoning error step."
+    },
+    {
+        "id": 169,
+        "is_correct": false,
+        "extracted_answer": "13",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 5 - -3 + -9 = 8 - 9 = -1. The model calculated 17. Second part: -5 - -6 - 5 = 1 - 5 = -4. Correct. Total: -1 + -4 = -5."
+    },
+    {
+        "id": 170,
+        "is_correct": false,
+        "extracted_answer": "-71",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -5 - 35 = -40. Correct. Second part: 6 - (-105) = 111. Correct. Total: -40 - 111 = -151. The model miscalculated the final subtraction."
+    },
+    {
+        "id": 171,
+        "is_correct": false,
+        "extracted_answer": "70",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 9 - -5 - 1 + -2 = 14 - 1 - 2 = 11. The model calculated -7. Second part: -15 - -5 - 0 = -10. Correct. Total: 11 * -10 = -110."
+    },
+    {
+        "id": 172,
+        "is_correct": false,
+        "extracted_answer": "176",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -8 - -15 + 4 = 7 + 4 = 11. Correct. Second part: 14 - -3 - -1 = 17 + 1 = 18. The model calculated 16 (subtracted 1 instead of added). Total: 11 * 18 = 198."
+    },
+    {
+        "id": 173,
+        "is_correct": true,
+        "extracted_answer": "-32",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 174,
+        "is_correct": true,
+        "extracted_answer": "-6",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 175,
+        "is_correct": true,
+        "extracted_answer": "-262",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 176,
+        "is_correct": false,
+        "extracted_answer": "-43",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -1 - 20 = -21. Correct. Second part: -2 - 20 - 5 = -27. The model calculated -22. Total: -21 + -27 = -48."
+    },
+    {
+        "id": 177,
+        "is_correct": true,
+        "extracted_answer": "15",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 178,
+        "is_correct": true,
+        "extracted_answer": "-554",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 179,
+        "is_correct": true,
+        "extracted_answer": "-11",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 180,
+        "is_correct": true,
+        "extracted_answer": "4",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 181,
+        "is_correct": true,
+        "extracted_answer": "-240",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 182,
+        "is_correct": false,
+        "extracted_answer": "2622",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -4 + 8 + 9 = 13. Correct. Second part: 210 - 6 = 204. Correct. 13 * 204 = 2652. The model calculated 2622."
+    },
+    {
+        "id": 183,
+        "is_correct": false,
+        "extracted_answer": "-14",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -5 - 12 + 4 = -13. Correct. Second part: 1 - 9 - 0 = -8. The model calculated 1. Total: -13 - -8 = -5."
+    },
+    {
+        "id": 184,
+        "is_correct": true,
+        "extracted_answer": "-11",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 185,
+        "is_correct": true,
+        "extracted_answer": "312",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 186,
+        "is_correct": true,
+        "extracted_answer": "48",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 187,
+        "is_correct": true,
+        "extracted_answer": "522",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 188,
+        "is_correct": true,
+        "extracted_answer": "41",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 189,
+        "is_correct": true,
+        "extracted_answer": "-52",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 190,
+        "is_correct": false,
+        "extracted_answer": "239",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -6 - 9 - -6 - 1 = -16 + 6 - 1 = -10. The model calculated -8. Second part: 240 + 7 = 247. The model calculated 247 but got the first part wrong. Total: -10 + 247 = 237."
+    },
+    {
+        "id": 191,
+        "is_correct": true,
+        "extracted_answer": "15",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 192,
+        "is_correct": true,
+        "extracted_answer": "-18",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 193,
+        "is_correct": false,
+        "extracted_answer": "-58",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -54 - 9 = -63. Correct. Second part: -4 + 9 + 4 + 4 = 13. The model calculated 5. Total: -63 + 13 = -50."
+    },
+    {
+        "id": 194,
+        "is_correct": true,
+        "extracted_answer": "-340",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 195,
+        "is_correct": false,
+        "extracted_answer": "121",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 108. Correct. Second part: 4 + 5 - 4 - 4 = 1. The model calculated -13. Total: 108 - 1 = 107."
+    },
+    {
+        "id": 196,
+        "is_correct": false,
+        "extracted_answer": "5",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -5. The model calculated -9. Second part: -3 - 2 - 9 = -14. Correct. Total: -5 - -14 = 9."
+    },
+    {
+        "id": 197,
+        "is_correct": false,
+        "extracted_answer": "-15",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -14 - 9 = -23. Correct. Second part: -7 + 5 - 0 = -2. The model calculated -8. Total: -23 - -2 = -21."
+    },
+    {
+        "id": 198,
+        "is_correct": true,
+        "extracted_answer": "1168",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 199,
+        "is_correct": true,
+        "extracted_answer": "-32",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 200,
+        "is_correct": true,
+        "extracted_answer": "-10",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 201,
+        "is_correct": true,
+        "extracted_answer": "181",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 202,
+        "is_correct": false,
+        "extracted_answer": "45",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 30 - 9 - 3 = 18. Correct. Second part: -7 - -2 - 36 = -7 + 2 - 36 = -41. The model calculated 27. Total: 18 + -41 = -23."
+    },
+    {
+        "id": 203,
+        "is_correct": true,
+        "extracted_answer": "-60",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 204,
+        "is_correct": false,
+        "extracted_answer": "5544",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "First part: 24 - -1 - -3 = 28. The model calculated 22. Second part: -4*7*-3*3 = 252. Correct. Total: 28 * 252 = 7056."
+    },
+    {
+        "id": 205,
+        "is_correct": true,
+        "extracted_answer": "-7",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 206,
+        "is_correct": false,
+        "extracted_answer": "0",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -9 + 6 + 1 - 7 = -9. The model calculated 0. Second part: 2 + 2 - 9 - 2 = -7. Correct. Total: -9 * -7 = 63."
+    },
+    {
+        "id": 207,
+        "is_correct": true,
+        "extracted_answer": "52",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 208,
+        "is_correct": true,
+        "extracted_answer": "-10",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 209,
+        "is_correct": true,
+        "extracted_answer": "-26",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 210,
+        "is_correct": true,
+        "extracted_answer": "330",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 211,
+        "is_correct": false,
+        "extracted_answer": "-1",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -2. Correct. Second part: -7 - 9 - 3 = -19. The model calculated -1. Total: -2 - -19 = 17."
+    },
+    {
+        "id": 212,
+        "is_correct": false,
+        "extracted_answer": "-2978",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 42 - -2 - 7 = 44 - 7 = 37. The model calculated 51. Second part: -60 + 2 = -58. Correct. Total: 37 * -58 = -2146."
+    },
+    {
+        "id": 213,
+        "is_correct": true,
+        "extracted_answer": "-113",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 214,
+        "is_correct": true,
+        "extracted_answer": "-658",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 215,
+        "is_correct": false,
+        "extracted_answer": "-87",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 30 - 6 - 8 = 16. Correct. Second part: -5 - 6 - 5 + 4 = -12. The model calculated -5?? (No, it calculated the whole thing wrong. 16 * -12 = -192. Model calculated 16 * -5 + ...?)"
+    },
+    {
+        "id": 216,
+        "is_correct": true,
+        "extracted_answer": "3",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 217,
+        "is_correct": true,
+        "extracted_answer": "-20",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 218,
+        "is_correct": true,
+        "extracted_answer": "123",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 219,
+        "is_correct": true,
+        "extracted_answer": "-169",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 220,
+        "is_correct": true,
+        "extracted_answer": "630",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 221,
+        "is_correct": true,
+        "extracted_answer": "120",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 222,
+        "is_correct": true,
+        "extracted_answer": "128",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 223,
+        "is_correct": false,
+        "extracted_answer": "-3225",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -5. Correct. Second part: -3 - (72*-9) = -3 - (-648) = 645. Correct. Total: -5 * 645 = -3225. Wait, Ground truth is 3255? -3 - (-648) = 645. 645 * -5 = -3225. Re-check second part: -3 - (9 * -8 * -9) = -3 - 648 = -651. Ah. 9 * -8 = -72. -72 * -9 = 648. -3 - 648 = -651. -5 * -651 = 3255. Model did -8*-9 = 72 then 72*-9 = -648, error there."
+    },
+    {
+        "id": 224,
+        "is_correct": true,
+        "extracted_answer": "346",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 225,
+        "is_correct": true,
+        "extracted_answer": "-38",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 226,
+        "is_correct": true,
+        "extracted_answer": "-30",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 227,
+        "is_correct": false,
+        "extracted_answer": "-176",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -9 - 7 - 1 + 1 = -16. Correct. Second part: 3 - (-7) - 0 = 10. The model calculated 11. Total: -16 * 10 = -160."
+    },
+    {
+        "id": 228,
+        "is_correct": true,
+        "extracted_answer": "24",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 229,
+        "is_correct": false,
+        "extracted_answer": "464",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -7 + 486 = 479. Correct. Second part: -2 + 5 + 9 - 7 = 5. The model calculated 15. Total: 479 - 5 = 474."
+    },
+    {
+        "id": 230,
+        "is_correct": false,
+        "extracted_answer": "44",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -8 + 7 + 3 = 2. Correct. Second part: -3 + 5 - 40 = -38. The model calculated 42. Total: 2 - 38 = -36."
+    },
+    {
+        "id": 231,
+        "is_correct": true,
+        "extracted_answer": "17",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 232,
+        "is_correct": false,
+        "extracted_answer": "-85",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -48 - 6 + 5 = -49. The model calculated -37. Second part: -4 - 45 + 1 = -48. Correct. Total: -49 - 48 = -97."
+    },
+    {
+        "id": 233,
+        "is_correct": true,
+        "extracted_answer": "8",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 234,
+        "is_correct": true,
+        "extracted_answer": "867",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 235,
+        "is_correct": true,
+        "extracted_answer": "-147",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 236,
+        "is_correct": false,
+        "extracted_answer": "11,100",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -442. Correct. Second part: 4 + 3 - 32 = -25. Correct. Total: -442 * -25 = 11050. The model calculated 11100."
+    },
+    {
+        "id": 237,
+        "is_correct": true,
+        "extracted_answer": "55",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 238,
+        "is_correct": false,
+        "extracted_answer": "44",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -2. Correct. Second part: -4 - 6 - 4 + 8 = -6. The model calculated -22. Total: -2 * -6 = 12."
+    },
+    {
+        "id": 239,
+        "is_correct": true,
+        "extracted_answer": "-114",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 240,
+        "is_correct": true,
+        "extracted_answer": "336",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 241,
+        "is_correct": true,
+        "extracted_answer": "44",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 242,
+        "is_correct": false,
+        "extracted_answer": "288",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -18. Correct. Second part: -9 - 5 - (-2) = -14 + 2 = -12. The model calculated -16. Total: -18 * -12 = 216."
+    },
+    {
+        "id": 243,
+        "is_correct": false,
+        "extracted_answer": "-15",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 8 - 5 = 3. The model calculated -5. Second part: -2 + 3 - 7 = -6. The model calculated -10. Total: 3 - 6 = -3."
+    },
+    {
+        "id": 244,
+        "is_correct": false,
+        "extracted_answer": "245,112",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "First part: 8 - (-324) = 332. The model just carried -324? No, it kept 8 for later. Second part: 756. Correct. Total: 332 * 756 = 250992. The model tried to use distribution or something wrong in step 4."
+    },
+    {
+        "id": 245,
+        "is_correct": true,
+        "extracted_answer": "-25",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 246,
+        "is_correct": true,
+        "extracted_answer": "48",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 247,
+        "is_correct": true,
+        "extracted_answer": "464",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly evaluated the expression."
+    },
+    {
+        "id": 248,
+        "is_correct": false,
+        "extracted_answer": "-127",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -5 - 8 - (-42) = -13 + 42 = 29. The model calculated -55. Second part: -63 - -5 - -4 = -63 + 5 + 4 = -54. The model calculated -72. Total: 29 + -54 = -25."
+    },
+    {
+        "id": 249,
+        "is_correct": false,
+        "extracted_answer": "-1972",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: -54 + 5 + 8 = -41. Correct. Second part: 48 - 0 = 48. Correct. Total: -41 * 48 = -1968. The model calculated -1972."
+    },
+    {
+        "id": 250,
+        "is_correct": false,
+        "extracted_answer": "28",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "First part: 5 - (-14) - 2 = 19 - 2 = 17. The model calculated 21. Second part: 0 - -7 = 7. Correct. Total: 17 - 7 = 10."
+    }
+]

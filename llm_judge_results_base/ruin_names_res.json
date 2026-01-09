@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": true,
+        "extracted_answer": "ruin man",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the wordplay."
+    },
+    {
+        "id": 2,
+        "is_correct": false,
+        "extracted_answer": "the bark knight rises",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model missed the clearer pun 'dork' in option C, preferring 'bark'."
+    },
+    {
+        "id": 3,
+        "is_correct": true,
+        "extracted_answer": "the shawshark redemption",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the wordplay."
+    },
+    {
+        "id": 4,
+        "is_correct": true,
+        "extracted_answer": "the third pan",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 5,
+        "is_correct": true,
+        "extracted_answer": "soldplay",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 6,
+        "is_correct": true,
+        "extracted_answer": "paul severe and the raiders",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 7,
+        "is_correct": true,
+        "extracted_answer": "the smashing bumpkins",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 8,
+        "is_correct": false,
+        "extracted_answer": "guns n' ropes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'ropes' and 'hoses' are valid word edits. Model picked one, ground truth was the other. Subjective."
+    },
+    {
+        "id": 9,
+        "is_correct": true,
+        "extracted_answer": "the beatless",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 10,
+        "is_correct": false,
+        "extracted_answer": "hellbby",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model preferred 'hellbby' (slang?) over 'cellboy' (clear word substitution)."
+    },
+    {
+        "id": 11,
+        "is_correct": false,
+        "extracted_answer": "phisg",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model claimed 'phisg' reverses original letters, which is factually incorrect."
+    },
+    {
+        "id": 12,
+        "is_correct": false,
+        "extracted_answer": "the waho!",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed the real word 'why' in option C, selected nonsensical 'waho'."
+    },
+    {
+        "id": 13,
+        "is_correct": false,
+        "extracted_answer": "brasveheart",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed the obvious pun 'graveheart', selected a typo."
+    },
+    {
+        "id": 14,
+        "is_correct": false,
+        "extracted_answer": "the three snooges",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Preferred 'snooges' (nonsense) over 'stodges' (real word)."
+    },
+    {
+        "id": 15,
+        "is_correct": true,
+        "extracted_answer": "the beer hunter",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "toyz 2 men",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 17,
+        "is_correct": true,
+        "extracted_answer": "the yeastie boys",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 18,
+        "is_correct": false,
+        "extracted_answer": "joy divvision",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'toy' in option C, selected a typo."
+    },
+    {
+        "id": 19,
+        "is_correct": true,
+        "extracted_answer": "ferbie hancock",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 20,
+        "is_correct": true,
+        "extracted_answer": "bon liver",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 21,
+        "is_correct": false,
+        "extracted_answer": "star warts",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "'Star Warts' is a valid, arguably better pun than 'Start Wars', but ground truth is 'Start Wars'."
+    },
+    {
+        "id": 22,
+        "is_correct": true,
+        "extracted_answer": "tinderella",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 23,
+        "is_correct": false,
+        "extracted_answer": "the ytalian job",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'hob' (stove/elf), selected typo."
+    },
+    {
+        "id": 24,
+        "is_correct": false,
+        "extracted_answer": "a few goofd men",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'food' in option B, selected typo."
+    },
+    {
+        "id": 25,
+        "is_correct": true,
+        "extracted_answer": "raiders of the lost irk",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "little hop of horrors",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 27,
+        "is_correct": false,
+        "extracted_answer": "freeh willy",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'tree' in option C, selected typo."
+    },
+    {
+        "id": 28,
+        "is_correct": true,
+        "extracted_answer": "pigies",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 29,
+        "is_correct": true,
+        "extracted_answer": "the princess and the frig",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 30,
+        "is_correct": true,
+        "extracted_answer": "poo fighters",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 31,
+        "is_correct": true,
+        "extracted_answer": "the bodfather",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 32,
+        "is_correct": true,
+        "extracted_answer": "panera",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 33,
+        "is_correct": false,
+        "extracted_answer": "top gum",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'Gin' and 'Gum' are valid word edits. Model logic was sound."
+    },
+    {
+        "id": 34,
+        "is_correct": true,
+        "extracted_answer": "diet another day",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 35,
+        "is_correct": true,
+        "extracted_answer": "the moldy blues",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 36,
+        "is_correct": true,
+        "extracted_answer": "fall out bot",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 37,
+        "is_correct": false,
+        "extracted_answer": "love storey",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'Live' and 'Storey' are valid. Model logic sound, selection differed."
+    },
+    {
+        "id": 38,
+        "is_correct": true,
+        "extracted_answer": "whiney houston",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 39,
+        "is_correct": false,
+        "extracted_answer": "bridgye of spies",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'fridge' in option C, selected typo."
+    },
+    {
+        "id": 40,
+        "is_correct": true,
+        "extracted_answer": "reaking benjamin",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 41,
+        "is_correct": false,
+        "extracted_answer": "frank fkappa",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Question text contains 'Frank Kappa' as input (already an edit of Frank Zappa). Option C is identical to input. Model selected A (an edit of the edit). Confusing prompt."
+    },
+    {
+        "id": 42,
+        "is_correct": true,
+        "extracted_answer": "jurassic pork",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 43,
+        "is_correct": false,
+        "extracted_answer": "the bend",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model missed 'the bland' (insult pun), chose 'the bend'."
+    },
+    {
+        "id": 44,
+        "is_correct": true,
+        "extracted_answer": "creedence clearwafer revival",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 45,
+        "is_correct": false,
+        "extracted_answer": "bzlock 57",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model preferred typo 'bzlock' over numeric change 'block 47'."
+    },
+    {
+        "id": 46,
+        "is_correct": true,
+        "extracted_answer": "get shirty",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 47,
+        "is_correct": false,
+        "extracted_answer": "rawdiohead",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'Raw' and 'Dead' are valid edits. 'Radiodead' is the clearer pun."
+    },
+    {
+        "id": 48,
+        "is_correct": true,
+        "extracted_answer": "bean girls",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 49,
+        "is_correct": true,
+        "extracted_answer": "seven brides for seven brothels",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 50,
+        "is_correct": true,
+        "extracted_answer": "the green mole",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 51,
+        "is_correct": true,
+        "extracted_answer": "cat on a hot tin goof",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 52,
+        "is_correct": true,
+        "extracted_answer": "new kids on the clock",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 53,
+        "is_correct": true,
+        "extracted_answer": "superchunk",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct identification of the real name vs typo input."
+    },
+    {
+        "id": 54,
+        "is_correct": true,
+        "extracted_answer": "my big fat greek weeding",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 55,
+        "is_correct": true,
+        "extracted_answer": "shakes on a plane",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 56,
+        "is_correct": false,
+        "extracted_answer": "rotky",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model chose 'rotky' (gibberish) over 'ricky' (name)."
+    },
+    {
+        "id": 57,
+        "is_correct": false,
+        "extracted_answer": "wink floyd",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'Wink' and 'Punk' are valid words. 'Punk' fits genre context better."
+    },
+    {
+        "id": 58,
+        "is_correct": false,
+        "extracted_answer": "bad religvon",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Brad' in option D, selected typo."
+    },
+    {
+        "id": 59,
+        "is_correct": true,
+        "extracted_answer": "thy police",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 60,
+        "is_correct": true,
+        "extracted_answer": "lice cube",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 61,
+        "is_correct": true,
+        "extracted_answer": "few order",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 62,
+        "is_correct": true,
+        "extracted_answer": "dolly kots",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 63,
+        "is_correct": false,
+        "extracted_answer": "die another iday",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Pie' in option D, selected typo."
+    },
+    {
+        "id": 64,
+        "is_correct": false,
+        "extracted_answer": "mud max",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'Mud' and 'Sad' are valid edits. Subjective."
+    },
+    {
+        "id": 65,
+        "is_correct": false,
+        "extracted_answer": "8 male",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'Male' and 'Milk' are valid edits. Subjective."
+    },
+    {
+        "id": 66,
+        "is_correct": true,
+        "extracted_answer": "i spit on your gravy",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 67,
+        "is_correct": true,
+        "extracted_answer": "planet of the ales",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 68,
+        "is_correct": true,
+        "extracted_answer": "the rolling scones",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 69,
+        "is_correct": true,
+        "extracted_answer": "reservoir bogs",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 70,
+        "is_correct": false,
+        "extracted_answer": "the omen who stare at goats",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'Omen' and 'Boats' are valid edits. Subjective."
+    },
+    {
+        "id": 71,
+        "is_correct": true,
+        "extracted_answer": "bridge of spivs",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 72,
+        "is_correct": true,
+        "extracted_answer": "lost action hero",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 73,
+        "is_correct": true,
+        "extracted_answer": "the gobfather",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 74,
+        "is_correct": false,
+        "extracted_answer": "thezfull monty",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Minty' in option D, selected typo."
+    },
+    {
+        "id": 75,
+        "is_correct": true,
+        "extracted_answer": "last and furious",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 76,
+        "is_correct": true,
+        "extracted_answer": "skinny yuppy",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 77,
+        "is_correct": true,
+        "extracted_answer": "depeche mole",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 78,
+        "is_correct": false,
+        "extracted_answer": "sly and the familyf stone",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Soy' in option D, selected typo."
+    },
+    {
+        "id": 79,
+        "is_correct": true,
+        "extracted_answer": "the defarted",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 80,
+        "is_correct": false,
+        "extracted_answer": "bulade runner",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Ruiner' (real word) in option B, selected typo."
+    },
+    {
+        "id": 81,
+        "is_correct": true,
+        "extracted_answer": "toe avengers",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "die hare",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 83,
+        "is_correct": false,
+        "extracted_answer": "weepzer",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Tweezer' (real word) in option C, selected typo/blend."
+    },
+    {
+        "id": 84,
+        "is_correct": false,
+        "extracted_answer": "thee longest day",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'Thee' and 'Bongest' are valid edits. 'Bongest' is a pun, 'Thee' is archaic."
+    },
+    {
+        "id": 85,
+        "is_correct": false,
+        "extracted_answer": "baubs",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'Jabs' and 'Baubs' are similar edits. 'Jabs' is a clearer word."
+    },
+    {
+        "id": 86,
+        "is_correct": true,
+        "extracted_answer": "goonlight",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 87,
+        "is_correct": true,
+        "extracted_answer": "animal fart",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 88,
+        "is_correct": false,
+        "extracted_answer": "seven forpseven brothers",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Bridles' (real word) in option B, selected nonsense."
+    },
+    {
+        "id": 89,
+        "is_correct": false,
+        "extracted_answer": "ktiss",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'piss' in option C, selected typo."
+    },
+    {
+        "id": 90,
+        "is_correct": true,
+        "extracted_answer": "the polite",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 91,
+        "is_correct": true,
+        "extracted_answer": "en rogue",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 92,
+        "is_correct": false,
+        "extracted_answer": "toup gun",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'Gin' and 'Toup' (toupee) are valid edits. Subjective."
+    },
+    {
+        "id": 93,
+        "is_correct": true,
+        "extracted_answer": "the girl with all the grifts",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 94,
+        "is_correct": false,
+        "extracted_answer": "the sisters of percy",
+        "reasoning_score": 3,
+        "error_type": "no_answer",
+        "comment": "Model response was ambiguous ('options B and D')."
+    },
+    {
+        "id": 95,
+        "is_correct": true,
+        "extracted_answer": "the jar",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 96,
+        "is_correct": true,
+        "extracted_answer": "gong with the wind",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 97,
+        "is_correct": true,
+        "extracted_answer": "gone with the wand",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 98,
+        "is_correct": false,
+        "extracted_answer": "dreaml theater",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Cream' in option C, selected typo."
+    },
+    {
+        "id": 99,
+        "is_correct": true,
+        "extracted_answer": "belly and sebastian",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 100,
+        "is_correct": false,
+        "extracted_answer": "earth, bind & fire",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'Bind' and 'Dearth' are valid words. Subjective."
+    },
+    {
+        "id": 101,
+        "is_correct": true,
+        "extracted_answer": "the cattle of britain",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 102,
+        "is_correct": false,
+        "extracted_answer": "dead man walkinbg",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Talking' (word) in option A, selected typo."
+    },
+    {
+        "id": 103,
+        "is_correct": false,
+        "extracted_answer": "sunicide squad",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Squid' (word) in option C, selected typo/blend."
+    },
+    {
+        "id": 104,
+        "is_correct": true,
+        "extracted_answer": "the park knight",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 105,
+        "is_correct": false,
+        "extracted_answer": "sleeplekss in seattle",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Sheepless' (pun) in option D, selected typo."
+    },
+    {
+        "id": 106,
+        "is_correct": false,
+        "extracted_answer": "piqk floyd",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Fink' (word) in option D, selected typo."
+    },
+    {
+        "id": 107,
+        "is_correct": true,
+        "extracted_answer": "the man with the golden bun",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 108,
+        "is_correct": true,
+        "extracted_answer": "the smash",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 109,
+        "is_correct": true,
+        "extracted_answer": "pissy elliott",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 110,
+        "is_correct": false,
+        "extracted_answer": "sleatsr-kinney",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'kidney' (word) in option A, selected typo."
+    },
+    {
+        "id": 111,
+        "is_correct": false,
+        "extracted_answer": "djrty dancing",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'lancing' (word) in option B, selected typo."
+    },
+    {
+        "id": 112,
+        "is_correct": false,
+        "extracted_answer": "jay and silent rob strike back",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'Rob' and 'Bach' are valid edits."
+    },
+    {
+        "id": 113,
+        "is_correct": false,
+        "extracted_answer": "a bridge toe far",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'Toe' and 'Fat' are valid edits."
+    },
+    {
+        "id": 114,
+        "is_correct": true,
+        "extracted_answer": "the meatles",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 115,
+        "is_correct": false,
+        "extracted_answer": "nigut club",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Light' (word) in option A, selected typo."
+    },
+    {
+        "id": 116,
+        "is_correct": true,
+        "extracted_answer": "no time to diet",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 117,
+        "is_correct": true,
+        "extracted_answer": "hatman begins",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 118,
+        "is_correct": false,
+        "extracted_answer": "pold finger",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Mold' (word) in option D, selected typo."
+    },
+    {
+        "id": 119,
+        "is_correct": true,
+        "extracted_answer": "calamity june",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 120,
+        "is_correct": false,
+        "extracted_answer": "saving pripate ryan",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Shaving' (word) in option A, selected typo."
+    },
+    {
+        "id": 121,
+        "is_correct": false,
+        "extracted_answer": "the cut",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'Colt' and 'Cut' are valid words."
+    },
+    {
+        "id": 122,
+        "is_correct": false,
+        "extracted_answer": "johnno got his gun",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'Johnno' and 'Run' are valid edits."
+    },
+    {
+        "id": 123,
+        "is_correct": true,
+        "extracted_answer": "counting brows",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "lawrence of arabica",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 125,
+        "is_correct": false,
+        "extracted_answer": "junxle book",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Jingle' (word) in option A, selected typo."
+    },
+    {
+        "id": 126,
+        "is_correct": true,
+        "extracted_answer": "taint your wagon",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 127,
+        "is_correct": false,
+        "extracted_answer": "blkade",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Slade' (name) in option C, selected typo."
+    },
+    {
+        "id": 128,
+        "is_correct": true,
+        "extracted_answer": "the sisterhood of the traveling pints",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 129,
+        "is_correct": true,
+        "extracted_answer": "green dad",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 130,
+        "is_correct": true,
+        "extracted_answer": "the stink",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 131,
+        "is_correct": true,
+        "extracted_answer": "toe artist",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 132,
+        "is_correct": false,
+        "extracted_answer": "the hogpe",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'hose' in option D, selected typo."
+    },
+    {
+        "id": 133,
+        "is_correct": false,
+        "extracted_answer": "blade rknner",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Blate' (word) in option B, selected typo."
+    },
+    {
+        "id": 134,
+        "is_correct": false,
+        "extracted_answer": "a view zto a kill",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Krill' (word) in option A, selected typo."
+    },
+    {
+        "id": 135,
+        "is_correct": true,
+        "extracted_answer": "pope floats",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 136,
+        "is_correct": true,
+        "extracted_answer": "toe apartment",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 137,
+        "is_correct": true,
+        "extracted_answer": "schindler's lift",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 138,
+        "is_correct": false,
+        "extracted_answer": "beauty rnd the beast",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Feast' in option D, selected typo."
+    },
+    {
+        "id": 139,
+        "is_correct": true,
+        "extracted_answer": "newt of the world",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 140,
+        "is_correct": true,
+        "extracted_answer": "the buns of navarone",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 141,
+        "is_correct": true,
+        "extracted_answer": "the beagles",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 142,
+        "is_correct": true,
+        "extracted_answer": "the codfather",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 143,
+        "is_correct": true,
+        "extracted_answer": "dank williams",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 144,
+        "is_correct": false,
+        "extracted_answer": "blaik sabbath",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Slack' in option D, selected typo."
+    },
+    {
+        "id": 145,
+        "is_correct": true,
+        "extracted_answer": "rita, sue and bob poo",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 146,
+        "is_correct": true,
+        "extracted_answer": "jethro dull",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 147,
+        "is_correct": true,
+        "extracted_answer": "the hound of music",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 148,
+        "is_correct": false,
+        "extracted_answer": "dreaml theater",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Dread' in option C, selected typo."
+    },
+    {
+        "id": 149,
+        "is_correct": true,
+        "extracted_answer": "my fair laddy",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 150,
+        "is_correct": false,
+        "extracted_answer": "offespring",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Offstring' in option D, selected typo."
+    },
+    {
+        "id": 151,
+        "is_correct": true,
+        "extracted_answer": "the long est day",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 152,
+        "is_correct": false,
+        "extracted_answer": "apocalypse ncow",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Cow' in option C, selected typo/blend."
+    },
+    {
+        "id": 153,
+        "is_correct": true,
+        "extracted_answer": "stat wars",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 154,
+        "is_correct": true,
+        "extracted_answer": "pig country",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 155,
+        "is_correct": true,
+        "extracted_answer": "12 hangry men",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 156,
+        "is_correct": true,
+        "extracted_answer": "in search of a midnight piss",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 157,
+        "is_correct": true,
+        "extracted_answer": "hen in black",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 158,
+        "is_correct": true,
+        "extracted_answer": "the beagles",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 159,
+        "is_correct": true,
+        "extracted_answer": "raging dull",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 160,
+        "is_correct": true,
+        "extracted_answer": "bed brains",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 161,
+        "is_correct": false,
+        "extracted_answer": "thiny lizzy",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Fizzy' in option D, selected typo."
+    },
+    {
+        "id": 162,
+        "is_correct": false,
+        "extracted_answer": "ben folds fpve",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Ten' in option C, selected typo."
+    },
+    {
+        "id": 163,
+        "is_correct": true,
+        "extracted_answer": "citizen kale",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 164,
+        "is_correct": true,
+        "extracted_answer": "dave matthews hand",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 165,
+        "is_correct": true,
+        "extracted_answer": "the mum of all fears",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 166,
+        "is_correct": true,
+        "extracted_answer": "city hell",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 167,
+        "is_correct": true,
+        "extracted_answer": "toe abyss",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 168,
+        "is_correct": false,
+        "extracted_answer": "hank",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'Hank' and 'Monk' are valid edits. Subjective."
+    },
+    {
+        "id": 169,
+        "is_correct": false,
+        "extracted_answer": "sex pibtols",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Six' in option A, selected typo."
+    },
+    {
+        "id": 170,
+        "is_correct": true,
+        "extracted_answer": "lift of brian",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 171,
+        "is_correct": true,
+        "extracted_answer": "block panther",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 172,
+        "is_correct": false,
+        "extracted_answer": "gboldfinger",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Moldfinger' in option A, selected typo."
+    },
+    {
+        "id": 173,
+        "is_correct": false,
+        "extracted_answer": "foo fwighters",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Food' in option D, selected typo."
+    },
+    {
+        "id": 174,
+        "is_correct": true,
+        "extracted_answer": "hair supply",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 175,
+        "is_correct": true,
+        "extracted_answer": "diana dross and the supremes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 176,
+        "is_correct": true,
+        "extracted_answer": "brokeback fountain",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 177,
+        "is_correct": true,
+        "extracted_answer": "godzilla vs. bong",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 178,
+        "is_correct": false,
+        "extracted_answer": "thqe who!",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Pho' in option A, selected typo."
+    },
+    {
+        "id": 179,
+        "is_correct": true,
+        "extracted_answer": "the green milk",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 180,
+        "is_correct": false,
+        "extracted_answer": "tie dark knight",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'Tie' and 'Dork' are valid words. Subjective."
+    },
+    {
+        "id": 181,
+        "is_correct": true,
+        "extracted_answer": "live and let diet",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 182,
+        "is_correct": false,
+        "extracted_answer": "midnight cowbory",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Selected nonsense word over word-split 'cow boy'."
+    },
+    {
+        "id": 183,
+        "is_correct": true,
+        "extracted_answer": "snot patrol",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 184,
+        "is_correct": false,
+        "extracted_answer": "tue mangles",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'The Mangles' and 'Tue Mangles' involve edits."
+    },
+    {
+        "id": 185,
+        "is_correct": true,
+        "extracted_answer": "state chumps",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 186,
+        "is_correct": true,
+        "extracted_answer": "the secret life of pots",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 187,
+        "is_correct": false,
+        "extracted_answer": "full mpetal jacket",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Dull' in option D, selected typo."
+    },
+    {
+        "id": 188,
+        "is_correct": false,
+        "extracted_answer": "xriday the 13th",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Friday the 12th' in option C, selected typo."
+    },
+    {
+        "id": 189,
+        "is_correct": false,
+        "extracted_answer": "the bay ciby rollers",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Baby' in option A, selected typo."
+    },
+    {
+        "id": 190,
+        "is_correct": true,
+        "extracted_answer": "glue",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 191,
+        "is_correct": true,
+        "extracted_answer": "the lap band",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 192,
+        "is_correct": true,
+        "extracted_answer": "star wart",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 193,
+        "is_correct": true,
+        "extracted_answer": "the fall of the louse of usher",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 194,
+        "is_correct": true,
+        "extracted_answer": "old toy",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 195,
+        "is_correct": false,
+        "extracted_answer": "rqn dmc",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'DNC' in option D, selected typo."
+    },
+    {
+        "id": 196,
+        "is_correct": false,
+        "extracted_answer": "the grdapes of wrath",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Drapes' in option C, selected typo."
+    },
+    {
+        "id": 197,
+        "is_correct": false,
+        "extracted_answer": "mrag me to hell",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Help' in option A, selected typo."
+    },
+    {
+        "id": 198,
+        "is_correct": false,
+        "extracted_answer": "talking had",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'Stalking' and 'Had' are valid edits. Subjective."
+    },
+    {
+        "id": 199,
+        "is_correct": false,
+        "extracted_answer": "paul oakenfdold",
+        "reasoning_score": 1,
+        "error_type": "format_error",
+        "comment": "Model entered a repetitive loop in reasoning."
+    },
+    {
+        "id": 200,
+        "is_correct": false,
+        "extracted_answer": "brief encounzter",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Grief' in option A, selected typo."
+    },
+    {
+        "id": 201,
+        "is_correct": true,
+        "extracted_answer": "a tribe called queso",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 202,
+        "is_correct": false,
+        "extracted_answer": "stap wars",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'Stap' and 'Scar' are valid edits."
+    },
+    {
+        "id": 203,
+        "is_correct": true,
+        "extracted_answer": "the lizard of oz",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 204,
+        "is_correct": true,
+        "extracted_answer": "run dmv",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 205,
+        "is_correct": true,
+        "extracted_answer": "the third nan",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 206,
+        "is_correct": false,
+        "extracted_answer": "cat on a hot tin riof",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Fat' in option D, selected typo."
+    },
+    {
+        "id": 207,
+        "is_correct": true,
+        "extracted_answer": "nothing hill",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 208,
+        "is_correct": true,
+        "extracted_answer": "good will punting",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 209,
+        "is_correct": true,
+        "extracted_answer": "poo fighters",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 210,
+        "is_correct": true,
+        "extracted_answer": "goo goo dills",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 211,
+        "is_correct": false,
+        "extracted_answer": "soundgardew",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'Found' and 'Gardew' (typo) are options. Model preferred typo."
+    },
+    {
+        "id": 212,
+        "is_correct": false,
+        "extracted_answer": "peter and the test tube tabies",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Rabies' in option D, selected typo."
+    },
+    {
+        "id": 213,
+        "is_correct": true,
+        "extracted_answer": "blub",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 214,
+        "is_correct": true,
+        "extracted_answer": "blank sabbath",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 215,
+        "is_correct": false,
+        "extracted_answer": "qtrolls",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Trills' in option D, selected nonsensical addition."
+    },
+    {
+        "id": 216,
+        "is_correct": true,
+        "extracted_answer": "sad company",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 217,
+        "is_correct": true,
+        "extracted_answer": "3:10 to duma",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 218,
+        "is_correct": true,
+        "extracted_answer": "herman's permits",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 219,
+        "is_correct": true,
+        "extracted_answer": "night of the lemons",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 220,
+        "is_correct": true,
+        "extracted_answer": "the rolling scones",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 221,
+        "is_correct": false,
+        "extracted_answer": "blucr",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'blue' in option B, selected typo."
+    },
+    {
+        "id": 222,
+        "is_correct": true,
+        "extracted_answer": "a matter of wife and death",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 223,
+        "is_correct": true,
+        "extracted_answer": "singin' in the ruin",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 224,
+        "is_correct": true,
+        "extracted_answer": "the man with two drains",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 225,
+        "is_correct": false,
+        "extracted_answer": "barn free",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'Barn' and 'Flee' are valid edits. Subjective."
+    },
+    {
+        "id": 226,
+        "is_correct": false,
+        "extracted_answer": "the moody bloes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Woody' in option C, selected typo."
+    },
+    {
+        "id": 227,
+        "is_correct": false,
+        "extracted_answer": "jojo vrabbit",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'Mojo' and 'Vrabbit' are edits. 'Mojo' is a clearer pun."
+    },
+    {
+        "id": 228,
+        "is_correct": true,
+        "extracted_answer": "reservoir fogs",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 229,
+        "is_correct": true,
+        "extracted_answer": "thunder toad",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 230,
+        "is_correct": false,
+        "extracted_answer": "stxr wars",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Spar' in option B, selected typo."
+    },
+    {
+        "id": 231,
+        "is_correct": true,
+        "extracted_answer": "deadfool",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 232,
+        "is_correct": false,
+        "extracted_answer": "the lady vanzishes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'varnishes' in option A, selected typo."
+    },
+    {
+        "id": 233,
+        "is_correct": false,
+        "extracted_answer": "steely dans",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'Dans' and 'Man' are valid edits. 'Man' is a better pun."
+    },
+    {
+        "id": 234,
+        "is_correct": false,
+        "extracted_answer": "the men who stare as goats",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Both 'Coats' and 'As' are valid word edits. Subjective."
+    },
+    {
+        "id": 235,
+        "is_correct": false,
+        "extracted_answer": "ths stone roses",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Ropes' in option B, selected typo."
+    },
+    {
+        "id": 236,
+        "is_correct": true,
+        "extracted_answer": "nine inch sails",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 237,
+        "is_correct": false,
+        "extracted_answer": "billy imdol",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Midol' in option D, selected typo."
+    },
+    {
+        "id": 238,
+        "is_correct": false,
+        "extracted_answer": "fchindler's list",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Lost' in option D, selected typo."
+    },
+    {
+        "id": 239,
+        "is_correct": false,
+        "extracted_answer": "skx pistols",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Fistols' (fist) in option A, selected typo."
+    },
+    {
+        "id": 240,
+        "is_correct": true,
+        "extracted_answer": "gone with the wino",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 241,
+        "is_correct": true,
+        "extracted_answer": "it's a wonderful line",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 242,
+        "is_correct": false,
+        "extracted_answer": "guns n' rosjs",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Suns' in option B, selected typo."
+    },
+    {
+        "id": 243,
+        "is_correct": true,
+        "extracted_answer": "wetness",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 244,
+        "is_correct": true,
+        "extracted_answer": "killing toke",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 245,
+        "is_correct": true,
+        "extracted_answer": "panic! at the cisco",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 246,
+        "is_correct": false,
+        "extracted_answer": "spihe girls",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Spite' in option D, selected typo."
+    },
+    {
+        "id": 247,
+        "is_correct": false,
+        "extracted_answer": "the poplice",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Polite' in option D, selected typo."
+    },
+    {
+        "id": 248,
+        "is_correct": true,
+        "extracted_answer": "spandau pallet",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    },
+    {
+        "id": 249,
+        "is_correct": false,
+        "extracted_answer": "thto",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Missed 'Tote' in option D, selected typo."
+    },
+    {
+        "id": 250,
+        "is_correct": true,
+        "extracted_answer": "system of a gown",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct."
+    }
+]

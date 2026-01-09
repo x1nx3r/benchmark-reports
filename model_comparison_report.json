@@ -1,0 +1,32 @@
+{
+    "boolean_expressions": {
+        "base": {
+            "accuracy": 89.6,
+            "avg_score": 4.58
+        },
+        "finetuned": {
+            "accuracy": 85.6,
+            "avg_score": 4.57
+        }
+    },
+    "date_understanding": {
+        "base": {
+            "accuracy": 60.4,
+            "avg_score": 3.40
+        },
+        "finetuned": {
+            "accuracy": 72.0,
+            "avg_score": 4.00
+        }
+    },
+    "causal_judgement": {
+        "base": {
+            "accuracy": 55.6,
+            "avg_score": 3.22
+        },
+        "finetuned": {
+            "accuracy": 55.6,
+            "avg_score": 3.62
+        }
+    }
+}

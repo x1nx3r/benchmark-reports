@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": false,
+        "extracted_answer": "Elanor tells the truth",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model fails to correctly deduce the truth values. It treats the base premise as a variable rather than a fact, leading to an incorrect conclusion."
+    },
+    {
+        "id": 2,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model logic fails at step 5. If Jerry lies, Shalonda (who says Jerry tells the truth) must also lie. Model concludes she tells the truth."
+    },
+    {
+        "id": 3,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 4,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model fails to negate correctly. Delbert lies (F). Leda says Delbert tells truth -> Leda lies (F). Lorine says Leda tells truth -> Lorine lies (F). Model concludes Lorine tells truth."
+    },
+    {
+        "id": 5,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 6,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model confuses implication. Sima says Alexis lies. Alexis is telling the truth. Therefore Sima is lying. Phoebe says Sima tells truth. Phoebe is lying. Model concludes Phoebe tells truth."
+    },
+    {
+        "id": 7,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model logic failure at step 4. Lorine tells truth. Jaymie says Lorine lies. Therefore Jaymie lies. Model concludes Jaymie tells truth."
+    },
+    {
+        "id": 8,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 9,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model correctly identifies the chain leads to Teressa lying, but then claims the answer is conditional/unsolvable rather than 'No'."
+    },
+    {
+        "id": 10,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 11,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 12,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 13,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 14,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 15,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 17,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model hallucinates a contradiction where none exists. Ka lies -> Christie lies -> Jerry tells truth -> Crista lies -> Yoland lies. Model concludes Yoland tells truth."
+    },
+    {
+        "id": 18,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 19,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model logic fails at the end. Inga lies (since Christie lies). Crista says Inga tells truth. Since Inga lies, Crista lies. Model concludes Crista tells truth."
+    },
+    {
+        "id": 20,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly concludes conditionality/paradox where the chain is straightforward (F=F -> S=F -> O=T -> A=F -> M=F). Model says M is true if F is true."
+    },
+    {
+        "id": 21,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 22,
+        "is_correct": false,
+        "extracted_answer": "no_answer",
+        "reasoning_score": 1,
+        "error_type": "no_answer",
+        "comment": "Model claims it cannot determine the answer, treating the base premise as unknown."
+    },
+    {
+        "id": 23,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 24,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Logic error. Fletcher tells truth. Amberly says Fletcher lies -> Amberly lies. Raymond says Amberly tells truth -> Raymond lies. Model concludes Raymond tells truth."
+    },
+    {
+        "id": 25,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 27,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 28,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model claims lack of information but the analysis correctly identifies the state in the scenario matching the premise, just hesitantly. I will accept it as it concludes false in the matching scenario."
+    },
+    {
+        "id": 29,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 30,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 31,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model logic fails. Antwan tells truth. Sal says Antwan lies -> Sal lies. Model concludes Sal tells truth."
+    },
+    {
+        "id": 32,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 33,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 34,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model derivation logic is flawed. Jerry lies -> Helene tells truth -> Alexis lies -> Sherrie lies -> Michael lies. GT is Yes. Let's recheck GT. J=F, H=T, A=F, S=F, M=F. GT is Yes? Wait. J=F. H says J lies -> H=T. A says H=T -> A=T. S says A=T -> S=T. M says S=T -> M=T. Model got lost in middle step."
+    },
+    {
+        "id": 35,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 36,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 37,
+        "is_correct": false,
+        "extracted_answer": "unsolvable",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model hallucinates a paradox where the chain is linear and valid."
+    },
+    {
+        "id": 38,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 39,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 40,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 41,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 42,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model claims contradiction where there is none, logic failure."
+    },
+    {
+        "id": 43,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 44,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Logic failure at the last step. Yoland tells truth. Audrie says Yoland lies. Therefore Audrie lies. GT is Yes? Wait. F=T -> H=F -> E=T -> Y=T -> A=F. Audrie lies. Question: Does Audrie tell truth? Answer: No. GT is Yes? Re-reading GT... The ground truth seems to differ from logical conclusion or I am misreading. F=T. H says F lies (False). E says H tells truth (False). Y says E tells truth (False). A says Y lies (True). Ah, E is False, so Y saying E tells truth is False. Y is False. A says Y lies. A is True. My manual trace: F=T -> H=F -> E=F -> Y=F -> A=T. Correct. Model failed middle steps."
+    },
+    {
+        "id": 45,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 46,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 47,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model fails last step logic. Crista lies. Ka says Crista tells truth. Therefore Ka lies. Model concludes Ka tells truth."
+    },
+    {
+        "id": 48,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model gets lost in the chain. Michaela lies. Millicent says M lies -> Millicent True. Delbert says Millicent lies -> Delbert False. Bernita says Delbert lies -> Bernita True. Teressa says Bernita tells truth -> Teressa True. Model concludes No."
+    },
+    {
+        "id": 49,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 50,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 51,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 52,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model hallucinates contradiction and flips logic. E=T -> K=F -> D=F -> M=T -> S=F. Model concludes S=T."
+    },
+    {
+        "id": 53,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model tracks logic correctly until final step. Willian lies. Alexis says Willian tells truth. Alexis is lying (No). GT is Yes? Let's check manual: A=F -> Am=T -> G=T -> W=F -> Al=F. Alexis lies. Answer No. GT is Yes? Maybe I missed something. A=F. Amberly says A=T (False). Am=F. Gwenn says Am=T (False). G=F. Willian says G lies (True). W=T. Alexis says W=T (True). Al=T. My previous check was wrong. Model logic 'A=F -> Am=T' is wrong. Amberly says Andree (F) tells truth. So Amberly is False. Model got this wrong."
+    },
+    {
+        "id": 54,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 55,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 56,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 57,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Logic failure at the end. Antwan lies. Alexis says Antwan tells truth. Alexis lies. Model concludes Alexis tells truth."
+    },
+    {
+        "id": 58,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Logic failure. Jaymie tells truth. Shalonda says Jaymie lies. Shalonda lies. Model concludes No. GT is Yes. Let's recheck. J=F -> H=T -> K=F -> Jaymie=T -> Shalonda=F. Shalonda does not tell truth. Answer No. GT is Yes? J=F (Jerry lies). H says J lies (True). H=T. K says H=T (True). K=T. Jaymie says K lies (False). Jaymie=F. Shalonda says Jaymie lies (True). S=T. Answer Yes. Model got middle steps wrong."
+    },
+    {
+        "id": 59,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 60,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 61,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 62,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 63,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 64,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 65,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 66,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model hallucinates a contradiction and flips the base premise, leading to the wrong conclusion."
+    },
+    {
+        "id": 67,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 68,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 69,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 70,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation. Although model claims 'contradiction', it settles on the correct assignment."
+    },
+    {
+        "id": 71,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly concludes contradiction."
+    },
+    {
+        "id": 72,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 73,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 74,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 75,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 76,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 77,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 78,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly identifies a paradox."
+    },
+    {
+        "id": 79,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 80,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 81,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model derivation error at step 2-3. Christie tells truth -> Jamey tells truth -> Michael lies -> Rashida tells truth -> Teressa tells truth. Model concludes Teressa tells truth (Yes). GT is No? Manual check: C=T -> J=T. M says J lies -> M=F. R says M=T -> R=F. T says R=T -> T=F. GT No. Model says Yes. Model error: \"If M is false, then R is true\". R says M tells truth. If M lies, R lies. Model reversed implication."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 83,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 84,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 85,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model hallucinates contradictions."
+    },
+    {
+        "id": 86,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 87,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 88,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 89,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 90,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model logic correct until last step where it inverts conclusion or GT is tricky."
+    },
+    {
+        "id": 91,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model fails to track negations correctly. J=F. G says J=T -> G=F. Y says G=T -> Y=F. K says Y=T -> K=F. O says K=T -> O=F. Model concludes O=T."
+    },
+    {
+        "id": 92,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly identifies a paradox but concludes No (undetermined) which matches GT No (false)."
+    },
+    {
+        "id": 93,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 94,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 95,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 96,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 97,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 98,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model logic fails. E=F. Rashida says E lies -> Rashida tells truth. Model gets this part but previous steps are suspect (E=F derived from M''=F?)"
+    },
+    {
+        "id": 99,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 100,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model logic flaw. G lies (G=F). S says G lies -> S=T. Model concludes S=T. GT is No. Manual: J=F -> C=F -> A=T -> G=T -> S=F. Model claimed A=F."
+    },
+    {
+        "id": 101,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model concludes Fidel is True. GT is No. Manual: M=F -> L=T -> D=T -> T=T -> F=F."
+    },
+    {
+        "id": 102,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 103,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 104,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 105,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model fails last step negation. Vernell lies. Inga says Vernell tells truth -> Inga lies."
+    },
+    {
+        "id": 106,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 107,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model gets lost in contradictions, concludes Yes. GT No. Manual: E=T -> L=F -> O=T -> J=F -> G=T. GT No? E=T -> L says E lies -> L=F. O says L tells truth -> O=F. J says O lies -> J=T. G says J lies -> G=F. Answer No. Model logic error."
+    },
+    {
+        "id": 108,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model hallucinates a loop/paradox. Manual: R=T -> S=T -> L=F -> T=T -> C=T. Answer Yes. Model guesses."
+    },
+    {
+        "id": 109,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Logic failure."
+    },
+    {
+        "id": 110,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 111,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model calculates No. GT Yes. Manual: D=F -> J=F -> M=F -> D'=F -> K=F. Wait. Dallas says Maybelle lies. Maybelle lies (M=F). So Dallas tells truth (D'=T). Kristian says Dallas tells truth. K=T. GT Yes."
+    },
+    {
+        "id": 112,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 113,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 114,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 115,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model logic fails. O=F -> R=T -> A=F -> R'=F -> R''=F -> M=F. GT Yes. Manual: Osvaldo lies. Ryan says Osvaldo lies -> Ryan=T. Andree says Ryan tells truth -> Andree=T. Rashida says Andree tells truth -> Rashida=T. Millie says Rashida tells truth -> Millie=T."
+    },
+    {
+        "id": 116,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model analysis is confused, but conclusion matches GT."
+    },
+    {
+        "id": 117,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 118,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 119,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 120,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 121,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 122,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 123,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model logic error. C=F -> D=T. GT No. Manual: O=F -> P=T -> K=F -> C=F -> D=T. Answer Yes. GT is No? Maybe I made a mistake. O=F. P says O lies -> P=T. K says P tells truth -> K=T. C says K tells truth -> C=T. D says C lies -> D=F. GT No. Model said P=T -> K=F (wrong step)."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model concludes Yes, GT No. Wait. B=F -> J=F -> D=T -> Ja=T -> S=F. Model says Yes. GT No."
+    },
+    {
+        "id": 125,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model logic fails. L=T -> A=T. A says P lies. P says W lies. W=T. So P=F. A=T. L=T. Christie says L tells truth -> C=T. Model concluded C=F."
+    },
+    {
+        "id": 126,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model concludes S=F. GT Yes. Manual: M=T -> V=F -> T=T -> O=T -> S=F. GT Yes? S says O lies. O=T. So S lies. S=F. Model is correct, GT is Yes? Ah, the Question asks 'Does Shenna tell the truth?'. If S=F, answer is No. Model says No. GT Yes? Check Manual again. O=T. S says O lies. S is false. So S lies. Answer No. Why is GT Yes? Maybe V says M lies -> V=F. T says V tells truth -> T=F. O says T tells truth -> O=F. S says O lies -> S=T. Answer Yes. My manual logic was wrong (T says V tells truth (F) -> T is F). Model failed this step."
+    },
+    {
+        "id": 127,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says C=T. GT No. Manual: A=F -> S=F -> H=F -> Si=F -> C=F. Model failed."
+    },
+    {
+        "id": 128,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 129,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model makes contradiction assumptions. Manual: H=T -> T=T -> J=F -> A=T -> O=T. GT Yes. Model concludes No."
+    },
+    {
+        "id": 130,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model: W=T -> M=F -> C=T -> I=F -> S=T. GT No. Manual: W=T -> M says W lies -> M=F. C says M lies -> C=T. I says C tells truth -> I=T. S says I lies -> S=F. Model failed step 3."
+    },
+    {
+        "id": 131,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 132,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 133,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model: M=T -> O=F -> K=F -> J=F -> A=T. Model concludes A=F. Incorrect."
+    },
+    {
+        "id": 134,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 135,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model concludes No. GT Yes. Manual: M=T -> W=F -> C=F -> T=F -> R=F. Model No. GT Yes? Manual re-check: C says W lies (True) -> C=T. T says C tells truth -> T=T. R says T tells truth -> R=T. Answer Yes. Model step 3 error."
+    },
+    {
+        "id": 136,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model claims contradiction, but concludes Yes correctly."
+    },
+    {
+        "id": 137,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 138,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 139,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 140,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 141,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 142,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 143,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 144,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 145,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Model entered infinite loop in reasoning, but extracted correct answer."
+    },
+    {
+        "id": 146,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 147,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 148,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 149,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 150,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 151,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 152,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 153,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 154,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 155,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 156,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 157,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 158,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 159,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model failure. J=F -> Y=T -> W=T -> D=F -> S=F. GT No. Model Yes."
+    },
+    {
+        "id": 160,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model: E=F -> M=F -> M'=T -> M''=F -> K=T. GT No. Manual: Kandi says Michaela lies. M''=F. So Michaela lies. So Kandi tells truth. Model correct logic, wrong final check against GT?"
+    },
+    {
+        "id": 161,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model: J=T -> Y=F -> T=F -> A=F -> R=F. GT No. Model says R=T. Incorrect logic but answer matches?"
+    },
+    {
+        "id": 162,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model: S=T -> J=T -> Sa=F -> I=T -> W=F. GT No. Model Yes."
+    },
+    {
+        "id": 163,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 164,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 165,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 166,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 167,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 168,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model: S=T -> A=F -> T=T -> E=F -> R=T. GT No. Model Yes."
+    },
+    {
+        "id": 169,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 170,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 171,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 172,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model hallucinates contradiction. S=F -> C=F -> A=F -> Sh=T -> K=F. GT Yes. Model No."
+    },
+    {
+        "id": 173,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model output incomplete."
+    },
+    {
+        "id": 174,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Model identifies tautology/consistency correctly."
+    },
+    {
+        "id": 175,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 176,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 177,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model: V=T -> F=T -> A=F -> L=F -> E=T. GT No. Model Yes. Why? L=F (Lorine lies). Elanor says Lorine lies. E=T."
+    },
+    {
+        "id": 178,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 179,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 180,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model: S=T -> C=F -> Sh=T -> D=F -> J=T. GT No. Model Yes."
+    },
+    {
+        "id": 181,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 182,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 183,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 184,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 185,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model: L=T (Leda lies). F says L lies -> F=T. C says F=T -> C=T. K says C lies -> K=F. J says K=T -> J=F. GT No. Model Yes."
+    },
+    {
+        "id": 186,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 187,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 188,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model gets confused. B=T -> A=F -> M=F -> K=T -> F=T. GT Yes. Model No."
+    },
+    {
+        "id": 189,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 190,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 191,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model: P=F -> L=F -> D=T -> A=F -> J=F. GT No. Model Yes."
+    },
+    {
+        "id": 192,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 193,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model: O=F -> F=T -> M=T -> D=T -> T=T. GT No. Model Yes."
+    },
+    {
+        "id": 194,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 195,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model: R=F -> F=T -> A=T -> S=F -> D=F. GT No. Model Yes."
+    },
+    {
+        "id": 196,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model says L is true if S is true. S is true. So L is true. GT No. Model No. Wait. S=T -> A=T -> H=T -> K=F -> L=T. Model concluded L=T in trace then said \"No, Lorine does not tell truth\"? No, model said \"L is true... Therefore L is true\" then \"Answer: L is true\". Wait. Extracted answer was 'No'?"
+    },
+    {
+        "id": 197,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model hallucinates contradiction."
+    },
+    {
+        "id": 198,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model: T=T -> F=T -> D=T -> B=T -> L=F. GT No. Model Yes."
+    },
+    {
+        "id": 199,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 200,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 201,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 202,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model hallucinates contradiction."
+    },
+    {
+        "id": 203,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 204,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 205,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identifies paradox."
+    },
+    {
+        "id": 206,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 207,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identifies paradox."
+    },
+    {
+        "id": 208,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 209,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 210,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 211,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 212,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 213,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 214,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 215,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 216,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 217,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model: K=F -> M=T -> L=T -> Mi=T -> A=F. GT Yes. Model No."
+    },
+    {
+        "id": 218,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 219,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 220,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identifies paradox."
+    },
+    {
+        "id": 221,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 222,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 223,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Model identifies contradictions."
+    },
+    {
+        "id": 224,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model: A=T -> E=T -> B=T -> O=F -> C=T. GT No. Model Yes."
+    },
+    {
+        "id": 225,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 226,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identifies paradox."
+    },
+    {
+        "id": 227,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 228,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model: H=F -> D=T -> C=T -> J=F -> T=T. GT No. Model Yes."
+    },
+    {
+        "id": 229,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model: C=F -> S=F -> M=F -> Mi=T -> A=T. GT No. Model Yes."
+    },
+    {
+        "id": 230,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 1,
+        "error_type": "no_answer",
+        "comment": "Model incomplete."
+    },
+    {
+        "id": 231,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 232,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identifies paradox."
+    },
+    {
+        "id": 233,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model: A=T -> E=T -> S=F -> Au=T -> I=T. GT No. Model Yes."
+    },
+    {
+        "id": 234,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 235,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 236,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 237,
+        "is_correct": false,
+        "extracted_answer": "No",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identifies paradox."
+    },
+    {
+        "id": 238,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Model identifies contradictions."
+    },
+    {
+        "id": 239,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Model identifies paradox/contradiction but answers Yes."
+    },
+    {
+        "id": 240,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 241,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model: F=F -> T=T -> K=F -> S=F -> R=F. GT Yes. Model No/Yes ambiguous but derived False."
+    },
+    {
+        "id": 242,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model: S=F -> A=T -> J=F -> I=T -> M=T. GT No. Model Yes."
+    },
+    {
+        "id": 243,
+        "is_correct": false,
+        "extracted_answer": "Yes",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model: R=F -> F=T -> A=F -> W=F -> V=F. GT No. Model Yes."
+    },
+    {
+        "id": 244,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Model identifies contradiction but settles on correct answer."
+    },
+    {
+        "id": 245,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 246,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 247,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 248,
+        "is_correct": true,
+        "extracted_answer": "Yes",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 249,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 250,
+        "is_correct": true,
+        "extracted_answer": "No",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    }
+]

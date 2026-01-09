@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly analyzes the path commands, counts the vertices, and identifies the shape as a heptagon."
+    },
+    {
+        "id": 2,
+        "is_correct": true,
+        "extracted_answer": "(J)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the three points forming a closed loop as a triangle."
+    },
+    {
+        "id": 3,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model correctly identifies the shape as a quadrilateral based on the points but misclassifies it as a kite instead of a trapezoid."
+    },
+    {
+        "id": 4,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies a path with only two points as a line."
+    },
+    {
+        "id": 5,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model attempts to interpret the complex path commands but arrives at 'kite' while the ground truth is 'trapezoid'. The interpretation of the M commands mid-path seems confused."
+    },
+    {
+        "id": 6,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly counts the vertices/sides and identifies the hexagon."
+    },
+    {
+        "id": 7,
+        "is_correct": true,
+        "extracted_answer": "(J)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a triangle from 3 connected points."
+    },
+    {
+        "id": 8,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model counts 5 points and concludes pentagon, but the ground truth is hexagon. It likely missed or miscounted a segment."
+    },
+    {
+        "id": 9,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model counts 5 points/segments and concludes pentagon, but the ground truth is trapezoid (4 sides). It likely misinterpreted a slight coordinate shift as a new side."
+    },
+    {
+        "id": 10,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model attempts to analyze the coordinates but concludes 'kite' for a shape the ground truth identifies as a pentagon."
+    },
+    {
+        "id": 11,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies it as a kite, but the ground truth is hexagon."
+    },
+    {
+        "id": 12,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies it as a kite, but the ground truth is triangle."
+    },
+    {
+        "id": 13,
+        "is_correct": false,
+        "extracted_answer": "(I)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies arc commands but concludes 'sector' (which usually involves lines to the center) instead of 'ellipse' (composed of arcs)."
+    },
+    {
+        "id": 14,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies it as a circle, but the ground truth is ellipse. This often depends on whether the radii in the 'A' command are equal (21,21), which they are here, making it geometrically a circle, but the label expects ellipse."
+    },
+    {
+        "id": 15,
+        "is_correct": false,
+        "extracted_answer": "(J)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies three triangles, concluding the shape is a triangle, but the ground truth is trapezoid."
+    },
+    {
+        "id": 16,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies a circle, but the ground truth is sector. The path includes 'L' lines which usually indicates a sector or segment, not a full circle."
+    },
+    {
+        "id": 17,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies a kite, but the ground truth is heptagon. It likely miscounted the distinct segments."
+    },
+    {
+        "id": 18,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies a kite, but the ground truth is octagon."
+    },
+    {
+        "id": 19,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies a kite, but the ground truth is trapezoid."
+    },
+    {
+        "id": 20,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "The model counts 8 sides/points and correctly concludes octagon based on that count, but the ground truth is heptagon (7 sides). The model likely double-counted a point or segment."
+    },
+    {
+        "id": 21,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies a kite, but the ground truth is hexagon."
+    },
+    {
+        "id": 22,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies a kite, but the ground truth is octagon."
+    },
+    {
+        "id": 23,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly counts 5 diagonal lines and identifies the pentagon."
+    },
+    {
+        "id": 24,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the shape as a hexagon based on the segments."
+    },
+    {
+        "id": 25,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model counts 7 points/sides and concludes heptagon (B), but the ground truth is octagon (F)."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the shape as a kite."
+    },
+    {
+        "id": 27,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 3 segments and notes it's not a triangle (contradictory), then guesses kite. Ground truth is triangle."
+    },
+    {
+        "id": 28,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly counts 8 sides and concludes octagon. The ground truth is (B) heptagon, which contradicts the visual count (8 segments in path). The model's reasoning is sound based on the input text."
+    },
+    {
+        "id": 29,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly counts 6 distinct points and identifies the hexagon."
+    },
+    {
+        "id": 30,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model analyzes the coordinates (forming a box shape) but concludes kite. Ground truth is trapezoid."
+    },
+    {
+        "id": 31,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model counts multiple points but concludes kite. Ground truth is hexagon."
+    },
+    {
+        "id": 32,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model counts 6 sides but Ground Truth says Pentagon (G)."
+    },
+    {
+        "id": 33,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model notes a circular arc but concludes kite. Ground truth is Sector."
+    },
+    {
+        "id": 34,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies arcs forming a closed shape. It concludes circle, but ground truth is ellipse. Given the radii are equal, circle is geometrically correct, but the specific label was ellipse."
+    },
+    {
+        "id": 35,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the six segments forming a hexagon."
+    },
+    {
+        "id": 36,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies an arc and lines but concludes circle. Ground truth is sector (shape with lines to center and an arc)."
+    },
+    {
+        "id": 37,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model counts 8 sides/points (Octagon), but ground truth is Heptagon."
+    },
+    {
+        "id": 38,
+        "is_correct": true,
+        "extracted_answer": "(J)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the three line segments as a triangle."
+    },
+    {
+        "id": 39,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model notes an arc and lines but concludes kite. Ground truth is Sector."
+    },
+    {
+        "id": 40,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a path with two points as a line."
+    },
+    {
+        "id": 41,
+        "is_correct": false,
+        "extracted_answer": "(J)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies many segments but oddly concludes triangle. Ground truth is Octagon."
+    },
+    {
+        "id": 42,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies the shape characteristics as a kite."
+    },
+    {
+        "id": 43,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model recognizes lines and an arc but concludes kite. Ground truth is Sector."
+    },
+    {
+        "id": 44,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a line."
+    },
+    {
+        "id": 45,
+        "is_correct": true,
+        "extracted_answer": "(J)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a triangle from 3 segments."
+    },
+    {
+        "id": 46,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Identifies arcs forming a circle, but ground truth is ellipse (likely due to dataset labeling nuance)."
+    },
+    {
+        "id": 47,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Identifies arcs forming a circle, but ground truth is ellipse."
+    },
+    {
+        "id": 48,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a kite."
+    },
+    {
+        "id": 49,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model identifies multiple sides but concludes kite. Ground truth is heptagon."
+    },
+    {
+        "id": 50,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 5 sides/points (pentagon) but concludes kite. Ground truth is Pentagon."
+    },
+    {
+        "id": 51,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model notes multiple points (heptagon-like) but concludes kite. Ground truth is heptagon."
+    },
+    {
+        "id": 52,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model analyzes segments but concludes kite. Ground truth is hexagon."
+    },
+    {
+        "id": 53,
+        "is_correct": false,
+        "extracted_answer": "(J)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple segments but concludes triangle. Ground truth is hexagon."
+    },
+    {
+        "id": 54,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model concludes kite based on coordinate analysis. Ground truth is pentagon."
+    },
+    {
+        "id": 55,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model correctly identifies 7 sides but concludes kite. Ground truth is heptagon."
+    },
+    {
+        "id": 56,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a line."
+    },
+    {
+        "id": 57,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a kite."
+    },
+    {
+        "id": 58,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model counts 7 points/segments but concludes kite. Ground truth is heptagon."
+    },
+    {
+        "id": 59,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a kite."
+    },
+    {
+        "id": 60,
+        "is_correct": true,
+        "extracted_answer": "(K)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies an ellipse from arc commands."
+    },
+    {
+        "id": 61,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model counts 5 sides (pentagon) but ground truth is kite. It misinterpreted the segments."
+    },
+    {
+        "id": 62,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model sees 3 lines and concludes kite (quadrilateral) instead of triangle."
+    },
+    {
+        "id": 63,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model sees an arc and lines and concludes kite. Ground truth is sector."
+    },
+    {
+        "id": 64,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model counts 6 sides but concludes kite. Ground truth is hexagon."
+    },
+    {
+        "id": 65,
+        "is_correct": true,
+        "extracted_answer": "(J)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a triangle."
+    },
+    {
+        "id": 66,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Identifies circular arcs forming a shape, concludes circle, ground truth is ellipse."
+    },
+    {
+        "id": 67,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model analyzes segments but concludes kite. Ground truth is trapezoid."
+    },
+    {
+        "id": 68,
+        "is_correct": false,
+        "extracted_answer": "(J)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies a triangle, but the ground truth is hexagon. The path has 6 segments."
+    },
+    {
+        "id": 69,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a line."
+    },
+    {
+        "id": 70,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model sees an arc and lines and concludes kite. Ground truth is sector."
+    },
+    {
+        "id": 71,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model sees 3 points (triangle) but concludes kite. Ground truth is triangle."
+    },
+    {
+        "id": 72,
+        "is_correct": true,
+        "extracted_answer": "(K)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies an ellipse."
+    },
+    {
+        "id": 73,
+        "is_correct": false,
+        "extracted_answer": "(H)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies a rectangle, but the ground truth is trapezoid."
+    },
+    {
+        "id": 74,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a line."
+    },
+    {
+        "id": 75,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a line."
+    },
+    {
+        "id": 76,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a line."
+    },
+    {
+        "id": 77,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model sees arcs and lines and concludes circle. Ground truth is sector."
+    },
+    {
+        "id": 78,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a kite."
+    },
+    {
+        "id": 79,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model sees arcs and lines and concludes circle. Ground truth is sector."
+    },
+    {
+        "id": 80,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a line."
+    },
+    {
+        "id": 81,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies a kite, but the ground truth is trapezoid."
+    },
+    {
+        "id": 82,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple segments and concludes kite. Ground truth is octagon."
+    },
+    {
+        "id": 83,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model analyzes segments and concludes kite, but chooses (C) which is Hexagon in text... wait, model text says 'most likely a kite' but the ground truth is (C) hexagon. The model's logic was confusing."
+    },
+    {
+        "id": 84,
+        "is_correct": true,
+        "extracted_answer": "(J)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a triangle."
+    },
+    {
+        "id": 85,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies two triangles/segments and concludes kite. Ground truth is triangle."
+    },
+    {
+        "id": 86,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a line."
+    },
+    {
+        "id": 87,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies lines and an arc but concludes kite. Ground truth is sector."
+    },
+    {
+        "id": 88,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies a quadrilateral/kite. Ground truth is trapezoid."
+    },
+    {
+        "id": 89,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies a kite, but ground truth is octagon."
+    },
+    {
+        "id": 90,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model counts 7 sides and concludes heptagon. Ground truth is hexagon (likely a 6-sided polygon where one 'side' is split into two L commands or similar nuance, or model miscounted). Wait, path has 7 points/segments. Model logic is sound."
+    },
+    {
+        "id": 91,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 5 points/segments and concludes kite. Ground truth is pentagon."
+    },
+    {
+        "id": 92,
+        "is_correct": false,
+        "extracted_answer": "(H)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 4 sides/points (rectangle), but the path actually has many more segments. Ground truth is heptagon."
+    },
+    {
+        "id": 93,
+        "is_correct": true,
+        "extracted_answer": "(J)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a triangle."
+    },
+    {
+        "id": 94,
+        "is_correct": false,
+        "extracted_answer": "(J)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 4 segments and concludes triangle (illogical). Ground truth is trapezoid."
+    },
+    {
+        "id": 95,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple triangles/segments and concludes kite. Ground truth is pentagon."
+    },
+    {
+        "id": 96,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Identifies arcs forming a circle, but ground truth is ellipse."
+    },
+    {
+        "id": 97,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly counts 8 sides and identifies octagon."
+    },
+    {
+        "id": 98,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple sides but concludes kite. Ground truth is pentagon."
+    },
+    {
+        "id": 99,
+        "is_correct": false,
+        "extracted_answer": "(H)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies a rectangle, but ground truth is trapezoid."
+    },
+    {
+        "id": 100,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple segments but concludes line. Ground truth is octagon."
+    },
+    {
+        "id": 101,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple segments but concludes kite. Ground truth is octagon."
+    },
+    {
+        "id": 102,
+        "is_correct": true,
+        "extracted_answer": "(J)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a triangle."
+    },
+    {
+        "id": 103,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple segments (hexagon-like) but concludes kite. Ground truth is hexagon."
+    },
+    {
+        "id": 104,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 7 sides but concludes hexagon. Ground truth is heptagon."
+    },
+    {
+        "id": 105,
+        "is_correct": true,
+        "extracted_answer": "(K)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies an ellipse."
+    },
+    {
+        "id": 106,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 4 distinct points but concludes kite. Ground truth is hexagon (6 segments)."
+    },
+    {
+        "id": 107,
+        "is_correct": false,
+        "extracted_answer": "(H)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies a rectangle, but ground truth is kite."
+    },
+    {
+        "id": 108,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a line."
+    },
+    {
+        "id": 109,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple segments but concludes kite. Ground truth is heptagon."
+    },
+    {
+        "id": 110,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Identifies circular arcs, concludes circle. Ground truth is ellipse."
+    },
+    {
+        "id": 111,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Identifies circular arcs, concludes circle. Ground truth is ellipse."
+    },
+    {
+        "id": 112,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies a kite, but ground truth is trapezoid."
+    },
+    {
+        "id": 113,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly counts 8 sides/points and identifies octagon. Ground truth is heptagon (B), which seems incorrect given 8 segments in SVG path."
+    },
+    {
+        "id": 114,
+        "is_correct": false,
+        "extracted_answer": "(H)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 4 points/sides (actually more in path) and concludes rectangle. Ground truth is heptagon."
+    },
+    {
+        "id": 115,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies a line and arc, concludes kite. Ground truth is sector."
+    },
+    {
+        "id": 116,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies segments but concludes line. Ground truth is triangle."
+    },
+    {
+        "id": 117,
+        "is_correct": true,
+        "extracted_answer": "(J)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a triangle."
+    },
+    {
+        "id": 118,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model counts 8 segments but concludes heptagon (7 sides). Ground truth is Octagon (F)."
+    },
+    {
+        "id": 119,
+        "is_correct": true,
+        "extracted_answer": "(K)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies an ellipse."
+    },
+    {
+        "id": 120,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a line."
+    },
+    {
+        "id": 121,
+        "is_correct": false,
+        "extracted_answer": "(J)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 3 segments and concludes triangle. Ground truth is trapezoid."
+    },
+    {
+        "id": 122,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple segments but concludes kite. Ground truth is pentagon."
+    },
+    {
+        "id": 123,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 4 segments and concludes kite. Ground truth is pentagon."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a line."
+    },
+    {
+        "id": 125,
+        "is_correct": true,
+        "extracted_answer": "(K)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies an ellipse."
+    },
+    {
+        "id": 126,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple segments but concludes kite. Ground truth is hexagon."
+    },
+    {
+        "id": 127,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model identifies 5 sides but miscounts the path points slightly or matches incorrectly to options. Actually, it says pentagon which is 5 sides. Ground truth is heptagon (7 sides). The path has 8 commands (start + 7 lines)."
+    },
+    {
+        "id": 128,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a kite from 4 points."
+    },
+    {
+        "id": 129,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Identifies arcs, concludes circle. Ground truth is ellipse."
+    },
+    {
+        "id": 130,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies hexagon."
+    },
+    {
+        "id": 131,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 3 points/segments but concludes kite. Ground truth is hexagon."
+    },
+    {
+        "id": 132,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model counts 7 sides and concludes heptagon. Ground truth is octagon."
+    },
+    {
+        "id": 133,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a line."
+    },
+    {
+        "id": 134,
+        "is_correct": true,
+        "extracted_answer": "(J)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a triangle."
+    },
+    {
+        "id": 135,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 4 sides and concludes kite. Ground truth is trapezoid."
+    },
+    {
+        "id": 136,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies line and arc, concludes kite. Ground truth is sector."
+    },
+    {
+        "id": 137,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a line."
+    },
+    {
+        "id": 138,
+        "is_correct": true,
+        "extracted_answer": "(J)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a triangle."
+    },
+    {
+        "id": 139,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple segments and concludes kite. Ground truth is octagon."
+    },
+    {
+        "id": 140,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a line."
+    },
+    {
+        "id": 141,
+        "is_correct": false,
+        "extracted_answer": "(H)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 4 sides and concludes rectangle. Ground truth is kite."
+    },
+    {
+        "id": 142,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a line."
+    },
+    {
+        "id": 143,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Identifies circular arcs, concludes circle. Ground truth is ellipse."
+    },
+    {
+        "id": 144,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model counts 6 sides but Ground Truth says Heptagon (B)."
+    },
+    {
+        "id": 145,
+        "is_correct": false,
+        "extracted_answer": "(J)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple segments but concludes triangle. Ground truth is heptagon."
+    },
+    {
+        "id": 146,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Identifies circular arcs, concludes circle. Ground truth is ellipse."
+    },
+    {
+        "id": 147,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model counts 7 sides and concludes heptagon. Ground truth is Hexagon (C)."
+    },
+    {
+        "id": 148,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a kite."
+    },
+    {
+        "id": 149,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 4 sides and concludes kite. Ground truth is hexagon."
+    },
+    {
+        "id": 150,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies arc and lines, concludes circle. Ground truth is sector."
+    },
+    {
+        "id": 151,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a line."
+    },
+    {
+        "id": 152,
+        "is_correct": true,
+        "extracted_answer": "(I)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a sector."
+    },
+    {
+        "id": 153,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple segments but concludes kite. Ground truth is heptagon."
+    },
+    {
+        "id": 154,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 6 points/segments but concludes hexagon. Ground truth is triangle (J)."
+    },
+    {
+        "id": 155,
+        "is_correct": true,
+        "extracted_answer": "(J)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a triangle."
+    },
+    {
+        "id": 156,
+        "is_correct": false,
+        "extracted_answer": "(J)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple triangles but concludes triangle. Ground truth is pentagon."
+    },
+    {
+        "id": 157,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a kite."
+    },
+    {
+        "id": 158,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a kite."
+    },
+    {
+        "id": 159,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple segments but concludes kite. Ground truth is hexagon."
+    },
+    {
+        "id": 160,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple segments but concludes kite. Ground truth is octagon."
+    },
+    {
+        "id": 161,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies segments but concludes kite. Ground truth is triangle."
+    },
+    {
+        "id": 162,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Identifies circular arcs, concludes circle. Ground truth is ellipse."
+    },
+    {
+        "id": 163,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly counts 7 sides and concludes heptagon. Ground truth is Octagon (F)."
+    },
+    {
+        "id": 164,
+        "is_correct": false,
+        "extracted_answer": "(H)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 4 sides and concludes rectangle. Ground truth is trapezoid."
+    },
+    {
+        "id": 165,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Identifies circular arcs, concludes circle. Ground truth is ellipse."
+    },
+    {
+        "id": 166,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 5 segments but concludes kite. Ground truth is pentagon."
+    },
+    {
+        "id": 167,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple sides but concludes kite. Ground truth is hexagon."
+    },
+    {
+        "id": 168,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple sides but concludes kite. Ground truth is octagon."
+    },
+    {
+        "id": 169,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly counts 8 sides and identifies octagon."
+    },
+    {
+        "id": 170,
+        "is_correct": true,
+        "extracted_answer": "(I)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a sector."
+    },
+    {
+        "id": 171,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model sees arc and lines, concludes kite. Ground truth is sector."
+    },
+    {
+        "id": 172,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly counts 8 sides but ground truth says Hexagon (F)? Actually model says 8 sides so should be octagon. Oh, wait, the reasoning says 8 sides then concludes Hexagon. That's inconsistent."
+    },
+    {
+        "id": 173,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model counts 5 sides and concludes pentagon. Ground truth is heptagon (G, wait, G is pentagon. B is heptagon. Ground truth is G? No, question 179 says G is pentagon. Ground truth says G. Model says pentagon. This is correct.)"
+    },
+    {
+        "id": 174,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple points/segments but concludes kite. Ground truth is hexagon."
+    },
+    {
+        "id": 175,
+        "is_correct": false,
+        "extracted_answer": "(H)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 8 points but concludes rectangle. Ground truth is octagon."
+    },
+    {
+        "id": 176,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly identifies 5 sides and concludes pentagon. Ground truth is kite (D). Visually examining d path M 60.76... it has 5 points, so pentagon is plausible. Model matches description to pentagon."
+    },
+    {
+        "id": 177,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a kite."
+    },
+    {
+        "id": 178,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a kite."
+    },
+    {
+        "id": 179,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model counts multiple segments but concludes hexagon. Ground truth is kite."
+    },
+    {
+        "id": 180,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly counts 5 triangles/segments and identifies pentagon."
+    },
+    {
+        "id": 181,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple segments but concludes kite. Ground truth is hexagon."
+    },
+    {
+        "id": 182,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies lines and an arc but concludes circle. Ground truth is sector."
+    },
+    {
+        "id": 183,
+        "is_correct": true,
+        "extracted_answer": "(K)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies an ellipse."
+    },
+    {
+        "id": 184,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 4 segments and concludes kite. Ground truth is trapezoid."
+    },
+    {
+        "id": 185,
+        "is_correct": false,
+        "extracted_answer": "(J)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple segments and concludes triangle. Ground truth is kite."
+    },
+    {
+        "id": 186,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a line."
+    },
+    {
+        "id": 187,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model counts 6 sides but ground truth says Octagon (F)."
+    },
+    {
+        "id": 188,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple segments but concludes kite. Ground truth is hexagon."
+    },
+    {
+        "id": 189,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a line."
+    },
+    {
+        "id": 190,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies arc and lines, concludes kite. Ground truth is sector."
+    },
+    {
+        "id": 191,
+        "is_correct": false,
+        "extracted_answer": "(H)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 4 segments and concludes rectangle. Ground truth is hexagon."
+    },
+    {
+        "id": 192,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies octagon."
+    },
+    {
+        "id": 193,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model counts 6 sides and concludes hexagon. Ground truth is Octagon (F)."
+    },
+    {
+        "id": 194,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple segments but concludes kite. Ground truth is hexagon."
+    },
+    {
+        "id": 195,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a line."
+    },
+    {
+        "id": 196,
+        "is_correct": false,
+        "extracted_answer": "(J)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 3 segments and concludes triangle. Ground truth is trapezoid."
+    },
+    {
+        "id": 197,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple segments but concludes kite. Ground truth is octagon."
+    },
+    {
+        "id": 198,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a kite."
+    },
+    {
+        "id": 199,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model counts 6 sides/points and concludes hexagon. Ground truth is Hexagon (C). Wait, GT is C. Model said C. This is Correct."
+    },
+    {
+        "id": 200,
+        "is_correct": false,
+        "extracted_answer": "(I)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model sees arc and line, concludes sector. Ground truth is ellipse (K)?? Actually path has start, line, arc. A sector makes sense. Ellipse does not usually have a line segment unless it's a degenerate path. Let's assume GT is correct."
+    },
+    {
+        "id": 201,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 4 sides and concludes kite. Ground truth is trapezoid."
+    },
+    {
+        "id": 202,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Identifies circular arcs, concludes circle. Ground truth is ellipse."
+    },
+    {
+        "id": 203,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly counts 5 sides and identifies pentagon."
+    },
+    {
+        "id": 204,
+        "is_correct": true,
+        "extracted_answer": "(J)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a triangle."
+    },
+    {
+        "id": 205,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Identifies circular arcs, concludes circle. Ground truth is ellipse."
+    },
+    {
+        "id": 206,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a line."
+    },
+    {
+        "id": 207,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 5 segments but concludes kite. Ground truth is heptagon."
+    },
+    {
+        "id": 208,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple segments but concludes line. Ground truth is octagon."
+    },
+    {
+        "id": 209,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model identifies a kite, but ground truth is heptagon."
+    },
+    {
+        "id": 210,
+        "is_correct": false,
+        "extracted_answer": "(I)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model sees an arc and lines and concludes sector. Ground truth is ellipse."
+    },
+    {
+        "id": 211,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple segments but concludes kite. Ground truth is pentagon."
+    },
+    {
+        "id": 212,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies an arc and lines, concludes kite. Ground truth is sector."
+    },
+    {
+        "id": 213,
+        "is_correct": true,
+        "extracted_answer": "(K)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a trapezoid."
+    },
+    {
+        "id": 214,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly counts 7 segments but concludes kite. Ground truth is heptagon (B). Model output: B. Correct."
+    },
+    {
+        "id": 215,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a kite."
+    },
+    {
+        "id": 216,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly counts 6 segments but concludes hexagon (C)? No, model concludes Octagon (F). Path has M + 8 Ls. Correct."
+    },
+    {
+        "id": 217,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a line."
+    },
+    {
+        "id": 218,
+        "is_correct": true,
+        "extracted_answer": "(I)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a sector."
+    },
+    {
+        "id": 219,
+        "is_correct": false,
+        "extracted_answer": "(J)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 3 triangles/segments and concludes triangle. Ground truth is pentagon."
+    },
+    {
+        "id": 220,
+        "is_correct": true,
+        "extracted_answer": "(J)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a triangle."
+    },
+    {
+        "id": 221,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 3 segments but concludes pentagon. Ground truth is triangle (J)."
+    },
+    {
+        "id": 222,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Identifies circular arcs, concludes circle. Ground truth is ellipse."
+    },
+    {
+        "id": 223,
+        "is_correct": true,
+        "extracted_answer": "(K)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies an ellipse."
+    },
+    {
+        "id": 224,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a kite."
+    },
+    {
+        "id": 225,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 3 segments and concludes kite. Ground truth is trapezoid."
+    },
+    {
+        "id": 226,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 4 sides and concludes kite. Ground truth is trapezoid."
+    },
+    {
+        "id": 227,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly counts 5 diagonal lines and identifies pentagon. Ground truth is Hexagon (C)."
+    },
+    {
+        "id": 228,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 4 points/segments and concludes kite. Ground truth is trapezoid."
+    },
+    {
+        "id": 229,
+        "is_correct": true,
+        "extracted_answer": "(J)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a triangle."
+    },
+    {
+        "id": 230,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly counts 6 sides but concludes hexagon. Wait, B is Heptagon. Ground truth is B (Heptagon). Model text says Hexagon. Inconsistent."
+    },
+    {
+        "id": 231,
+        "is_correct": true,
+        "extracted_answer": "(J)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a triangle."
+    },
+    {
+        "id": 232,
+        "is_correct": true,
+        "extracted_answer": "(I)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a sector."
+    },
+    {
+        "id": 233,
+        "is_correct": true,
+        "extracted_answer": "(J)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a triangle."
+    },
+    {
+        "id": 234,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a line."
+    },
+    {
+        "id": 235,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 4 distinct points but concludes kite. Ground truth is hexagon."
+    },
+    {
+        "id": 236,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identifies a pentagon."
+    },
+    {
+        "id": 237,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 5 segments and concludes kite. Ground truth is pentagon."
+    },
+    {
+        "id": 238,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly counts 7 sides and concludes heptagon. Ground truth is Octagon (F)."
+    },
+    {
+        "id": 239,
+        "is_correct": false,
+        "extracted_answer": "(J)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 5 segments and concludes triangle. Ground truth is pentagon."
+    },
+    {
+        "id": 240,
+        "is_correct": false,
+        "extracted_answer": "(H)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies a rectangle, but ground truth is trapezoid."
+    },
+    {
+        "id": 241,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple segments but concludes kite. Ground truth is pentagon."
+    },
+    {
+        "id": 242,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly counts 6 sides but concludes hexagon. Ground truth is Octagon (F)."
+    },
+    {
+        "id": 243,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 4 distinct points but concludes rectangle. Ground truth is pentagon."
+    },
+    {
+        "id": 244,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies arc commands but concludes hexagon. Ground truth is ellipse."
+    },
+    {
+        "id": 245,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 4 distinct points but concludes kite. Ground truth is pentagon."
+    },
+    {
+        "id": 246,
+        "is_correct": false,
+        "extracted_answer": "(J)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies multiple segments but concludes triangle. Ground truth is heptagon."
+    },
+    {
+        "id": 247,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model sees arc and line, concludes circle. Ground truth is sector."
+    },
+    {
+        "id": 248,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies line and arc, concludes kite. Ground truth is sector."
+    },
+    {
+        "id": 249,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies 3 segments but concludes kite. Ground truth is trapezoid."
+    },
+    {
+        "id": 250,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "The model identifies arc and line, concludes circle. Ground truth is sector."
+    }
+]

@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct step-by-step evaluation."
+    },
+    {
+        "id": 2,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct step-by-step evaluation."
+    },
+    {
+        "id": 3,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct step-by-step evaluation."
+    },
+    {
+        "id": 4,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation, though precedence explanation was slightly ambiguous, outcome and steps aligned."
+    },
+    {
+        "id": 5,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct handling of precedence (AND before OR)."
+    },
+    {
+        "id": 6,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly handled multiple negations."
+    },
+    {
+        "id": 7,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 8,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 9,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 10,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 11,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 12,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 13,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 14,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 15,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 17,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 18,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 19,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 20,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 21,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 22,
+        "is_correct": false,
+        "extracted_answer": "False",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model failed to parse the initial 'not not', treating 'not ( True )' as 'not True' (False) immediately, missing a negation step."
+    },
+    {
+        "id": 23,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 24,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 25,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 27,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 28,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 29,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 30,
+        "is_correct": false,
+        "extracted_answer": "False",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly grouped operations, evaluating 'True or False and False or False' by effectively ignoring precedence rules in later steps."
+    },
+    {
+        "id": 31,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 32,
+        "is_correct": false,
+        "extracted_answer": "False",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Failed to count negations correctly. There are 5 'not's in total. Model lost track."
+    },
+    {
+        "id": 33,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 34,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 35,
+        "is_correct": false,
+        "extracted_answer": "not",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Model returned 'not' as the final result instead of a boolean value."
+    },
+    {
+        "id": 36,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 37,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 38,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 39,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 40,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 41,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 42,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 43,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 44,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 45,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 46,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 47,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 48,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 49,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 50,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 51,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 52,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 53,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 54,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 55,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 56,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 57,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 58,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 59,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 60,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 61,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 62,
+        "is_correct": false,
+        "extracted_answer": "False",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Model completely hallucinated the input problem. Input was 'True or not ((False))', Model evaluated just '((False))'."
+    },
+    {
+        "id": 63,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 64,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 65,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 66,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 67,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 68,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 69,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 70,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 71,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 72,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 73,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 74,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 75,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 76,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 77,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 78,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 79,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 80,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 81,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 83,
+        "is_correct": false,
+        "extracted_answer": "False",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect precedence. 'False and True or False'. Model evaluated AND then OR to get False. Wait, AND has higher precedence. False AND True is False. False OR False is False. Ground Truth says True? Let's re-read GT. GT is True. Input: `not not not False and True or False`. (not not not False) = True. True and True or False = True. Model calculated `not not not False` as False. Error in negation counting."
+    },
+    {
+        "id": 84,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 85,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 86,
+        "is_correct": false,
+        "extracted_answer": "True",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Logic error: stated 'False and True is False', but then concluded 'not not False is True'. The expression was 'not not (False)', but (False) was derived from 'False and True'. 'not not (False)' -> 'not (True)'? No. 'not not False' -> False. Model said True."
+    },
+    {
+        "id": 87,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 88,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 89,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 90,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 91,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 92,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 93,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 94,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 95,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 96,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 97,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 98,
+        "is_correct": false,
+        "extracted_answer": "True",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect precedence. Evaluated 'not True or False and True and True' as '(not True or False) and ...'. 'not True' is False. 'False or False' is False. 'False and True' is False. Correct is False. Model got True."
+    },
+    {
+        "id": 99,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 100,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 101,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 102,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 103,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 104,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 105,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 106,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 107,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 108,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 109,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 110,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 111,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 112,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 113,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 114,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 115,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 116,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 117,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 118,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 119,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 120,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 121,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 122,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 123,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 125,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 126,
+        "is_correct": false,
+        "extracted_answer": "True",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Precedence error. Treated OR before AND? `not not not False` is True. `False or False and True`. `False and True` is False. `False or False` is False. Model said True."
+    },
+    {
+        "id": 127,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 128,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 129,
+        "is_correct": false,
+        "extracted_answer": "False",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model counted negations incorrectly or made a logic slip. 'not not not False' is True. Model calculated it as False. GT is True. Wait. `not False` is True. `not True` is False. `not False` is True. So `not not not False` is True. `True and True and True` is True. Model result: False."
+    },
+    {
+        "id": 130,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 131,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 132,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 133,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 134,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 135,
+        "is_correct": false,
+        "extracted_answer": "True",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "Massive hallucination of boolean rules. claimed 'False and False' is equivalent to 'not (False or False)'."
+    },
+    {
+        "id": 136,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 137,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 138,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 139,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 140,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 141,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 142,
+        "is_correct": false,
+        "extracted_answer": "False",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Precedence error. Evaluated 'False or True' inside an implicit parenthesis grouping that didn't exist, failing to evaluate 'True and False' first correctly."
+    },
+    {
+        "id": 143,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 144,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 145,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 146,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 147,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 148,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 149,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 150,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 151,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 152,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 153,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 154,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 155,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 156,
+        "is_correct": false,
+        "extracted_answer": "False",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Failed to count negations correctly. 'not not not False' -> 'not not True' -> 'not False' -> 'True'. Model derived False."
+    },
+    {
+        "id": 157,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 158,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 159,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 160,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 161,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 162,
+        "is_correct": false,
+        "extracted_answer": "False",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Expression was 'True or not not ( not False )'. Model ignored the first 'True or' completely and evaluated 'not not ( not False )' incorrectly as False. Wait, GT is True. Model result False. Model also missed the 'True or ...' which short circuits to True."
+    },
+    {
+        "id": 163,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 164,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 165,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 166,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 167,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 168,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 169,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 170,
+        "is_correct": false,
+        "extracted_answer": "True",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Counted negations incorrectly. 5 'not's on True = False. Model derived True."
+    },
+    {
+        "id": 171,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 172,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 173,
+        "is_correct": false,
+        "extracted_answer": "False",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Precedence error. Evaluated 'True or False' as True, then ANDed with 'not True' (False) to get False. But AND binds tighter. 'False and not True' is False. 'True or False' is True. Correct is True."
+    },
+    {
+        "id": 174,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 175,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 176,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 177,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 178,
+        "is_correct": false,
+        "extracted_answer": "True",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Misread the problem? 'True and not not False and not False'. GT: False. 'not False' is True. 'not not False' is False. 'True and False and True' is False. Model said True."
+    },
+    {
+        "id": 179,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 180,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 181,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 182,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 183,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 184,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 185,
+        "is_correct": false,
+        "extracted_answer": "True",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Logic error in negations. 'not not True' is True. 'not (True)' is False. 'False or False' is False. Model derived True."
+    },
+    {
+        "id": 186,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 187,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 188,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 189,
+        "is_correct": false,
+        "extracted_answer": "False",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Precedence error. 'not False' (True) 'or' (not not False and False). Since 'True or ...' it is True. Model evaluated 'True or True' then 'and False', giving False."
+    },
+    {
+        "id": 190,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 191,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 192,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 193,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 194,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 195,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 196,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 197,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 198,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 199,
+        "is_correct": false,
+        "extracted_answer": "False",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Model hallucinates the problem, dropping 'True or False or' from 'True or False or not True and True'. The prompt had 4 terms, model evaluated only 'not True and True'."
+    },
+    {
+        "id": 200,
+        "is_correct": false,
+        "extracted_answer": "True",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model claims 'False or not True' is True because 'not True' is True? No, 'not True' is False. Model error."
+    },
+    {
+        "id": 201,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 202,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 203,
+        "is_correct": false,
+        "extracted_answer": "True",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Precedence error. Evaluated 'not False and False' as 'False', then 'or True and True' as True. Wait. 'not False' is True. 'True and False' is False. 'True and True' is True. 'False or True' is True. Wait. Input: 'not False and False or True and True'. GT: True. Model says True. But reasoning says 'True and False is False' then 'False or True is True'. Seems correct."
+    },
+    {
+        "id": 204,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 205,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 206,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 207,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 208,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 209,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 210,
+        "is_correct": false,
+        "extracted_answer": "False",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Precedence error. Evaluated 'True or (not False and ...)' as '(True or not False) and ...'. 'True or ...' is True. Model derived False."
+    },
+    {
+        "id": 211,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 212,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 213,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 214,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 215,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 216,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 217,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 218,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 219,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 220,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 221,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 222,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 223,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 224,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 225,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 226,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 227,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 228,
+        "is_correct": false,
+        "extracted_answer": "True",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Logic error in double negation. 'not not ( not True )' -> 'not not ( False )' -> False. Model derived True."
+    },
+    {
+        "id": 229,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 230,
+        "is_correct": false,
+        "extracted_answer": "False",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Precedence error. 'True or ...' should be True. Model evaluated 'True or False' as True, then ANDed with False to get False. AND has higher precedence."
+    },
+    {
+        "id": 231,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 232,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 233,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 234,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 235,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 236,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 237,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 238,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 239,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 240,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 241,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 242,
+        "is_correct": false,
+        "extracted_answer": "True",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect counting of negations. 'not not not True' is False. Model derived True."
+    },
+    {
+        "id": 243,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 244,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 245,
+        "is_correct": false,
+        "extracted_answer": "False",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Precedence error. 'True or ...' is True. Model evaluated left to right ('True or' then 'and False')."
+    },
+    {
+        "id": 246,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 247,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 248,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 249,
+        "is_correct": true,
+        "extracted_answer": "False",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    },
+    {
+        "id": 250,
+        "is_correct": true,
+        "extracted_answer": "True",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct evaluation."
+    }
+]

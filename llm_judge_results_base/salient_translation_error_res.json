@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified that the title 'Fürst' (Prince), acting as a modifier, was omitted."
+    },
+    {
+        "id": 2,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "The model correctly identified the specific error ('Übersee' translated to 'mainland'), which is a Named Entity error. However, the ground truth is (A), which is debatable but makes the model's answer technically incorrect based on the provided truth."
+    },
+    {
+        "id": 3,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model identified the specific word error ('Kanton' vs 'canon') but categorized it as a Named Entity error, while the ground truth categorized it as a Factual error."
+    },
+    {
+        "id": 4,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model identified the issue (repetition of 'Artemisia' replacing the family name 'Korbblütler') but categorized it as Dropped Content, while the ground truth marks it as a Factual error."
+    },
+    {
+        "id": 5,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model identified the error ('coat of arms' vs 'coat') but categorized it as Fact, while ground truth marks it as Modifier/Adjective error."
+    },
+    {
+        "id": 6,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified a dropped classification issue but missed the massive factual error where 'Windengewächse' (Morning Glories) became 'Silk Family'. Ground truth is Facts."
+    },
+    {
+        "id": 7,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model noticed the missing 'historical' context but categorized it as Fact, while ground truth is Dropped Content."
+    },
+    {
+        "id": 8,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model correctly identified the missing name part but categorized it as Fact. Ground truth is Named Entities."
+    },
+    {
+        "id": 9,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 19th vs 190th century."
+    },
+    {
+        "id": 10,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model identified the wrong word ('presidents' for 'Abgeordneten') but categorized it as Named Entities. Ground truth is Facts."
+    },
+    {
+        "id": 11,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 2005 vs 2015."
+    },
+    {
+        "id": 12,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model identified the date mismatch (September vs November) but chose Facts instead of Numerical Values."
+    },
+    {
+        "id": 13,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'listed' vs 'unlisted'."
+    },
+    {
+        "id": 14,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the replacement of the Named Entity/Nationality 'Congolese' with unrelated text."
+    },
+    {
+        "id": 15,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "none",
+        "comment": "Correct answer choice (Numerical Values), but reasoning hallucinated that the translation changed the unit to 'genera' when the translation actually says 'species'."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 1899 vs 1989."
+    },
+    {
+        "id": 17,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified mm vs nm."
+    },
+    {
+        "id": 18,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model correctly noted the error related to the lake, but claimed the translation said 'Oberen See' incorrectly, when it actually dropped the lake entirely. Selected Facts instead of Dropped Content."
+    },
+    {
+        "id": 19,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Dazaifu vs Darfur."
+    },
+    {
+        "id": 20,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Model hallucinated that the source sentence contained the German word 'kalt' (cold) to justify 'Chilly Mob', but the source says 'Philly Mob'. Ground truth is Named Entities."
+    },
+    {
+        "id": 21,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model failed to identify the modifier errors (e.g., 'Verkehr' dropped) and focused on extra words, selecting Facts."
+    },
+    {
+        "id": 22,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 1759 vs 1659."
+    },
+    {
+        "id": 23,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'genus' vs 'genius' but categorized it as Modifier/Adjective instead of Fact (wrong word/noun)."
+    },
+    {
+        "id": 24,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified missing name parts but selected Modifiers/Adjectives. Ground truth is Named Entities."
+    },
+    {
+        "id": 25,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the dropped/changed adjective 'ehemalige'."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Sassnitz vs Seibnitz."
+    },
+    {
+        "id": 27,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the change from 'Kleinstadt' (small town) to 'district of Tossel'."
+    },
+    {
+        "id": 28,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Model correctly identified 'eastern' vs 'western' but categorized it as Modifier/Adjective. Ground truth is Facts."
+    },
+    {
+        "id": 29,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Espenlaub vs Lebenshraum."
+    },
+    {
+        "id": 30,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Hague vs Prague."
+    },
+    {
+        "id": 31,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified km vs mm."
+    },
+    {
+        "id": 32,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Dorf' vs 'mall' but classified it as Modifier/Adjective. Ground truth is Facts."
+    },
+    {
+        "id": 33,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 20% vs 30%."
+    },
+    {
+        "id": 34,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified ha vs km."
+    },
+    {
+        "id": 35,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model focused on the entity translation but ground truth indicates the error is in Modifiers/Adjectives (likely 'nicht kommerzielle' or similar)."
+    },
+    {
+        "id": 36,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified fourth vs fifth."
+    },
+    {
+        "id": 37,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model analyzed sentence construction but selected Negation/Antonyms. Ground truth is Facts."
+    },
+    {
+        "id": 38,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Neu-Ulm vs New-York."
+    },
+    {
+        "id": 39,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the dropped clause about the new railway section."
+    },
+    {
+        "id": 40,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified that the location and river info was dropped/changed, resulting in a factual error."
+    },
+    {
+        "id": 41,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 18th vs 19th."
+    },
+    {
+        "id": 42,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model focused on definite articles. Ground truth indicates Facts."
+    },
+    {
+        "id": 43,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified Farkas vs Puskas."
+    },
+    {
+        "id": 44,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model missed the dropped content ('mit Sitz in München') and focused on 'is' vs 'ist'."
+    },
+    {
+        "id": 45,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified dropped content but missed the 'bronze' vs 'gold' factual error which is the ground truth."
+    },
+    {
+        "id": 46,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the missing adjective 'Praktischer'."
+    },
+    {
+        "id": 47,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Model correctly extracted answer (E) in the final JSON field but confused itself in the text reasoning saying the error was (A) but not listed."
+    },
+    {
+        "id": 48,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model focused on 'species' vs 'Pflanzenart' as a Named Entity error. Ground truth is Dropped Content."
+    },
+    {
+        "id": 49,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified missing/modified elements. Although the reasoning was slightly focused on articles, the selection matches."
+    },
+    {
+        "id": 50,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 4 vs 6."
+    },
+    {
+        "id": 51,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 4,
+        "error_type": "wrong_logic",
+        "comment": "Model correctly identified the error ('Tiroler' -> 'Herculean') but categorized it as Modifier/Adjective, while Ground Truth is Modifiers/Adjectives (A). Wait, let's re-verify. Ground Truth is (A). Model Answer is (A) in the text \"The correct answer is (A)\". Wait, evaluating again. The Model Reasoning says 'The correct answer is (A)' but also discusses 'Named Entities'. Let's give it credit for (A). Wait, I marked it correct in thought trace but 'Incorrect' in summary. Checking GT... GT is (A). Model selected (A). It IS correct."
+    },
+    {
+        "id": 52,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Theologe' -> 'mathematician' but categorized it as Modifier/Adjective. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 53,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'Greifswald' -> 'Griswald'."
+    },
+    {
+        "id": 54,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Erden' -> 'earth' but categorized it as Fact. Ground Truth is Named Entities (D)."
+    },
+    {
+        "id": 55,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'Thierstein' -> 'Thorstein'."
+    },
+    {
+        "id": 56,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'unvollständige' (incomplete) -> 'complete'."
+    },
+    {
+        "id": 57,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Register ed.' as Modifier error. Ground Truth is Named Entities (D)."
+    },
+    {
+        "id": 58,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model focused on missing population count, but Ground Truth is Named Entities (D) because the country changed from Ukraine to Russia."
+    },
+    {
+        "id": 59,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'touristic' -> 'military' as Negation/Antonym. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 60,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model focused on 'spanischer' -> 'Spanish' (which is correct). Missed the dropped Full Name. Ground Truth is Named Entities (D)."
+    },
+    {
+        "id": 61,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'fire' -> 'ice' as Modifier. Ground Truth is Negation or Antonyms (C)."
+    },
+    {
+        "id": 62,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 37 -> 17."
+    },
+    {
+        "id": 63,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified dropped content, but failed to notice the unit change 'm' -> 'ft'. Ground Truth is Numerical Values (B)."
+    },
+    {
+        "id": 64,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'writer' -> 'hack' as a Fact error."
+    },
+    {
+        "id": 65,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'Palatinate' -> 'Palestine'."
+    },
+    {
+        "id": 66,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'two-track' -> 'single-track'."
+    },
+    {
+        "id": 67,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified dropped content, but missed the added date 'May 1898' which is a Fact error. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 68,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Oka' -> 'Okja' but categorized as Modifier. Ground Truth is Named Entities (D)."
+    },
+    {
+        "id": 69,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified dropped 'Indiana'."
+    },
+    {
+        "id": 70,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'Kleinstadt' -> 'city'."
+    },
+    {
+        "id": 71,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'East' -> 'West' as Modifier error. Ground Truth is Named Entities (D)."
+    },
+    {
+        "id": 72,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Meeren' -> 'seas' as Named Entity error. Ground Truth is Modifiers or Adjectives (A)."
+    },
+    {
+        "id": 73,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model focused on missing 'military', but Ground Truth is Dropped Content (E) (missing 'tasks' clause)."
+    },
+    {
+        "id": 74,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'Stederdorf' -> 'Seedorf'."
+    },
+    {
+        "id": 75,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified added date information as Dropped Content. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 76,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified missing modifier 'German'."
+    },
+    {
+        "id": 77,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'A' -> 'C' but selected Named Entity. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 78,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified added information as Modifier error. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 79,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified dropped location clause."
+    },
+    {
+        "id": 80,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Painter' -> 'Dancer' as Modifier. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 81,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'Rabenvögel' (Corvidae) -> 'Columbine family' as Entity error."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 870 -> 70."
+    },
+    {
+        "id": 83,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'Swiss' -> 'Canadian' as Adjective error."
+    },
+    {
+        "id": 84,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified dropped dates as Dropped Content. Ground Truth is Numerical Values (B)."
+    },
+    {
+        "id": 85,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Tennis' -> 'Soccer' but claimed dropped content. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 86,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Actor' -> 'Director' but claimed Modifier. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 87,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Bochum' -> 'Hokum' but claimed Modifier. Ground Truth is Named Entities (D)."
+    },
+    {
+        "id": 88,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified missing info as Facts error. Ground Truth is Named Entities (D)."
+    },
+    {
+        "id": 89,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'in the near' error as Modifier. Ground Truth is Negation or Antonyms (C)."
+    },
+    {
+        "id": 90,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'German' -> 'French'."
+    },
+    {
+        "id": 91,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'Austrian' -> 'Australian'."
+    },
+    {
+        "id": 92,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 68 -> 88."
+    },
+    {
+        "id": 93,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'beginning' -> 'end' as Numerical. Ground Truth is Negation or Antonyms (C)."
+    },
+    {
+        "id": 94,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified name change as Named Entity. Ground Truth is Modifiers or Adjectives (A)."
+    },
+    {
+        "id": 95,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 415 -> 416."
+    },
+    {
+        "id": 96,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 1525 -> 1625."
+    },
+    {
+        "id": 97,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model missed the numerical error (1949 -> 1989), selected Named Entity."
+    },
+    {
+        "id": 98,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'water' -> 'solar'."
+    },
+    {
+        "id": 99,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 445 -> 45."
+    },
+    {
+        "id": 100,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified added factual information."
+    },
+    {
+        "id": 101,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 5 -> 51."
+    },
+    {
+        "id": 102,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 11 -> 12."
+    },
+    {
+        "id": 103,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'open' -> 'closed' but selected Modifier. Ground Truth is Negation or Antonyms (C)."
+    },
+    {
+        "id": 104,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'largest' -> 'smallest' but selected Modifier. Ground Truth is Negation or Antonyms (C)."
+    },
+    {
+        "id": 105,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'city' -> 'clown' but selected Modifier. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 106,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 125 -> 25."
+    },
+    {
+        "id": 107,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Surname' -> 'Firstname' as Modifier. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 108,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model missed the dropped population count (120) and focused on 'commune'. Ground Truth is Dropped Content (E)."
+    },
+    {
+        "id": 109,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model missed the numerical error (2058 -> 258). Ground Truth is Numerical Values (B)."
+    },
+    {
+        "id": 110,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified missing adjective 'namenlose' as Modifier error. Ground Truth is Dropped Content (E)."
+    },
+    {
+        "id": 111,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Rural' -> 'Urban' as Modifier. Ground Truth is Negation or Antonyms (C)."
+    },
+    {
+        "id": 112,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 4 -> 40."
+    },
+    {
+        "id": 113,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'Dynacord' -> 'Lyracord'."
+    },
+    {
+        "id": 114,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model missed the dropped clause 'welche durch Rechtsverordnung geschützt sind'. Ground Truth is Dropped Content (E)."
+    },
+    {
+        "id": 115,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified numerical change (6 -> 7) but called it Dropped Content. Ground Truth is Numerical Values (B)."
+    },
+    {
+        "id": 116,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'Jazz' -> 'Hit'."
+    },
+    {
+        "id": 117,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Skier' -> 'Dancer' as Modifier. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 118,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified changed/dropped modifiers."
+    },
+    {
+        "id": 119,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model missed the factual implication of 'district of Hamburg'. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 120,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 10 -> 100."
+    },
+    {
+        "id": 121,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Nattern' (snakes) -> 'Lantern' as Modifier. Ground Truth is Named Entities (D)."
+    },
+    {
+        "id": 122,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Founded' -> 'Destroyed' as Modifier. Ground Truth is Negation or Antonyms (C)."
+    },
+    {
+        "id": 123,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Štramberk' -> 'it' as Dropped Content. Ground Truth is Named Entities (D)."
+    },
+    {
+        "id": 124,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'fast' -> 'small'."
+    },
+    {
+        "id": 125,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified missing number 27 as Modifier error. Ground Truth is Dropped Content (E)."
+    },
+    {
+        "id": 126,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'Köln' -> 'Color'."
+    },
+    {
+        "id": 127,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified dropped roles."
+    },
+    {
+        "id": 128,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Courts' -> 'Stadiums' as Modifier. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 129,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Loving' -> 'Hating' as Fact. Ground Truth is Negation or Antonyms (C)."
+    },
+    {
+        "id": 130,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Green' -> 'Red' as Modifier. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 131,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 2200 -> 22000."
+    },
+    {
+        "id": 132,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 122 -> 182."
+    },
+    {
+        "id": 133,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Erinnerungssteine' -> 'memorial stones' as Modifier error. Ground Truth is Named Entities (D)."
+    },
+    {
+        "id": 134,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Potsdam' -> 'Pots' as Dropped Content. Ground Truth is Named Entities (D)."
+    },
+    {
+        "id": 135,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified unit change Meter -> Mile."
+    },
+    {
+        "id": 136,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'first' -> 'an' as Fact error. Ground Truth is Modifiers or Adjectives (A)."
+    },
+    {
+        "id": 137,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'Austrian' -> 'Australian'."
+    },
+    {
+        "id": 138,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Tennis' -> 'Soccer' as Modifier. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 139,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'Altenburg' -> 'Altavista'."
+    },
+    {
+        "id": 140,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Device' -> 'Vehicle' as Modifier. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 141,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Extinct' -> 'Living' as Modifier. Ground Truth is Negation or Antonyms (C)."
+    },
+    {
+        "id": 142,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 34 -> 39."
+    },
+    {
+        "id": 143,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified added date info as Dropped Content. Ground Truth is Numerical Values (B)."
+    },
+    {
+        "id": 144,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 1903 -> 1993."
+    },
+    {
+        "id": 145,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'US-American' -> 'American' as Modifier. Ground Truth is Named Entities (D)."
+    },
+    {
+        "id": 146,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Alcoholic' -> 'Non-alcoholic' as Fact. Ground Truth is Negation or Antonyms (C)."
+    },
+    {
+        "id": 147,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Region' -> 'Country' as Modifier. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 148,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified dropped population info as Modifier error. Ground Truth is Dropped Content (E)."
+    },
+    {
+        "id": 149,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 67 -> 77."
+    },
+    {
+        "id": 150,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'Irish' -> 'British'."
+    },
+    {
+        "id": 151,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the numerical error (21 vs 23) and the added phrase."
+    },
+    {
+        "id": 152,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified the loss of 'amtsfreie' but categorized it as Negation/Antonyms based on 'free of'. Ground Truth is Dropped Content (E)."
+    },
+    {
+        "id": 153,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model focused on 'Staatliche' (adjective) -> 'State' (noun) as a modifier error. Ground Truth is Dropped Content (E)."
+    },
+    {
+        "id": 154,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model focused on preposition usage ('von' -> 'from') rather than the missing named entity '(Saale)'. Ground Truth is Named Entities (D)."
+    },
+    {
+        "id": 155,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model missed the clear Named Entity error ('Elsass' -> 'Alicia') and focused on 'industrial'. Ground Truth is Named Entities (D)."
+    },
+    {
+        "id": 156,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model missed the truncation of the name 'Cantenac-Brown', claiming Named Entities were correct. Ground Truth is Named Entities (D)."
+    },
+    {
+        "id": 157,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the adjective mistranslation ('armloser' -> 'feckless')."
+    },
+    {
+        "id": 158,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the name change 'Badeni' -> 'Banzini'."
+    },
+    {
+        "id": 159,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the numerical error (19th vs 20th century)."
+    },
+    {
+        "id": 160,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model correctly identified 'listed' -> 'unlisted' but categorized it as Named Entities. Ground Truth is Facts (F) (or typically Negation)."
+    },
+    {
+        "id": 161,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'French' usage as error (it's not). Missed the dropped name 'Alauzet'. Ground Truth is Named Entities (D)."
+    },
+    {
+        "id": 162,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the negation error 'never open'."
+    },
+    {
+        "id": 163,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model missed the antonym error 'Mitte' (middle) -> 'Start'. Ground Truth is Negation or Antonyms (C)."
+    },
+    {
+        "id": 164,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Nature' -> 'Manure' but categorized as Modifier. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 165,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the name change 'Ekkehard' -> 'Eduard'."
+    },
+    {
+        "id": 166,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified missing 'Baumeister' but categorized it as Facts. Ground Truth is Dropped Content (E)."
+    },
+    {
+        "id": 167,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the date error (22 vs 28)."
+    },
+    {
+        "id": 168,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the missing adjective 'Rectangular'."
+    },
+    {
+        "id": 169,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified the splitting of the compound name but categorized as Named Entities. Ground Truth is Dropped Content (E)."
+    },
+    {
+        "id": 170,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Model correctly identified a translation error, though the reasoning about 'lists' vs 'aufgelistet' is shaky. Ground Truth is (A)."
+    },
+    {
+        "id": 171,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the name change 'Burkardroth' -> 'Burka'."
+    },
+    {
+        "id": 172,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the name change/translation 'Oberlausitz' -> 'Upper Lusatia'."
+    },
+    {
+        "id": 173,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the name change 'Dresden' -> 'Dresmontovia'."
+    },
+    {
+        "id": 174,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 1,
+        "error_type": "format_error",
+        "comment": "Model entered a repetitive loop in the response generation and selected Modifiers (A). Ground Truth is Named Entities (D)."
+    },
+    {
+        "id": 175,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the inserted negation 'not listed'."
+    },
+    {
+        "id": 176,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Kleinstadt' -> 'town' as Fact error. Ground Truth is Numerical Values (B) (likely referring to the population classification)."
+    },
+    {
+        "id": 177,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the factual error 'height' -> 'weight'."
+    },
+    {
+        "id": 178,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the name change 'Hohenfelde' -> 'Hohenbrucke'."
+    },
+    {
+        "id": 179,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the numerical error (48 vs 68 million)."
+    },
+    {
+        "id": 180,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified the spelling change in name but missed the 'Small' vs 'Big' error. Ground Truth is Negation or Antonyms (C)."
+    },
+    {
+        "id": 181,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'Dutch' -> 'Socialist' as Modifier error."
+    },
+    {
+        "id": 182,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified dropped 'Russian' as Dropped Content. Ground Truth is Named Entities (D)."
+    },
+    {
+        "id": 183,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'hamlet' (Rotte) -> 'town' as Entity error."
+    },
+    {
+        "id": 184,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the name change 'Memmingen' -> 'Meninges'."
+    },
+    {
+        "id": 185,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'all' -> 'no' but selected Numerical Values. Ground Truth is Negation or Antonyms (C)."
+    },
+    {
+        "id": 186,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'village' -> 'city' as Modifier error. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 187,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the numerical error (57 vs 67)."
+    },
+    {
+        "id": 188,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Old Church' -> 'Churchyard' as Modifier error. Ground Truth is Named Entities (D)."
+    },
+    {
+        "id": 189,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the negation error 'can' -> 'cannot'."
+    },
+    {
+        "id": 190,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Landkreis' -> 'state' as Entity error. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 191,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'son' -> 'daughter' as Modifier error. Ground Truth is Negation or Antonyms (C)."
+    },
+    {
+        "id": 192,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "Model hallucinated that the translation maintained a number, then selected Facts. Ground Truth is Numerical Values (B) because the population number was dropped."
+    },
+    {
+        "id": 193,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'German' -> 'Prussian' as Entity error. Ground Truth is Modifiers or Adjectives (A)."
+    },
+    {
+        "id": 194,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified name change 'Tokushima' -> 'Tokyo' as Dropped Content. Ground Truth is Named Entities (D)."
+    },
+    {
+        "id": 195,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'heating' -> 'cooling' as Antonym error."
+    },
+    {
+        "id": 196,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'castles' -> 'castles and rockets' as Modifier error. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 197,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the missing negation."
+    },
+    {
+        "id": 198,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified incorrect preposition usage as Numerical Value error. Ground Truth is Dropped Content (E)."
+    },
+    {
+        "id": 199,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Upper' -> 'Lower' as Fact error. Ground Truth is Negation or Antonyms (C)."
+    },
+    {
+        "id": 200,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model misidentified the article usage as Modifier error. Ground Truth is Dropped Content (E)."
+    },
+    {
+        "id": 201,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'names' -> 'lists' as Fact error. Ground Truth is Dropped Content (E)."
+    },
+    {
+        "id": 202,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'eight' -> 'six' but selected Negation/Antonyms. Ground Truth is Numerical Values (B)."
+    },
+    {
+        "id": 203,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the name truncation 'Wüstenbrand' -> 'Wüsten'."
+    },
+    {
+        "id": 204,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the number error (3rd vs 33rd)."
+    },
+    {
+        "id": 205,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'Buddhist' -> 'Hindu'."
+    },
+    {
+        "id": 206,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model missed the fact that the entire event description was replaced with general info, selecting Modifier error. Ground Truth is Dropped Content (E)."
+    },
+    {
+        "id": 207,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified missing modifier 'Hand' as Dropped Content. Ground Truth is Modifiers or Adjectives (A)."
+    },
+    {
+        "id": 208,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'lake' -> 'fake' as Named Entity error. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 209,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'modern' -> 'ancient' (reasoning text had minor issue but result correct). Ground Truth is Facts (F) (though actually seems like Antonym)."
+    },
+    {
+        "id": 210,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'narrow' -> 'wide' as Modifier error. Ground Truth is Negation or Antonyms (C)."
+    },
+    {
+        "id": 211,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Sumner' -> 'Summer' as Modifier error. Ground Truth is Named Entities (D)."
+    },
+    {
+        "id": 212,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'second' -> 'third' as Modifier error. Ground Truth is Numerical Values (B)."
+    },
+    {
+        "id": 213,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Metallurge' -> 'metalist' as Modifier error. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 214,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Lienz' -> 'Munich' as Modifier error. Ground Truth is Named Entities (D)."
+    },
+    {
+        "id": 215,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the unit change (km -> m)."
+    },
+    {
+        "id": 216,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 84th vs 4th."
+    },
+    {
+        "id": 217,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'wildwater river' -> 'sea' as Modifier error. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 218,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the dropped content 'eventuell'."
+    },
+    {
+        "id": 219,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model focused on missing 'Leinwand' modifier. Ground Truth is Negation or Antonyms (C) (Specialist vs General literature)."
+    },
+    {
+        "id": 220,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'educator' issue. Ground Truth is Named Entities (D) (Jura Margulis -> Jura)."
+    },
+    {
+        "id": 221,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified dropped modifier 'British'. Ground Truth is Dropped Content (E)."
+    },
+    {
+        "id": 222,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the date error (22nd vs 23rd)."
+    },
+    {
+        "id": 223,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified verb form change as Negation/Antonyms. Ground Truth is Modifiers or Adjectives (A)."
+    },
+    {
+        "id": 224,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'seal' -> 'steal' as Modifier error. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 225,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Near East' -> 'Far East' as Fact error. Ground Truth is Negation or Antonyms (C)."
+    },
+    {
+        "id": 226,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the numerical error (1410 -> 1140)."
+    },
+    {
+        "id": 227,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'Landkreis' -> 'district' as Named Entity error (though debatable, it matches GT)."
+    },
+    {
+        "id": 228,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified term translation error as Modifier. Ground Truth is Negation or Antonyms (C) (Added 'Not')."
+    },
+    {
+        "id": 229,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Lower' -> 'Upper' as Fact error. Ground Truth is Negation or Antonyms (C)."
+    },
+    {
+        "id": 230,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified preposition error as Modifier. Ground Truth is Dropped Content (E)."
+    },
+    {
+        "id": 231,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the date order swap."
+    },
+    {
+        "id": 232,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 19th vs 18th century."
+    },
+    {
+        "id": 233,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Kornweihe' -> 'consecration' as Dropped Content. Ground Truth is Named Entities (D)."
+    },
+    {
+        "id": 234,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Oberhofmarschall' -> 'teacher' as Dropped Content. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 235,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 1,
+        "error_type": "format_error",
+        "comment": "Model output broke down and hallucinated repetitive text."
+    },
+    {
+        "id": 236,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified missing unit as Fact error. Ground Truth is Dropped Content (E)."
+    },
+    {
+        "id": 237,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'Kulmbach' -> 'Kumbh'."
+    },
+    {
+        "id": 238,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'victims' -> 'victories' as Negation/Antonyms. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 239,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified negation insertion as Modifier. Ground Truth is Negation or Antonyms (C)."
+    },
+    {
+        "id": 240,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Audio' -> 'Video' as Modifier error. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 241,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified 'Royal' -> 'Common' as Modifier error. Ground Truth is Facts (F)."
+    },
+    {
+        "id": 242,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified the date error (1778 -> 1878)."
+    },
+    {
+        "id": 243,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'Hungarian' -> 'Austrian'."
+    },
+    {
+        "id": 244,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'Höhepunkt' -> 'highlight' as a modifier/adjective issue (arguably synonym, but matches GT)."
+    },
+    {
+        "id": 245,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 'the first' vs 'a first'."
+    },
+    {
+        "id": 246,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 6er vs 7 Series."
+    },
+    {
+        "id": 247,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified 1893 -> 1993."
+    },
+    {
+        "id": 248,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correctly identified insertion of negation."
+    },
+    {
+        "id": 249,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified dropped 'schwäbischen' as Modifier error. Ground Truth is Dropped Content (E)."
+    },
+    {
+        "id": 250,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model identified misplacement as Modifier error. Ground Truth is Negation or Antonyms (C) (Modern vs Ancient)."
+    }
+]

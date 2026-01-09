@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": false,
+        "extracted_answer": "List, Syndrome, Therefrom",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly interpreted 'List:' as one of the words to be sorted, rather than a label for the list."
+    },
+    {
+        "id": 2,
+        "is_correct": false,
+        "extracted_answer": "barn, delmarva, dot, damp, embezzle, entirety, guru, greene, it&t, list, malton, obstetric, onus, panicking, prod, scorch, same, splutter, subsist, thrill",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included 'list' in the sorting and failed to sort 'damp' vs 'delmarva' and 'scorch' vs 'same' correctly."
+    },
+    {
+        "id": 3,
+        "is_correct": false,
+        "extracted_answer": "artillery, bainite, doris, fda, harm, incongruous, list, monkey, prosody, vivian, vegetate",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'list' and sorted 'vivian' before 'vegetate' (vi vs ve), which is incorrect."
+    },
+    {
+        "id": 4,
+        "is_correct": false,
+        "extracted_answer": "fortescue, helmsman, List, percept, purloin, sioux",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 5,
+        "is_correct": false,
+        "extracted_answer": "Bootlegging, Indifferent, List, Trainman",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 6,
+        "is_correct": false,
+        "extracted_answer": "apparition, copra, conference, coupe, dutton, floruit, ignore, implement, layperson, messenger, primitive, superstitious, turnoff, westward",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model sorted 'copra' before 'conference' (cop vs con), which is incorrect."
+    },
+    {
+        "id": 7,
+        "is_correct": false,
+        "extracted_answer": "Affluent, Cheshire, Covalent, Diagnostician, Divisive, Epsilon, Folklore, Gothic, Grover, Horowitz, Julio, List, Peanut, Quadrature, Salient, Spiderwort",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model included 'List' and omitted 'Gideon' and 'Spiritual' from the final output."
+    },
+    {
+        "id": 8,
+        "is_correct": false,
+        "extracted_answer": "cloudy, euclidean, fight, hobby, invite, majestic, scene, stonehenge, surge, thrifty, winsome",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted the word 'citrus' from the sorted list."
+    },
+    {
+        "id": 9,
+        "is_correct": false,
+        "extracted_answer": "built, List, poland, swab, thunderclap",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 10,
+        "is_correct": false,
+        "extracted_answer": "cotyledon, List, more, pepperoni, regret, starlight, wallboard",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 11,
+        "is_correct": false,
+        "extracted_answer": "Arapaho, Bacteria, Bock, Bela, Bock, Burley, List",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List', duplicated 'Bock', and sorted 'Bock' before 'Bela'."
+    },
+    {
+        "id": 12,
+        "is_correct": false,
+        "extracted_answer": "Allotted, Fate, Figural, Gorky, Grapple, Hydroxyl, Knives, List, Neapolitan, Nerve, Plainfield, Rampage, Saxon, Scottish, Seventeen, Sidereal, Siena, Scrumptious, Stooge, Thermal, Yakima",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and sorted 'Scrumptious' (scr) after 'Siena' (sie), which is incorrect."
+    },
+    {
+        "id": 13,
+        "is_correct": false,
+        "extracted_answer": "archery, arlen, barbudo, bride, coquette, lockwood, list, officious, polytypy, radix, teem, tunnel, you've",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'list' and omitted 'lucrative' from the sorted output."
+    },
+    {
+        "id": 14,
+        "is_correct": false,
+        "extracted_answer": "aniline, boletus, eddy, fontainebleau, galveston, gentle, list, skat, sportsmen, scandalous, wile",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'list' and sorted 'scandalous' after 'sportsmen', which is incorrect."
+    },
+    {
+        "id": 15,
+        "is_correct": false,
+        "extracted_answer": "campfire, contrast, crowfoot, List, purgatory, scrupulous",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 16,
+        "is_correct": false,
+        "extracted_answer": "bare, census, exaltation, gnomon, humility, infirm, List, manatee, moth, oblique, paregoric, patristic, snagging, sorrowful, stressful, timeout",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and omitted 'intrinsic' and 'torch' from the sorted output."
+    },
+    {
+        "id": 17,
+        "is_correct": false,
+        "extracted_answer": "Advent, Anger, Convoy, Deliver, Filly, Gneiss, Grocer, Hessian, Hotbox, Landau, List, Marlborough, Ninebark, Platelet, Plat, Pyrotechnic, Siemen's, Stapleton, Treadle, Transitive",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List', omitted 'uncle', and failed to sort 'Platelet' vs 'Plat' and 'Treadle' vs 'Transitive' correctly."
+    },
+    {
+        "id": 18,
+        "is_correct": false,
+        "extracted_answer": "Audacious, Battleground, Bulrush, Filamentous, Harris, Intervenor, List, Municipal, Rubicund, Semaphore, Sensate, Xylophone",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 19,
+        "is_correct": true,
+        "extracted_answer": "Accelerate, Bauer, County, Nail, Nominee, O'Connell, Phony, Poole, Putnam, Quantify, Raisin, Venice",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly extracted and sorted the words, properly excluding the 'List' label."
+    },
+    {
+        "id": 20,
+        "is_correct": false,
+        "extracted_answer": "ami, bituminous, decadent, exeter, knickerbocker, List",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 21,
+        "is_correct": false,
+        "extracted_answer": "gloucester, List, raytheon, slurp",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 22,
+        "is_correct": false,
+        "extracted_answer": "aaaaa, c, d, eeeee, g, h, iiiii, j, l, m, n, o, r, s, t, u, v, y",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "The model hallucinated a completely bizarre sorting task involving counting letters rather than sorting words."
+    },
+    {
+        "id": 23,
+        "is_correct": false,
+        "extracted_answer": "coven, disturb, etruscan, lorenz, List, plastisol, runneth, shouldn't, skintight, swept",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 24,
+        "is_correct": false,
+        "extracted_answer": "berg, bluish, gamut, List, multiplexor, puerto, shreveport, subliminal",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 25,
+        "is_correct": false,
+        "extracted_answer": "croupier, daffy, dockyard, duty, confess, household, hypothesis, info, loam, mandate, mantic, minstrelsy, nepotism, peccary, sawtimber, serenade, silver, summate, triode",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model failed to sort the list correctly (e.g., 'confess' appears after 'duty')."
+    },
+    {
+        "id": 26,
+        "is_correct": false,
+        "extracted_answer": "champ, delirious, exempt, hayes, hood, hypothalamus, jigsaw, list, lozenge, pipeline, plentiful, sarcastic, seashell, sensory, teen, clothbound, conclusion, dyestuff",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and failed to sort the list correctly (e.g., 'clothbound' is near the end)."
+    },
+    {
+        "id": 27,
+        "is_correct": false,
+        "extracted_answer": "dynastic, inflammable, List, nebulae, phosphide, prick, stagnate, tackle, tristan, vitiate",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and omitted 'conglomerate'."
+    },
+    {
+        "id": 28,
+        "is_correct": false,
+        "extracted_answer": "Dateline, Household, Jill, Langmuir, List, Pipette",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 29,
+        "is_correct": false,
+        "extracted_answer": "abo, armful, bonaventure, cremate, dictatorial, embryology, frond, gasify, guiana, herman, indistinguishable, list, oscillatory, pancreatic, passenger, referential, stockholder, through",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'list' and omitted 'tip'."
+    },
+    {
+        "id": 30,
+        "is_correct": false,
+        "extracted_answer": "bertrand, careful, feign, eyelid, heterostructure, libra, list, paste, snip, wherewith",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'list' and incorrectly sorted 'feign' before 'eyelid'."
+    },
+    {
+        "id": 31,
+        "is_correct": false,
+        "extracted_answer": "Bologna, Cottrell, Crackle, Cure, Doubtful, Entropy, Extoller, Gloria, Litigant, List, Procedural, Summand, Tyke",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 32,
+        "is_correct": true,
+        "extracted_answer": "boldface, darkle, fungi, gobble, inflammation, jacqueline, joanne, macaque, piano, schiller, slump, sojourn, sst",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly sorted the words and did not include 'List'."
+    },
+    {
+        "id": 33,
+        "is_correct": false,
+        "extracted_answer": "Geld, List, Phase, Thunder",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 34,
+        "is_correct": false,
+        "extracted_answer": "Adonis, Birdseed, Citizen, Contaminant, Convair, Fateful, Frighten, Judasica, List, Scrubby, Southeastern, Soothe, Suppose, Stormy, Trillion, Trundle",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and failed to sort several pairs correctly (e.g., Southeastern vs Soothe)."
+    },
+    {
+        "id": 35,
+        "is_correct": false,
+        "extracted_answer": "dulse, kowalewski, List, politician, yew",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 36,
+        "is_correct": false,
+        "extracted_answer": "Belize, Bolshevism, Cost, Dance, Deadline, Dietetic, Foster, Formulae, Huddle, Judson, Mantle, Odessa, Palace, Progeny, Rackety, Resplendent, Thirdhand, Warmth",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted 'proust' and 'hesitant' from the sorted list."
+    },
+    {
+        "id": 37,
+        "is_correct": false,
+        "extracted_answer": "celandine, diploma, faith, harold, hostile, List, mohawk, octavia, supercilious, thebes",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 38,
+        "is_correct": false,
+        "extracted_answer": "accomplice, az, choral, circumcircle, clatter, crepe, doff, emission, incantation, labour, lorry, pleura, prig, ride, tea, viaduct, wheelbase, whim",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted 'upon' and 'fairfax' from the sorted list."
+    },
+    {
+        "id": 39,
+        "is_correct": false,
+        "extracted_answer": "beth, kenya, List",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 40,
+        "is_correct": false,
+        "extracted_answer": "broaden, envy, list",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 41,
+        "is_correct": false,
+        "extracted_answer": "announce, carp, clayton, earthy, hello, inmate, list, nimbus, parentage, phonetic, sharon, skinny, sudan, watson",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'list' and omitted 'co'."
+    },
+    {
+        "id": 42,
+        "is_correct": false,
+        "extracted_answer": "arraign, blutwurst, convenient, faber, glacier, horizon, inconspicuous, list, peste, portentous, rancho, uranyl",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 43,
+        "is_correct": false,
+        "extracted_answer": "bengal, fettle, List, yeager",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 44,
+        "is_correct": false,
+        "extracted_answer": "brewster, inaudible, list, synapse, tithing, tuba",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 45,
+        "is_correct": false,
+        "extracted_answer": "abstract, borough, brown, cosec, delphinium, diminutive, fleabane, foot, guy, hair, highfalutin, ipsilateral, longish, List, mobster, richfield, trapezoidal, ugh, wintertime",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and omitted 'cortex'."
+    },
+    {
+        "id": 46,
+        "is_correct": true,
+        "extracted_answer": "Berra, Calabash, Episode, Hen, Marietta, Molybdenum, Pedantic, Pounce, Schedule, Sparkman, Vinaigrette",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly sorted the words without including 'List'."
+    },
+    {
+        "id": 47,
+        "is_correct": false,
+        "extracted_answer": "aberdeen, analogue, deciduous, easel, list, sprightly, swaziland",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 48,
+        "is_correct": false,
+        "extracted_answer": "amperage, crimea, farther, insolent, ping, protocol, raillery, stephen, tech",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model produced a list in the wrong order compared to its internal reasoning, and included 'List' in the reasoning steps."
+    },
+    {
+        "id": 49,
+        "is_correct": false,
+        "extracted_answer": "Anheuser, Bungle, Chaperon, Frame, Hippodrome, Keller, List, Miterwort, Prompt, Spidery, Together, Yolk",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 50,
+        "is_correct": false,
+        "extracted_answer": "amphibious, assist, baseplate, benchmark, ell, hatchet, homecoming, loess, machine, pilot, prorate, redcoat, reverie, sank, stallion, thoughtful, wehr, wince",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted 'percentage' from the sorted list."
+    },
+    {
+        "id": 51,
+        "is_correct": false,
+        "extracted_answer": "core, discreet, hat, list, sonnet",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 52,
+        "is_correct": false,
+        "extracted_answer": "Alphabet, Birmingham, Cantoneese, Educate, Entourage, Fashion, Fond, List, Marimba, Mechanic, Philology, Retrofit",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 53,
+        "is_correct": false,
+        "extracted_answer": "jugoslavia, list, polyhedron, retrorocket, scoot, walnut",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 54,
+        "is_correct": false,
+        "extracted_answer": "appliance, impede, list, pulitzer, superior",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 55,
+        "is_correct": false,
+        "extracted_answer": "across, admixture, directrix, flight, gut, indicate, list, marshal, predacious, quagmire, smuggle, vantage",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 56,
+        "is_correct": false,
+        "extracted_answer": "brake, bunny, chevalier, choose, cubby, drone, exotica, good, indomitable, lineage, mental, nick, pique, rajah, sheaf, stitch, steelmake, thymine, wigging",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model incorrectly sorted 'stitch' before 'steelmake'."
+    },
+    {
+        "id": 57,
+        "is_correct": false,
+        "extracted_answer": "above, big, broken, coexist, dominate, irk, List, olive, prometheus, screw, thirdhand",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 58,
+        "is_correct": false,
+        "extracted_answer": "aeneas, colombo, foothold, garry, glycerine, inviolate, lucre, magnanimity, nevada, notoriety, pompey, plebiscite, quagmire, satanic, scription, softball, spleenwort, tennyson, type",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted 'fox' from the sorted list."
+    },
+    {
+        "id": 59,
+        "is_correct": false,
+        "extracted_answer": "aau, aw, bateau, cubit, eutectic, gown, gullible, inane, jurisprudential, list, mistletoe, nepenthe, ow, pirouette, pussycat, scottsdale, shockley, schwartz, travelogue",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model included 'List' and hallucinated words like 'aau'."
+    },
+    {
+        "id": 60,
+        "is_correct": false,
+        "extracted_answer": "coleus, fructose, hurricane, improbable, irreducible, list, tipoff, tularemia, vesper, whereabout, whitetail",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'list' and omitted words like 'cite'."
+    },
+    {
+        "id": 61,
+        "is_correct": false,
+        "extracted_answer": "Aroma, Designate, Facetious, Carcinogen, Delmarva, List, Nod, Parochial, Rally, Sawfly, Syllabus",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and failed to sort the whole list correctly."
+    },
+    {
+        "id": 62,
+        "is_correct": false,
+        "extracted_answer": "blackstone, feed, figural, giveth, hecatomb, hunt, incense, middle, obstinacy, pestle, plume, pasty, sinkhole, spavin, statutory, tel, toothpaste, undulate",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model sorted 'pestle' and 'plume' before 'pasty', which is incorrect (pa < pe)."
+    },
+    {
+        "id": 63,
+        "is_correct": false,
+        "extracted_answer": "analyses, augustine, blueback, credential, den, erda, fireproof, falter, geophysics, guitar, keynote, meter, porte, shibboleth, stonewort, swampland, telephony, testimonial, timeshare, usa",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model sorted 'fireproof' before 'falter', which is incorrect."
+    },
+    {
+        "id": 64,
+        "is_correct": false,
+        "extracted_answer": "Comet, Cocksure, Heusen, Hydrate, Injun, List, Manley, Pincer, Snippet, Spokesperson",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and failed to sort correctly."
+    },
+    {
+        "id": 65,
+        "is_correct": false,
+        "extracted_answer": "Alternate, Boone, Chalcedony, Charity, Genteel, List, Million, Olden, Satin, Sinai",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 66,
+        "is_correct": false,
+        "extracted_answer": "Bauble, Cube, Fabulous, Kitakyushu, Length, Limnology, List, Sequel, Senescent, Seventh, Voluntary, Willow, Yucca",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 67,
+        "is_correct": false,
+        "extracted_answer": "benefice, improvise, list, nevins, pusey, puree, protein, pullman, river, squeamish, whale",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'list' and failed to sort 'puree' vs 'pusey' and others correctly."
+    },
+    {
+        "id": 68,
+        "is_correct": false,
+        "extracted_answer": "Allele, Anthropocentric, Banish, Badinage, Bartok, Dale, Desolater, Dun, Fraternity, Goat, Martinson, Monomer, Morphemic, Pegging, Starkey, Underclassmen, Whoop",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted 'dar' and failed to sort 'Banish' before 'Badinage' correctly (bad < ban)."
+    },
+    {
+        "id": 69,
+        "is_correct": false,
+        "extracted_answer": "List, Neff, Nicodemus, Sortie",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 70,
+        "is_correct": false,
+        "extracted_answer": "Avalanche, Befriend, Berniece, Bong, Bremstrahlung, Dactylic, Flick, Gilbertson, Goof, Hereafter, Housekeep, Lanka, Metazoan, Posterior",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted 'hoe', 'hurry', and 'showroom'."
+    },
+    {
+        "id": 71,
+        "is_correct": false,
+        "extracted_answer": "booby, butadiene, flair, functor, heck, list, orphanage, racy, rheumatic, shivery, sin, snowball, spec, testy, trench, zorn",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 72,
+        "is_correct": false,
+        "extracted_answer": "antaeus, caw, daughter, devonshire, gloria, helvetica, hi, leatherback, magnesium, megohm, nikko, raincoat, schroedinger, sojourn, terminal, woodcarver",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted 'scald' from the sorted list."
+    },
+    {
+        "id": 73,
+        "is_correct": false,
+        "extracted_answer": "Blest, Buxton, Consternate, List, Proximity, Quizzes, Sound, Tariff, Xerxes",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 74,
+        "is_correct": false,
+        "extracted_answer": "convey, decimate, experiment, fortieth, incautious, kudo, List, marshall, neoclassic, rest, whimper, wiley, xylem, z's",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 75,
+        "is_correct": false,
+        "extracted_answer": "allot, chauncey, coddington, coachmen, clergymen, companion, embark, fatten, gazpacho, granular, hobble, List, murk, niggle, pristine, singlet, threefold, too, yeats",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List', omitted 'pvc' and 'muslim', and failed to sort 'coachmen' vs 'clergymen' correctly."
+    },
+    {
+        "id": 76,
+        "is_correct": false,
+        "extracted_answer": "carport, firewood, introvert, List, sweepstake, tiresome",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 77,
+        "is_correct": false,
+        "extracted_answer": "astigmat, boyish, creak, coriolanus, cutlet, easternmost, godson, heaven, highwaymen, leather, List, musky, muscular, paula, scavenge, synaptic, zinc",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and failed to sort 'musky' vs 'muscular' correctly."
+    },
+    {
+        "id": 78,
+        "is_correct": false,
+        "extracted_answer": "bucolic, List, oblong, whoosh",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 79,
+        "is_correct": false,
+        "extracted_answer": "betelgeuse, blue, caudal, char, cyanide, dew, epoch, grossman, grossly, inexplainable, lyre, meaty, snazzy, stain, tao, trail, trailside, wash",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model hallucinated the word 'grossly' into the list."
+    },
+    {
+        "id": 80,
+        "is_correct": false,
+        "extracted_answer": "N/A",
+        "reasoning_score": 1,
+        "error_type": "no_answer",
+        "comment": "The model entered an infinite loop repeating the word 'Mammary'."
+    },
+    {
+        "id": 81,
+        "is_correct": false,
+        "extracted_answer": "Allocate, Ann, Blake, Bishopric, Carbondale, Casual, Cometh, Confirmatory, Crinkle, Degum, Elliot, Expatriate, Hangable, Neal, Orthodontist, Shenandoah, Soybean, Telegraph, Tuxedo",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted 'unipolar' and failed to sort 'Blake' vs 'Bishopric' correctly."
+    },
+    {
+        "id": 82,
+        "is_correct": false,
+        "extracted_answer": "aldebaran, backyard, boxwood, cabbage, fiberboard, invincible, inkling, lakeside, lightface, List, mcgee, peruse, polyhedra, pulsate, rae, rowley, shape, watchworks",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List', omitted 'matte', 'game', 'entrepreneurial', and failed to sort 'invincible' vs 'inkling' correctly."
+    },
+    {
+        "id": 83,
+        "is_correct": false,
+        "extracted_answer": "Cloudy, Ecosystem, Ferret, Knotty, List",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 84,
+        "is_correct": false,
+        "extracted_answer": "aggression, arachne, asplenium, bystander, definite, lengthy, list, sanford, southeast, translate",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'list' and omitted 'gneiss'."
+    },
+    {
+        "id": 85,
+        "is_correct": false,
+        "extracted_answer": "caruso, chassis, corporal, List, signora",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 86,
+        "is_correct": false,
+        "extracted_answer": "Besetting, Counterweight, Detergent, Groove, Hide, Intangible, List, Menlo, Nv, Ovipositor, Sans, Spumoni",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and omitted 'boyd'."
+    },
+    {
+        "id": 87,
+        "is_correct": false,
+        "extracted_answer": "betony, bronzy, charge, clemens, collet, centaur, contemporaneous, contravariant, cordial, dorado, handicraft, macmahon, mesh, monterey, possession, regina, underclassman",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted 'boar' and 'bootleg' and failed to sort 'collet' vs 'centaur' correctly."
+    },
+    {
+        "id": 88,
+        "is_correct": false,
+        "extracted_answer": "admixture, catwalk, chateaux, coordinate, equine, higgins, irremediable, List, malthusian, offertory, panamanian, pecos, reluctant, shelve, suction, tunis",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 89,
+        "is_correct": false,
+        "extracted_answer": "Bandwidth, Hidebound, List, Wreak",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 90,
+        "is_correct": false,
+        "extracted_answer": "Ambient, Arroyo, Billion, Breccia, Coupon, Eardrum, Faze, Fivefold, Intimidate, Martinson, O'connor, Perplex, Secretary, Social, Terrestrial, Voltmeter",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted 'appropriable' from the sorted list."
+    },
+    {
+        "id": 91,
+        "is_correct": false,
+        "extracted_answer": "Assure, Bye, Bully, Butterball, Cornet, Contend, Deaf, Dinosaur, Frontage, Gunky, Indeterminable, Lustrous, Ostentatious, Paradigmatic, Rhyme, Sanderson, Sashimi, Smokestack, Taint",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model failed to sort 'Cornet' vs 'Contend' correctly."
+    },
+    {
+        "id": 92,
+        "is_correct": true,
+        "extracted_answer": "Backpack, Collision, Coffman, Cotman, Detour, Gnostic, Hammock, Jacobean, Lung, Membrane, Monologist, Notate, Quirinal, Rhubarb, Secretive, Stove, Tobacco",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly sorted the list."
+    },
+    {
+        "id": 93,
+        "is_correct": false,
+        "extracted_answer": "anharmonic, beauteous, coypu, inflammation, List",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 94,
+        "is_correct": false,
+        "extracted_answer": "artistry, cascade, can't, condiment, consignee, gentlemen, glance, golf, markov, mimosa, nine, projectile, shanghai, swingable, tale, wildflower",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model sorted 'cascade' before 'can't' (cas vs can), which is incorrect."
+    },
+    {
+        "id": 95,
+        "is_correct": true,
+        "extracted_answer": "Acquisitive, Annuity, Autocracy, Bruno, Custody, Dare, Exploitation, Lodge, Militant, Quench, Somatic, Thunderclap, Ventricle",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly sorted the list."
+    },
+    {
+        "id": 96,
+        "is_correct": false,
+        "extracted_answer": "Agglomerate, Ballast, Dollop, Erosible, Expiry, Extensor, Gazpacho, Indiscreet, Manuel, Oilcloth, Ogle, Spaniard",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model sorted 'Oilcloth' before 'Ogle', which is incorrect (Oil vs Ogl)."
+    },
+    {
+        "id": 97,
+        "is_correct": false,
+        "extracted_answer": "Antler, Christiana, Falter, Invigorate, Jot, Kamikaze, Landlady, Libya, Ludlow, Mallow, Porridge, Residuary, Tuscarora, Wrapup, Wetland",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model sorted 'Wrapup' before 'Wetland', which is incorrect (Wra vs Wet)."
+    },
+    {
+        "id": 98,
+        "is_correct": true,
+        "extracted_answer": "bindle, chiang, crystallography, dent, mambo, ram, rundown, savannah, shipshape, spew, strange, survey, won't",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly sorted the list."
+    },
+    {
+        "id": 99,
+        "is_correct": false,
+        "extracted_answer": "budd, deform, List",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 100,
+        "is_correct": true,
+        "extracted_answer": "lise, miaow, snipe",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly sorted the list."
+    },
+    {
+        "id": 101,
+        "is_correct": false,
+        "extracted_answer": "Damon, Europa, Foliate, List, Potpourri",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 102,
+        "is_correct": false,
+        "extracted_answer": "Aeneid, Administer, Coachman, Decadent, Delhi, Dey, Gradate, Grim, Jacky, Littleneck, Phosphorescent, Pristine, Shrunk, Systemwide, Thrown, Tasting, Torpedo",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model sorted 'Aeneid' before 'Administer', which is incorrect (Aen vs Adm)."
+    },
+    {
+        "id": 103,
+        "is_correct": false,
+        "extracted_answer": "N/A",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "The model hallucinated a loop repeating the first few words indefinitely."
+    },
+    {
+        "id": 104,
+        "is_correct": true,
+        "extracted_answer": "block, custodian, deadwood, foxtail, guaranty, hexadecimal, macedonia, rubaiyat, victoria",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly sorted the list."
+    },
+    {
+        "id": 105,
+        "is_correct": false,
+        "extracted_answer": "Amerada, Craftsman, Din, Eclipse, Gaillardia, Inroad, Jackboot, Jest, Jordan, Kill, List, Mirth, Nate, Pomade, Putt, Shortcoming, Spruce, Whelan",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model included 'List' and hallucinated 'Craftsman' instead of 'craftsmen'."
+    },
+    {
+        "id": 106,
+        "is_correct": false,
+        "extracted_answer": "Arenaceous, Baccarat, Blare, Bowman, Ear, Earl, Gloss, Granola, Hollandaise, Inauspicious, List, Mackenzie, Metaphoric, Penis, Pedro, Psyche, Quarantine, Roadster, Supranational",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model included 'List', hallucinated 'Ear', and sorted 'Penis' before 'Pedro'."
+    },
+    {
+        "id": 107,
+        "is_correct": false,
+        "extracted_answer": "Abutted, Agamemnon, Aquatic, Capacity, Casualty, Essex, Guinea, Hondo, Hitachi, Islamic, Loquacious, List, Niece, Planet, Roadway, Solstice, Steed, Suspicion, Tibet",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model included 'List' and sorted 'Hondo' before 'Hitachi'."
+    },
+    {
+        "id": 108,
+        "is_correct": false,
+        "extracted_answer": "bivalve, malformed, mainstream, mortify, o'connell, paunchy, sleuth, twelvefold, umbilical, vinegar",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model sorted 'malformed' before 'mainstream'."
+    },
+    {
+        "id": 109,
+        "is_correct": false,
+        "extracted_answer": "boletus, calypso, conklin, debugging, deportee, lucretia, omnipotent, passband, Q, revving, ulysses, necktie",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model hallucinated 'Q' and placed 'necktie' at the end of the list incorrectly."
+    },
+    {
+        "id": 110,
+        "is_correct": false,
+        "extracted_answer": "Blutwurst, Buckaroo, Closeup, Intelligent, Laguerre, List, The, Thesaurus, Vertebral, Wily",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model included 'List' and hallucinated 'The'."
+    },
+    {
+        "id": 111,
+        "is_correct": false,
+        "extracted_answer": "Brainwash, Broom, Deathward, Faithful, Gondola, Integer, Kinematic, List, Menu, Soc",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 112,
+        "is_correct": false,
+        "extracted_answer": "aerodynamic, botanist, giacomo, habitation, jimmy, List, nebulous, offset, panicking, roosevelt, schoolmate, suburbia, vector, wv",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 113,
+        "is_correct": false,
+        "extracted_answer": "allocable, bertram, boutique, champlain, crunchy, dissipate, facto, highlight, hydrology, judaism, labile, List, necessity, often, phenol, silage, vale",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 114,
+        "is_correct": false,
+        "extracted_answer": "auerbach",
+        "reasoning_score": 1,
+        "error_type": "hallucination",
+        "comment": "The model entered an infinite loop repeating a phrase about a typo."
+    },
+    {
+        "id": 115,
+        "is_correct": false,
+        "extracted_answer": "bijective, concord, dim, dive, eigenspace, floruit, gaucherie, guidebook, irrevocable, jacket, list, pinkish, reversible, song",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model included 'List' and omitted 'briton' and 'glycogen'."
+    },
+    {
+        "id": 116,
+        "is_correct": false,
+        "extracted_answer": "Absorption, Aristocratic, Bermuda, Cesium, Cheerful, Congo, Diagram, Fallen, Ezra, Juvenile, List, Musty, Nod, Nigeria, Quartile, Screechy, Slack, Testicle",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List', missed 'eucre', and sorted 'Fallen' before 'Ezra', and 'Nod' before 'Nigeria'."
+    },
+    {
+        "id": 117,
+        "is_correct": false,
+        "extracted_answer": "clearheaded, despond, driveway, encapsulate, fungi, gob, christen, List, midwinter, mendelevium, purpose, stanhope, sisyphus, strip, studious, trample, wring",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List', missed 'symmetry' and 'vs', and failed to sort 'gob' vs 'christen', and 'midwinter' vs 'mendelevium'."
+    },
+    {
+        "id": 118,
+        "is_correct": true,
+        "extracted_answer": "accept, alpenstock, angus, castigate, chromium, concision, doge, drool, elizabethan, jutish, marshmallow, ocean, octennial, prize, resistive, stonewort, vociferous",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly sorted the list."
+    },
+    {
+        "id": 119,
+        "is_correct": false,
+        "extracted_answer": "bodyguard, commensal, flagellate, flotation, ineradicable, involve, jocund, List, miff",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and omitted 'postprocess'."
+    },
+    {
+        "id": 120,
+        "is_correct": true,
+        "extracted_answer": "allegoric, collate, euphony, gloriana, loge, lollipop, mast, milord, prolix, rendezvous, salle, schnabel",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly sorted the list."
+    },
+    {
+        "id": 121,
+        "is_correct": false,
+        "extracted_answer": "darkle, erudite, hookup, instant, lip, List, moldboard, olsen, pea, quadrant, yonkers",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 122,
+        "is_correct": false,
+        "extracted_answer": "Alcohol, Behold, Escutcheon, Fumarole, Hackberry, List, Motif, Pease, Regret, Satisfy, Uptake, Walkie",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 123,
+        "is_correct": false,
+        "extracted_answer": "charcuterie, crucifix, diatom, footfall, greenberg, impenetrable, list, muddle, spoken, synchronous",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 124,
+        "is_correct": false,
+        "extracted_answer": "Calligraph, Form, Goat, Inverness, List, Sibyl, Threadbare",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 125,
+        "is_correct": false,
+        "extracted_answer": "Apprehension, Cashew, Ensemble, List",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 126,
+        "is_correct": false,
+        "extracted_answer": "List, haughty, seashore",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 127,
+        "is_correct": false,
+        "extracted_answer": "banshee, beefsteak, bicycle, birthplace, diacritic, helical, junctor, List, musicology, obstinate, postcondition, protoplasmic, sap, state, uptrend, vasoconstriction",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and omitted 'beware'."
+    },
+    {
+        "id": 128,
+        "is_correct": false,
+        "extracted_answer": "biennial, creedal, cry, eyesight, fletch, fraudulent, j, List, miltonic, mirage, titmice, whisper",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 129,
+        "is_correct": false,
+        "extracted_answer": "Afghan, Adopt, Friday, Glimmer, List, Multitudinous, Pacifist, Wage, Worcester",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List', modified 'Worcestershire' to 'Worcester', and failed to sort 'Afghan' vs 'Adopt' correctly."
+    },
+    {
+        "id": 130,
+        "is_correct": true,
+        "extracted_answer": "bilk, lethe, perturb, tactual",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly sorted the list."
+    },
+    {
+        "id": 131,
+        "is_correct": false,
+        "extracted_answer": "Algonquin, Beachhead, Bloodstain, Dilate, Frolic, Lacunae, Lazy, Liggett, List, Mcintosh, Parameter, Piggish, Pintail, Protector, Slaughterhouse, Sterno",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and omitted 'forth'."
+    },
+    {
+        "id": 132,
+        "is_correct": false,
+        "extracted_answer": "brownian, coach, eosine, flax, inadvisable, list, magnesium, marriageable, stahl, virgo, vicksburg",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and sorted 'virgo' before 'vicksburg'."
+    },
+    {
+        "id": 133,
+        "is_correct": false,
+        "extracted_answer": "brindle, clifford, florist, gloat, List, siskin, sacramento, triploidy, willard",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and sorted 'siskin' before 'sacramento'."
+    },
+    {
+        "id": 134,
+        "is_correct": false,
+        "extracted_answer": "confrontation, daddy, hirsute, List, proserpine, proofread, quantitative",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and sorted 'proserpine' before 'proofread'."
+    },
+    {
+        "id": 135,
+        "is_correct": false,
+        "extracted_answer": "allyn, carbonaceous, cetacean, investigatory, johann, majorca, paradigmatic, pathogenic, pray, supersede",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted 'tung' from the list."
+    },
+    {
+        "id": 136,
+        "is_correct": false,
+        "extracted_answer": "Afro, Afraid, Blackbird, Blame, Calyx, Elgin, Emphases, Impalable, Jura, Mayapple, Perquisite, Vi",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model hallucinated 'Afraid', 'Impalable', and 'Vi' instead of using the original words or sorting correctly."
+    },
+    {
+        "id": 137,
+        "is_correct": false,
+        "extracted_answer": "abbe, arragon, cast, danbury, emplace, falsetto, gavin, income, inhibit, onerous, palazzi, tabletop",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted 'adposition' from the list."
+    },
+    {
+        "id": 138,
+        "is_correct": false,
+        "extracted_answer": "affirmative, airframe, arcing, ballroom, bassoon, benefit, buggy, coupon, decide, dodge, hypothermia, intrepid, junior, ladle, list, nineveh, prorogue, schmitt, shagging, ulcerate",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'list' and omitted 'sparse'."
+    },
+    {
+        "id": 139,
+        "is_correct": false,
+        "extracted_answer": "adipic, athlete, antique, atonic, catch, encumber, lauderdale, List, neutrino, olivia, persona, specify, sovereignty, statuette",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and failed to sort 'athlete' vs 'antique' and 'specify' vs 'sovereignty' correctly."
+    },
+    {
+        "id": 140,
+        "is_correct": false,
+        "extracted_answer": "Borough, Hyperboloidal, List",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 141,
+        "is_correct": false,
+        "extracted_answer": "Agile, Blackguard, Butt, Cognoscenti, Clapeyron, Flamboyant, Geophysical, Lightfooted, Lift, Manumitted, Mathieu, Meager, Purposive, Scribe, Sawbelly, Seaworthy, Wiseacre, Woodcut, Yves",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted 'reconnaissance' from the list."
+    },
+    {
+        "id": 142,
+        "is_correct": false,
+        "extracted_answer": "Anaglyph, Cowbell, Duane, Fest, Glamour, Harriet, Impressible, List, Switchboard, Texture, Vietnamese, Whippet",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 143,
+        "is_correct": false,
+        "extracted_answer": "allstate, dyad, List, multitudinous, powderpuff, Stalin",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and omitted 'dose'."
+    },
+    {
+        "id": 144,
+        "is_correct": false,
+        "extracted_answer": "Battery, Bushland, Capacitive, Contingent, Crossbill, Enigma, Jane, Lipton, List, Meager, Ricochet, Wacke, Wallet, Wysiwyg",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 145,
+        "is_correct": false,
+        "extracted_answer": "Blythe, Bombproof, Code, Corpulent, Cytolysis, Damn, Diagnose, Fluorine, Honeybee, List, Maharaja, Pore, Scalp, Solicit, Swipe",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 146,
+        "is_correct": false,
+        "extracted_answer": "List, Fugue, Chicanery, Mountain",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and failed to sort the list correctly."
+    },
+    {
+        "id": 147,
+        "is_correct": false,
+        "extracted_answer": "buxton, callus, cameron, contribute, extensible, List, marque, methanol, olympic, precise, procrustean, seepage, shelf, sideboard, typescript, unitary",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and omitted 'tty'."
+    },
+    {
+        "id": 148,
+        "is_correct": false,
+        "extracted_answer": "bighorn, contaminate, demystify, list, nigeria, odysseus, penny, sociolinguistic, stirrup, voltaire",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and omitted 'proton'."
+    },
+    {
+        "id": 149,
+        "is_correct": false,
+        "extracted_answer": "Greasy, Lapidary, List, Mark",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 150,
+        "is_correct": false,
+        "extracted_answer": "carbonic, choreograph, countersink, corvallis, equestrian, libya, metal, multifarious, nitric, obfuscatory, petition, pro, retardant, wishful, wigwam",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted 'authenticate' and 'have'."
+    },
+    {
+        "id": 151,
+        "is_correct": false,
+        "extracted_answer": "Allis, Anthology, Jacobi, Marmot, Membrane, Oakland, Seaborg, Sort, Trapezoidal, Toggle",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model hallucinated the word 'Sort' into the list."
+    },
+    {
+        "id": 152,
+        "is_correct": false,
+        "extracted_answer": "Assimilable, Bought, Bivariate, Calypso, Dogwood, Functor, Hideaway, Holeable, Lola, Monotonous, Nebuchadnezzar, Pacifism, Provocation, Slick",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model sorted 'Bought' before 'Bivariate', which is incorrect."
+    },
+    {
+        "id": 153,
+        "is_correct": false,
+        "extracted_answer": "Buckley, Frisian, Ix, List, Livre, Panoramic, Substitution",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 154,
+        "is_correct": false,
+        "extracted_answer": "cartilaginous, List, no, science, spokane, that'd",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 155,
+        "is_correct": false,
+        "extracted_answer": "List, Novelty, Rectitude, Splashy",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 156,
+        "is_correct": false,
+        "extracted_answer": "fracture, list, sediment, towel, varsity",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 157,
+        "is_correct": false,
+        "extracted_answer": "confidential, faery, fiction, horehound, heterozygous, overture, ursa",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model sorted 'horehound' before 'heterozygous', which is incorrect."
+    },
+    {
+        "id": 158,
+        "is_correct": false,
+        "extracted_answer": "artful, castrate, cancelled, citadel, croon, ear, endpoint, excite, glaucous, inspiration, marque, mckinley, pesticide, prig, radiometer, relish, rothschild, school, tioga, trianon",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model failed to sort 'castrate' vs 'cancelled' correctly (can < cas)."
+    },
+    {
+        "id": 159,
+        "is_correct": false,
+        "extracted_answer": "behind, hornpipe, inmate, iniquity, List, mcconnell, mollie, sandy, scorn, toroidal, volcanism, wellwisher, yoghurt, zip",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and failed to sort 'inmate' vs 'iniquity' correctly."
+    },
+    {
+        "id": 160,
+        "is_correct": false,
+        "extracted_answer": "extempore, gotten, list",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 161,
+        "is_correct": false,
+        "extracted_answer": "Batavia, Canaan, List, Maladjust, Merry, Olefin, Ranch, Relinquish, Yang",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 162,
+        "is_correct": false,
+        "extracted_answer": "Cheddar, List, Oblivion, Pang, Poignant, You",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List', omitted 'from' and 'edt', and changed 'yuh' to 'You'."
+    },
+    {
+        "id": 163,
+        "is_correct": false,
+        "extracted_answer": "zan, coplanar, list, natalie, stevenson",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'list' and completely failed to sort the list."
+    },
+    {
+        "id": 164,
+        "is_correct": false,
+        "extracted_answer": "Bedtime, Bottle, Boon, Chapati, Kenney, List, Okinawa",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and sorted 'Bottle' before 'Boon'."
+    },
+    {
+        "id": 165,
+        "is_correct": false,
+        "extracted_answer": "atavism, contrariety, crochet, dimorphic, emanate, forthwith, grind, guaranteeing, hurty, iniquity, katie, list, more, muong, polytope, prodigy",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'list' and omitted 'hoop' and 'titrate'."
+    },
+    {
+        "id": 166,
+        "is_correct": false,
+        "extracted_answer": "acrobacy, ape, apostate, cardigan, chancery, cochran, crowbait, equip, evildoer, hillman, hoofprint, kuwait, List, molten, practise, retinue, sloane, wuhan",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and omitted words like 'max', 'advisee', 'squabble', etc."
+    },
+    {
+        "id": 167,
+        "is_correct": true,
+        "extracted_answer": "Almagest, Archenemy, Catawba, Councilwomen, Decrement, Gnome, Jungian, Limpid, Milt, Photolysis, Sagging, Transfusable",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly sorted the list."
+    },
+    {
+        "id": 168,
+        "is_correct": false,
+        "extracted_answer": "cunard, crude, danubian, inscribe, list, peculate, perceptive, posterior, tragedian, upraise",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 169,
+        "is_correct": false,
+        "extracted_answer": "anaheim, eaten, immemorial, List, madeira, micro, offprint, sprue, subject, trafficked, va",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 170,
+        "is_correct": false,
+        "extracted_answer": "bully, cork, edt, flogging, forfeit, lexicographer, list, minor, multiple, pungent, pizza, referring, reedy, rancorous, sedition, sell, tit",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'list', omitted 'bosporus' and 'perceptive', and failed to sort several items correctly (e.g. pizza vs pungent)."
+    },
+    {
+        "id": 171,
+        "is_correct": false,
+        "extracted_answer": "abuilding, burgher, celebrity, chigger, exorcism, ernie, indiscoverable, list, medlar, newsboy, pow, snuff, synchronous, thimble, thirteenth, tinfoil, yap",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'list' and sorted 'exorcism' before 'ernie'."
+    },
+    {
+        "id": 172,
+        "is_correct": false,
+        "extracted_answer": "Compton, Confident, Foundling, List, Pam, Saprophytic, Stowaway, Stupor",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 173,
+        "is_correct": false,
+        "extracted_answer": "anchor, barre, buckle, concatenate, dimension, edgy, eleanor, epiphyte, faunal, integrate, masochist, orthodoxy, patrician, pendant, singular, swift",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted 'sail' and 'parasol' from the list."
+    },
+    {
+        "id": 174,
+        "is_correct": false,
+        "extracted_answer": "academia, amos, beautiful, butterscotch, circuitous, diatom, fiducial, ford, glance, kochab, metzler, molybdate, monomer, predatory, veterinarian",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted 'extoller' and 'europium' from the list."
+    },
+    {
+        "id": 175,
+        "is_correct": false,
+        "extracted_answer": "eosine, formula, gibson, inebriate, List, mater, mulligatawny, rica, sigmund, vassar",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and omitted 'dean'."
+    },
+    {
+        "id": 176,
+        "is_correct": false,
+        "extracted_answer": "laudatory, List, shakespearian",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 177,
+        "is_correct": false,
+        "extracted_answer": "Fasciculate, Judicature, List, Presto",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 178,
+        "is_correct": false,
+        "extracted_answer": "clytemnestra, cutover, dickson, diocletian, electrolytic, inhuman, lipton, list, marginal, scrawny, stalk, thereupon, wife, wireman",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List', omitted 'crag', 'took', and 'workplace'."
+    },
+    {
+        "id": 179,
+        "is_correct": false,
+        "extracted_answer": "Accessory, Admiration, Allusion, Bandgap, Bruckner, Cruise, Fungus, Gambit, Heron, List, Maidenhair, Postprocessor, Proscenium",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and omitted 'technion'."
+    },
+    {
+        "id": 180,
+        "is_correct": false,
+        "extracted_answer": "Bilinear, Brenda, Cacao, Chivalry, Derivate, Eaten, Endothelial, Ferocity, Gastronomic, Grammarian, Irreducible, Knutson, List, Polkadot, Rockaway, Scurrilous",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and omitted 'phenotype'."
+    },
+    {
+        "id": 181,
+        "is_correct": true,
+        "extracted_answer": "Alkali, Breach, Buckle, Falsetto, Hyperboloid, Liquidate, Mirth, Nagasaki, Parmesan",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly sorted the list."
+    },
+    {
+        "id": 182,
+        "is_correct": false,
+        "extracted_answer": "amanita, annoy, boggle, besiege, california, canticle, crocodilian, dexter, dissipate, dizzy, encephalitis, hornblower, notre, pasture, propylene, sepia, snipe",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model sorted 'boggle' before 'besiege' (incorrect) and omitted 'amatory', 'straight', and 'psychiatric'."
+    },
+    {
+        "id": 183,
+        "is_correct": false,
+        "extracted_answer": "caliber, capricious, eft, faulkner, fragile, gastrointestinal, irishman, kingsley, lobby, nary, ouzo, peaceable, phillip, phylum, residue, stamp, sulfanilamide, upholster",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted 'headboard' from the list."
+    },
+    {
+        "id": 184,
+        "is_correct": false,
+        "extracted_answer": "abbas, average, catsup, coddle, charm, dogfish, integral, inconvertible, inequity, invocable, list, memorandum, multiplet, phloem, region, scherzo, shutout, therewith, trumpery",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'list' and omitted 'bridesmaid' and 'hypothalamus', and failed to sort 'coddle' vs 'charm' correctly."
+    },
+    {
+        "id": 185,
+        "is_correct": false,
+        "extracted_answer": "appoint, baneberry, biharmonic, dyne, list, moustache, pirate, windowsill, wiry",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 186,
+        "is_correct": false,
+        "extracted_answer": "List, Skimpy, Zoroaster",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 187,
+        "is_correct": false,
+        "extracted_answer": "almost, apache, antic, astute, deadlock, delphic, dandelion, execution, fortunate, horntail, leverage, levitate, libertarian, list, sanction, scathe, semitic, sweeney, storehouse, unbeknownst",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'list', omitted 'affable', and sorted 'apache' before 'antic' incorrectly."
+    },
+    {
+        "id": 188,
+        "is_correct": false,
+        "extracted_answer": "caching, defend, distort, emboss, epistemology, gherkin, injustice, indicate, maser, percent, phillip, roadside, savoyard, spicy, somewhat, we're, winston",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model sorted 'injustice' before 'indicate' and omitted 'delicious'."
+    },
+    {
+        "id": 189,
+        "is_correct": false,
+        "extracted_answer": "anarchic, bureaucracy, diatom, fabricate, guelph, immovable, leftward, liven, neo, phenomenology, provide, shortcut, suggestive, syndrome, total, usage, yarmulke",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted 'acoustic' and 'trammel'."
+    },
+    {
+        "id": 190,
+        "is_correct": false,
+        "extracted_answer": "abdominal, address, berry, bounty, effusive, fomalhaut, hanoverian, involves, islamabad, jordan, optimal, pay, stigmata, stearic, swathe, tornado, them, tattoo, yang",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model modified 'involve' to 'involves', incorrectly sorted 'stigmata' before 'stearic', and 'them' before 'tattoo'."
+    },
+    {
+        "id": 191,
+        "is_correct": false,
+        "extracted_answer": "gadgetry, gamin, hurst, inertial, List, maraud, morphine, parsonage",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and omitted 'downtrodden' and 'propane'."
+    },
+    {
+        "id": 192,
+        "is_correct": false,
+        "extracted_answer": "aseptic, alterate, cayenne, chandigarh, debauch, declassify, dingy, equanimity, excursion, foamflower, groupoid, inclement, kruger, lawful, october, scorch",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model sorted 'aseptic' before 'alterate' (incorrect) and omitted 'only'."
+    },
+    {
+        "id": 193,
+        "is_correct": false,
+        "extracted_answer": "Acidify, Antagonism, Asteria, List",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 194,
+        "is_correct": false,
+        "extracted_answer": "captious, elton, ineligible, iodinate, list, olympic, sherman",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 195,
+        "is_correct": false,
+        "extracted_answer": "Alleviate, Benelux, Buoyant, Duopoly, Felice, Gland, Gunk, Hardbound, Klaxon, List, Mattress, Tomography, Townsmen",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 196,
+        "is_correct": false,
+        "extracted_answer": "aitken, barycentric, detest, downey, kajar, list, nat, solvate, usable, vision",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 197,
+        "is_correct": false,
+        "extracted_answer": "Aerospace, Allure, Common, Decoy, Denmark, Exclusive, Enviable, Frill, Griffth, Jibe, Loosestrife, Nanosecond, Saute, Screechy, Sow, Spitz, Spermatozoa, Swabby, Yates",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model misspelled 'Griffith' as 'Griffth' and incorrectly sorted 'Exclusive' before 'Enviable'."
+    },
+    {
+        "id": 198,
+        "is_correct": false,
+        "extracted_answer": "Bate, Callous, Climb, Cortez, Dogging, Garrison, Giantess, Muddy, Moran, Mast, Prank, Reverie, Satisfy, Staunch",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted 'dnieper' and sorted 'Moran' before 'Mast'."
+    },
+    {
+        "id": 199,
+        "is_correct": false,
+        "extracted_answer": "avoid, carbuncle, caramel, conclave, compressor, drib, elegy, embower, error, gaillardia, grassland, hostile, list, pitfall, rosa, spectra, stepchild, utopia, whimsey",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List', omitted 'accept', and sorted 'carbuncle' before 'caramel'."
+    },
+    {
+        "id": 200,
+        "is_correct": false,
+        "extracted_answer": "anarchic, elution, furl, geld, gradual, locomote, liniment, midshipman, pantheist, profess, riddance, rowley, saline",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted 'exhumation', 'bstj', and 'j', and sorted 'locomote' before 'liniment'."
+    },
+    {
+        "id": 201,
+        "is_correct": false,
+        "extracted_answer": "Acuity, Anticonvulsant, Carrageen, Discovery, Disseminate, Drafty, Embolden, Glamour, Hangout, Hasty, Magnificent, Pewee, Proscenium, Registrar, Scrub, Sushi, Supposable, You'd",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model sorted 'Sushi' before 'Supposable', which is incorrect."
+    },
+    {
+        "id": 202,
+        "is_correct": false,
+        "extracted_answer": "Murray, List, Sweatband",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 203,
+        "is_correct": false,
+        "extracted_answer": "amethyst, bathos, dormouse, List, obtuse, resignation, walt",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 204,
+        "is_correct": false,
+        "extracted_answer": "amicable, browne, calumny, coo, deerstalker, extreme, histology, henchman, indoeuropean, list, paginate, pelvis, sonority, tramway, turvy",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'list', omitted 'they've', and sorted 'histology' before 'henchman'."
+    },
+    {
+        "id": 205,
+        "is_correct": false,
+        "extracted_answer": "Avoidance, Casualty, Courtier, Gibbon, Leprosy, List, Merge, Sidewinder, Shouldn't, Tacky, Transgressor",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 206,
+        "is_correct": false,
+        "extracted_answer": "chess, credit, geopolitic, intercept, lunge, loci, newsmen, siren, swart, tamp, umber",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted 'atmospheric' and sorted 'lunge' before 'loci'."
+    },
+    {
+        "id": 207,
+        "is_correct": false,
+        "extracted_answer": "army, emancipate, envious, List, planetaria, pooh, scotia, wink",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 208,
+        "is_correct": false,
+        "extracted_answer": "Coltish, Condescend, Date, List, Placid, Percolate, Rampant, Rochester, Significant",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and sorted 'Placid' before 'Percolate'."
+    },
+    {
+        "id": 209,
+        "is_correct": false,
+        "extracted_answer": "aqueous, deregulate, gala, infantrymen, knob, lysergic, List, yaounde",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 210,
+        "is_correct": false,
+        "extracted_answer": "altercate, cornerstone, dusenberg, foraminifera, gossamer, jive, insist, List, promulgate, raft, sal, sophocles, wrongdoer",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List', omitted 'courtroom' and 'syllabus', and sorted 'jive' before 'insist'."
+    },
+    {
+        "id": 211,
+        "is_correct": false,
+        "extracted_answer": "Jacob, globule, List, musician, sleight, consonant",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and failed to sort correctly."
+    },
+    {
+        "id": 212,
+        "is_correct": false,
+        "extracted_answer": "Muddy, Nascent, List",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 213,
+        "is_correct": false,
+        "extracted_answer": "abner, abramson, amity, automate, exquisite, fruitful, gurgle, list, none, shampoo, shorten, waterproof",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 214,
+        "is_correct": false,
+        "extracted_answer": "Agamemnon, Clench, Depreciate, Eject, Frame, Herbivorous, Lien, List, Marcello, Numbly, Search, Sprout, Unary, Zaire",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and omitted 'forum'."
+    },
+    {
+        "id": 215,
+        "is_correct": false,
+        "extracted_answer": "anaplasmosis, bumble, chopstick, clue, fiesta, footwork, fresco, ingot, List, palisade, pilate, saul, smalley, storey, orthography",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List', omitted 'teen', and sorted 'storey' before 'orthography'."
+    },
+    {
+        "id": 216,
+        "is_correct": false,
+        "extracted_answer": "avalanche, cameroon, canal, chaplin, coachman, clonic, cram, fortran, ipsilateral, kennan, List, medea, postpone, pyridine, squabble",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and omitted 'referring' and 'ussr'."
+    },
+    {
+        "id": 217,
+        "is_correct": false,
+        "extracted_answer": "bizarre, contravention, dreg, drapery, ingratiate, List, margaret, peculiar, sequential, superintendent",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and sorted 'dreg' before 'drapery'."
+    },
+    {
+        "id": 218,
+        "is_correct": false,
+        "extracted_answer": "bone, convergent, doleful, homeobox, hindustan, ia, list, sweatshirt, wagoneer",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and sorted 'homeobox' before 'hindustan'."
+    },
+    {
+        "id": 219,
+        "is_correct": false,
+        "extracted_answer": "broadcast, cortland, diffusible, galvanometer, gross, gujarati, incestuous, larynx, list, nomograph, pewter, scout, sketchbook, stag",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'list' and omitted 'transition'."
+    },
+    {
+        "id": 220,
+        "is_correct": false,
+        "extracted_answer": "Brainy, Cony, Enigma, Erudite, Fatuous, Gouda, Hoof, Impalpable, Isaacson, Lisbon, List, Malaria, Portrait, Portsmouth, Servomechanism, Succumb, Stronghold",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and sorted 'Succumb' before 'Stronghold'."
+    },
+    {
+        "id": 221,
+        "is_correct": false,
+        "extracted_answer": "leasehold, List, orchestra, permafrost, shiva, testate",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 222,
+        "is_correct": false,
+        "extracted_answer": "airlift, butch, cone, inanimate, incurring, logarithm, lumber, maladapt, micron, newman, profuse, robertson, sammy, souvenir, uganda",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted 'wilcox' and 'homeowner' from the list."
+    },
+    {
+        "id": 223,
+        "is_correct": false,
+        "extracted_answer": "chrysalis, List, wallaby",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 224,
+        "is_correct": false,
+        "extracted_answer": "Baronial, Checksum, Circumstance, Comment, Dartmouth, Dredge, Eulogy, Emittance, Felicia, Huckster, List, Monochromator, Neuroanatomic",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List', omitted 'spotlight', and sorted 'Eulogy' before 'Emittance'."
+    },
+    {
+        "id": 225,
+        "is_correct": false,
+        "extracted_answer": "Accrue, Archipelago, Breezy, Biplane, Canada, Conspiracy, Constructor, Dobbin, Hamburger, Insubstantial, Lost, Malleable, Nutrient, Peloponnese, Thigh, Ted",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted 'germinal' and 'laramie', and sorted 'Breezy' before 'Biplane'."
+    },
+    {
+        "id": 226,
+        "is_correct": false,
+        "extracted_answer": "Astronomic, Cabdriver, Coherent, List, Loch, Pivot, Wagging",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 227,
+        "is_correct": false,
+        "extracted_answer": "erg, inability, invocable, janice, List, nucleus, possible, vague",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 228,
+        "is_correct": false,
+        "extracted_answer": "abc, austere, blend, cankerworm, falcon, gag, hanukkah, indicate, kruger, lobster, militia, nobody, pierson, quad, ron, right, wildcat",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted 'grecian' and 'ada' from the list."
+    },
+    {
+        "id": 229,
+        "is_correct": false,
+        "extracted_answer": "babysat, consul, cutaneous, curvaceous, hugh, regiment, spoke, stationarity",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model sorted 'cutaneous' before 'curvaceous'."
+    },
+    {
+        "id": 230,
+        "is_correct": false,
+        "extracted_answer": "afternoon, complementary, dixie, hesitate, horsepower, immaculate, kind, laughlin, list, loire, mechanism, nimble, sandia, septuagenarian, shuffleboard, toggle, woebegone",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'list' and omitted 'sierra'."
+    },
+    {
+        "id": 231,
+        "is_correct": false,
+        "extracted_answer": "arrear, brookside, herodotus, henry, hermaphrodite, ibn, incorrigible, jane, linchpin, maritime, postdoctoral, shin, sticky, vehicular",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model omitted 'eavesdropping' and 'fasciculate', and sorted 'herodotus' before 'henry'."
+    },
+    {
+        "id": 232,
+        "is_correct": false,
+        "extracted_answer": "cortex, incident, insane, kangaroo, List, marionette, Mcleod, pillage, roundabout, sinter, stipulate, threshold",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model included 'List' and omitted 'trammel'."
+    },
+    {
+        "id": 233,
+        "is_correct": false,
+        "extracted_answer": "dnieper, labile, lease, List, soulful, vehicular",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 234,
+        "is_correct": false,
+        "extracted_answer": "ballard, brindle, cornerstone, credulous, curio, des, difluoride, horseplay, jew, list, mixup, nonce, nostalgic, pitney, predilect, prowl, rape, scrappy, toward",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'list' and omitted 'green'."
+    },
+    {
+        "id": 235,
+        "is_correct": false,
+        "extracted_answer": "covenant, densitometer, davenport, List, noisy, scoreboard, sonorant, thence",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and sorted 'densitometer' before 'davenport'."
+    },
+    {
+        "id": 236,
+        "is_correct": false,
+        "extracted_answer": "asset, bona, coastal, cicero, dusky, exonerate, gaussian, handlebar, inhabitation, List, portfolio, purport, rastus, responsible, ruanda, silver, zig",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and sorted 'coastal' before 'cicero'."
+    },
+    {
+        "id": 237,
+        "is_correct": true,
+        "extracted_answer": "abramson, bangui, carlisle, cavalier, contextual, dustbin, emacs, implementor, islamabad, magistrate, nudge, picnicking, railway, refractory, silvery, waite",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "The model correctly sorted the list."
+    },
+    {
+        "id": 238,
+        "is_correct": false,
+        "extracted_answer": "afloat, apostasy, chattel, conner, ferment, grosbeak, jacm, indonesia, lanthanide, list, melancholy, quark, scavenge, strove, vibrate",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'list', omitted 'hendrickson' and 'bechtel', and sorted 'jacm' before 'indonesia'."
+    },
+    {
+        "id": 239,
+        "is_correct": false,
+        "extracted_answer": "Anastomosis, Backslide, Calvert, Commando, Gabriel, Hendrickson, Hollister, Jackson, List, Pizzicato, Separate, Shelter, Spongy, Sticktight, Syndicate, Variety, Washy",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and omitted 'quail'."
+    },
+    {
+        "id": 240,
+        "is_correct": false,
+        "extracted_answer": "behold, dew, dissipate, format, hew, List, maybe, misogyny, oxalic, pray, stiffen, steel, termcap",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List' and sorted 'stiffen' before 'steel'."
+    },
+    {
+        "id": 241,
+        "is_correct": false,
+        "extracted_answer": "Baden, Bizarre, Claret, Colonist, Deplore, Dove, Horticulture, List, Monaco, Paschal, Play, Rodriquez, Sonant, Strap, Valuate",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 242,
+        "is_correct": false,
+        "extracted_answer": "arabesque, arkansan, bend, brassiere, curvilinear, diagnosable, deterrent, fluke, fossiliferous, list, novel, planeload, sheep, spearmint, trident, ytterbium, bedroom",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'list', omitted 'yen' and 'patrolman' and 'alveolar', and put 'bedroom' at the end."
+    },
+    {
+        "id": 243,
+        "is_correct": false,
+        "extracted_answer": "blunderbuss, box, dinnertime, feel, frugal, labial, List, oresteia, papaw, perfidious, sonar",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 244,
+        "is_correct": false,
+        "extracted_answer": "Agrarian, Applicate, Candid, Colossus, Haddock, Honeymoon, List, People, Pragmatic, Sheepskin",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 245,
+        "is_correct": false,
+        "extracted_answer": "catechism, daddy, List",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 246,
+        "is_correct": false,
+        "extracted_answer": "Aperture, Bradshaw, Holocene, List, Mare, Muriel, Pathetic, R&D, Sigh, Staircase, Talon",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 247,
+        "is_correct": false,
+        "extracted_answer": "bust, chalk, cowboy, dentistry, dumb, fatty, goucher, horror, List, masonry, midshipmen, musicale, pathway, resiny, roadrunner, sapient, serf, tangential, urinary, urea",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'List', omitted 'rocket', and sorted 'urinary' before 'urea'."
+    },
+    {
+        "id": 248,
+        "is_correct": false,
+        "extracted_answer": "animism, awash, beau, bessie, cream, extricable, helical, indoeuropean, list, pendulum, sanhedrin, scratchy, vice",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model included 'list' and omitted 'venezuela'."
+    },
+    {
+        "id": 249,
+        "is_correct": false,
+        "extracted_answer": "correspond, herpes, him, List, seashore",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    },
+    {
+        "id": 250,
+        "is_correct": false,
+        "extracted_answer": "Bonito, Dreamboat, Fritter, Haggard, List, Nose, Whodunit, Worcestershire",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model incorrectly included the label 'List' as a word in the sorted output."
+    }
+]

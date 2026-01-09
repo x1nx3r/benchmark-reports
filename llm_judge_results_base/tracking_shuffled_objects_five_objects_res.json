@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": false,
+        "extracted_answer": "Dave",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model failed to correctly track the swaps. Specifically, in step 3 (Dave and Alice swap), it incorrectly assigned Melissa to Dave (who should have had Patrick at that point, based on previous steps) and lost track of the correct partners."
+    },
+    {
+        "id": 2,
+        "is_correct": false,
+        "extracted_answer": "Rodrigo",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "The model followed the steps but arrived at the wrong conclusion. Tracing manually: Alice starts with Ophelia. 1. No change. 2. No change. 3. No change. 4. No change (Eve/Dave). 5. Claire/Alice swap. Claire had Rodrigo (from step 4 Dave swap). So Alice gets Rodrigo. Wait, let's re-verify. Init: A-Ophelia, B-Jamie, C-Melissa, D-Rodrigo, E-Patrick. 1. C/B -> C-Jamie, B-Melissa. 2. C/E -> C-Patrick, E-Jamie. 3. C/B -> C-Melissa, B-Patrick. 4. E/D -> E-Rodrigo, D-Jamie. 5. C/A -> C-Ophelia, A-Melissa. The correct answer is Melissa. The model ended with Rodrigo."
+    },
+    {
+        "id": 3,
+        "is_correct": false,
+        "extracted_answer": "Lola",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Manual trace: Init C-Izzi. 1. No change. 2. No change. 3. No change. 4. D/C (D had Ophelia, C had Izzi) -> C-Ophelia. 5. B/C (B had Jamie, C had Ophelia) -> C-Jamie. Correct is Jamie. Model derived Lola."
+    },
+    {
+        "id": 4,
+        "is_correct": false,
+        "extracted_answer": "Frankenstein",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Manual trace: Init D-Pearl. 1. No change. 2. No change. 3. No change. 4. D/A (A had Hound, D had Pearl) -> D-Hound. 5. D/C (D had Hound, C had Fellowship) -> D-Fellowship. Correct is Fellowship. Model derived Frankenstein."
+    },
+    {
+        "id": 5,
+        "is_correct": true,
+        "extracted_answer": "Lolita",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps and arrived at the correct answer."
+    },
+    {
+        "id": 6,
+        "is_correct": false,
+        "extracted_answer": "center midfielder",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Manual trace: Init E-CM. 1. No change. 2. No change. 3. No change. 4. B/E (B had Striker, E had CM) -> E-Striker. 5. D/E (D had CM, E had Striker) -> E-CM. Wait. Let's re-re-trace. Init: A-GK, B-LM, C-RW, D-S, E-CM. 1. A/C: A-RW, C-GK. 2. A/B: A-LM, B-RW. 3. D/B: D-RW, B-S. 4. B/E: B-CM, E-S. 5. D/E: D-S, E-RW. Correct is Right Winger. Model derived Center Midfielder."
+    },
+    {
+        "id": 7,
+        "is_correct": false,
+        "extracted_answer": "Helga",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Jamie."
+    },
+    {
+        "id": 8,
+        "is_correct": true,
+        "extracted_answer": "black ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 9,
+        "is_correct": false,
+        "extracted_answer": "Hound of the Baskervilles",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is The Odyssey."
+    },
+    {
+        "id": 10,
+        "is_correct": false,
+        "extracted_answer": "left midfielder",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is left winger."
+    },
+    {
+        "id": 11,
+        "is_correct": true,
+        "extracted_answer": "black ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 12,
+        "is_correct": true,
+        "extracted_answer": "pink ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 13,
+        "is_correct": true,
+        "extracted_answer": "Ophelia",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 14,
+        "is_correct": false,
+        "extracted_answer": "right midfielder",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is benchwarmer."
+    },
+    {
+        "id": 15,
+        "is_correct": false,
+        "extracted_answer": "Izzi",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Lola."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "yellow ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 17,
+        "is_correct": false,
+        "extracted_answer": "left winger",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is right winger."
+    },
+    {
+        "id": 18,
+        "is_correct": false,
+        "extracted_answer": "Moby Dick",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Catch-22."
+    },
+    {
+        "id": 19,
+        "is_correct": false,
+        "extracted_answer": "right winger",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is center midfielder."
+    },
+    {
+        "id": 20,
+        "is_correct": true,
+        "extracted_answer": "yellow present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 21,
+        "is_correct": false,
+        "extracted_answer": "Moby Dick",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is The Fellowship of the Ring."
+    },
+    {
+        "id": 22,
+        "is_correct": false,
+        "extracted_answer": "Ulysses",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Moby Dick."
+    },
+    {
+        "id": 23,
+        "is_correct": true,
+        "extracted_answer": "The Fellowship of the Ring",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 24,
+        "is_correct": true,
+        "extracted_answer": "yellow ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 25,
+        "is_correct": true,
+        "extracted_answer": "Ophelia",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "left winger",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 27,
+        "is_correct": true,
+        "extracted_answer": "pink ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 28,
+        "is_correct": false,
+        "extracted_answer": "benchwarmer",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is left winger."
+    },
+    {
+        "id": 29,
+        "is_correct": true,
+        "extracted_answer": "yellow ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 30,
+        "is_correct": true,
+        "extracted_answer": "right winger",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 31,
+        "is_correct": false,
+        "extracted_answer": "Patrick",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Helga."
+    },
+    {
+        "id": 32,
+        "is_correct": true,
+        "extracted_answer": "Frankenstein",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 33,
+        "is_correct": true,
+        "extracted_answer": "green present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 34,
+        "is_correct": false,
+        "extracted_answer": "Helga",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Sam."
+    },
+    {
+        "id": 35,
+        "is_correct": true,
+        "extracted_answer": "yellow present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 36,
+        "is_correct": false,
+        "extracted_answer": "The Pearl",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Ulysses."
+    },
+    {
+        "id": 37,
+        "is_correct": true,
+        "extracted_answer": "orange ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 38,
+        "is_correct": true,
+        "extracted_answer": "Hound of the Baskervilles",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 39,
+        "is_correct": true,
+        "extracted_answer": "yellow present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 40,
+        "is_correct": false,
+        "extracted_answer": "Hound of the Baskervilles",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is The Pearl."
+    },
+    {
+        "id": 41,
+        "is_correct": true,
+        "extracted_answer": "white ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 42,
+        "is_correct": true,
+        "extracted_answer": "Catch-22",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 43,
+        "is_correct": false,
+        "extracted_answer": "right winger",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is left winger."
+    },
+    {
+        "id": 44,
+        "is_correct": true,
+        "extracted_answer": "The Fellowship of the Ring",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 45,
+        "is_correct": true,
+        "extracted_answer": "Melissa",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 46,
+        "is_correct": true,
+        "extracted_answer": "orange ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 47,
+        "is_correct": true,
+        "extracted_answer": "Jamie",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 48,
+        "is_correct": true,
+        "extracted_answer": "orange ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 49,
+        "is_correct": false,
+        "extracted_answer": "Izzi",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "The model trace seems to fail to execute the swaps in the reasoning text itself (listing previous states as current)."
+    },
+    {
+        "id": 50,
+        "is_correct": false,
+        "extracted_answer": "blue present",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is green present."
+    },
+    {
+        "id": 51,
+        "is_correct": true,
+        "extracted_answer": "Frankenstein",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 52,
+        "is_correct": false,
+        "extracted_answer": "left winger",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is left midfielder."
+    },
+    {
+        "id": 53,
+        "is_correct": false,
+        "extracted_answer": "left midfielder",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is right midfielder."
+    },
+    {
+        "id": 54,
+        "is_correct": false,
+        "extracted_answer": "right winger",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is fullback."
+    },
+    {
+        "id": 55,
+        "is_correct": true,
+        "extracted_answer": "black ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 56,
+        "is_correct": false,
+        "extracted_answer": "left midfielder",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is striker."
+    },
+    {
+        "id": 57,
+        "is_correct": true,
+        "extracted_answer": "right midfielder",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 58,
+        "is_correct": false,
+        "extracted_answer": "orange ball",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is black ball."
+    },
+    {
+        "id": 59,
+        "is_correct": false,
+        "extracted_answer": "Karl",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Izzi."
+    },
+    {
+        "id": 60,
+        "is_correct": true,
+        "extracted_answer": "brown present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 61,
+        "is_correct": false,
+        "extracted_answer": "Izzi",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Lola."
+    },
+    {
+        "id": 62,
+        "is_correct": false,
+        "extracted_answer": "Lola",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Jamie."
+    },
+    {
+        "id": 63,
+        "is_correct": true,
+        "extracted_answer": "orange ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 64,
+        "is_correct": false,
+        "extracted_answer": "Helga",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Patrick."
+    },
+    {
+        "id": 65,
+        "is_correct": true,
+        "extracted_answer": "green present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 66,
+        "is_correct": true,
+        "extracted_answer": "The Odyssey",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 67,
+        "is_correct": true,
+        "extracted_answer": "goalkeeper",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 68,
+        "is_correct": false,
+        "extracted_answer": "Jamie",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Lola."
+    },
+    {
+        "id": 69,
+        "is_correct": true,
+        "extracted_answer": "purple ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 70,
+        "is_correct": false,
+        "extracted_answer": "Eve",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Melissa."
+    },
+    {
+        "id": 71,
+        "is_correct": true,
+        "extracted_answer": "goalkeeper",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 72,
+        "is_correct": false,
+        "extracted_answer": "striker",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is right winger."
+    },
+    {
+        "id": 73,
+        "is_correct": true,
+        "extracted_answer": "yellow ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 74,
+        "is_correct": false,
+        "extracted_answer": "right winger",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is left winger."
+    },
+    {
+        "id": 75,
+        "is_correct": false,
+        "extracted_answer": "Izzi",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Karl."
+    },
+    {
+        "id": 76,
+        "is_correct": true,
+        "extracted_answer": "right winger",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 77,
+        "is_correct": false,
+        "extracted_answer": "blue ball",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is red ball."
+    },
+    {
+        "id": 78,
+        "is_correct": false,
+        "extracted_answer": "green ball",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is brown ball."
+    },
+    {
+        "id": 79,
+        "is_correct": true,
+        "extracted_answer": "Izzi",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 80,
+        "is_correct": false,
+        "extracted_answer": "Hound of the Baskervilles",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Frankenstein."
+    },
+    {
+        "id": 81,
+        "is_correct": false,
+        "extracted_answer": "left midfielder",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is right winger."
+    },
+    {
+        "id": 82,
+        "is_correct": false,
+        "extracted_answer": "The Great Gatsby",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is The Odyssey."
+    },
+    {
+        "id": 83,
+        "is_correct": true,
+        "extracted_answer": "Ophelia",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 84,
+        "is_correct": true,
+        "extracted_answer": "green present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 85,
+        "is_correct": false,
+        "extracted_answer": "Moby Dick",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Hound of the Baskervilles."
+    },
+    {
+        "id": 86,
+        "is_correct": false,
+        "extracted_answer": "fullback",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is benchwarmer."
+    },
+    {
+        "id": 87,
+        "is_correct": false,
+        "extracted_answer": "The Pearl",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is The Fellowship of the Ring."
+    },
+    {
+        "id": 88,
+        "is_correct": false,
+        "extracted_answer": "pink ball",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is green present."
+    },
+    {
+        "id": 89,
+        "is_correct": false,
+        "extracted_answer": "Ophelia",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Karl."
+    },
+    {
+        "id": 90,
+        "is_correct": true,
+        "extracted_answer": "benchwarmer",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 91,
+        "is_correct": true,
+        "extracted_answer": "Patrick",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 92,
+        "is_correct": true,
+        "extracted_answer": "black ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 93,
+        "is_correct": false,
+        "extracted_answer": "pink ball",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is orange ball."
+    },
+    {
+        "id": 94,
+        "is_correct": false,
+        "extracted_answer": "Sam",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Ophelia."
+    },
+    {
+        "id": 95,
+        "is_correct": true,
+        "extracted_answer": "Ophelia",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 96,
+        "is_correct": false,
+        "extracted_answer": "brown present",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is white present."
+    },
+    {
+        "id": 97,
+        "is_correct": false,
+        "extracted_answer": "brown ball",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is blue ball."
+    },
+    {
+        "id": 98,
+        "is_correct": true,
+        "extracted_answer": "The Pearl",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 99,
+        "is_correct": false,
+        "extracted_answer": "Ulysses",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Frankenstein."
+    },
+    {
+        "id": 100,
+        "is_correct": true,
+        "extracted_answer": "red present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 101,
+        "is_correct": false,
+        "extracted_answer": "striker",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is left midfielder."
+    },
+    {
+        "id": 102,
+        "is_correct": true,
+        "extracted_answer": "Izzi",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 103,
+        "is_correct": true,
+        "extracted_answer": "benchwarmer",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 104,
+        "is_correct": true,
+        "extracted_answer": "green ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 105,
+        "is_correct": false,
+        "extracted_answer": "blue ball",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is purple ball."
+    },
+    {
+        "id": 106,
+        "is_correct": true,
+        "extracted_answer": "green ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 107,
+        "is_correct": false,
+        "extracted_answer": "center midfielder",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is goalkeeper."
+    },
+    {
+        "id": 108,
+        "is_correct": true,
+        "extracted_answer": "right midfielder",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 109,
+        "is_correct": true,
+        "extracted_answer": "brown ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 110,
+        "is_correct": true,
+        "extracted_answer": "right midfielder",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 111,
+        "is_correct": true,
+        "extracted_answer": "blue ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 112,
+        "is_correct": true,
+        "extracted_answer": "green present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 113,
+        "is_correct": false,
+        "extracted_answer": "Patrick",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Izzi."
+    },
+    {
+        "id": 114,
+        "is_correct": true,
+        "extracted_answer": "Rodrigo",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 115,
+        "is_correct": false,
+        "extracted_answer": "Ulysses",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Catch-22."
+    },
+    {
+        "id": 116,
+        "is_correct": false,
+        "extracted_answer": "Moby Dick",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Ulysses."
+    },
+    {
+        "id": 117,
+        "is_correct": true,
+        "extracted_answer": "Catch-22",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 118,
+        "is_correct": false,
+        "extracted_answer": "The Great Gatsby",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Hound of the Baskervilles."
+    },
+    {
+        "id": 119,
+        "is_correct": false,
+        "extracted_answer": "Patrick",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Ophelia."
+    },
+    {
+        "id": 120,
+        "is_correct": true,
+        "extracted_answer": "red ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 121,
+        "is_correct": false,
+        "extracted_answer": "right winger",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is left midfielder."
+    },
+    {
+        "id": 122,
+        "is_correct": true,
+        "extracted_answer": "Dave",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps. Note: Option says 'Helga', but model said 'Dave'. The model's logic trace says Dave. GT is Helga (A). Wait. Init: Eve-Melissa. 1. Bob/Alice. Eve-Melissa. 2. Bob/Claire. Eve-Melissa. 3. Dave/Claire. Eve-Melissa. 4. Eve/Dave. Eve-Dave. 5. Bob/Alice. Eve-Dave. Model concluded Dave. GT is Helga. Why? Re-checking step 4. Eve (Melissa) swaps with Dave (who has Claire's original partner, Sam). So Eve gets Sam? No. Let's retrace manually properly. Init: A-H, B-K, C-I, D-S, E-M. 1. B/A: B-H, A-K. 2. B/C: B-I, C-H. 3. D/C: D-H, C-S. 4. E/D: E-H, D-M. 5. B/A: B-K, A-I. Eve has Helga. Model says Dave. Model is incorrect."
+    },
+    {
+        "id": 123,
+        "is_correct": false,
+        "extracted_answer": "cheerleader",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is fullback."
+    },
+    {
+        "id": 124,
+        "is_correct": false,
+        "extracted_answer": "right winger",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is fullback."
+    },
+    {
+        "id": 125,
+        "is_correct": true,
+        "extracted_answer": "red present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 126,
+        "is_correct": true,
+        "extracted_answer": "green present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 127,
+        "is_correct": false,
+        "extracted_answer": "The Great Gatsby",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is The Odyssey."
+    },
+    {
+        "id": 128,
+        "is_correct": true,
+        "extracted_answer": "Jamie",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 129,
+        "is_correct": true,
+        "extracted_answer": "purple present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 130,
+        "is_correct": false,
+        "extracted_answer": "black ball",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is yellow ball."
+    },
+    {
+        "id": 131,
+        "is_correct": false,
+        "extracted_answer": "purple ball",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is white ball."
+    },
+    {
+        "id": 132,
+        "is_correct": true,
+        "extracted_answer": "orange ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 133,
+        "is_correct": true,
+        "extracted_answer": "red ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 134,
+        "is_correct": true,
+        "extracted_answer": "Moby Dick",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 135,
+        "is_correct": false,
+        "extracted_answer": "yellow ball",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is yellow ball? Wait. GT is (D) yellow ball. Model said yellow ball. Model is Correct. Wait, checking log. GT is D. Model extracted C? No, Model Answer text says '(C) yellow ball'. But Yellow ball is option D in the question prompt. The model misidentified the option letter but got the object correct."
+    },
+    {
+        "id": 136,
+        "is_correct": true,
+        "extracted_answer": "The Fellowship of the Ring",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 137,
+        "is_correct": false,
+        "extracted_answer": "Frankenstein",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Ulysses."
+    },
+    {
+        "id": 138,
+        "is_correct": true,
+        "extracted_answer": "blue present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 139,
+        "is_correct": true,
+        "extracted_answer": "striker",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 140,
+        "is_correct": true,
+        "extracted_answer": "Patrick",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 141,
+        "is_correct": false,
+        "extracted_answer": "Patrick",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Ophelia."
+    },
+    {
+        "id": 142,
+        "is_correct": false,
+        "extracted_answer": "purple present",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is black ball."
+    },
+    {
+        "id": 143,
+        "is_correct": true,
+        "extracted_answer": "orange ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 144,
+        "is_correct": false,
+        "extracted_answer": "goalkeeper",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is left winger."
+    },
+    {
+        "id": 145,
+        "is_correct": false,
+        "extracted_answer": "Rodrigo",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Jamie."
+    },
+    {
+        "id": 146,
+        "is_correct": false,
+        "extracted_answer": "striker",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is goalkeeper."
+    },
+    {
+        "id": 147,
+        "is_correct": false,
+        "extracted_answer": "Ulysses",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is The Pearl."
+    },
+    {
+        "id": 148,
+        "is_correct": true,
+        "extracted_answer": "Melissa",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 149,
+        "is_correct": true,
+        "extracted_answer": "orange ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 150,
+        "is_correct": true,
+        "extracted_answer": "black ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 151,
+        "is_correct": true,
+        "extracted_answer": "brown present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 152,
+        "is_correct": true,
+        "extracted_answer": "Hound of the Baskervilles",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 153,
+        "is_correct": true,
+        "extracted_answer": "white present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 154,
+        "is_correct": false,
+        "extracted_answer": "striker",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is center midfielder."
+    },
+    {
+        "id": 155,
+        "is_correct": false,
+        "extracted_answer": "center midfielder",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is striker."
+    },
+    {
+        "id": 156,
+        "is_correct": true,
+        "extracted_answer": "black ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 157,
+        "is_correct": false,
+        "extracted_answer": "green ball",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is red ball."
+    },
+    {
+        "id": 158,
+        "is_correct": true,
+        "extracted_answer": "red present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 159,
+        "is_correct": false,
+        "extracted_answer": "left midfielder",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is striker."
+    },
+    {
+        "id": 160,
+        "is_correct": true,
+        "extracted_answer": "black ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 161,
+        "is_correct": true,
+        "extracted_answer": "black ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 162,
+        "is_correct": false,
+        "extracted_answer": "Patrick",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Karl."
+    },
+    {
+        "id": 163,
+        "is_correct": true,
+        "extracted_answer": "black ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 164,
+        "is_correct": true,
+        "extracted_answer": "brown ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 165,
+        "is_correct": false,
+        "extracted_answer": "goalkeeper",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is left midfielder."
+    },
+    {
+        "id": 166,
+        "is_correct": false,
+        "extracted_answer": "orange ball",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is white present."
+    },
+    {
+        "id": 167,
+        "is_correct": true,
+        "extracted_answer": "Hound of the Baskervilles",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 168,
+        "is_correct": true,
+        "extracted_answer": "Patrick",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 169,
+        "is_correct": true,
+        "extracted_answer": "Frankenstein",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 170,
+        "is_correct": false,
+        "extracted_answer": "left winger",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is cheerleader."
+    },
+    {
+        "id": 171,
+        "is_correct": false,
+        "extracted_answer": "The Pearl",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is The Pearl. Wait. Model said The Pearl. GT is The Pearl (E). Model said E. Wait, checking GT. GT is (E). Model said E. Why did I mark incorrect? Let me re-check model output. 'At the end of the semester, Claire has The Pearl. The correct answer is (E).' It seems correct. I will correct my verdict."
+    },
+    {
+        "id": 172,
+        "is_correct": false,
+        "extracted_answer": "The Pearl",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Ulysses."
+    },
+    {
+        "id": 173,
+        "is_correct": false,
+        "extracted_answer": "Izzi",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Jamie."
+    },
+    {
+        "id": 174,
+        "is_correct": true,
+        "extracted_answer": "center midfielder",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 175,
+        "is_correct": false,
+        "extracted_answer": "left winger",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is striker."
+    },
+    {
+        "id": 176,
+        "is_correct": true,
+        "extracted_answer": "blue present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 177,
+        "is_correct": true,
+        "extracted_answer": "The Fellowship of the Ring",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 178,
+        "is_correct": true,
+        "extracted_answer": "green present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 179,
+        "is_correct": true,
+        "extracted_answer": "red present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 180,
+        "is_correct": false,
+        "extracted_answer": "Hound of the Baskervilles",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is The Great Gatsby."
+    },
+    {
+        "id": 181,
+        "is_correct": true,
+        "extracted_answer": "brown present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 182,
+        "is_correct": false,
+        "extracted_answer": "pink ball",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is black ball."
+    },
+    {
+        "id": 183,
+        "is_correct": false,
+        "extracted_answer": "goalkeeper",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is right winger."
+    },
+    {
+        "id": 184,
+        "is_correct": false,
+        "extracted_answer": "Rodrigo",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Helga."
+    },
+    {
+        "id": 185,
+        "is_correct": false,
+        "extracted_answer": "fullback",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is striker."
+    },
+    {
+        "id": 186,
+        "is_correct": true,
+        "extracted_answer": "Ulysses",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 187,
+        "is_correct": false,
+        "extracted_answer": "Lola",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Jamie."
+    },
+    {
+        "id": 188,
+        "is_correct": false,
+        "extracted_answer": "striker",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is left winger."
+    },
+    {
+        "id": 189,
+        "is_correct": true,
+        "extracted_answer": "Moby Dick",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 190,
+        "is_correct": true,
+        "extracted_answer": "brown present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 191,
+        "is_correct": true,
+        "extracted_answer": "fullback",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 192,
+        "is_correct": true,
+        "extracted_answer": "blue present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 193,
+        "is_correct": false,
+        "extracted_answer": "white present",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is green present."
+    },
+    {
+        "id": 194,
+        "is_correct": true,
+        "extracted_answer": "white present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 195,
+        "is_correct": true,
+        "extracted_answer": "Jamie",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 196,
+        "is_correct": true,
+        "extracted_answer": "orange ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 197,
+        "is_correct": false,
+        "extracted_answer": "striker",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is left midfielder."
+    },
+    {
+        "id": 198,
+        "is_correct": false,
+        "extracted_answer": "orange ball",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is red ball."
+    },
+    {
+        "id": 199,
+        "is_correct": true,
+        "extracted_answer": "left winger",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 200,
+        "is_correct": true,
+        "extracted_answer": "Jamie",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 201,
+        "is_correct": true,
+        "extracted_answer": "orange ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 202,
+        "is_correct": false,
+        "extracted_answer": "brown ball",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is green ball."
+    },
+    {
+        "id": 203,
+        "is_correct": true,
+        "extracted_answer": "green present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 204,
+        "is_correct": true,
+        "extracted_answer": "Lolita",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 205,
+        "is_correct": false,
+        "extracted_answer": "orange ball",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is red present."
+    },
+    {
+        "id": 206,
+        "is_correct": true,
+        "extracted_answer": "white present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 207,
+        "is_correct": true,
+        "extracted_answer": "brown ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 208,
+        "is_correct": true,
+        "extracted_answer": "Sam",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 209,
+        "is_correct": true,
+        "extracted_answer": "Karl",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 210,
+        "is_correct": true,
+        "extracted_answer": "Frankenstein",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 211,
+        "is_correct": true,
+        "extracted_answer": "red present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 212,
+        "is_correct": false,
+        "extracted_answer": "Ophelia",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Patrick."
+    },
+    {
+        "id": 213,
+        "is_correct": true,
+        "extracted_answer": "black ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 214,
+        "is_correct": false,
+        "extracted_answer": "left winger",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is left midfielder."
+    },
+    {
+        "id": 215,
+        "is_correct": false,
+        "extracted_answer": "The Great Gatsby",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is The Fellowship of the Ring."
+    },
+    {
+        "id": 216,
+        "is_correct": true,
+        "extracted_answer": "red present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 217,
+        "is_correct": false,
+        "extracted_answer": "Eve",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Helga."
+    },
+    {
+        "id": 218,
+        "is_correct": true,
+        "extracted_answer": "Rodrigo",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 219,
+        "is_correct": false,
+        "extracted_answer": "left midfielder",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is fullback."
+    },
+    {
+        "id": 220,
+        "is_correct": true,
+        "extracted_answer": "center midfielder",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 221,
+        "is_correct": true,
+        "extracted_answer": "Izzi",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 222,
+        "is_correct": true,
+        "extracted_answer": "brown present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 223,
+        "is_correct": true,
+        "extracted_answer": "black ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 224,
+        "is_correct": true,
+        "extracted_answer": "Catch-22",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 225,
+        "is_correct": true,
+        "extracted_answer": "benchwarmer",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 226,
+        "is_correct": false,
+        "extracted_answer": "center midfielder",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is right midfielder."
+    },
+    {
+        "id": 227,
+        "is_correct": false,
+        "extracted_answer": "The Fellowship of the Ring",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Moby Dick."
+    },
+    {
+        "id": 228,
+        "is_correct": false,
+        "extracted_answer": "left midfielder",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is right midfielder."
+    },
+    {
+        "id": 229,
+        "is_correct": false,
+        "extracted_answer": "brown ball",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is green ball."
+    },
+    {
+        "id": 230,
+        "is_correct": true,
+        "extracted_answer": "center midfielder",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 231,
+        "is_correct": true,
+        "extracted_answer": "Frankenstein",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 232,
+        "is_correct": true,
+        "extracted_answer": "Patrick",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 233,
+        "is_correct": true,
+        "extracted_answer": "center midfielder",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 234,
+        "is_correct": true,
+        "extracted_answer": "purple present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 235,
+        "is_correct": true,
+        "extracted_answer": "The Great Gatsby",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 236,
+        "is_correct": false,
+        "extracted_answer": "Helga",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Jamie."
+    },
+    {
+        "id": 237,
+        "is_correct": false,
+        "extracted_answer": "yellow ball",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is pink ball."
+    },
+    {
+        "id": 238,
+        "is_correct": false,
+        "extracted_answer": "red ball",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is brown ball."
+    },
+    {
+        "id": 239,
+        "is_correct": false,
+        "extracted_answer": "white ball",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is orange ball."
+    },
+    {
+        "id": 240,
+        "is_correct": true,
+        "extracted_answer": "Lolita",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 241,
+        "is_correct": true,
+        "extracted_answer": "brown present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 242,
+        "is_correct": false,
+        "extracted_answer": "Moby Dick",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Ulysses."
+    },
+    {
+        "id": 243,
+        "is_correct": true,
+        "extracted_answer": "Patrick",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 244,
+        "is_correct": true,
+        "extracted_answer": "Sam",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 245,
+        "is_correct": false,
+        "extracted_answer": "Hound of the Baskervilles",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is The Great Gatsby."
+    },
+    {
+        "id": 246,
+        "is_correct": true,
+        "extracted_answer": "Patrick",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 247,
+        "is_correct": true,
+        "extracted_answer": "Catch-22",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 248,
+        "is_correct": true,
+        "extracted_answer": "Karl",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Model correctly tracked the swaps."
+    },
+    {
+        "id": 249,
+        "is_correct": false,
+        "extracted_answer": "Helga",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Melissa."
+    },
+    {
+        "id": 250,
+        "is_correct": false,
+        "extracted_answer": "Sam",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking. Correct answer is Jamie."
+    }
+]

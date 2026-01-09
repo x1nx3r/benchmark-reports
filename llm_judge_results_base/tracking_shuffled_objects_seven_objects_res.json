@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 2,
+        "error_type": "hallucination",
+        "comment": "The model hallucinates the state of Gertrude, claiming she swapped to benchwarmer in a step she was not involved in."
+    },
+    {
+        "id": 2,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct derivation and answer."
+    },
+    {
+        "id": 3,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model performs step-by-step logic but loses track of state, resulting in the wrong answer."
+    },
+    {
+        "id": 4,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Model tracks swaps but arrives at the incorrect final partner."
+    },
+    {
+        "id": 5,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model incorrectly claims Eve's book remains unchanged despite Eve being involved in swaps."
+    },
+    {
+        "id": 6,
+        "is_correct": false,
+        "extracted_answer": "Dave",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Category error: Model answers with the name of another lead dancer ('Dave') rather than the partner's name from the options."
+    },
+    {
+        "id": 7,
+        "is_correct": false,
+        "extracted_answer": "Dave",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Category error: Model answers with the name of another lead dancer rather than the partner name."
+    },
+    {
+        "id": 8,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Logic trace exists but leads to incorrect conclusion."
+    },
+    {
+        "id": 9,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Logic trace exists but leads to incorrect conclusion."
+    },
+    {
+        "id": 10,
+        "is_correct": false,
+        "extracted_answer": "Alice",
+        "reasoning_score": 2,
+        "error_type": "format_error",
+        "comment": "Model names another lead dancer instead of selecting a valid option."
+    },
+    {
+        "id": 11,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Failed tracking of positions."
+    },
+    {
+        "id": 12,
+        "is_correct": false,
+        "extracted_answer": "Fred",
+        "reasoning_score": 2,
+        "error_type": "format_error",
+        "comment": "Model names a lead dancer instead of the partner name."
+    },
+    {
+        "id": 13,
+        "is_correct": true,
+        "extracted_answer": "cheerleader",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 14,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 15,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 16,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct logical derivation."
+    },
+    {
+        "id": 17,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 18,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model first claims Dave is dancing with 'Eve', then arbitrarily maps this to 'Helga'."
+    },
+    {
+        "id": 19,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 20,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 2,
+        "error_type": "wrong_logic",
+        "comment": "Model concludes 'Fred is dancing with Claire' but selects option (C) Jamie."
+    },
+    {
+        "id": 21,
+        "is_correct": false,
+        "extracted_answer": "cheerleader",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 22,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 23,
+        "is_correct": true,
+        "extracted_answer": "right midfielder",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 24,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 25,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 26,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 4,
+        "error_type": "none",
+        "comment": "Model claims 'Eve is dancing with Gertrude' but correctly selects option (G) Helga."
+    },
+    {
+        "id": 27,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 28,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 29,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 30,
+        "is_correct": false,
+        "extracted_answer": "Dave",
+        "reasoning_score": 2,
+        "error_type": "format_error",
+        "comment": "Model names a lead dancer instead of the partner name."
+    },
+    {
+        "id": 31,
+        "is_correct": false,
+        "extracted_answer": "The Pearl",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 32,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 33,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 34,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 35,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 36,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 37,
+        "is_correct": false,
+        "extracted_answer": "benchwarmer",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 38,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 39,
+        "is_correct": false,
+        "extracted_answer": "Alice",
+        "reasoning_score": 2,
+        "error_type": "format_error",
+        "comment": "Model names a lead dancer instead of the partner name."
+    },
+    {
+        "id": 40,
+        "is_correct": false,
+        "extracted_answer": "Alice",
+        "reasoning_score": 2,
+        "error_type": "format_error",
+        "comment": "Model names a lead dancer instead of the partner name."
+    },
+    {
+        "id": 41,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 42,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 43,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 44,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 45,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 46,
+        "is_correct": false,
+        "extracted_answer": "Fred",
+        "reasoning_score": 2,
+        "error_type": "format_error",
+        "comment": "Model names a lead dancer instead of the partner name."
+    },
+    {
+        "id": 47,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 48,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 49,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 50,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 51,
+        "is_correct": false,
+        "extracted_answer": "Dave",
+        "reasoning_score": 2,
+        "error_type": "format_error",
+        "comment": "Model names a lead dancer instead of the partner name."
+    },
+    {
+        "id": 52,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 53,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 54,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 55,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 56,
+        "is_correct": false,
+        "extracted_answer": "cheerleader",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 57,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 58,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 59,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 60,
+        "is_correct": true,
+        "extracted_answer": "The Great Gatsby",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 61,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 62,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 63,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 64,
+        "is_correct": true,
+        "extracted_answer": "orange ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 65,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 66,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 67,
+        "is_correct": true,
+        "extracted_answer": "yellow present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 68,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 69,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 70,
+        "is_correct": false,
+        "extracted_answer": "Fred",
+        "reasoning_score": 2,
+        "error_type": "format_error",
+        "comment": "Model names a lead dancer instead of the partner name."
+    },
+    {
+        "id": 71,
+        "is_correct": false,
+        "extracted_answer": "Eve",
+        "reasoning_score": 2,
+        "error_type": "format_error",
+        "comment": "Model names a lead dancer instead of the partner name."
+    },
+    {
+        "id": 72,
+        "is_correct": false,
+        "extracted_answer": "right winger",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 73,
+        "is_correct": true,
+        "extracted_answer": "right midfielder",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 74,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 75,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 76,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 77,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 78,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 79,
+        "is_correct": true,
+        "extracted_answer": "fullback",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 80,
+        "is_correct": true,
+        "extracted_answer": "brown ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 81,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 82,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 83,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 84,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 85,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 86,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 87,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 88,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 89,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 90,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 91,
+        "is_correct": true,
+        "extracted_answer": "Catch-22",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 92,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 93,
+        "is_correct": true,
+        "extracted_answer": "cheerleader",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 94,
+        "is_correct": false,
+        "extracted_answer": "Frankenstein",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 95,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 96,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 97,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 98,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 99,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 100,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 101,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 102,
+        "is_correct": false,
+        "extracted_answer": "The Fellowship of the Ring",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 103,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 104,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 105,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 106,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 107,
+        "is_correct": true,
+        "extracted_answer": "Izzi",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 108,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 109,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 110,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 111,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 112,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 113,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 114,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 115,
+        "is_correct": true,
+        "extracted_answer": "right midfielder",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 116,
+        "is_correct": false,
+        "extracted_answer": "The Fellowship of the Ring",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 117,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 118,
+        "is_correct": true,
+        "extracted_answer": "The Odyssey",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 119,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 120,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 121,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 122,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 123,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 124,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 125,
+        "is_correct": false,
+        "extracted_answer": "The Pearl",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 126,
+        "is_correct": false,
+        "extracted_answer": "Eve",
+        "reasoning_score": 2,
+        "error_type": "format_error",
+        "comment": "Model names a lead dancer instead of the partner name."
+    },
+    {
+        "id": 127,
+        "is_correct": false,
+        "extracted_answer": "Jamie",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 128,
+        "is_correct": true,
+        "extracted_answer": "orange ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 129,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 130,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 131,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 132,
+        "is_correct": false,
+        "extracted_answer": "The Fellowship of the Ring",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 133,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 134,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 135,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 136,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 137,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 138,
+        "is_correct": false,
+        "extracted_answer": "goalkeeper",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 139,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 140,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 141,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 142,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 143,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 144,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 145,
+        "is_correct": false,
+        "extracted_answer": "Catch-22",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 146,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 147,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 148,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 149,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 150,
+        "is_correct": false,
+        "extracted_answer": "right midfielder",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 151,
+        "is_correct": false,
+        "extracted_answer": "goalkeeper",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 152,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 153,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 154,
+        "is_correct": false,
+        "extracted_answer": "right winger",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 155,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 156,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 157,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 158,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 159,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 160,
+        "is_correct": false,
+        "extracted_answer": "Dave",
+        "reasoning_score": 2,
+        "error_type": "format_error",
+        "comment": "Model names a lead dancer instead of the partner name."
+    },
+    {
+        "id": 161,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 162,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 163,
+        "is_correct": false,
+        "extracted_answer": "The Odyssey",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 164,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 165,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 166,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 167,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 168,
+        "is_correct": false,
+        "extracted_answer": "goalkeeper",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 169,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 170,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 171,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 172,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 173,
+        "is_correct": false,
+        "extracted_answer": "Ulysses",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 174,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 175,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 176,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 177,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 178,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 179,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 180,
+        "is_correct": false,
+        "extracted_answer": "left midfielder",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 181,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 182,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 183,
+        "is_correct": true,
+        "extracted_answer": "The Fellowship of the Ring",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 184,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 185,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 186,
+        "is_correct": false,
+        "extracted_answer": "striker",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 187,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 188,
+        "is_correct": false,
+        "extracted_answer": "fullback",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 189,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 190,
+        "is_correct": false,
+        "extracted_answer": "black ball",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 191,
+        "is_correct": false,
+        "extracted_answer": "Eve",
+        "reasoning_score": 2,
+        "error_type": "format_error",
+        "comment": "Model names a lead dancer instead of the partner name."
+    },
+    {
+        "id": 192,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 193,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 194,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 195,
+        "is_correct": true,
+        "extracted_answer": "blue present",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 196,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 197,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 198,
+        "is_correct": false,
+        "extracted_answer": "striker",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 199,
+        "is_correct": false,
+        "extracted_answer": "pink ball",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 200,
+        "is_correct": false,
+        "extracted_answer": "cheerleader",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 201,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 202,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 203,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 204,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 205,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 206,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 207,
+        "is_correct": false,
+        "extracted_answer": "Dave",
+        "reasoning_score": 2,
+        "error_type": "format_error",
+        "comment": "Model names a lead dancer instead of the partner name."
+    },
+    {
+        "id": 208,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 209,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 210,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 211,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 212,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 213,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 214,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 215,
+        "is_correct": false,
+        "extracted_answer": "Eve",
+        "reasoning_score": 2,
+        "error_type": "format_error",
+        "comment": "Model names a lead dancer instead of the partner name."
+    },
+    {
+        "id": 216,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 217,
+        "is_correct": false,
+        "extracted_answer": "(B)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 218,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 219,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 220,
+        "is_correct": false,
+        "extracted_answer": "right midfielder",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 221,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 222,
+        "is_correct": false,
+        "extracted_answer": "(D)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 223,
+        "is_correct": false,
+        "extracted_answer": "(A)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 224,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 225,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 226,
+        "is_correct": false,
+        "extracted_answer": "Lolita",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 227,
+        "is_correct": true,
+        "extracted_answer": "left midfielder",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 228,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 229,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 230,
+        "is_correct": false,
+        "extracted_answer": "(E)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 231,
+        "is_correct": true,
+        "extracted_answer": "(F)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 232,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 233,
+        "is_correct": false,
+        "extracted_answer": "(F)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 234,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 235,
+        "is_correct": true,
+        "extracted_answer": "(G)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 236,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 237,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 238,
+        "is_correct": true,
+        "extracted_answer": "(D)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 239,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 240,
+        "is_correct": true,
+        "extracted_answer": "pink ball",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 241,
+        "is_correct": true,
+        "extracted_answer": "left winger",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 242,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 243,
+        "is_correct": false,
+        "extracted_answer": "(C)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 244,
+        "is_correct": true,
+        "extracted_answer": "(A)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 245,
+        "is_correct": true,
+        "extracted_answer": "(C)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 246,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 247,
+        "is_correct": false,
+        "extracted_answer": "Eve",
+        "reasoning_score": 2,
+        "error_type": "format_error",
+        "comment": "Model names a lead dancer instead of the partner name."
+    },
+    {
+        "id": 248,
+        "is_correct": false,
+        "extracted_answer": "(G)",
+        "reasoning_score": 3,
+        "error_type": "wrong_logic",
+        "comment": "Incorrect tracking."
+    },
+    {
+        "id": 249,
+        "is_correct": true,
+        "extracted_answer": "(B)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    },
+    {
+        "id": 250,
+        "is_correct": true,
+        "extracted_answer": "(E)",
+        "reasoning_score": 5,
+        "error_type": "none",
+        "comment": "Correct reasoning."
+    }
+]
